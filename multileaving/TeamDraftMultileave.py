@@ -71,3 +71,12 @@ class TeamDraftMultileave(object):
     # print self.teams, clicked_docs.astype(int),
     # print ranker_range[ranker_clicks[0] < ranker_clicks]
     return ranker_range[ranker_clicks[0] < ranker_clicks]
+
+  def winning_rankers_with_clicks(self, clicked_docs):
+    # Return click info as well
+    ranker_range = np.arange(self.n_rankers)
+    match_matrix = ranker_range[:,None] == self.teams[clicked_docs][None,:]
+    ranker_clicks = np.sum(match_matrix.astype(np.int32), axis=1)
+    # print self.teams, clicked_docs.astype(int),
+    # print ranker_range[ranker_clicks[0] < ranker_clicks]
+    return ranker_range[ranker_clicks[0] < ranker_clicks], ranker_clicks
