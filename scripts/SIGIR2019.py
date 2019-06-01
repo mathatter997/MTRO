@@ -75,7 +75,7 @@ ranker_params = {
 sim_args, other_args = parser.parse_all_args(ranker_params)
 
 run_name = 'SIGIR2019/DSGD_TD_NSGD' 
-rankers.append((run_name, TD_NSGD_Wrapper, other_args))
+# rankers.append((run_name, TD_NSGD_Wrapper, other_args))
 
 
 
