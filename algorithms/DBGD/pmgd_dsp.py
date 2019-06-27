@@ -3,22 +3,22 @@
 import sys
 import os
 sys.path.append(os.path.join(os.path.dirname(__file__), '../..'))
+from algorithms.DBGD.pdbgd import P_DBGD
 import utils.rankings as rnk
-from algorithms.DBGD.tddbgd import TD_DBGD
-from multileaving.ProbabilisticMultileave import ProbabilisticMultileave
+from models.linearmodel import LinearModel
 import numpy as np
 import math
 
+
 # Probabilistic Interleaving Dueling Bandit Gradient Descent
-class P_DBGD_Wrapper(TD_DBGD):
+class P_MGD_DSP(P_DBGD):
 
-  def __init__(self, k_initial, k_increase, PM_n_samples, PM_tau, prev_qeury_len=None, docspace=[False,0], *args, **kargs):
-    super(P_DBGD_Wrapper, self).__init__(*args, **kargs)
-
-    self.multileaving = ProbabilisticMultileave(
-                             n_samples = PM_n_samples,
-                             tau = PM_tau,
-                             n_results=self.n_results)
+  def __init__(self, k_initial, k_increase, n_candidates, prev_qeury_len=None, docspace=[False,0], *args, **kargs):
+    super(P_MGD_DSP, self).__init__(*args, **kargs)
+    self.n_candidates = n_candidates
+    self.model = LinearModel(n_features = self.n_features,
+                             learning_rate = self.learning_rate,
+                             n_candidates = self.n_candidates)
 
     self.k_initial = k_initial
     self.k_increase = k_increase
@@ -28,16 +28,13 @@ class P_DBGD_Wrapper(TD_DBGD):
       self.prev_feat_list = []
     # for document space length experiment
     # docspace=[True,3] means use superset of document space with three additional documents to perfect DS user examined.
-    self.docspace = docspace  
+    self.docspace = docspace
 
   @staticmethod
   def default_parameters():
-    parent_parameters = TD_DBGD.default_parameters()
+    parent_parameters = P_DBGD.default_parameters()
     parent_parameters.update({
-      'learning_rate': 0.01,
-      'learning_rate_decay': 1.0,
-      'PM_n_samples': 10000,
-      'PM_tau': 3.0,
+      'n_candidates': 49,
       })
     return parent_parameters
 
@@ -51,8 +48,7 @@ class P_DBGD_Wrapper(TD_DBGD):
                                               inverted=True,
                                               n_results=None)
     multileaved_list = self.multileaving.make_multileaving(inverted_rankings)
-    return multileaved_list
-
+    return multileaved_list  
 
   def update_to_interaction(self, clicks, stop_index=None):
 
@@ -103,4 +99,3 @@ class P_DBGD_Wrapper(TD_DBGD):
     ###############################################################
     else:
       self.model.update_to_mean_winners(winners)
-

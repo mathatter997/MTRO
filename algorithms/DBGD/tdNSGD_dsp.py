@@ -11,10 +11,10 @@ import copy
 from scipy.spatial.distance import cosine
 import utils.rankings as rnk
 # Dueling Bandit Gradient Descent
-class TD_NSGD_Wrapper(TD_DBGD):
+class TD_NSGD_DSP(TD_DBGD):
 
   def __init__(self, n_candidates, GRAD_SIZE, EXP_SIZE, k_initial, k_increase, TB_QUEUE_SIZE=None, TB_WINDOW_SIZE=None, prev_qeury_len=None, *args, **kargs):
-    super(TD_NSGD_Wrapper, self).__init__(*args, **kargs)
+    super(TD_NSGD_DSP, self).__init__(*args, **kargs)
     self.model = LinearModel(n_features = self.n_features,
                              learning_rate = self.learning_rate,
                              n_candidates = n_candidates)

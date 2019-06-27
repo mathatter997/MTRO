@@ -13,10 +13,10 @@ from algorithms.DBGD.tdmgd import TD_MGD
 from algorithms.DBGD.pmgd import P_MGD
 from algorithms.baselines.pairwise import Pairwise
 from algorithms.DBGD.neural.pdbgd import Neural_P_DBGD
-from algorithms.DBGD.pdbgd_wrapper import P_DBGD_Wrapper
-from algorithms.DBGD.pmgd_wrapper import P_MGD_Wrapper
+from algorithms.DBGD.pdbgd_dsp import P_DBGD_DSP
+from algorithms.DBGD.pmgd_dsp import P_MGD_DSP
 from algorithms.DBGD.tdNSGD import TD_NSGD
-from algorithms.DBGD.tdNSGD_wrapper import TD_NSGD_Wrapper
+from algorithms.DBGD.tdNSGD_dsp import TD_NSGD_DSP
 
 description = 'Run script for testing framework.'
 parser = SimulationArgumentParser(description=description)
@@ -37,7 +37,7 @@ rankers.append((run_name, TD_NSGD, other_args))
 
 
 
-# NSGD with document space wrapper
+# NSGD with document space projection
 ranker_params = {
   'learning_rate_decay': 0.9999977,
   'k_initial': 3,
@@ -50,7 +50,7 @@ ranker_params = {
 sim_args, other_args = parser.parse_all_args(ranker_params)
 
 run_name = 'SIGIR2019/DSGD_TD_NSGD' 
-rankers.append((run_name, TD_NSGD_Wrapper, other_args))
+rankers.append((run_name, TD_NSGD_DSP, other_args))
 
 
 
