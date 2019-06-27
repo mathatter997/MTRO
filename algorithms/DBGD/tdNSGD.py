@@ -59,7 +59,6 @@ class TD_NSGD(TD_DBGD):
             # only save subset of rankers (worst 4 ouf of 9 rankers)
             # add if current cl is smaller than or equal to maximum form the set of candidates
             if ranker_clicks[i] <= cl_sorted[3] and ranker_clicks[i]<ranker_clicks[0]:
-                # print ('update')
                 self.clicklist[self.gradCol] = ranker_clicks[i] -ranker_clicks[0]
                 self.grad[self.gradCol] = self.model.gs[i-1]
                 self.gradCol = (self.gradCol + 1) % self.GRAD_SIZE # update to reflect next column to be updaed
@@ -100,7 +99,6 @@ class TD_NSGD(TD_DBGD):
     def fill_difficult_query(self, clicks):
         #  Set up for tie breaker- keep track of difficult queries
         #  Find the rank of first clicked document
-        # print("hi")
         ndcg_current = 0
         clickedList = []
         for count, elem in enumerate(clicks):
@@ -136,8 +134,7 @@ class TD_NSGD(TD_DBGD):
                     self.difficult_time[index] = self.n_interactions
 
     def tieBreak_difficultQuery(self, winners):
-        # CcoreList keeps track of ranks each tied candidate perform in tie breaking
-        # print(self.model.n_models)
+        # ScoreList keeps track of ranks each tied candidate perform in tie breaking
         scoreList = np.zeros(self.model.n_models)
         # Iterate through 10 stored difficult queries
         for count_q, diff_query in enumerate(self.difficult_queries):
@@ -146,22 +143,14 @@ class TD_NSGD(TD_DBGD):
                                        self._train_query_ranges)
             scores = self.model.candidate_score(query_feat)
             rankings = rnk.rank_single_query(scores, inverted=False, n_results=self.n_results)
-            # print(rankings)
 
             # Iterate through tied candidates
             for winner in winners:
-                # ranker = self.candidate_ranker[winner]
-                # ranker.init_ranking(diff_query)
                 candidate_NDCG = 0.0
                 for count_d, doc in enumerate(self.difficult_document[count_q]):
                     # Calculate NDCG performance in current difficult query
-                    # diff_doc_rank = ranker.docids.index(self.difficult_document[count_q][count_d])
                     diff_doc_rank = np.where(rankings[winner] == self.difficult_document[count_q][count_d])[0][0]
-                    # print(diff_doc_rank[0])
-                    # print(diff_doc_rank[0][0])
-                    # rankings[winner].index(self.difficult_document[count_q][count_d])
                     temp = 1 / (diff_doc_rank + 1.0)
-                    # print(temp)
                     candidate_NDCG += 1 / (diff_doc_rank + 1.0)
 
                 # Add the NDCG value of diff. query
