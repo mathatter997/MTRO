@@ -1,13 +1,16 @@
 # Null Space Gradient Descent (NSGD) and Document Space Projected Dueling Bandit Gradient Descent (DBGD-DSP)
 This repository contains the code used to produce the experimental results found in "Efficient Exploration of Gradient Space for Online Learning to Rank" and "Variance Reduction in Gradient Exploration for Online Learning to Rank" published at SIGIR 2018 and SIGIR 2019, respectively. It was forked from Harrie Oosterhuis's repository for "Differentiable Unbiased Online Learning to Rank" published at CIKM 2018, at https://github.com/HarrieO/OnlineLearningToRank.
 
-# NSGD Algorithm
+NSGD Algorithm
+-------
 This algorithm was developed with the intent of increasing the efficiency of exploration of the gradient space for online learning to rank. It does this in a series of 3 steps. First, the null space of previously poorly performing directions is computed, and new directions are sampled from within this null space (this helps to avoid exploring less promising directions repeatedly). Second, a candidate preselection process is done wherein the sampled directions which are most differentiable by the current query's documents are chosen for evaluation. Thirdly, in the event of a tie, a tie-breaking mechanism uses historically difficult queries to reevaluate the candidates and choose a winner.
 
-# DBGD-DSP Algorithm
+DBGD-DSP Algorithm
+-------
 The aim of this algorithm is to act as a wrapper around other DBGD-style algorithms to reduce their ranker variance and improve overall performance in online learning to rank. DBGD-DSP works by modifying the winning ranker after the interleaved test. In particular, it projects the winning gradient into the space spanned by the query-document feature vectors associated with the given query. This reduces the variance in gradient exploration by removing the component of the winning gradient that was orthogonal to the document space, which does not contribute to the loss function and true gradient estimation.
 
-# Usage
+Usage
+-------
 To run the code to generate experimental results like those found in our papers, you will need to run a command in the following format, using Python 2 (SIGIR2018.py, SIGIR2019.py, and SIGIR2019_NSGD.py are all run similarly):
 
 ```
