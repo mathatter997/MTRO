@@ -88,7 +88,7 @@ class PrintOutput(object):
         for line in output:
             if self.write_date:
                 line = '%s: %s' % (time.strftime('%c'), line)
-            print line
+            print(line)
 
     def close(self):
         pass
@@ -217,5 +217,5 @@ class BufferPrintOutput(object):
 
     def close(self):
         self._closed = True
-        print 'Run Output\n' + '\n'.join(self._output_list)
+        print ('Run Output\n' + '\n'.join(self._output_list))
         self._output_list = []

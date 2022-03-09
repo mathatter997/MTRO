@@ -2,12 +2,10 @@
 # from scipy.optimize import minimize
 import itertools
 import numpy as np
-import networkx as nx
+# import networkx as nx
 import random
 
-# from numpy.linalg import multi_dot
-# import datetime
-import math
+# import math
 import utils.rankings as rnk
 from utils.net_utils import *
 from models.mlpmodel import MLPModel
@@ -23,11 +21,11 @@ from algorithms.PairRank.PairRank import PairRank
 # import gc
 # from functools import reduce
 # import operator as op
-from itertools import islice
+# from itertools import islice
 import torch.nn.functional as F
-from utils.pairrank_utils import update_nodes, update_edges, chunk
+from utils.pairrank_utils import chunk
 
-import time
+# import time
 
 
 class pairwise_loss(torch.nn.Module):
@@ -79,7 +77,7 @@ class Dataset(torch.utils.data.Dataset):
 class olRankNet(PairRank):
     def __init__(self, alpha, _lambda, refine, rank, update, learning_rate, learning_rate_decay, ind, mlp_dims,
                  batch_size, epoch, *args, **kargs):
-        super().__init__(*args, **kargs)
+        super().__init__(alpha, _lambda, refine, rank, update, learning_rate, learning_rate_decay, ind, *args, **kargs)
 
         self.alpha = alpha
         self._lambda = _lambda
@@ -93,8 +91,6 @@ class olRankNet(PairRank):
         self.device = get_device()
         self.batch_size = batch_size
         self.epoch = epoch
-        # self.num_workers = -1
-        # self.device = "cuda:0"
 
         self.model = extend(
             MLPModel(n_features=self.n_features, mlp_dims=self.mlp_dims, lr=self.learning_rate, ).to(self.device))
@@ -105,12 +101,17 @@ class olRankNet(PairRank):
         self.batch = None
 
         # corvariance matrix updated and used in GPU
-        # update the covariance matrix
-        self.A = (self._lambda * torch.ones(self.total_param, dtype=torch.float)).to(self.device)
+        if update == "gd":
+            self.Ainv = ((1 / self._lambda) * torch.eye(self.total_param, dtype=torch.float)).to(self.device)
+        elif update == "gd_diag":
+            self.A = (self._lambda * torch.ones(self.total_param, dtype=torch.float)).to(self.device)
+        else:
+            print("Update method is not supported.")
+            sys.exit()
 
-        self.data = Dataset()
-        self.doc_pair_history = []
-        self.pair_index = []
+        # self.data = Dataset()
+        # self.history = {}
+        # self.pair_index = []
 
     @staticmethod
     def default_parameters():
@@ -145,11 +146,19 @@ class olRankNet(PairRank):
         index_list = chunk(range(n_doc), block)
         s_index = 0
         uncertainty = torch.zeros(n_doc ** 2, dtype=torch.float).to(self.device)
-        for i, l in enumerate(index_list):
+        for _, l in enumerate(index_list):
             index = np.array(l)
             pairwise_feat = (self.grad[index, np.newaxis] - self.grad).reshape(-1, self.total_param)
             e_index = s_index + len(pairwise_feat)
-            uncertainty[s_index:e_index] = torch.sqrt(torch.sum((pairwise_feat ** 2) / self.A, dim=1))
+            
+            if self.update == "gd":
+                uncertainty[s_index:e_index] = torch.sqrt(torch.diag(torch.matmul(torch.matmul(pairwise_feat, self.Ainv), torch.transpose(pairwise_feat, 0, 1))))
+            elif self.update == "gd_diag":
+                uncertainty[s_index:e_index] = torch.sqrt(torch.sum((pairwise_feat ** 2) / self.A, dim=1))
+            else:
+                print("Unsupported update method")
+                sys.exit()
+                
             s_index = e_index
 
         prob_est -= self.alpha * (uncertainty.view(n_doc, n_doc))
@@ -163,7 +172,7 @@ class olRankNet(PairRank):
 
     def _create_train_ranking(self, query_id, query_feat, inverted):
         lcb_matrix = self.get_lcb(query_feat)
-        partition, sorted_list = self.get_partitions(lcb_matrix)
+        partition, sorted_list, certain_edges = self.get_partitions(lcb_matrix)
         self._last_query_feat = query_feat
         self.ranking = self.get_ranking(lcb_matrix, sorted_list, partition)
 
@@ -176,44 +185,24 @@ class olRankNet(PairRank):
         if np.any(clicks):
             self._update_to_clicks(clicks)
 
-    def update_data(self, clicks):
-
-        n_docs = len(self.ranking)
-        cur_k = min(n_docs, self.n_results)
-        included = np.ones(cur_k, dtype=np.int32)
-        if not clicks[-1]:
-            included[1:] = np.cumsum(clicks[::-1])[:0:-1]
-        neg_ind = np.where(np.logical_xor(clicks, included))[0]
-        pos_ind = np.where(clicks)[0]
-
-        if len(neg_ind) == 0 or len(pos_ind) == 0:
-            return
-
-        if self.ind:
-            np.random.shuffle(pos_ind)
-            np.random.shuffle(neg_ind)
-            local_pairs = list(zip(pos_ind, neg_ind))
-        else:
-            local_pairs = list(itertools.product(pos_ind, neg_ind))
-
-        query_index = self.get_query_global_index(self._last_query_id, self._train_query_ranges)
-
-        # update A matrix
-        pa = np.array(local_pairs)
-        diff_g = self.g[pa[:, 0]] - self.g[pa[:, 1]]
-        self.A += torch.sum(diff_g * diff_g, dim=0)
-
-        pairs = self.ranking[pa] + query_index
-
-        self.data.push(self._last_query_id, pairs)
-        self.doc_pair_history.extend(pairs)
-
-        torch.cuda.empty_cache()
-
     def _update_to_clicks(self, clicks):
-
-        self.update_data(clicks)
-        self.update_to_history()
+        # generate all pairs from the clicks
+        pairs = self.generate_pairs(clicks)
+        # update the model if we have valid observed pairs
+        if len(pairs) != 0:
+            
+            diff_g = self.g[pairs[:, 0]] - self.g[pairs[:, 1]]
+            if self.update == "gd":
+                for i in range(len(diff_g)):
+                    g = diff_g[i]
+                    self.Ainv -= (torch.matmul(torch.matmul(torch.matmul(self.Ainv, g.view(self.total_param, -1)), g.view(-1, self.total_param)), self.Ainv))/(1 + torch.matmul(torch.matmul(g.view(-1, self.total_param), self.Ainv), g.view(self.total_param, -1)))
+            elif self.update == "gd_diag":
+                self.A += torch.sum(diff_g * diff_g, dim=0)
+            else:
+                print("Unsupported update method")
+                sys.exit()
+            self.update_history_data(pairs)
+            self.update_to_history()
 
     def bpr_loss(self, pred, target, weight=None):
 
@@ -222,24 +211,17 @@ class olRankNet(PairRank):
         return loss.mean()
 
     def update_to_history(self):
-
-        self.learning_rate *= 0.9999977
-
-        num_data = len(self.data)
-        # num_batch = int(num_data / self.batch_size) + 1
-        # batch_size_new = int(num_data / num_batch)
-        # print(num_data, batch_size_new, num_batch)
-
+        
+        # num_data = len(self.doc_pair_history)
+        # self.n_data
         optimizer = torch.optim.Adam(self.model.parameters(), lr=self.learning_rate,
-                                     weight_decay=self._lambda / num_data, )
+                                     weight_decay=self._lambda / self.n_data, )
         scheduler = torch.optim.lr_scheduler.StepLR(optimizer, step_size=1, gamma=self.learning_rate_decay)
         self.model.zero_grad()
         self.model.reset_parameters()
         for i in range(self.epoch):
-            self.batch = partition(list(np.arange(len(self.doc_pair_history))), self.batch_size)
-            # if len(self.batch[-1]) < 0.5 * self.batch_size and len(self.batch) > 1:
-            #     self.batch = self.batch[:-1]
-
+            self.batch = partition(list(np.arange(self.n_data)), self.batch_size)
+    
             if self.ind:
                 num_batch = len(self.batch)
             else:
@@ -257,98 +239,3 @@ class olRankNet(PairRank):
                 optimizer.step()
                 self.model.zero_grad()
             scheduler.step()  # t2 = time.time()  # print("Num of Batch: {} Total training time {}".format(len(self.batch), t2 - t1))
-
-    def update_to_history_old(self):
-        # print("Update to history")
-        # print(torch.cuda.memory_summary(self.device))
-        batch_size = 200
-
-        # l2 regularization
-        optimizer = torch.optim.Adam(self.model.parameters(), lr=1e-2)
-        scheduler = torch.optim.lr_scheduler.StepLR(optimizer, step_size=1, gamma=self.learning_rate_decay)
-        self.model.zero_grad()
-
-        # we use each query to update the model
-        epoch = 20
-        for i in range(epoch):
-
-            # if i % 5 == 0:
-            #     print("Epoch {}".format(i))
-            # print(torch.cuda.memory_summary(self.device))
-            counter = 0
-            y_pred = []
-            gradient = []
-            self.model.zero_grad()
-            for idx in range(len(self.history)):
-                qid = self.history[idx]["qid"]
-                # * all the saved history have positive feedback
-                query_feature = self.get_query_features(qid, self._train_features, self._train_query_ranges)
-                doc_ids = self.history[idx]["ranking"]
-                feature_torch = torch.tensor(query_feature[doc_ids].astype(np.float32)).to(self.device)
-                # label_torch = (
-                #     torch.tensor(self.history[idx]["feedback"].astype(np.float32))
-                #     .to(self.device)
-                #     .view(-1, 1)
-                # )
-                label = self.history[idx]["feedback"].reshape(-1, 1)
-                doc_scores = self.model(feature_torch)
-
-                # label diff
-                true_label_diff = label - label.T
-
-                # true_label_diff = label_torch - label_torch.T
-                positive_pairs = (true_label_diff > 0).astype(np.float32)
-                negative_pairs = (true_label_diff < 0).astype(np.float32)
-                sij = torch.tensor(positive_pairs - negative_pairs).to(self.device)
-                # calculate the estimation difference
-                pos_pairs_score_diff = 1.0 + torch.exp(doc_scores - doc_scores.T)
-
-                lambda_update = 0.5 * (1 - sij) - 1 / pos_pairs_score_diff
-                lambda_update = torch.sum(lambda_update, dim=1, keepdim=True)
-
-                assert lambda_update.shape == doc_scores.shape
-
-                gradient.append(lambda_update)
-                y_pred.append(doc_scores)
-
-                # del feature_torch
-                # del label_torch
-                # del doc_scores
-                # del true_label_diff
-                # del positive_pairs
-                # del negative_pairs
-                # del sij
-                # del pos_pairs_score_diff
-                # del lambda_update
-
-                counter += 1
-                if counter % batch_size == 0:
-                    for grad, pred in zip(gradient, y_pred):
-                        pred.backward(grad / batch_size)
-
-                    optimizer.step()
-                    self.model.zero_grad()
-                    gradient, y_pred = [], []
-
-            if len(gradient) != 0:
-                for grad, pred in zip(gradient, y_pred):
-                    pred.backward(grad / batch_size)
-
-                optimizer.step()
-                self.model.zero_grad()
-                gradient, y_pred = [], []
-
-                scheduler.step()
-
-        # del feature_torch
-        # # del label_torch
-        # del doc_scores
-        # # del true_label_diff
-        # # del positive_pairs
-        # # del negative_pairs
-        # del sij
-        # del pos_pairs_score_diff
-        # del lambda_update
-        # del gradient
-        # del y_pred
-        torch.cuda.empty_cache()  # print(torch.cuda.memory_allocated(self.device))  # train_x, train_y = self.generate_training_data()

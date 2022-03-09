@@ -29,9 +29,11 @@ class PairRank(BasicOnlineRanker):
         self.model = LinearModel(n_features=self.n_features, learning_rate=learning_rate, learning_rate_decay=1,
                                  n_candidates=1, )
         self.history = {}
-        self.n_pairs = []
-        self.pair_index = []
-
+        self.n_data = 0
+        # self.n_pairs = []
+        # self.pair_index = []
+        self.doc_pair_history = None
+        
     @staticmethod
     def default_parameters():
         parent_parameters = BasicOnlineRanker.default_parameters()
@@ -129,7 +131,7 @@ class PairRank(BasicOnlineRanker):
         try:
             cycle = nx.find_cycle(SG)
         except Exception as e:
-            print(e)
+            # print(e)
             flag = False
 
         while flag:
@@ -151,16 +153,16 @@ class PairRank(BasicOnlineRanker):
             try:
                 cycle = nx.find_cycle(SG)
             except Exception as e:
-                print(e)
+                # print(e)
                 flag = False
 
         sorted_list = list(nx.topological_sort(SG))
 
-        return super_nodes, sorted_list
+        return super_nodes, sorted_list, certain_edges
 
     def get_ranking(self, lcb_matrix, sorted_list, partition):
         ranked_list = []
-        for i, k in enumerate(sorted_list):
+        for _, k in enumerate(sorted_list):
             cur_p = list(partition[k])
 
             if self.rank == "random":
@@ -209,7 +211,7 @@ class PairRank(BasicOnlineRanker):
 
     def _create_train_ranking(self, query_id, query_feat, inverted):
         lcb_matrix = self.get_lcb(query_feat)
-        partition, sorted_list = self.get_partitions(lcb_matrix)
+        partition, sorted_list, certain_edges = self.get_partitions(lcb_matrix)
         self._last_query_feat = query_feat
         self.ranking = self.get_ranking(lcb_matrix, sorted_list, partition)
 
@@ -228,9 +230,6 @@ class PairRank(BasicOnlineRanker):
         neg_ind = np.where(np.logical_xor(clicks, included))[0]
         pos_ind = np.where(clicks)[0]
 
-        # pos_r_ind = self.ranking[pos_ind]
-        # neg_r_ind = self.ranking[neg_ind]
-
         if self.ind:
             np.random.shuffle(neg_ind)
             np.random.shuffle(pos_ind)
@@ -238,60 +237,61 @@ class PairRank(BasicOnlineRanker):
         else:
             pairs = list(itertools.product(pos_ind, neg_ind))
 
-        return pairs
+        return np.array(pairs)
 
-    def update_history(self, pairs):
-        query_id = self._last_query_id
-        idx = len(self.history)
-        self.history[idx] = {}
-        self.history[idx]["qid"] = query_id
-        self.history[idx]["pairs"] = pairs
+    def _update_to_clicks(self, clicks):
+        # generate all pairs from the clicks
+        pairs = self.generate_pairs(clicks)
+        # update the model if we have valid observed pairs
+        if len(pairs) != 0:
+            # update covariance matrix A
+            for p in pairs:
+                pos_doc_idx = self.ranking[p[0]]
+                neg_doc_idx = self.ranking[p[1]]
+                diff_feat = (self._last_query_feat[pos_doc_idx] - self._last_query_feat[neg_doc_idx]).reshape(1, -1)
+                self.InvA -= multi_dot([self.InvA, diff_feat.T, diff_feat, self.InvA]) / float(
+                        1 + np.dot(np.dot(diff_feat, self.InvA), diff_feat.T))                    
+            # update history and update model
+            self.update_history_data(pairs)
+            self.update_to_history()
+        
+    def update_history_data(self, pairs):
+        query_index = self.get_query_global_index(self._last_query_id, self._train_query_ranges)
+        query_pairs = self.ranking[pairs] + query_index
+        if self.doc_pair_history is not None:
+            self.doc_pair_history = np.append(self.doc_pair_history, query_pairs, 0)
+        else:
+            self.doc_pair_history = query_pairs
+        
+        # idx = len(self.history)
+        # self.history[idx] = {}
+        # self.history[idx]["qid"] = self._last_query_id
+        # self.history[idx]["pairs"] = query_pairs
+        self.n_data += len(query_pairs)
 
     def generate_training_data(self):
         train_x = []
         train_y = []
 
-        for idx in self.history.keys():
-            qid = self.history[idx]["qid"]
-            feat = self.get_query_features(qid, self._train_features, self._train_query_ranges)
-            pairs = self.history[idx]["pairs"]
-            pos_ids = [pair[0] for pair in pairs]
-            neg_ids = [pair[1] for pair in pairs]
-            x = feat[pos_ids] - feat[neg_ids]
-            train_x.append(x)
+        # for idx in self.history.keys():
+        # for i in range(len(self.doc_pair_history)):
+        #     pair = self.doc_pair_history[i]
+            # pos_ids = [pair[0] for pair in pairs]
+            # neg_ids = [pair[1] for pair in pairs]
+            # x = self._train_features[pos_ids] - self._train_features[neg_ids]
+            # train_x.append(x)
+            # y = np.ones(len(pairs))
+            # train_y.append(y)
+        pos_ids = self.doc_pair_history[:, 0]
+        neg_ids = self.doc_pair_history[:, 1]
+        train_x = self._train_features[pos_ids] - self._train_features[neg_ids]
+        train_y = np.ones(len(train_x))
 
-            y = np.ones(len(pairs))
-            train_y.append(y)
-
-        train_x = np.vstack(train_x)
-        train_y = np.hstack(train_y)
+        # train_x = np.vstack(train_x)
+        # train_y = np.hstack(train_y)
 
         return train_x, train_y
-
-    def _update_to_clicks(self, clicks):
-        # generate all pairs from the clicks
-        pairs = self.generate_pairs(clicks)
-        # update A matrix
-        for p in pairs:
-            pos_doc_id = self.ranking[p[0]]
-            neg_doc_id = self.ranking[p[1]]
-            diff_feat = (self._last_query_feat[pos_doc_id] - self._last_query_feat[neg_doc_id]).reshape(1, -1)
-            self.InvA -= multi_dot([self.InvA, diff_feat.T, diff_feat, self.InvA]) / float(
-                1 + np.dot(np.dot(diff_feat, self.InvA), diff_feat.T))
-
-        n_pairs = len(pairs)
-        if n_pairs == 0:
-            return
-        pairs = np.array(pairs)
-        self.update_history(pairs)
-        self.n_pairs.append(n_pairs)
-        if len(self.n_pairs) == 1:
-            self.pair_index.append(n_pairs)
-        else:
-            self.pair_index.append(self.pair_index[-1] + n_pairs)
-
-        self.update_to_history()
-
+    
     def update_to_history(self):
         train_x, train_y = self.generate_training_data()
         myargs = (train_x, train_y)

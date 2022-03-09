@@ -6,7 +6,7 @@ import numpy as np
 import os.path
 import gc
 import math
-import cPickle
+import pickle
 
 FOLDDATA_WRITE_VERSION = 3
 
@@ -90,6 +90,8 @@ class DataFold(object):
             self.heldout_tag = 'TEST'
         else:
             self.heldout_tag = 'VALI'
+        self.group_criteria = sim_args.group
+
 
     def train_query_labels(self, ranking_index):
       s_i = self.train_doclist_ranges[ranking_index]
@@ -290,7 +292,7 @@ class DataFold(object):
         if read_from_pickle:
             if os.path.isfile(fmap_pickle_path):
                 with open(fmap_pickle_path, 'rb') as f:
-                    loaded = cPickle.load(f)
+                    loaded = pickle.load(f)
                     if loaded[0] == FOLDDATA_WRITE_VERSION:
                         self.feature_map = loaded[1]
                         fmap_read = True
@@ -340,7 +342,7 @@ class DataFold(object):
             if not fmap_read:
                 self.feature_map = self._create_feature_mapping(training_features)
                 with open(fmap_pickle_path, 'wb') as f:
-                    cPickle.dump((FOLDDATA_WRITE_VERSION, self.feature_map), f)
+                    pickle.dump((FOLDDATA_WRITE_VERSION, self.feature_map), f)
 
             self.train_feature_matrix, self.train_doclist_ranges, self.train_label_vector = \
                 self._convert_featureDicts(doclists, labels, self.feature_map)
@@ -418,3 +420,28 @@ class DataFold(object):
         self.train_feature_matrix = self.train_feature_matrix.T
         self.test_feature_matrix = self.test_feature_matrix.T
         self._data_ready = True
+
+        if self.group_criteria == "inlink":
+            self.train_group = 1 * (self.train_feature_matrix[:, 127] <= 0)
+            self.test_group = 1 * (self.test_feature_matrix[:, 127] <= 0)
+            self.train_feature_matrix[:, 127] = 0
+            self.test_feature_matrix[:, 127] = 0
+        elif self.group_criteria == "pagerank":
+            self.train_group = 1 * (self.train_feature_matrix[:, 129] <= 0.12)
+            self.test_group = 1 * (self.test_feature_matrix[:, 129] <= 0.12)
+            self.train_feature_matrix[:, 129] = 0
+            self.test_feature_matrix[:, 129] = 0
+        elif self.group_criteria == "470":
+            self.train_group = 1 * (self.train_feature_matrix[:, 470] <= 0)
+            self.test_group = 1 * (self.test_feature_matrix[:, 470] <= 0)
+            self.train_feature_matrix[:, 470] = 0
+            self.test_feature_matrix[:, 470] = 0
+        elif self.group_criteria == "8":
+            self.train_group = 1 * (self.train_feature_matrix[:, 8] <= 0.92)
+            self.test_group = 1 * (self.test_feature_matrix[:, 8] <= 0.92)
+            self.train_feature_matrix[:, 8] = 0
+            self.test_feature_matrix[:, 8] = 0
+        else:
+            print("No group information is provided.")
+            self.train_group = None
+            self.test_group = None

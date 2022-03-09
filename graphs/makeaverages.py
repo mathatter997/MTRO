@@ -61,11 +61,11 @@ for source, dest in path_pairs:
     raise
   except:
     success = False
-    print 'Failed: ', source
+    print('Failed: ', source)
     failed_paths.append(source)
 
   if success:
-    print 'Success:', source, '   ->   ', dest
+    print ('Success:', source, '   ->   ', dest)
 
     create_folders(dest)
     with open(dest, 'w') as w:
@@ -73,14 +73,14 @@ for source, dest in path_pairs:
 
     success_paths.append(source)
 
+print ()
+print ('Done processing.')
 print
-print 'Done processing.'
-print
-print 'Successfully averaged the following files:'
-print
-print ' '.join(success_paths)
-print
-print 'Failed averaging the following files:'
-print
-print ' '.join(failed_paths)
-print
+print ('Successfully averaged the following files:')
+print()
+print (' '.join(success_paths))
+print()
+print ('Failed averaging the following files:')
+print()
+print (' '.join(failed_paths))
+print()

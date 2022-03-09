@@ -83,6 +83,7 @@ def get_datasets(sim_args):
     else:
         data_tags = sim_args.data_sets
     for data_tag in data_tags:
+        print(data_tag)
         assert data_tag in DATASET_COLLECTION, 'Command line input is currently not supported.'
         yield DATASET_COLLECTION[data_tag]
 
@@ -91,54 +92,54 @@ DATASET_COLLECTION = {}
 DATASET_COLLECTION['NP2003'] = DataSet('2003_np', '/zfs/ilps-plex1/slurm/datastore/hooster2/datasets/2003_np_dataset/Fold*/',
                                        'bin', True, 59,
                                        multileave_feat=[
-                                               range(11,16), #TF-IDF
-                                               range(21,26), #BM25
-                                               range(26,41), #LMIR
+                                               list(range(11,16)), #TF-IDF
+                                               list(range(21,26)), #BM25
+                                               list(range(26,41)), #LMIR
                                                [41,42],      #SiteMap
                                                [49,50]       #HITS
                                              ])
 DATASET_COLLECTION['NP2004'] = DataSet('2004_np', '/zfs/ilps-plex1/slurm/datastore/hooster2/datasets/2004_np_dataset/Fold*/',
                                        'bin', True, 64,
                                        multileave_feat=[
-                                               range(11,16), #TF-IDF
-                                               range(21,26), #BM25
-                                               range(26,41), #LMIR
+                                               list(range(11,16)), #TF-IDF
+                                               list(range(21,26)), #BM25
+                                               list(range(26,41)), #LMIR
                                                [41,42],      #SiteMap
                                                [49,50]       #HITS #19 total
                                              ])
 DATASET_COLLECTION['HP2003'] = DataSet('2003_hp', '/zfs/ilps-plex1/slurm/datastore/hooster2/datasets/2003_hp_dataset/Fold*/',
                                        'bin', True, 59,
                                        multileave_feat=[
-                                               range(11,16), #TF-IDF
-                                               range(21,26), #BM25
-                                               range(26,41), #LMIR
+                                               list(range(11,16)), #TF-IDF
+                                               list(range(21,26)), #BM25
+                                               list(range(26,41)), #LMIR
                                                [41,42],      #SiteMap
                                                [49,50]       #HITS
                                              ])
 DATASET_COLLECTION['HP2004'] = DataSet('2004_hp', '/zfs/ilps-plex1/slurm/datastore/hooster2/datasets/2004_hp_dataset/Fold*/',
                                        'bin', True, 64,
                                        multileave_feat=[
-                                               range(11,16), #TF-IDF
-                                               range(21,26), #BM25
-                                               range(26,41), #LMIR
+                                               list(range(11,16)), #TF-IDF
+                                               list(range(21,26)), #BM25
+                                               list(range(26,41)), #LMIR
                                                [41,42],      #SiteMap
                                                [49,50]       #HITS
                                              ])
 DATASET_COLLECTION['TD2003'] = DataSet('2003_td', '/zfs/ilps-plex1/slurm/datastore/hooster2/datasets/2003_td_dataset/Fold*/',
                                        'bin', True, 59,
                                        multileave_feat=[
-                                               range(11,16), #TF-IDF
-                                               range(21,26), #BM25
-                                               range(26,41), #LMIR
+                                               list(range(11,16)), #TF-IDF
+                                               list(range(21,26)), #BM25
+                                               list(range(26,41)), #LMIR
                                                [41,42],      #SiteMap
                                                [49,50]       #HITS
                                              ])
 DATASET_COLLECTION['TD2004'] = DataSet('2004_td', '/zfs/ilps-plex1/slurm/datastore/hooster2/datasets/2004_td_dataset/Fold*/',
                                        'bin', True, 64,
                                        multileave_feat=[
-                                               range(11,16), #TF-IDF
-                                               range(21,26), #BM25
-                                               range(26,41), #LMIR
+                                               list(range(11,16)), #TF-IDF
+                                               list(range(21,26)), #BM25
+                                               list(range(26,41)), #LMIR
                                                [41,42],      #SiteMap
                                                [49,50]       #HITS
                                              ])
@@ -146,9 +147,9 @@ DATASET_COLLECTION['TD2004'] = DataSet('2004_td', '/zfs/ilps-plex1/slurm/datasto
 DATASET_COLLECTION['MQ2008'] = DataSet('MQ2008', '/zfs/ilps-plex1/slurm/datastore/hooster2/datasets/MQ2008/Fold*/', 'short',
                                        True, 40,
                                        multileave_feat=[
-                                               range(11,16), #TF-IDF
-                                               range(21,26), #BM25
-                                               range(26,41)  #LMIR #25 total
+                                               list(range(11,16)), #TF-IDF
+                                               list(range(21,26)), #BM25
+                                               list(range(26,41))  #LMIR #25 total
                                              ])
 DATASET_COLLECTION['MQ2007'] = DataSet('MQ2007', [
                                 '/zfs/ilps-plex1/slurm/datastore/hooster2/datasets/MQ2007/Fold*/',
@@ -156,35 +157,35 @@ DATASET_COLLECTION['MQ2007'] = DataSet('MQ2007', [
                                 ], 'short',
                                        True, 41,
                                        multileave_feat=[
-                                               range(11,16), #TF-IDF
-                                               range(21,26), #BM25
-                                               range(26,41)  #LMIR
+                                               list(range(11,16)), #TF-IDF
+                                               list(range(21,26)), #BM25
+                                               list(range(26,41))  #LMIR
                                              ])
 DATASET_COLLECTION['OHSUMED'] = DataSet('OHSUMED', '/zfs/ilps-plex1/slurm/datastore/hooster2/datasets/OHSUMED/Fold*/', 'short'
                                         , True, 36,
                                        multileave_feat=[
                                                #[6,7],       #HITS
-                                               range(9,13), #TF-IDF
+                                               list(range(9,13)), #TF-IDF
                                                [28],        #sitemap
-                                               range(15,28), #BM25 and LMIR
+                                               list(range(15,28)), #BM25 and LMIR
                                              ])
 
 DATASET_COLLECTION['MSLR-WEB10k'] = DataSet('MSLR-WEB10k',
                                             '/zfs/ilps-plex1/slurm/datastore/hooster2/datasets/MSLR-WEB10k/Fold*/', 'long',
                                             False, 136,
                                             multileave_feat=[
-                                               range(71,91), #TF-IDF
-                                               range(106,111), #BM25
-                                               range(111,126), #LMIR # 40 total
+                                               list(range(71,91)), #TF-IDF
+                                               list(range(106,111)), #BM25
+                                               list(range(111,126)), #LMIR # 40 total
                                                # range(96,106), #Boolean Model, Vector Space Model
                                              ])
 DATASET_COLLECTION['MSLR-WEB30k'] = DataSet('MSLR-WEB30k',
                                             '/zfs/ilps-plex1/slurm/datastore/hooster2/datasets/MSLR-WEB30k/Fold*/', 'long',
                                             False, 136, max_folds=2,
                                             multileave_feat=[
-                                               range(71,91), #TF-IDF
-                                               range(106,111), #BM25
-                                               range(111,126), #LMIR
+                                               list(range(71,91)), #TF-IDF
+                                               list(range(106,111)), #BM25
+                                               list(range(111,126)), #LMIR
                                                # range(96,106), #Boolean Model, Vector Space Model
                                              ])
 
@@ -212,9 +213,9 @@ DATASET_COLLECTION['local_single_NP2003'] = DataSet('2003_np',
                                              ],
                                              'bin', True, 59,
                                              multileave_feat=[
-                                               range(11,16), #TF-IDF
-                                               range(21,26), #BM25
-                                               range(36,41), #LMIR
+                                               list(range(11,16)), #TF-IDF
+                                               list(range(21,26)), #BM25
+                                               list(range(36,41)), #LMIR
                                                [41,42],      #SiteMap
                                                [49,50]       #HITS
                                              ])
@@ -222,9 +223,9 @@ DATASET_COLLECTION['local_NP2003'] = DataSet('2003_np',
                                              '/Users/hroosterhuis/Documents/ILPS/datasets/NP2003/Fold*/'
                                              , 'bin', True, 59,
                                              multileave_feat=[
-                                               range(11,16), #TF-IDF
-                                               range(21,26), #BM25
-                                               range(36,41), #LMIR
+                                               list(range(11,16)), #TF-IDF
+                                               list(range(21,26)), #BM25
+                                               list(range(36,41)), #LMIR
                                                [41,42],      #SiteMap
                                                [49,50]       #HITS
                                              ])
@@ -237,9 +238,9 @@ DATASET_COLLECTION['local_MQ2008'] = DataSet('MQ2008',
 DATASET_COLLECTION['local_HP2003'] = DataSet('HP2003', '../datasets/HP2003/Fold*/',
                                        'bin', True, 59,
                                        multileave_feat=[
-                                               range(11,16), #TF-IDF
-                                               range(21,26), #BM25
-                                               range(26,41), #LMIR
+                                               list(range(11,16)), #TF-IDF
+                                               list(range(21,26)), #BM25
+                                               list(range(26,41)), #LMIR
                                                [41,42],      #SiteMap
                                                [49,50]       #HITS
                                              ])
@@ -248,16 +249,16 @@ DATASET_COLLECTION['local_MQ2007'] = DataSet('MQ2007',
                                 'short',
                                        True, 41,
                                        multileave_feat=[
-                                               range(11,16), #TF-IDF
-                                               range(21,26), #BM25
-                                               range(26,41)  #LMIR
+                                               list(range(11,16)), #TF-IDF
+                                               list(range(21,26)), #BM25
+                                               list(range(26,41))  #LMIR
                                              ])
 DATASET_COLLECTION['local_TD2003'] = DataSet('TD2003', '../datasets/TD2003/Fold*/',
                                        'bin', True, 59,
                                        multileave_feat=[
-                                               range(11,16), #TF-IDF
-                                               range(21,26), #BM25
-                                               range(26,41), #LMIR
+                                               list(range(11,16)), #TF-IDF
+                                               list(range(21,26)), #BM25
+                                               list(range(26,41)), #LMIR
                                                [41,42],      #SiteMap
                                                [49,50]       #HITS
                                              ])
@@ -266,18 +267,18 @@ DATASET_COLLECTION['local_MQ2007_F1'] = DataSet('MQ2007',
                                 'short',
                                        True, 46,
                                        multileave_feat=[
-                                               range(11,16), #TF-IDF
-                                               range(21,26), #BM25
-                                               range(26,41)  #LMIR
+                                               list(range(11,16)), #TF-IDF
+                                               list(range(21,26)), #BM25
+                                               list(range(26,41))  #LMIR
                                              ])
 
 DATASET_COLLECTION['local_MSLR_WEB10K_F1'] = DataSet('MSLR-WEB10K',
                                             '../datasets/MSLR_WEB10K_F1/Fold*/', 'long',
                                             False, 136,
                                             multileave_feat=[
-                                               range(71,91), #TF-IDF
-                                               range(106,111), #BM25
-                                               range(111,126), #LMIR # 40 total
+                                               list(range(71,91)), #TF-IDF
+                                               list(range(106,111)), #BM25
+                                               list(range(111,126)), #LMIR # 40 total
                                                # range(96,106), #Boolean Model, Vector Space Model
                                              ])
 # Yahoo documents that set 1 has 519 features, while set 2 has 596
@@ -298,18 +299,18 @@ DATASET_COLLECTION['local_MSLR-WEB10K'] = DataSet('MSLR-WEB10K',
                                             '../datasets/MSLR-WEB10K/Fold*/', 'long',
                                             False, 136,
                                             multileave_feat=[
-                                               range(71,91), #TF-IDF
-                                               range(106,111), #BM25
-                                               range(111,126), #LMIR # 40 total
+                                               list(range(71,91)), #TF-IDF
+                                               list(range(106,111)), #BM25
+                                               list(range(111,126)), #LMIR # 40 total
                                                # range(96,106), #Boolean Model, Vector Space Model
                                              ])
 DATASET_COLLECTION['local_MSLR-WEB30K'] = DataSet('MSLR-WEB30K',
                                             '../datasets/MSLR-WEB30K/Fold*/', 'long',
                                             False, 136, max_folds=2,
                                             multileave_feat=[
-                                               range(71,91), #TF-IDF
-                                               range(106,111), #BM25
-                                               range(111,126), #LMIR
+                                               list(range(71,91)), #TF-IDF
+                                               list(range(106,111)), #BM25
+                                               list(range(111,126)), #LMIR
                                                # range(96,106), #Boolean Model, Vector Space Model
                                              ])
 
@@ -319,3 +320,69 @@ DATASET_COLLECTION['local_single_MNIST'] = DataSet('mnist',
                                                 '/Users/hroosterhuis/ILPS/datasets/LTRMNIST/Fold1/'
                                              ],
                                              'long', False, 784,)
+
+#### added for test, could be removed when committing to github
+prefix_paths = {}
+prefix_paths["mac"] = "/Users/yiling/git/datasets"
+prefix_paths["hcdm"] = "/zf14/yj9xs/git/datasets"
+prefix_paths["rivanna"] = "/home/yj9xs/git/datasets"
+# DATASET_COLLECTION = {}
+
+# MSLR-WEB10K and Yahoo Dataset for 3 environments
+for env in prefix_paths.keys():
+    DATA_NAME = "Yahoo_{}".format(env)
+    DATASET_COLLECTION[DATA_NAME] = DataSet(
+        DATA_NAME,
+        "{}/{}/Fold*/".format(prefix_paths[env], DATA_NAME),
+        "long",
+        True,
+        700,
+    )
+
+    DATA_NAME = "MSLR-WEB10K_{}".format(env)
+    DATASET_COLLECTION[DATA_NAME] = DataSet(
+        DATA_NAME,
+        "{}/{}/Fold*/".format(prefix_paths[env], DATA_NAME),
+        "long",
+        False,
+        136,
+        multileave_feat=[
+            list(range(71, 91)),  # TF-IDF
+            list(range(106, 111)),  # BM25
+            list(range(111, 126))  # LMIR # 40 total
+            # range(96,106), #Boolean Model, Vector Space Model
+        ],
+    )
+
+
+# MSLR-WEB10K and Yahoo sub Datasets for 3 environments
+for env in prefix_paths.keys():
+    
+    for fold_num in [1, 2]:
+        NAME = "Yahoo_{}".format(env)
+        DATA_NAME = "Yahoo_{}_{}".format(env, fold_num)
+        DATASET_COLLECTION[DATA_NAME] = DataSet(
+            DATA_NAME,
+            "{}/{}/Fold{}/".format(prefix_paths[env], NAME, fold_num),
+            "long",
+            True,
+            700,
+        )
+
+    for fold_num in [1, 2, 3, 4, 5]:
+        NAME = "MSLR-WEB10K_{}".format(env)
+        DATA_NAME = "MSLR-WEB10K_{}_{}".format(env, fold_num)
+        DATASET_COLLECTION[DATA_NAME] = DataSet(
+            DATA_NAME,
+            "{}/{}/Fold{}/".format(prefix_paths[env], NAME, fold_num),
+            "long",
+            False,
+            136,
+            multileave_feat=[
+                list(range(71, 91)),  # TF-IDF
+                list(range(106, 111)),  # BM25
+                list(range(111, 126))  # LMIR # 40 total
+                # range(96,106), #Boolean Model, Vector Space Model
+            ],
+        )
+

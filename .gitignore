@@ -1,4 +1,6 @@
 tmp/*.pickle
+.vscode/
+results/
 
 # Compiled source #
 ###################

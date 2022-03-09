@@ -57,7 +57,7 @@ class OutputTable(object):
     def __init__(self, table_name, table_folder):
         self._closed = False
         self.output_path = '%s/%s.tex' % (table_folder, table_name)
-        print 'creating file at %s' % self.output_path
+        print ('creating file at %s' % self.output_path)
         create_folders(self.output_path)
         self._output_file = open(self.output_path, 'w')
         self.writeline('% !TEX root = ../main.tex')
@@ -65,17 +65,17 @@ class OutputTable(object):
     def writeline(self, *line):
         full_line = ' '.join(line)
         self._output_file.write(full_line + '\n')
-        print full_line
+        print( full_line)
 
     def write(self, *line):
         full_line = ' '.join(line)
         self._output_file.write(full_line + ' ')
-        print full_line,
+        print (full_line,)
 
     def close(self):
         self._closed = True
         self._output_file.close()
-        print 'Finished writing to and closed:', self.output_path
+        print ('Finished writing to and closed:', self.output_path)
 
 def process_run_name(name):
   name = name.replace('_', '\\_')
@@ -127,11 +127,11 @@ for data_folder in sorted(folder_structure.keys()):
   click_models = []
   value_names = []
   if data_folder is None:
-    print 'No data folders found, outputting directly.'
+    print ('No data folders found, outputting directly.')
   else:
-    print 'Found data folder: %s' % data_folder
+    print ('Found data folder: %s' % data_folder)
   for output_file in output_files:
-    print 'reading', output_file
+    print ('reading', output_file)
     file_name = output_file.split('/')[-1]
     if file_name[-4:] == '.out':
       file_name = file_name[:-4]
@@ -146,9 +146,9 @@ for data_folder in sorted(folder_structure.keys()):
     with open(output_file) as f:
       output = json.load(f)
       for name, value in output['runtimes'].items():
-        print name,
-        print datetime.timedelta(seconds=value),
-        print '(%d seconds)' % value
+        print (name,)
+        print (datetime.timedelta(seconds=value),)
+        print ('(%d seconds)' % value)
       data[file_name] = output['results']
       for v_name in output['results']:
         if v_name not in value_names:
@@ -159,12 +159,12 @@ for data_folder in sorted(folder_structure.keys()):
           if c_m not in click_models:
             click_models.append(c_m)
 
-    print
+    print()
 
-  print 'finished reading, found the following value types:'
+  print ('finished reading, found the following value types:')
   for name in value_names:
-    print name
-  print
+    print (name)
+  print()
 
 click_models = ['perfect', 'navigational', 'informational']
 
@@ -253,9 +253,9 @@ for table_name, table_value, table_ind in to_table:
   out.writeline('\\end{tabular*}')
   out.close()
 
-  print
-  print
-  print
+  print()
+  print()
+  print()
 
 
 

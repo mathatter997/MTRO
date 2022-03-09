@@ -2,8 +2,8 @@
 
 import time
 import numpy as np
-from evaluate import get_idcg_list, evaluate, evaluate_ranking
-from clicks import *
+from utils.evaluate import get_idcg_list, evaluate, evaluate_ranking
+from utils.clicks import *
 
 
 class SingleSimulation(object):
@@ -149,7 +149,11 @@ class SingleSimulation(object):
     starttime = time.time()
 
     ranker.setup(train_features = self.datafold.train_feature_matrix,
-                 train_query_ranges = self.datafold.train_doclist_ranges)
+                 train_query_ranges = self.datafold.train_doclist_ranges,
+                 train_groups = self.datafold.train_group,
+                 test_features= self.datafold.test_feature_matrix,
+                 test_query_ranges = self.datafold.test_doclist_ranges,
+                 test_groups = self.datafold.test_group)
 
     run_results = []
     impressions = 0

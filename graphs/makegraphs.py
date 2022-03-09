@@ -71,11 +71,11 @@ for data_folder in sorted(folder_structure.keys()):
   click_models = []
   value_names = []
   if data_folder is None:
-    print 'No data folders found, outputting directly.'
+    print ('No data folders found, outputting directly.')
   else:
-    print 'Found data folder: %s' % data_folder
+    print ('Found data folder: %s' % data_folder)
   for output_file in output_files:
-    print 'reading', output_file
+    print ('reading', output_file)
     file_name = output_file.split('/')[-1]
     if file_name[-4:] == '.out':
       file_name = file_name[:-4]
@@ -85,9 +85,9 @@ for data_folder in sorted(folder_structure.keys()):
     with open(output_file) as f:
       output = json.load(f)
       for name, value in output['runtimes'].items():
-        print name,
-        print datetime.timedelta(seconds=value),
-        print '(%d seconds)' % value
+        print (name,)
+        print( datetime.timedelta(seconds=value),)
+        print ('(%d seconds)' % value)
       data[file_name] = output['results']
       for v_name in output['results']:
         if v_name not in value_names:
@@ -98,13 +98,13 @@ for data_folder in sorted(folder_structure.keys()):
           if c_m not in click_models:
             click_models.append(c_m)
 
-    print
+    print()
 
-  print 'finished reading, found the following value types:'
+  print ('finished reading, found the following value types:')
   for name in value_names:
-    print name
-  print
-  print 'start plotting'
+    print (name)
+  print()
+  print ('start plotting')
 
   # params = {
   #     'text.latex.preamble': r"\usepackage{lmodern}",
@@ -149,12 +149,12 @@ for data_folder in sorted(folder_structure.keys()):
           elif v_name == 'held-out' and 'heldout' in file_dict:
             v_name = 'heldout'
           else:
-            print 'not found', v_name, file_dict.keys()
+            print ('not found', v_name, file_dict.keys())
             continue
         v_dict = file_dict[v_name]
         ind = np.array(v_dict['indices'])
         if click_model not in v_dict:
-          print 'not found', click_model, v_dict.keys()
+          print ('not found', click_model, v_dict.keys())
           continue
         c_dict = v_dict[click_model]
 
@@ -187,6 +187,6 @@ for data_folder in sorted(folder_structure.keys()):
             plot_file_name = os.path.join(data_folder, plot_file_name)
             create_folders(os.path.join(pdf_folder, plot_file_name))
           plt.savefig(os.path.join(pdf_folder, plot_file_name), bbox_inches='tight')
-          print 'saved', plot_file_name
+          print ('saved', plot_file_name)
       plt.close(fig)
-    print
+    print()

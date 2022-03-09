@@ -53,9 +53,9 @@ class NeuralModel(object):
 
   def debugstr(self):
     for i, hd in enumerate(self.hidden_layers[:-1]):
-      print 'layer %d:' % i, hd
-      print 'bias %d:' % i, self.biases[i]
-    print 'final hidden:', self.hidden_layers[-1]
+      print ('layer %d:' % i, hd)
+      print ('bias %d:' % i, self.biases[i])
+    print ('final hidden:', self.hidden_layers[-1])
 
 
   def update_to_documents(self, doc_ind, doc_weights):

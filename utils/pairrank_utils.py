@@ -38,7 +38,7 @@ def update_edges(super_edges, candidate_nodes, new_id):
                 try:
                     super_edges[i].remove(n)
                 except Exception as e:
-                    print(e)
+                    # print(e)
                     pass
             if i != new_id:
                 super_edges[i].add(new_id)

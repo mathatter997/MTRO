@@ -21,6 +21,11 @@ class BasicOnlineRanker(object):
 
         self._train_features = None
         self._train_query_ranges = None
+        self._train_groups = None
+
+        self._test_features = None
+        self._test_query_ranges = None
+        self._test_groups = None
 
     @staticmethod
     def default_parameters():
@@ -45,9 +50,18 @@ class BasicOnlineRanker(object):
     def reset_messages(self):
         self._messages.clear()
 
-    def setup(self, train_features, train_query_ranges):
+    def setup(self, train_features, train_query_ranges, train_groups, test_features, test_query_ranges, test_groups):
         self._train_features = train_features
         self._train_query_ranges = train_query_ranges
+        self._train_groups = train_groups
+        self._test_features = test_features
+        self._test_query_ranges = test_query_ranges
+        self._test_groups = test_groups
+        # parameters for fair pairrank models
+        # self.exposure = {}
+        # self.num_groups = len(set(self._train_groups))
+        # for i in range(self.n_groups):
+        #     self.exposure[i]
 
     def clean(self):
         del self._train_features
@@ -69,6 +83,11 @@ class BasicOnlineRanker(object):
 
     def get_query_global_index(self, query_id, query_ranges):
         return query_ranges[query_id]
+    
+    def get_query_groups(self, query_id, groups, query_ranges):
+        start_i = query_ranges[query_id]
+        end_i = query_ranges[query_id + 1]
+        return groups[start_i:end_i]
 
     def get_query_size(self, query_id, query_ranges):
         return query_ranges[query_id + 1] - query_ranges[query_id]

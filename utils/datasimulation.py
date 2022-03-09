@@ -7,9 +7,9 @@ import datetime
 import gc
 import sys
 import numpy as np
-from singlesimulation import SingleSimulation
+from utils.singlesimulation import SingleSimulation
 from multiprocessing import Process, Queue
-from Queue import Empty
+from queue import Empty
 from utils.clicks import get_click_models
 from utils.datasetcollections import get_datasets
 from utils.simulationoutput import SimulationOutput, get_simulation_report
@@ -90,8 +90,8 @@ class DataSimulation(object):
     while self.folds_in_mem >= datafold.max_folds:
       self.wait_for_output()
       self.update_active()
-    print 'Read   %d: Fold %d of dataset %s.' % (self.read_index,
-              datafold.fold_num + 1, datafold.name)
+    print ('Read   %d: Fold %d of dataset %s.' % (self.read_index,
+              datafold.fold_num + 1, datafold.name))
     datafold.read_data()
     self.read_index += 1
     self.wait_for_output()
@@ -110,18 +110,18 @@ class DataSimulation(object):
         ranker_setup = r_class, r_args
         r_args['n_results'] = self.sim_args.n_results
         r_args['n_features'] = datafold.num_features
-        for i in xrange(datafold.num_runs_per_fold):
+        for i in range(datafold.num_runs_per_fold):
           new_proc = Process(target=self.start_run, args=(sim, output_key, ranker_setup,
                              self.run_index))
           self.processes.append((new_proc, datafold))
-          print 'Launch %d: %s %d with click model %s on fold %d from dataset %s.' % (
+          print ('Launch %d: %s %d with click model %s on fold %d from dataset %s.' % (
               self.run_index,
               run_name,
               i,
               c_m.name,
               datafold.fold_num + 1,
               datafold.name,
-              )
+              ))
           self.run_index += 1
           self.report_output.flush()
           yield new_proc
@@ -157,8 +157,8 @@ class DataSimulation(object):
         dead_datafolds[datafold] = True
 
     for datafold in dead_datafolds:
-      print 'Clean  %d: Fold %d of dataset %s.' % (self.clean_index, datafold.fold_num + 1,
-              datafold.name)
+      print ('Clean  %d: Fold %d of dataset %s.' % (self.clean_index, datafold.fold_num + 1,
+              datafold.name))
       datafold.clean_data()
       self.clean_index += 1
 
@@ -179,8 +179,8 @@ class DataSimulation(object):
         output_key, run_output = self.output_queue.get(block=not found, timeout=timeout)
         found = True
         sim_output = self.run_outputs[output_key]
-        print 'Output %d: %s on dataset %s. (%d/%d)' % (self._outputs_found, output_key[0],
-                output_key[1], sim_output.run_index+1, sim_output.expected_runs())
+        print ('Output %d: %s on dataset %s. (%d/%d)' % (self._outputs_found, output_key[0],
+                output_key[1], sim_output.run_index+1, sim_output.expected_runs()))
         sim_output.write_run_output(run_output)
         self._outputs_found += 1
     except Empty:

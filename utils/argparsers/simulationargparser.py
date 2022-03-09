@@ -84,7 +84,33 @@ class SimulationArgumentParser(argparse.ArgumentParser):
 
     self._sim_add_argument('--nonrel_test', dest='purge_test_set', action='store_false',
                       help='Include non-relevant queries in evaluation on test-set.')
-
+    
+    # add parameter for random seed to control the output
+    self._sim_add_argument('--seed', dest='seed', default=1, type=int, help='random seed for simulation')
+    # add algorithm selection
+    self._sim_add_argument('--algo', dest='algo', default='pairrank', type=str, help='select ranking algorithm')
+    # parameters for pairrank
+    self._sim_add_argument('--alpha', dest='alpha', default=0.1, type=float, help='exploration parameter.')
+    self._sim_add_argument('--lambda', dest='_lambda', default=0.1, type=float, help='l2 regularization coefficient.')
+    self._sim_add_argument('--rank', dest='rank', default='random', type=str, help='rank criteria for generating the ranked list.')
+    self._sim_add_argument('--update', dest='update', default='gd', type=str, help='update method for model and covariance matrix.')
+    self._sim_add_argument('--refine', dest='refine', action='store_true', help='refine the certain graph by considering the transitivity of certain orders.')
+    self._sim_add_argument('--ind', dest='ind', action='store_true', help='only use the independent observed pairs.')
+    self._sim_add_argument('--lr', dest='lr', default=0.1, help='learning rate for gradient descent')
+    self._sim_add_argument('--lr_deccay', dest='lr_decay', default=0.99999977, help='learning rate decay')
+    
+    # parameters for neural ranker
+    self._sim_add_argument('--mlpdims', dest='mlpdims', nargs="+", type=int, default=[100], help='neural network structure')
+    self._sim_add_argument('--epoch', dest='epoch', default=20, type=int, help='number of epochs for model update')
+    self._sim_add_argument('--batch_size', dest='batch_size', type=int, default=1024, help='batch size for model update.')
+    
+    # parameters for fair OL2R
+    self._sim_add_argument('--decay_mode', dest='decay_mode', default='overk', help='the decaying mode for position based examination probability')
+    self._sim_add_argument('--unfairness', dest='unfairness', default='projected', help='the model for calculating the observed unfairness')
+    self._sim_add_argument('--fair_alpha', dest='fair_alpha', default=0.1, help='unfairness coefficient across groups')
+    self._sim_add_argument('--fair_epsilon', dest='fair_epsilon', default=0.1, help='the threshold for unfairness')
+    self._sim_add_argument('--group', dest='group', default=None, help='the group criteria for fair ranking')
+                 
     self._arguments_initialized = False
 
   def reset_arguments(self):

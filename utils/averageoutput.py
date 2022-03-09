@@ -130,7 +130,7 @@ class OutputAverager(object):
     return output
 
   def create_average_file(self, sim_output):
-    print "opening %s" % sim_output.output_path
+    print ("opening %s" % sim_output.output_path)
     output = self.average_results(sim_output.output_path)
 
     self.dataset_path = '%s/%s' % (self.average_folder, sim_output.dataset_name)
@@ -139,8 +139,8 @@ class OutputAverager(object):
     create_folders(self.output_path)
     with open(self.output_path, 'w') as w:
       w.write(json.dumps(output))
-      print 'Closed %d: %s on %s was averaged and stored.' % (self._average_index,
-          sim_output.simulation_name, sim_output.dataset_name)
+      print ('Closed %d: %s on %s was averaged and stored.' % (self._average_index,
+          sim_output.simulation_name, sim_output.dataset_name))
 
     self._average_index += 1
 
