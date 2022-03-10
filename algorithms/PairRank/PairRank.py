@@ -4,7 +4,6 @@ import itertools
 import numpy as np
 import networkx as nx
 from numpy.linalg import multi_dot
-import math
 import utils.rankings as rnk
 from models.linearmodel import LinearModel
 from algorithms.basiconlineranker import BasicOnlineRanker
@@ -30,10 +29,8 @@ class PairRank(BasicOnlineRanker):
                                  n_candidates=1, )
         self.history = {}
         self.n_data = 0
-        # self.n_pairs = []
-        # self.pair_index = []
         self.doc_pair_history = None
-        
+
     @staticmethod
     def default_parameters():
         parent_parameters = BasicOnlineRanker.default_parameters()
@@ -250,11 +247,10 @@ class PairRank(BasicOnlineRanker):
                 neg_doc_idx = self.ranking[p[1]]
                 diff_feat = (self._last_query_feat[pos_doc_idx] - self._last_query_feat[neg_doc_idx]).reshape(1, -1)
                 self.InvA -= multi_dot([self.InvA, diff_feat.T, diff_feat, self.InvA]) / float(
-                        1 + np.dot(np.dot(diff_feat, self.InvA), diff_feat.T))                    
-            # update history and update model
+                    1 + np.dot(np.dot(diff_feat, self.InvA), diff_feat.T))  # update history and update model
             self.update_history_data(pairs)
             self.update_to_history()
-        
+
     def update_history_data(self, pairs):
         query_index = self.get_query_global_index(self._last_query_id, self._train_query_ranges)
         query_pairs = self.ranking[pairs] + query_index
@@ -262,7 +258,7 @@ class PairRank(BasicOnlineRanker):
             self.doc_pair_history = np.append(self.doc_pair_history, query_pairs, 0)
         else:
             self.doc_pair_history = query_pairs
-        
+
         # idx = len(self.history)
         # self.history[idx] = {}
         # self.history[idx]["qid"] = self._last_query_id
@@ -276,12 +272,12 @@ class PairRank(BasicOnlineRanker):
         # for idx in self.history.keys():
         # for i in range(len(self.doc_pair_history)):
         #     pair = self.doc_pair_history[i]
-            # pos_ids = [pair[0] for pair in pairs]
-            # neg_ids = [pair[1] for pair in pairs]
-            # x = self._train_features[pos_ids] - self._train_features[neg_ids]
-            # train_x.append(x)
-            # y = np.ones(len(pairs))
-            # train_y.append(y)
+        # pos_ids = [pair[0] for pair in pairs]
+        # neg_ids = [pair[1] for pair in pairs]
+        # x = self._train_features[pos_ids] - self._train_features[neg_ids]
+        # train_x.append(x)
+        # y = np.ones(len(pairs))
+        # train_y.append(y)
         pos_ids = self.doc_pair_history[:, 0]
         neg_ids = self.doc_pair_history[:, 1]
         train_x = self._train_features[pos_ids] - self._train_features[neg_ids]
@@ -291,7 +287,7 @@ class PairRank(BasicOnlineRanker):
         # train_y = np.hstack(train_y)
 
         return train_x, train_y
-    
+
     def update_to_history(self):
         train_x, train_y = self.generate_training_data()
         myargs = (train_x, train_y)

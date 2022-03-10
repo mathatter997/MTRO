@@ -4,7 +4,6 @@ import numpy as np
 
 
 def generate_all_combination(k):
-    # num_groups = 2
     result = []
     candidates = [0] * k
     result.append(candidates[:])

@@ -1,6 +1,4 @@
 import numpy as np
-# from numpy.linalg import multi_dot
-# from models.linearmodel import LinearModel
 from algorithms.basiconlineranker import BasicOnlineRanker
 from algorithms.PairRank.PairRank import PairRank
 from utils.fair_utils import generate_all_combination, position_probability

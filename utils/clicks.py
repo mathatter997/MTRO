@@ -4,116 +4,101 @@ import numpy as np
 
 
 class ClickModel(object):
+    '''
+    Class for cascading click-models used to simulate clicks.
+    '''
 
-  '''
-  Class for cascading click-models used to simulate clicks.
-  '''
+    def __init__(self, name, data_type, PCLICK, PSTOP):
+        '''
+        Name is used for logging, data_type denotes the degrees of relevance the data uses.
+        PCLICK and PSTOP the probabilities used by the model.
+        '''
+        self.name = name
+        self.type = data_type
+        self.PCLICK = PCLICK
+        self.PSTOP = PSTOP
 
-  def __init__(self, name, data_type, PCLICK, PSTOP):
-    '''
-    Name is used for logging, data_type denotes the degrees of relevance the data uses.
-    PCLICK and PSTOP the probabilities used by the model.
-    '''
-    self.name = name
-    self.type = data_type
-    self.PCLICK = PCLICK
-    self.PSTOP = PSTOP
+    def get_name(self):
 
-  def get_name(self):
-    '''
-    Name that can be used for logging.
-    '''
-    return self.name + '_' + self.type
+        '''
+        Name that can be used for logging.
+        '''
 
-  def generate_clicks(self, ranking, all_labels):
-    '''
-    Generates clicks for a given ranking and relevance labels.
-    ranking: np array of indices which correspond with all_labels
-    all_labels: np array of integers
-    '''
-    labels = all_labels[ranking]
-    coinflips = np.random.rand(*ranking.shape)
-    clicks = coinflips < self.PCLICK[labels]
-    coinflips = np.random.rand(*ranking.shape)
-    stops = coinflips < self.PSTOP[labels]
-    stopped_clicks = np.zeros(ranking.shape, dtype=bool)
-    if np.any(stops):
-        clicks_before_stop = np.logical_and(clicks, np.arange(ranking.shape[0])
-                                            <= np.where(stops)[0][0])
-        stopped_clicks[clicks_before_stop] = True
-        return stopped_clicks
-    else:
-        return np.zeros(ranking.shape, dtype=bool) + clicks
+        return self.name + '_' + self.type
+
+    def generate_clicks(self, ranking, all_labels):
+        '''
+        Generates clicks for a given ranking and relevance labels.
+        ranking: np array of indices which correspond with all_labels
+        all_labels: np array of integers
+        '''
+        labels = all_labels[ranking]
+        coinflips = np.random.rand(*ranking.shape)
+        clicks = coinflips < self.PCLICK[labels]
+        coinflips = np.random.rand(*ranking.shape)
+        stops = coinflips < self.PSTOP[labels]
+        stopped_clicks = np.zeros(ranking.shape, dtype=bool)
+        if np.any(stops):
+            clicks_before_stop = np.logical_and(clicks, np.arange(ranking.shape[0]) <= np.where(stops)[0][0])
+            stopped_clicks[clicks_before_stop] = True
+            return stopped_clicks
+        else:
+            return np.zeros(ranking.shape, dtype=bool) + clicks
+
 
 class ExamineClickModel(object):
+    '''
+    Class for cascading click-models used to simulate clicks.
+    '''
 
-  '''
-  Class for cascading click-models used to simulate clicks.
-  '''
+    def __init__(self, name, data_type, PCLICK, eta):
+        '''
+        Name is used for logging, data_type denotes the degrees of relevance the data uses.
+        PCLICK and PSTOP the probabilities used by the model.
+        '''
+        self.name = name
+        self.type = data_type
+        self.PCLICK = PCLICK
+        self.eta = eta
 
-  def __init__(self, name, data_type, PCLICK, eta):
-    '''
-    Name is used for logging, data_type denotes the degrees of relevance the data uses.
-    PCLICK and PSTOP the probabilities used by the model.
-    '''
-    self.name = name
-    self.type = data_type
-    self.PCLICK = PCLICK
-    self.eta = eta
+    def get_name(self):
+        '''
+        Name that can be used for logging.
+        '''
+        return self.name + '_' + self.type
 
-  def get_name(self):
-    '''
-    Name that can be used for logging.
-    '''
-    return self.name + '_' + self.type
+    def generate_clicks(self, ranking, all_labels):
+        '''
+        Generates clicks for a given ranking and relevance labels.
+        ranking: np array of indices which correspond with all_labels
+        all_labels: np array of integers
+        '''
+        n_results = ranking.shape[0]
+        examine_prob = (1. / (np.arange(n_results) + 1)) ** self.eta
+        stop_prob = np.ones(n_results)
+        stop_prob[1:] -= examine_prob[1:] / examine_prob[:-1]
+        stop_prob[0] = 0.
 
-  def generate_clicks(self, ranking, all_labels):
-    '''
-    Generates clicks for a given ranking and relevance labels.
-    ranking: np array of indices which correspond with all_labels
-    all_labels: np array of integers
-    '''
-    n_results = ranking.shape[0]
-    examine_prob = (1./(np.arange(n_results)+1))**self.eta
-    stop_prob = np.ones(n_results)
-    stop_prob[1:] -= examine_prob[1:]/examine_prob[:-1]
-    stop_prob[0] = 0.
-
-    labels = all_labels[ranking]
-    coinflips = np.random.rand(*ranking.shape)
-    clicks = coinflips < self.PCLICK[labels]
-    coinflips = np.random.rand(n_results)
-    stops = coinflips < stop_prob
-    stops = np.logical_and(stops, clicks)
-    stopped_clicks = np.zeros(ranking.shape, dtype=bool)
-    if np.any(stops):
-        clicks_before_stop = np.logical_and(clicks, np.arange(ranking.shape[0])
-                                            <= np.where(stops)[0][0])
-        stopped_clicks[clicks_before_stop] = True
-        return stopped_clicks
-    else:
-        return np.zeros(ranking.shape, dtype=bool) + clicks
+        labels = all_labels[ranking]
+        coinflips = np.random.rand(*ranking.shape)
+        clicks = coinflips < self.PCLICK[labels]
+        coinflips = np.random.rand(n_results)
+        stops = coinflips < stop_prob
+        stops = np.logical_and(stops, clicks)
+        stopped_clicks = np.zeros(ranking.shape, dtype=bool)
+        if np.any(stops):
+            clicks_before_stop = np.logical_and(clicks, np.arange(ranking.shape[0]) <= np.where(stops)[0][0])
+            stopped_clicks[clicks_before_stop] = True
+            return stopped_clicks
+        else:
+            return np.zeros(ranking.shape, dtype=bool) + clicks
 
 
 # create synonyms for keywords to ease command line use
-syn_tuples = [
-    ('ex_per_1', ['exper1']),
-    ('navigational', ['nav', 'navi', 'navig', 'navigat']),
-    ('informational', ['inf', 'info', 'infor', 'informat']),
-    ('perfect', ['per', 'perf']),
-    ('almost_random', [
-        'alm',
-        'almost',
-        'alra',
-        'arand',
-        'almostrandom',
-        'almrand',
-        ]),
-    ('random', ['ran', 'rand']),
-    ('binary', ['bin']),
-    ('short', []),
-    ('long', []),
-    ]
+syn_tuples = [('ex_per_1', ['exper1']), ('navigational', ['nav', 'navi', 'navig', 'navigat']),
+              ('informational', ['inf', 'info', 'infor', 'informat']), ('perfect', ['per', 'perf']),
+              ('almost_random', ['alm', 'almost', 'alra', 'arand', 'almostrandom', 'almrand', ]),
+              ('random', ['ran', 'rand']), ('binary', ['bin']), ('short', []), ('long', []), ]
 synonyms = {}
 for full, abrv_list in syn_tuples:
     assert full not in synonyms or synonyms[full] == full
@@ -147,6 +132,7 @@ long_models['random'] = np.array([.5, .5, .5, .5, .5]), np.array([.0, .0, .0, .0
 long_models['ex_per_1'] = np.array([.0, .2, .4, .8, 1.]), 1.0
 
 all_models = {'short': short_models, 'binary': bin_models, 'long': long_models}
+
 
 def get_click_models(keywords):
     '''
