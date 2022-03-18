@@ -77,7 +77,7 @@ def func_fairexppairrank(args, dir_name):
 
 
 def func_pdgd(args, dir_name):
-    ranker_params = {"learning_rate": args.lr, "learning_rate_decay": args.lr_decay)
+    ranker_params = {"learning_rate": args.lr, "learning_rate_decay": args.lr_decay}
     sim_args, other_args = parser.parse_all_args(ranker_params)
     ranker_name = "{}-{}-{}".format(args.lr, args.lr_decay, args.seed)
     run_name = dir_name + ranker_name
@@ -87,7 +87,7 @@ def func_pdgd(args, dir_name):
 
 
 def func_dbgd(args, dir_name):
-    ranker_params = {"learning_rate": args.lr, "learning_rate_decay": args.lr_decay)
+    ranker_params = {"learning_rate": args.lr, "learning_rate_decay": args.lr_decay}
     sim_args, other_args = parser.parse_all_args(ranker_params)
     ranker_name = "{}-{}-{}".format(args.lr, args.lr_decay, args.seed)
     run_name = dir_name + ranker_name
