@@ -3,14 +3,49 @@
 This repository contains the code used to produce the experimental results found in the following papers.
 
 #### "Efficient Exploration of Gradient Space for Online Learning to Rank", SIGIR 2018.
+```
+@inproceedings{wang2018efficient,
+  title={Efficient exploration of gradient space for online learning to rank},
+  author={Wang, Huazheng and Langley, Ramsey and Kim, Sonwoo and McCord-Snook, Eric and Wang, Hongning},
+  booktitle={The 41st International ACM SIGIR Conference on Research \& Development in Information Retrieval},
+  year={2018},
+  organization={ACM}
+}
+```
 
 #### "Variance Reduction in Gradient Exploration for Online Learning to Rank", SIGIR 2019.
+```
+@inproceedings{wang2019variance,
+  title={Variance Reduction in Gradient Exploration for Online Learning to Rank},
+  author={Wang, Huazheng and Kim, Sonwoo and McCord-Snook, Eric and Wu, Qingyun and Wang, Hongning},
+  booktitle={The 42nd International ACM SIGIR Conference on Research \& Development in Information Retrieval},
+  year={2019},
+  organization={ACM}
+}
+```
 
 #### "PairRank: Online Pairwise Learning to Rank by Divide-and-Conquer" , TheWebConference 2021.
+```
+@inproceedings{jia2021pairrank,
+  title={Pairrank: Online pairwise learning to rank by divide-and-conquer},
+  author={Jia, Yiling and Wang, Huazheng and Guo, Stephen and Wang, Hongning},
+  booktitle={Proceedings of the Web Conference 2021},
+  pages={146--157},
+  year={2021}
+}
+```
 
 #### "Learning Neural Ranking Models Online from Implicit User Feedback", TheWebConference 2022.
+```
+@article{jia2022learning,
+  title={Learning Neural Ranking Models Online from Implicit User Feedback},
+  author={Jia, Yiling and Wang, Hongning},
+  journal={arXiv preprint arXiv:2201.06658},
+  year={2022}
+}
+```
 
-It was forked from Harrie Oosterhuis's repository for " Differentiable Unbiased Online Learning to Rank" published at
+It was forked from Harrie Oosterhuis's repository for "Differentiable Unbiased Online Learning to Rank" published at
 CIKM 2018, at https://github.com/HarrieO/OnlineLearningToRank. This version supports python 3 while the original
 repository supports python 2.
 
@@ -76,45 +111,6 @@ python scripts/SIGIR2019.py [-h] [--n_runs N_RUNS] [--n_impr N_IMPRESSIONS] [--v
 In the command above, parameters within square brackets are optional. In our papers, we used datasets such as MQ2007 and
 MQ2008 from LETOR 4.0 datasets, the Yahoo! learning to rank challenge dataset, and MSLR-WEB10K dataset. The possible
 click models are described in our papers: inf = informational, nav = navigational, and per = perfect.
-
-Citation
---------
-
-If you use this code to produce results for your scientific publication, please refer to our SIGIR 2019 paper and/or
-SIGIR 2018 paper:
-
-```
-@inproceedings{wang2019variance,
-  title={Variance Reduction in Gradient Exploration for Online Learning to Rank},
-  author={Wang, Huazheng and Kim, Sonwoo and McCord-Snook, Eric and Wu, Qingyun and Wang, Hongning},
-  booktitle={The 42nd International ACM SIGIR Conference on Research \& Development in Information Retrieval},
-  year={2019},
-  organization={ACM}
-}
-
-@inproceedings{wang2018efficient,
-  title={Efficient exploration of gradient space for online learning to rank},
-  author={Wang, Huazheng and Langley, Ramsey and Kim, Sonwoo and McCord-Snook, Eric and Wang, Hongning},
-  booktitle={The 41st International ACM SIGIR Conference on Research \& Development in Information Retrieval},
-  year={2018},
-  organization={ACM}
-}
-
-@inproceedings{jia2021pairrank,
-  title={Pairrank: Online pairwise learning to rank by divide-and-conquer},
-  author={Jia, Yiling and Wang, Huazheng and Guo, Stephen and Wang, Hongning},
-  booktitle={Proceedings of the Web Conference 2021},
-  pages={146--157},
-  year={2021}
-}
-
-@article{jia2022learning,
-  title={Learning Neural Ranking Models Online from Implicit User Feedback},
-  author={Jia, Yiling and Wang, Hongning},
-  journal={arXiv preprint arXiv:2201.06658},
-  year={2022}
-}
-```
 
 License
 -------
