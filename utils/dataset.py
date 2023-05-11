@@ -7,6 +7,7 @@ import os.path
 import gc
 import math
 import pickle
+import os
 
 FOLDDATA_WRITE_VERSION = 3
 
@@ -86,6 +87,7 @@ class DataFold(object):
         self.num_folds = dataset.num_data_folds()
         self.num_runs_per_fold = dataset.num_runs_per_fold(sim_args)
         self._raw_multileave_feat = dataset.multileave_feat()
+
         if not self.validation_data:
             self.heldout_tag = 'TEST'
         else:
@@ -329,13 +331,13 @@ class DataFold(object):
             doclists = []
             labels = []
             _, n_doclists, n_labels, training_features = self._read_file(self.data_path
-                    + 'train.txt', filter_non_uniq=True)
+                    + 'trainingset.txt', filter_non_uniq=True)
             doclists.extend(n_doclists)
             labels.extend(n_labels)
 
             if not validation_as_test and validation_in_train:
                 _, n_doclists, n_labels, training_features = self._read_file(self.data_path
-                        + 'vali.txt', training_features, filter_non_uniq=True)
+                        + 'validationset.txt', training_features, filter_non_uniq=True)
                 doclists.extend(n_doclists)
                 labels.extend(n_labels)
 
@@ -358,9 +360,9 @@ class DataFold(object):
 
         if not train_only and not test_read:
             if not validation_as_test:
-                _, test_doclists, test_labels, _ = self._read_file(self.data_path + 'test.txt')
+                _, test_doclists, test_labels, _ = self._read_file(self.data_path + 'testset.txt')
             else:
-                _, test_doclists, test_labels, _ = self._read_file(self.data_path + 'vali.txt')
+                _, test_doclists, test_labels, _ = self._read_file(self.data_path + 'validationset.txt')
 
             self.test_feature_matrix, self.test_doclist_ranges, self.test_label_vector = \
                 self._convert_featureDicts(test_doclists, test_labels, self.feature_map)

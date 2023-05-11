@@ -1,0 +1,2144 @@
+Wed Apr 26 22:12:40 2023: Starting simulation at run_script-Log-23-04-26-22:12:40.Log is also stored in output file at ./logs/run_script-Log-23-04-26-22:12:40.txtMQ2008
+Wed Apr 26 22:12:40 2023: Read   0: Fold 1 of dataset MQ2008.
+Wed Apr 26 22:12:41 2023: No group information is provided.
+Wed Apr 26 22:12:41 2023: Launch 0: algo/PDBTR/info/1000/10/0.1-0.99999977-1 0 with click model informational on fold 1 from dataset MQ2008.
+Wed Apr 26 22:12:42 2023: Launch 1: algo/PDBTR/info/1000/10/0.1-0.99999977-1 1 with click model informational on fold 1 from dataset MQ2008.
+Wed Apr 26 22:12:43 2023: Launch 2: algo/PDBTR/info/1000/10/0.1-0.99999977-1 2 with click model informational on fold 1 from dataset MQ2008.
+Wed Apr 26 22:12:43 2023: Launch 3: algo/PDBTR/info/1000/10/0.1-0.99999977-1 3 with click model informational on fold 1 from dataset MQ2008.
+Wed Apr 26 22:12:44 2023: Launch 4: algo/PDBTR/info/1000/10/0.1-0.99999977-1 4 with click model informational on fold 1 from dataset MQ2008.
+Wed Apr 26 22:12:45 2023: Launch 5: algo/PDBTR/info/1000/10/0.1-0.99999977-1 5 with click model informational on fold 1 from dataset MQ2008.
+Wed Apr 26 22:12:47 2023: Launch 6: algo/PDBTR/info/1000/10/0.1-0.99999977-1 6 with click model informational on fold 1 from dataset MQ2008.
+Wed Apr 26 22:12:48 2023: Launch 7: algo/PDBTR/info/1000/10/0.1-0.99999977-1 7 with click model informational on fold 1 from dataset MQ2008.
+Wed Apr 26 22:12:49 2023: Launch 8: algo/PDBTR/info/1000/10/0.1-0.99999977-1 8 with click model informational on fold 1 from dataset MQ2008.
+Wed Apr 26 22:12:50 2023: Launch 9: algo/PDBTR/info/1000/10/0.1-0.99999977-1 9 with click model informational on fold 1 from dataset MQ2008.
+Wed Apr 26 22:12:51 2023: Launch 10: algo/PDBTR/info/1000/10/0.1-0.99999977-1 10 with click model informational on fold 1 from dataset MQ2008.
+Wed Apr 26 22:12:52 2023: Launch 11: algo/PDBTR/info/1000/10/0.1-0.99999977-1 11 with click model informational on fold 1 from dataset MQ2008.
+Wed Apr 26 22:12:54 2023: Launch 12: algo/PDBTR/info/1000/10/0.1-0.99999977-1 12 with click model informational on fold 1 from dataset MQ2008.
+Wed Apr 26 22:12:56 2023: Launch 13: algo/PDBTR/info/1000/10/0.1-0.99999977-1 13 with click model informational on fold 1 from dataset MQ2008.
+Wed Apr 26 22:12:58 2023: Launch 14: algo/PDBTR/info/1000/10/0.1-0.99999977-1 14 with click model informational on fold 1 from dataset MQ2008.
+Wed Apr 26 22:13:00 2023: Launch 15: algo/PDBTR/info/1000/10/0.1-0.99999977-1 15 with click model informational on fold 1 from dataset MQ2008.
+Wed Apr 26 22:13:02 2023: Launch 16: algo/PDBTR/info/1000/10/0.1-0.99999977-1 16 with click model informational on fold 1 from dataset MQ2008.
+Wed Apr 26 22:13:03 2023: Launch 17: algo/PDBTR/info/1000/10/0.1-0.99999977-1 17 with click model informational on fold 1 from dataset MQ2008.
+Wed Apr 26 22:13:05 2023: Launch 18: algo/PDBTR/info/1000/10/0.1-0.99999977-1 18 with click model informational on fold 1 from dataset MQ2008.
+Wed Apr 26 22:13:08 2023: Launch 19: algo/PDBTR/info/1000/10/0.1-0.99999977-1 19 with click model informational on fold 1 from dataset MQ2008.
+Wed Apr 26 22:13:11 2023: Launch 20: algo/PDBTR/info/1000/10/0.1-0.99999977-1 20 with click model informational on fold 1 from dataset MQ2008.
+Wed Apr 26 22:13:13 2023: Launch 21: algo/PDBTR/info/1000/10/0.1-0.99999977-1 21 with click model informational on fold 1 from dataset MQ2008.
+Wed Apr 26 22:13:17 2023: Launch 22: algo/PDBTR/info/1000/10/0.1-0.99999977-1 22 with click model informational on fold 1 from dataset MQ2008.
+Wed Apr 26 22:13:19 2023: Launch 23: algo/PDBTR/info/1000/10/0.1-0.99999977-1 23 with click model informational on fold 1 from dataset MQ2008.
+Wed Apr 26 22:13:22 2023: Launch 24: algo/PDBTR/info/1000/10/0.1-0.99999977-1 24 with click model informational on fold 1 from dataset MQ2008.
+Wed Apr 26 22:13:25 2023: Read   1: Fold 2 of dataset MQ2008.
+Wed Apr 26 22:13:39 2023: No group information is provided.
+Wed Apr 26 22:14:11 2023: Launch 25: algo/PDBTR/info/1000/10/0.1-0.99999977-1 0 with click model informational on fold 2 from dataset MQ2008.
+Wed Apr 26 22:14:13 2023: Launch 26: algo/PDBTR/info/1000/10/0.1-0.99999977-1 1 with click model informational on fold 2 from dataset MQ2008.
+Wed Apr 26 22:14:16 2023: Launch 27: algo/PDBTR/info/1000/10/0.1-0.99999977-1 2 with click model informational on fold 2 from dataset MQ2008.
+Wed Apr 26 22:14:19 2023: Launch 28: algo/PDBTR/info/1000/10/0.1-0.99999977-1 3 with click model informational on fold 2 from dataset MQ2008.
+Wed Apr 26 22:14:22 2023: Launch 29: algo/PDBTR/info/1000/10/0.1-0.99999977-1 4 with click model informational on fold 2 from dataset MQ2008.
+Wed Apr 26 22:14:25 2023: Launch 30: algo/PDBTR/info/1000/10/0.1-0.99999977-1 5 with click model informational on fold 2 from dataset MQ2008.
+Wed Apr 26 22:14:29 2023: Launch 31: algo/PDBTR/info/1000/10/0.1-0.99999977-1 6 with click model informational on fold 2 from dataset MQ2008.
+Wed Apr 26 22:14:31 2023: Launch 32: algo/PDBTR/info/1000/10/0.1-0.99999977-1 7 with click model informational on fold 2 from dataset MQ2008.
+Wed Apr 26 22:14:34 2023: Launch 33: algo/PDBTR/info/1000/10/0.1-0.99999977-1 8 with click model informational on fold 2 from dataset MQ2008.
+Wed Apr 26 22:14:39 2023: Launch 34: algo/PDBTR/info/1000/10/0.1-0.99999977-1 9 with click model informational on fold 2 from dataset MQ2008.
+Wed Apr 26 22:14:42 2023: Launch 35: algo/PDBTR/info/1000/10/0.1-0.99999977-1 10 with click model informational on fold 2 from dataset MQ2008.
+Wed Apr 26 22:14:46 2023: Launch 36: algo/PDBTR/info/1000/10/0.1-0.99999977-1 11 with click model informational on fold 2 from dataset MQ2008.
+Wed Apr 26 22:14:59 2023: Launch 37: algo/PDBTR/info/1000/10/0.1-0.99999977-1 12 with click model informational on fold 2 from dataset MQ2008.
+Wed Apr 26 22:15:10 2023: Launch 38: algo/PDBTR/info/1000/10/0.1-0.99999977-1 13 with click model informational on fold 2 from dataset MQ2008.
+Wed Apr 26 22:15:17 2023: Launch 39: algo/PDBTR/info/1000/10/0.1-0.99999977-1 14 with click model informational on fold 2 from dataset MQ2008.
+Wed Apr 26 22:12:41 2023: setting up ranker...
+Wed Apr 26 22:12:41 2023: ranker set up complete
+Wed Apr 26 22:12:41 2023: loop through impressions: 1000
+Wed Apr 26 22:12:44 2023: impressions 100/1000
+Wed Apr 26 22:12:50 2023: impressions 200/1000
+Wed Apr 26 22:12:58 2023: impressions 300/1000
+Wed Apr 26 22:13:08 2023: impressions 400/1000
+Wed Apr 26 22:13:18 2023: impressions 500/1000
+Wed Apr 26 22:13:29 2023: impressions 600/1000
+Wed Apr 26 22:13:41 2023: impressions 700/1000
+Wed Apr 26 22:13:52 2023: impressions 800/1000
+Wed Apr 26 22:14:03 2023: impressions 900/1000
+Wed Apr 26 22:14:14 2023: impressions 1000/1000
+Wed Apr 26 22:14:14 2023: train_ranking
+Wed Apr 26 22:14:14 2023: ranking_labels
+Wed Apr 26 22:12:42 2023: setting up ranker...
+Wed Apr 26 22:12:42 2023: ranker set up complete
+Wed Apr 26 22:12:42 2023: loop through impressions: 1000
+Wed Apr 26 22:12:47 2023: impressions 100/1000
+Wed Apr 26 22:12:52 2023: impressions 200/1000
+Wed Apr 26 22:13:01 2023: impressions 300/1000
+Wed Apr 26 22:13:11 2023: impressions 400/1000
+Wed Apr 26 22:13:20 2023: impressions 500/1000
+Wed Apr 26 22:13:31 2023: impressions 600/1000
+Wed Apr 26 22:13:43 2023: impressions 700/1000
+Wed Apr 26 22:13:56 2023: impressions 800/1000
+Wed Apr 26 22:14:07 2023: impressions 900/1000
+Wed Apr 26 22:14:18 2023: impressions 1000/1000
+Wed Apr 26 22:14:18 2023: train_ranking
+Wed Apr 26 22:14:18 2023: ranking_labels
+Wed Apr 26 22:12:43 2023: setting up ranker...
+Wed Apr 26 22:12:43 2023: ranker set up complete
+Wed Apr 26 22:12:43 2023: loop through impressions: 1000
+Wed Apr 26 22:12:47 2023: impressions 100/1000
+Wed Apr 26 22:12:53 2023: impressions 200/1000
+Wed Apr 26 22:13:01 2023: impressions 300/1000
+Wed Apr 26 22:13:12 2023: impressions 400/1000
+Wed Apr 26 22:13:23 2023: impressions 500/1000
+Wed Apr 26 22:13:36 2023: impressions 600/1000
+Wed Apr 26 22:13:48 2023: impressions 700/1000
+Wed Apr 26 22:14:00 2023: impressions 800/1000
+Wed Apr 26 22:14:10 2023: impressions 900/1000
+Wed Apr 26 22:14:22 2023: impressions 1000/1000
+Wed Apr 26 22:14:22 2023: train_ranking
+Wed Apr 26 22:14:22 2023: ranking_labels
+Wed Apr 26 22:12:44 2023: setting up ranker...
+Wed Apr 26 22:12:44 2023: ranker set up complete
+Wed Apr 26 22:12:44 2023: loop through impressions: 1000
+Wed Apr 26 22:12:49 2023: impressions 100/1000
+Wed Apr 26 22:12:55 2023: impressions 200/1000
+Wed Apr 26 22:13:03 2023: impressions 300/1000
+Wed Apr 26 22:13:12 2023: impressions 400/1000
+Wed Apr 26 22:13:23 2023: impressions 500/1000
+Wed Apr 26 22:13:36 2023: impressions 600/1000
+Wed Apr 26 22:13:48 2023: impressions 700/1000
+Wed Apr 26 22:14:00 2023: impressions 800/1000
+Wed Apr 26 22:14:12 2023: impressions 900/1000
+Wed Apr 26 22:14:23 2023: impressions 1000/1000
+Wed Apr 26 22:14:23 2023: train_ranking
+Wed Apr 26 22:14:23 2023: ranking_labels
+Wed Apr 26 22:12:44 2023: setting up ranker...
+Wed Apr 26 22:12:44 2023: ranker set up complete
+Wed Apr 26 22:12:44 2023: loop through impressions: 1000
+Wed Apr 26 22:12:50 2023: impressions 100/1000
+Wed Apr 26 22:12:58 2023: impressions 200/1000
+Wed Apr 26 22:13:06 2023: impressions 300/1000
+Wed Apr 26 22:13:18 2023: impressions 400/1000
+Wed Apr 26 22:13:30 2023: impressions 500/1000
+Wed Apr 26 22:13:42 2023: impressions 600/1000
+Wed Apr 26 22:13:53 2023: impressions 700/1000
+Wed Apr 26 22:14:06 2023: impressions 800/1000
+Wed Apr 26 22:14:17 2023: impressions 900/1000
+Wed Apr 26 22:14:30 2023: impressions 1000/1000
+Wed Apr 26 22:14:30 2023: train_ranking
+Wed Apr 26 22:14:30 2023: ranking_labels
+Wed Apr 26 22:12:45 2023: setting up ranker...
+Wed Apr 26 22:12:45 2023: ranker set up complete
+Wed Apr 26 22:12:45 2023: loop through impressions: 1000
+Wed Apr 26 22:12:52 2023: impressions 100/1000
+Wed Apr 26 22:12:59 2023: impressions 200/1000
+Wed Apr 26 22:13:09 2023: impressions 300/1000
+Wed Apr 26 22:13:20 2023: impressions 400/1000
+Wed Apr 26 22:13:33 2023: impressions 500/1000
+Wed Apr 26 22:13:45 2023: impressions 600/1000
+Wed Apr 26 22:13:57 2023: impressions 700/1000
+Wed Apr 26 22:14:09 2023: impressions 800/1000
+Wed Apr 26 22:14:20 2023: impressions 900/1000
+Wed Apr 26 22:14:33 2023: impressions 1000/1000
+Wed Apr 26 22:14:33 2023: train_ranking
+Wed Apr 26 22:14:33 2023: ranking_labels
+Wed Apr 26 22:12:48 2023: setting up ranker...
+Wed Apr 26 22:12:48 2023: ranker set up complete
+Wed Apr 26 22:12:48 2023: loop through impressions: 1000
+Wed Apr 26 22:12:55 2023: impressions 100/1000
+Wed Apr 26 22:13:02 2023: impressions 200/1000
+Wed Apr 26 22:13:12 2023: impressions 300/1000
+Wed Apr 26 22:13:23 2023: impressions 400/1000
+Wed Apr 26 22:13:37 2023: impressions 500/1000
+Wed Apr 26 22:13:48 2023: impressions 600/1000
+Wed Apr 26 22:13:59 2023: impressions 700/1000
+Wed Apr 26 22:14:09 2023: impressions 800/1000
+Wed Apr 26 22:14:21 2023: impressions 900/1000
+Wed Apr 26 22:14:34 2023: impressions 1000/1000
+Wed Apr 26 22:14:34 2023: train_ranking
+Wed Apr 26 22:14:34 2023: ranking_labels
+Wed Apr 26 22:12:47 2023: setting up ranker...
+Wed Apr 26 22:12:47 2023: ranker set up complete
+Wed Apr 26 22:12:47 2023: loop through impressions: 1000
+Wed Apr 26 22:12:53 2023: impressions 100/1000
+Wed Apr 26 22:13:03 2023: impressions 200/1000
+Wed Apr 26 22:13:15 2023: impressions 300/1000
+Wed Apr 26 22:13:25 2023: impressions 400/1000
+Wed Apr 26 22:13:37 2023: impressions 500/1000
+Wed Apr 26 22:13:49 2023: impressions 600/1000
+Wed Apr 26 22:14:01 2023: impressions 700/1000
+Wed Apr 26 22:14:13 2023: impressions 800/1000
+Wed Apr 26 22:14:25 2023: impressions 900/1000
+Wed Apr 26 22:14:38 2023: impressions 1000/1000
+Wed Apr 26 22:14:38 2023: train_ranking
+Wed Apr 26 22:14:38 2023: ranking_labels
+Wed Apr 26 22:12:49 2023: setting up ranker...
+Wed Apr 26 22:12:49 2023: ranker set up complete
+Wed Apr 26 22:12:49 2023: loop through impressions: 1000
+Wed Apr 26 22:12:56 2023: impressions 100/1000
+Wed Apr 26 22:13:05 2023: impressions 200/1000
+Wed Apr 26 22:13:17 2023: impressions 300/1000
+Wed Apr 26 22:13:28 2023: impressions 400/1000
+Wed Apr 26 22:13:42 2023: impressions 500/1000
+Wed Apr 26 22:13:53 2023: impressions 600/1000
+Wed Apr 26 22:14:06 2023: impressions 700/1000
+Wed Apr 26 22:14:17 2023: impressions 800/1000
+Wed Apr 26 22:14:30 2023: impressions 900/1000
+Wed Apr 26 22:14:43 2023: impressions 1000/1000
+Wed Apr 26 22:14:43 2023: train_ranking
+Wed Apr 26 22:14:43 2023: ranking_labels
+Wed Apr 26 22:12:50 2023: setting up ranker...
+Wed Apr 26 22:12:50 2023: ranker set up complete
+Wed Apr 26 22:12:50 2023: loop through impressions: 1000
+Wed Apr 26 22:12:57 2023: impressions 100/1000
+Wed Apr 26 22:13:07 2023: impressions 200/1000
+Wed Apr 26 22:13:19 2023: impressions 300/1000
+Wed Apr 26 22:13:31 2023: impressions 400/1000
+Wed Apr 26 22:13:44 2023: impressions 500/1000
+Wed Apr 26 22:13:56 2023: impressions 600/1000
+Wed Apr 26 22:14:08 2023: impressions 700/1000
+Wed Apr 26 22:14:18 2023: impressions 800/1000
+Wed Apr 26 22:14:32 2023: impressions 900/1000
+Wed Apr 26 22:14:44 2023: impressions 1000/1000
+Wed Apr 26 22:14:44 2023: train_ranking
+Wed Apr 26 22:14:44 2023: ranking_labels
+Wed Apr 26 22:12:51 2023: setting up ranker...
+Wed Apr 26 22:12:51 2023: ranker set up complete
+Wed Apr 26 22:12:51 2023: loop through impressions: 1000
+Wed Apr 26 22:12:59 2023: impressions 100/1000
+Wed Apr 26 22:13:09 2023: impressions 200/1000
+Wed Apr 26 22:13:21 2023: impressions 300/1000
+Wed Apr 26 22:13:33 2023: impressions 400/1000
+Wed Apr 26 22:13:45 2023: impressions 500/1000
+Wed Apr 26 22:13:56 2023: impressions 600/1000
+Wed Apr 26 22:14:07 2023: impressions 700/1000
+Wed Apr 26 22:14:19 2023: impressions 800/1000
+Wed Apr 26 22:14:31 2023: impressions 900/1000
+Wed Apr 26 22:14:45 2023: impressions 1000/1000
+Wed Apr 26 22:14:45 2023: train_ranking
+Wed Apr 26 22:14:45 2023: ranking_labels
+Wed Apr 26 22:12:53 2023: setting up ranker...
+Wed Apr 26 22:12:53 2023: ranker set up complete
+Wed Apr 26 22:12:53 2023: loop through impressions: 1000
+Wed Apr 26 22:13:02 2023: impressions 100/1000
+Wed Apr 26 22:13:14 2023: impressions 200/1000
+Wed Apr 26 22:13:25 2023: impressions 300/1000
+Wed Apr 26 22:13:38 2023: impressions 400/1000
+Wed Apr 26 22:13:51 2023: impressions 500/1000
+Wed Apr 26 22:14:02 2023: impressions 600/1000
+Wed Apr 26 22:14:13 2023: impressions 700/1000
+Wed Apr 26 22:14:26 2023: impressions 800/1000
+Wed Apr 26 22:14:38 2023: impressions 900/1000
+Wed Apr 26 22:14:52 2023: impressions 1000/1000
+Wed Apr 26 22:14:52 2023: train_ranking
+Wed Apr 26 22:14:52 2023: ranking_labels
+Wed Apr 26 22:12:54 2023: setting up ranker...
+Wed Apr 26 22:12:54 2023: ranker set up complete
+Wed Apr 26 22:12:54 2023: loop through impressions: 1000
+Wed Apr 26 22:13:04 2023: impressions 100/1000
+Wed Apr 26 22:13:15 2023: impressions 200/1000
+Wed Apr 26 22:13:27 2023: impressions 300/1000
+Wed Apr 26 22:13:40 2023: impressions 400/1000
+Wed Apr 26 22:13:51 2023: impressions 500/1000
+Wed Apr 26 22:14:03 2023: impressions 600/1000
+Wed Apr 26 22:14:14 2023: impressions 700/1000
+Wed Apr 26 22:14:28 2023: impressions 800/1000
+Wed Apr 26 22:14:40 2023: impressions 900/1000
+Wed Apr 26 22:14:53 2023: impressions 1000/1000
+Wed Apr 26 22:14:53 2023: train_ranking
+Wed Apr 26 22:14:53 2023: ranking_labels
+Wed Apr 26 22:12:56 2023: setting up ranker...
+Wed Apr 26 22:12:56 2023: ranker set up complete
+Wed Apr 26 22:12:56 2023: loop through impressions: 1000
+Wed Apr 26 22:13:04 2023: impressions 100/1000
+Wed Apr 26 22:13:15 2023: impressions 200/1000
+Wed Apr 26 22:13:27 2023: impressions 300/1000
+Wed Apr 26 22:13:41 2023: impressions 400/1000
+Wed Apr 26 22:13:53 2023: impressions 500/1000
+Wed Apr 26 22:14:04 2023: impressions 600/1000
+Wed Apr 26 22:14:14 2023: impressions 700/1000
+Wed Apr 26 22:14:30 2023: impressions 800/1000
+Wed Apr 26 22:14:43 2023: impressions 900/1000
+Wed Apr 26 22:14:57 2023: impressions 1000/1000
+Wed Apr 26 22:14:57 2023: train_ranking
+Wed Apr 26 22:14:57 2023: ranking_labels
+Wed Apr 26 22:13:00 2023: setting up ranker...
+Wed Apr 26 22:13:00 2023: ranker set up complete
+Wed Apr 26 22:13:00 2023: loop through impressions: 1000
+Wed Apr 26 22:13:10 2023: impressions 100/1000
+Wed Apr 26 22:13:21 2023: impressions 200/1000
+Wed Apr 26 22:13:33 2023: impressions 300/1000
+Wed Apr 26 22:13:46 2023: impressions 400/1000
+Wed Apr 26 22:13:57 2023: impressions 500/1000
+Wed Apr 26 22:14:07 2023: impressions 600/1000
+Wed Apr 26 22:14:18 2023: impressions 700/1000
+Wed Apr 26 22:14:30 2023: impressions 800/1000
+Wed Apr 26 22:14:44 2023: impressions 900/1000
+Wed Apr 26 22:14:58 2023: impressions 1000/1000
+Wed Apr 26 22:14:58 2023: train_ranking
+Wed Apr 26 22:14:58 2023: ranking_labels
+Wed Apr 26 22:12:58 2023: setting up ranker...
+Wed Apr 26 22:12:58 2023: ranker set up complete
+Wed Apr 26 22:12:58 2023: loop through impressions: 1000
+Wed Apr 26 22:13:08 2023: impressions 100/1000
+Wed Apr 26 22:13:20 2023: impressions 200/1000
+Wed Apr 26 22:13:33 2023: impressions 300/1000
+Wed Apr 26 22:13:45 2023: impressions 400/1000
+Wed Apr 26 22:13:55 2023: impressions 500/1000
+Wed Apr 26 22:14:06 2023: impressions 600/1000
+Wed Apr 26 22:14:18 2023: impressions 700/1000
+Wed Apr 26 22:14:30 2023: impressions 800/1000
+Wed Apr 26 22:14:45 2023: impressions 900/1000
+Wed Apr 26 22:14:59 2023: impressions 1000/1000
+Wed Apr 26 22:14:59 2023: train_ranking
+Wed Apr 26 22:14:59 2023: ranking_labels
+Wed Apr 26 22:13:02 2023: setting up ranker...
+Wed Apr 26 22:13:02 2023: ranker set up complete
+Wed Apr 26 22:13:02 2023: loop through impressions: 1000
+Wed Apr 26 22:13:13 2023: impressions 100/1000
+Wed Apr 26 22:13:24 2023: impressions 200/1000
+Wed Apr 26 22:13:37 2023: impressions 300/1000
+Wed Apr 26 22:13:49 2023: impressions 400/1000
+Wed Apr 26 22:14:00 2023: impressions 500/1000
+Wed Apr 26 22:14:11 2023: impressions 600/1000
+Wed Apr 26 22:14:22 2023: impressions 700/1000
+Wed Apr 26 22:14:36 2023: impressions 800/1000
+Wed Apr 26 22:14:49 2023: impressions 900/1000
+Wed Apr 26 22:14:59 2023: impressions 1000/1000
+Wed Apr 26 22:14:59 2023: train_ranking
+Wed Apr 26 22:14:59 2023: ranking_labels
+Wed Apr 26 22:13:03 2023: setting up ranker...
+Wed Apr 26 22:13:04 2023: ranker set up complete
+Wed Apr 26 22:13:04 2023: loop through impressions: 1000
+Wed Apr 26 22:13:13 2023: impressions 100/1000
+Wed Apr 26 22:13:24 2023: impressions 200/1000
+Wed Apr 26 22:13:36 2023: impressions 300/1000
+Wed Apr 26 22:13:48 2023: impressions 400/1000
+Wed Apr 26 22:14:00 2023: impressions 500/1000
+Wed Apr 26 22:14:12 2023: impressions 600/1000
+Wed Apr 26 22:14:23 2023: impressions 700/1000
+Wed Apr 26 22:14:35 2023: impressions 800/1000
+Wed Apr 26 22:14:50 2023: impressions 900/1000
+Wed Apr 26 22:15:03 2023: impressions 1000/1000
+Wed Apr 26 22:15:03 2023: train_ranking
+Wed Apr 26 22:15:03 2023: ranking_labels
+Wed Apr 26 22:13:06 2023: setting up ranker...
+Wed Apr 26 22:13:06 2023: ranker set up complete
+Wed Apr 26 22:13:06 2023: loop through impressions: 1000
+Wed Apr 26 22:13:17 2023: impressions 100/1000
+Wed Apr 26 22:13:29 2023: impressions 200/1000
+Wed Apr 26 22:13:41 2023: impressions 300/1000
+Wed Apr 26 22:13:52 2023: impressions 400/1000
+Wed Apr 26 22:14:04 2023: impressions 500/1000
+Wed Apr 26 22:14:16 2023: impressions 600/1000
+Wed Apr 26 22:14:28 2023: impressions 700/1000
+Wed Apr 26 22:14:41 2023: impressions 800/1000
+Wed Apr 26 22:14:53 2023: impressions 900/1000
+Wed Apr 26 22:15:05 2023: impressions 1000/1000
+Wed Apr 26 22:15:05 2023: train_ranking
+Wed Apr 26 22:15:05 2023: ranking_labels
+Wed Apr 26 22:13:09 2023: setting up ranker...
+Wed Apr 26 22:13:09 2023: ranker set up complete
+Wed Apr 26 22:13:09 2023: loop through impressions: 1000
+Wed Apr 26 22:13:20 2023: impressions 100/1000
+Wed Apr 26 22:13:32 2023: impressions 200/1000
+Wed Apr 26 22:13:44 2023: impressions 300/1000
+Wed Apr 26 22:13:56 2023: impressions 400/1000
+Wed Apr 26 22:14:08 2023: impressions 500/1000
+Wed Apr 26 22:14:19 2023: impressions 600/1000
+Wed Apr 26 22:14:31 2023: impressions 700/1000
+Wed Apr 26 22:14:46 2023: impressions 800/1000
+Wed Apr 26 22:14:59 2023: impressions 900/1000
+Wed Apr 26 22:15:10 2023: impressions 1000/1000
+Wed Apr 26 22:15:10 2023: train_ranking
+Wed Apr 26 22:15:10 2023: ranking_labels
+Wed Apr 26 22:13:11 2023: setting up ranker...
+Wed Apr 26 22:13:11 2023: ranker set up complete
+Wed Apr 26 22:13:11 2023: loop through impressions: 1000
+Wed Apr 26 22:13:21 2023: impressions 100/1000
+Wed Apr 26 22:13:35 2023: impressions 200/1000
+Wed Apr 26 22:13:46 2023: impressions 300/1000
+Wed Apr 26 22:13:58 2023: impressions 400/1000
+Wed Apr 26 22:14:09 2023: impressions 500/1000
+Wed Apr 26 22:14:21 2023: impressions 600/1000
+Wed Apr 26 22:14:35 2023: impressions 700/1000
+Wed Apr 26 22:14:49 2023: impressions 800/1000
+Wed Apr 26 22:15:00 2023: impressions 900/1000
+Wed Apr 26 22:15:11 2023: impressions 1000/1000
+Wed Apr 26 22:15:11 2023: train_ranking
+Wed Apr 26 22:15:11 2023: ranking_labels
+Wed Apr 26 22:13:14 2023: setting up ranker...
+Wed Apr 26 22:13:14 2023: ranker set up complete
+Wed Apr 26 22:13:14 2023: loop through impressions: 1000
+Wed Apr 26 22:13:26 2023: impressions 100/1000
+Wed Apr 26 22:13:38 2023: impressions 200/1000
+Wed Apr 26 22:13:50 2023: impressions 300/1000
+Wed Apr 26 22:14:02 2023: impressions 400/1000
+Wed Apr 26 22:14:13 2023: impressions 500/1000
+Wed Apr 26 22:14:25 2023: impressions 600/1000
+Wed Apr 26 22:14:40 2023: impressions 700/1000
+Wed Apr 26 22:14:53 2023: impressions 800/1000
+Wed Apr 26 22:15:05 2023: impressions 900/1000
+Wed Apr 26 22:15:14 2023: impressions 1000/1000
+Wed Apr 26 22:15:14 2023: train_ranking
+Wed Apr 26 22:15:14 2023: ranking_labels
+Wed Apr 26 22:13:17 2023: setting up ranker...
+Wed Apr 26 22:13:17 2023: ranker set up complete
+Wed Apr 26 22:13:17 2023: loop through impressions: 1000
+Wed Apr 26 22:13:28 2023: impressions 100/1000
+Wed Apr 26 22:13:41 2023: impressions 200/1000
+Wed Apr 26 22:13:53 2023: impressions 300/1000
+Wed Apr 26 22:14:03 2023: impressions 400/1000
+Wed Apr 26 22:14:15 2023: impressions 500/1000
+Wed Apr 26 22:14:27 2023: impressions 600/1000
+Wed Apr 26 22:14:41 2023: impressions 700/1000
+Wed Apr 26 22:14:54 2023: impressions 800/1000
+Wed Apr 26 22:15:05 2023: impressions 900/1000
+Wed Apr 26 22:15:14 2023: impressions 1000/1000
+Wed Apr 26 22:15:14 2023: train_ranking
+Wed Apr 26 22:15:14 2023: ranking_labels
+Wed Apr 26 22:13:19 2023: setting up ranker...
+Wed Apr 26 22:13:19 2023: ranker set up complete
+Wed Apr 26 22:13:19 2023: loop through impressions: 1000
+Wed Apr 26 22:13:31 2023: impressions 100/1000
+Wed Apr 26 22:13:43 2023: impressions 200/1000
+Wed Apr 26 22:13:55 2023: impressions 300/1000
+Wed Apr 26 22:14:07 2023: impressions 400/1000
+Wed Apr 26 22:14:20 2023: impressions 500/1000
+Wed Apr 26 22:14:31 2023: impressions 600/1000
+Wed Apr 26 22:14:44 2023: impressions 700/1000
+Wed Apr 26 22:14:58 2023: impressions 800/1000
+Wed Apr 26 22:15:09 2023: impressions 900/1000
+Wed Apr 26 22:15:18 2023: impressions 1000/1000
+Wed Apr 26 22:15:18 2023: train_ranking
+Wed Apr 26 22:15:18 2023: ranking_labels
+Wed Apr 26 22:13:22 2023: setting up ranker...
+Wed Apr 26 22:13:22 2023: ranker set up complete
+Wed Apr 26 22:13:22 2023: loop through impressions: 1000
+Wed Apr 26 22:13:37 2023: impressions 100/1000
+Wed Apr 26 22:13:49 2023: impressions 200/1000
+Wed Apr 26 22:14:00 2023: impressions 300/1000
+Wed Apr 26 22:14:11 2023: impressions 400/1000
+Wed Apr 26 22:14:23 2023: impressions 500/1000
+Wed Apr 26 22:14:36 2023: impressions 600/1000
+Wed Apr 26 22:14:50 2023: impressions 700/1000
+Wed Apr 26 22:15:01 2023: impressions 800/1000
+Wed Apr 26 22:15:12 2023: impressions 900/1000
+Wed Apr 26 22:15:21 2023: impressions 1000/1000
+Wed Apr 26 22:15:21 2023: train_ranking
+Wed Apr 26 22:15:21 2023: ranking_labels
+Wed Apr 26 22:15:24 2023: Output 0: algo/PDBTR/info/1000/10/0.1-0.99999977-1 on dataset MQ2008. (1/125)
+Wed Apr 26 22:15:24 2023: Output 1: algo/PDBTR/info/1000/10/0.1-0.99999977-1 on dataset MQ2008. (2/125)
+Wed Apr 26 22:15:26 2023: Output 2: algo/PDBTR/info/1000/10/0.1-0.99999977-1 on dataset MQ2008. (3/125)
+Wed Apr 26 22:15:27 2023: Output 3: algo/PDBTR/info/1000/10/0.1-0.99999977-1 on dataset MQ2008. (4/125)
+Wed Apr 26 22:15:28 2023: Output 4: algo/PDBTR/info/1000/10/0.1-0.99999977-1 on dataset MQ2008. (5/125)
+Wed Apr 26 22:15:30 2023: Output 5: algo/PDBTR/info/1000/10/0.1-0.99999977-1 on dataset MQ2008. (6/125)
+Wed Apr 26 22:15:30 2023: Output 6: algo/PDBTR/info/1000/10/0.1-0.99999977-1 on dataset MQ2008. (7/125)
+Wed Apr 26 22:15:32 2023: Output 7: algo/PDBTR/info/1000/10/0.1-0.99999977-1 on dataset MQ2008. (8/125)
+Wed Apr 26 22:15:33 2023: Output 8: algo/PDBTR/info/1000/10/0.1-0.99999977-1 on dataset MQ2008. (9/125)
+Wed Apr 26 22:15:34 2023: Output 9: algo/PDBTR/info/1000/10/0.1-0.99999977-1 on dataset MQ2008. (10/125)
+Wed Apr 26 22:15:35 2023: Output 10: algo/PDBTR/info/1000/10/0.1-0.99999977-1 on dataset MQ2008. (11/125)
+Wed Apr 26 22:15:36 2023: Output 11: algo/PDBTR/info/1000/10/0.1-0.99999977-1 on dataset MQ2008. (12/125)
+Wed Apr 26 22:15:38 2023: Output 12: algo/PDBTR/info/1000/10/0.1-0.99999977-1 on dataset MQ2008. (13/125)
+Wed Apr 26 22:15:39 2023: Output 13: algo/PDBTR/info/1000/10/0.1-0.99999977-1 on dataset MQ2008. (14/125)
+Wed Apr 26 22:15:41 2023: Output 14: algo/PDBTR/info/1000/10/0.1-0.99999977-1 on dataset MQ2008. (15/125)
+Wed Apr 26 22:15:42 2023: Output 15: algo/PDBTR/info/1000/10/0.1-0.99999977-1 on dataset MQ2008. (16/125)
+Wed Apr 26 22:15:43 2023: Output 16: algo/PDBTR/info/1000/10/0.1-0.99999977-1 on dataset MQ2008. (17/125)
+Wed Apr 26 22:15:44 2023: Output 17: algo/PDBTR/info/1000/10/0.1-0.99999977-1 on dataset MQ2008. (18/125)
+Wed Apr 26 22:15:45 2023: Output 18: algo/PDBTR/info/1000/10/0.1-0.99999977-1 on dataset MQ2008. (19/125)
+Wed Apr 26 22:15:46 2023: Output 19: algo/PDBTR/info/1000/10/0.1-0.99999977-1 on dataset MQ2008. (20/125)
+Wed Apr 26 22:15:48 2023: Output 20: algo/PDBTR/info/1000/10/0.1-0.99999977-1 on dataset MQ2008. (21/125)
+Wed Apr 26 22:15:48 2023: Output 21: algo/PDBTR/info/1000/10/0.1-0.99999977-1 on dataset MQ2008. (22/125)
+Wed Apr 26 22:15:50 2023: Output 22: algo/PDBTR/info/1000/10/0.1-0.99999977-1 on dataset MQ2008. (23/125)
+Wed Apr 26 22:15:51 2023: Output 23: algo/PDBTR/info/1000/10/0.1-0.99999977-1 on dataset MQ2008. (24/125)
+Wed Apr 26 22:15:52 2023: Output 24: algo/PDBTR/info/1000/10/0.1-0.99999977-1 on dataset MQ2008. (25/125)
+Wed Apr 26 22:15:53 2023: Clean  0: Fold 1 of dataset MQ2008.
+Wed Apr 26 22:15:56 2023: Launch 40: algo/PDBTR/info/1000/10/0.1-0.99999977-1 15 with click model informational on fold 2 from dataset MQ2008.
+Wed Apr 26 22:15:58 2023: Launch 41: algo/PDBTR/info/1000/10/0.1-0.99999977-1 16 with click model informational on fold 2 from dataset MQ2008.
+Wed Apr 26 22:16:01 2023: Launch 42: algo/PDBTR/info/1000/10/0.1-0.99999977-1 17 with click model informational on fold 2 from dataset MQ2008.
+Wed Apr 26 22:16:03 2023: Launch 43: algo/PDBTR/info/1000/10/0.1-0.99999977-1 18 with click model informational on fold 2 from dataset MQ2008.
+Wed Apr 26 22:16:05 2023: Launch 44: algo/PDBTR/info/1000/10/0.1-0.99999977-1 19 with click model informational on fold 2 from dataset MQ2008.
+Wed Apr 26 22:16:09 2023: Launch 45: algo/PDBTR/info/1000/10/0.1-0.99999977-1 20 with click model informational on fold 2 from dataset MQ2008.
+Wed Apr 26 22:16:10 2023: Launch 46: algo/PDBTR/info/1000/10/0.1-0.99999977-1 21 with click model informational on fold 2 from dataset MQ2008.
+Wed Apr 26 22:16:14 2023: Launch 47: algo/PDBTR/info/1000/10/0.1-0.99999977-1 22 with click model informational on fold 2 from dataset MQ2008.
+Wed Apr 26 22:16:16 2023: Launch 48: algo/PDBTR/info/1000/10/0.1-0.99999977-1 23 with click model informational on fold 2 from dataset MQ2008.
+Wed Apr 26 22:16:21 2023: Launch 49: algo/PDBTR/info/1000/10/0.1-0.99999977-1 24 with click model informational on fold 2 from dataset MQ2008.
+Wed Apr 26 22:14:11 2023: setting up ranker...
+Wed Apr 26 22:14:11 2023: ranker set up complete
+Wed Apr 26 22:14:11 2023: loop through impressions: 1000
+Wed Apr 26 22:14:23 2023: impressions 100/1000
+Wed Apr 26 22:14:38 2023: impressions 200/1000
+Wed Apr 26 22:14:51 2023: impressions 300/1000
+Wed Apr 26 22:15:02 2023: impressions 400/1000
+Wed Apr 26 22:15:12 2023: impressions 500/1000
+Wed Apr 26 22:15:21 2023: impressions 600/1000
+Wed Apr 26 22:15:31 2023: impressions 700/1000
+Wed Apr 26 22:15:40 2023: impressions 800/1000
+Wed Apr 26 22:15:48 2023: impressions 900/1000
+Wed Apr 26 22:15:58 2023: impressions 1000/1000
+Wed Apr 26 22:15:58 2023: train_ranking
+Wed Apr 26 22:15:58 2023: ranking_labels
+Wed Apr 26 22:14:17 2023: setting up ranker...
+Wed Apr 26 22:14:17 2023: ranker set up complete
+Wed Apr 26 22:14:17 2023: loop through impressions: 1000
+Wed Apr 26 22:14:30 2023: impressions 100/1000
+Wed Apr 26 22:14:44 2023: impressions 200/1000
+Wed Apr 26 22:14:56 2023: impressions 300/1000
+Wed Apr 26 22:15:08 2023: impressions 400/1000
+Wed Apr 26 22:15:17 2023: impressions 500/1000
+Wed Apr 26 22:15:26 2023: impressions 600/1000
+Wed Apr 26 22:15:33 2023: impressions 700/1000
+Wed Apr 26 22:15:41 2023: impressions 800/1000
+Wed Apr 26 22:15:49 2023: impressions 900/1000
+Wed Apr 26 22:15:58 2023: impressions 1000/1000
+Wed Apr 26 22:15:58 2023: train_ranking
+Wed Apr 26 22:15:58 2023: ranking_labels
+Wed Apr 26 22:14:13 2023: setting up ranker...
+Wed Apr 26 22:14:13 2023: ranker set up complete
+Wed Apr 26 22:14:13 2023: loop through impressions: 1000
+Wed Apr 26 22:14:28 2023: impressions 100/1000
+Wed Apr 26 22:14:42 2023: impressions 200/1000
+Wed Apr 26 22:14:54 2023: impressions 300/1000
+Wed Apr 26 22:15:06 2023: impressions 400/1000
+Wed Apr 26 22:15:17 2023: impressions 500/1000
+Wed Apr 26 22:15:25 2023: impressions 600/1000
+Wed Apr 26 22:15:33 2023: impressions 700/1000
+Wed Apr 26 22:15:42 2023: impressions 800/1000
+Wed Apr 26 22:15:51 2023: impressions 900/1000
+Wed Apr 26 22:15:59 2023: impressions 1000/1000
+Wed Apr 26 22:15:59 2023: train_ranking
+Wed Apr 26 22:15:59 2023: ranking_labels
+Wed Apr 26 22:14:20 2023: setting up ranker...
+Wed Apr 26 22:14:20 2023: ranker set up complete
+Wed Apr 26 22:14:20 2023: loop through impressions: 1000
+Wed Apr 26 22:14:32 2023: impressions 100/1000
+Wed Apr 26 22:14:46 2023: impressions 200/1000
+Wed Apr 26 22:14:59 2023: impressions 300/1000
+Wed Apr 26 22:15:10 2023: impressions 400/1000
+Wed Apr 26 22:15:20 2023: impressions 500/1000
+Wed Apr 26 22:15:30 2023: impressions 600/1000
+Wed Apr 26 22:15:37 2023: impressions 700/1000
+Wed Apr 26 22:15:44 2023: impressions 800/1000
+Wed Apr 26 22:15:52 2023: impressions 900/1000
+Wed Apr 26 22:16:01 2023: impressions 1000/1000
+Wed Apr 26 22:16:01 2023: train_ranking
+Wed Apr 26 22:16:01 2023: ranking_labels
+Wed Apr 26 22:14:23 2023: setting up ranker...
+Wed Apr 26 22:14:23 2023: ranker set up complete
+Wed Apr 26 22:14:23 2023: loop through impressions: 1000
+Wed Apr 26 22:14:35 2023: impressions 100/1000
+Wed Apr 26 22:14:49 2023: impressions 200/1000
+Wed Apr 26 22:15:01 2023: impressions 300/1000
+Wed Apr 26 22:15:11 2023: impressions 400/1000
+Wed Apr 26 22:15:20 2023: impressions 500/1000
+Wed Apr 26 22:15:29 2023: impressions 600/1000
+Wed Apr 26 22:15:36 2023: impressions 700/1000
+Wed Apr 26 22:15:44 2023: impressions 800/1000
+Wed Apr 26 22:15:52 2023: impressions 900/1000
+Wed Apr 26 22:16:02 2023: impressions 1000/1000
+Wed Apr 26 22:16:02 2023: train_ranking
+Wed Apr 26 22:16:02 2023: ranking_labels
+Wed Apr 26 22:14:29 2023: setting up ranker...
+Wed Apr 26 22:14:29 2023: ranker set up complete
+Wed Apr 26 22:14:29 2023: loop through impressions: 1000
+Wed Apr 26 22:14:43 2023: impressions 100/1000
+Wed Apr 26 22:14:56 2023: impressions 200/1000
+Wed Apr 26 22:15:07 2023: impressions 300/1000
+Wed Apr 26 22:15:16 2023: impressions 400/1000
+Wed Apr 26 22:15:25 2023: impressions 500/1000
+Wed Apr 26 22:15:33 2023: impressions 600/1000
+Wed Apr 26 22:15:41 2023: impressions 700/1000
+Wed Apr 26 22:15:49 2023: impressions 800/1000
+Wed Apr 26 22:15:57 2023: impressions 900/1000
+Wed Apr 26 22:16:05 2023: impressions 1000/1000
+Wed Apr 26 22:16:05 2023: train_ranking
+Wed Apr 26 22:16:05 2023: ranking_labels
+Wed Apr 26 22:14:34 2023: setting up ranker...
+Wed Apr 26 22:14:34 2023: ranker set up complete
+Wed Apr 26 22:14:34 2023: loop through impressions: 1000
+Wed Apr 26 22:14:49 2023: impressions 100/1000
+Wed Apr 26 22:15:00 2023: impressions 200/1000
+Wed Apr 26 22:15:11 2023: impressions 300/1000
+Wed Apr 26 22:15:20 2023: impressions 400/1000
+Wed Apr 26 22:15:29 2023: impressions 500/1000
+Wed Apr 26 22:15:36 2023: impressions 600/1000
+Wed Apr 26 22:15:43 2023: impressions 700/1000
+Wed Apr 26 22:15:52 2023: impressions 800/1000
+Wed Apr 26 22:16:00 2023: impressions 900/1000
+Wed Apr 26 22:16:06 2023: impressions 1000/1000
+Wed Apr 26 22:16:06 2023: train_ranking
+Wed Apr 26 22:16:06 2023: ranking_labels
+Wed Apr 26 22:14:26 2023: setting up ranker...
+Wed Apr 26 22:14:26 2023: ranker set up complete
+Wed Apr 26 22:14:26 2023: loop through impressions: 1000
+Wed Apr 26 22:14:40 2023: impressions 100/1000
+Wed Apr 26 22:14:54 2023: impressions 200/1000
+Wed Apr 26 22:15:05 2023: impressions 300/1000
+Wed Apr 26 22:15:15 2023: impressions 400/1000
+Wed Apr 26 22:15:24 2023: impressions 500/1000
+Wed Apr 26 22:15:33 2023: impressions 600/1000
+Wed Apr 26 22:15:42 2023: impressions 700/1000
+Wed Apr 26 22:15:50 2023: impressions 800/1000
+Wed Apr 26 22:15:59 2023: impressions 900/1000
+Wed Apr 26 22:16:07 2023: impressions 1000/1000
+Wed Apr 26 22:16:07 2023: train_ranking
+Wed Apr 26 22:16:07 2023: ranking_labels
+Wed Apr 26 22:14:32 2023: setting up ranker...
+Wed Apr 26 22:14:32 2023: ranker set up complete
+Wed Apr 26 22:14:32 2023: loop through impressions: 1000
+Wed Apr 26 22:14:45 2023: impressions 100/1000
+Wed Apr 26 22:15:00 2023: impressions 200/1000
+Wed Apr 26 22:15:10 2023: impressions 300/1000
+Wed Apr 26 22:15:18 2023: impressions 400/1000
+Wed Apr 26 22:15:27 2023: impressions 500/1000
+Wed Apr 26 22:15:34 2023: impressions 600/1000
+Wed Apr 26 22:15:43 2023: impressions 700/1000
+Wed Apr 26 22:15:52 2023: impressions 800/1000
+Wed Apr 26 22:16:01 2023: impressions 900/1000
+Wed Apr 26 22:16:08 2023: impressions 1000/1000
+Wed Apr 26 22:16:08 2023: train_ranking
+Wed Apr 26 22:16:08 2023: ranking_labels
+Wed Apr 26 22:14:42 2023: setting up ranker...
+Wed Apr 26 22:14:42 2023: ranker set up complete
+Wed Apr 26 22:14:42 2023: loop through impressions: 1000
+Wed Apr 26 22:14:55 2023: impressions 100/1000
+Wed Apr 26 22:15:06 2023: impressions 200/1000
+Wed Apr 26 22:15:17 2023: impressions 300/1000
+Wed Apr 26 22:15:25 2023: impressions 400/1000
+Wed Apr 26 22:15:33 2023: impressions 500/1000
+Wed Apr 26 22:15:41 2023: impressions 600/1000
+Wed Apr 26 22:15:48 2023: impressions 700/1000
+Wed Apr 26 22:15:58 2023: impressions 800/1000
+Wed Apr 26 22:16:05 2023: impressions 900/1000
+Wed Apr 26 22:16:13 2023: impressions 1000/1000
+Wed Apr 26 22:16:13 2023: train_ranking
+Wed Apr 26 22:16:13 2023: ranking_labels
+Wed Apr 26 22:14:39 2023: setting up ranker...
+Wed Apr 26 22:14:39 2023: ranker set up complete
+Wed Apr 26 22:14:39 2023: loop through impressions: 1000
+Wed Apr 26 22:14:53 2023: impressions 100/1000
+Wed Apr 26 22:15:04 2023: impressions 200/1000
+Wed Apr 26 22:15:13 2023: impressions 300/1000
+Wed Apr 26 22:15:22 2023: impressions 400/1000
+Wed Apr 26 22:15:31 2023: impressions 500/1000
+Wed Apr 26 22:15:39 2023: impressions 600/1000
+Wed Apr 26 22:15:47 2023: impressions 700/1000
+Wed Apr 26 22:15:56 2023: impressions 800/1000
+Wed Apr 26 22:16:04 2023: impressions 900/1000
+Wed Apr 26 22:16:13 2023: impressions 1000/1000
+Wed Apr 26 22:16:13 2023: train_ranking
+Wed Apr 26 22:16:13 2023: ranking_labels
+Wed Apr 26 22:14:46 2023: setting up ranker...
+Wed Apr 26 22:14:46 2023: ranker set up complete
+Wed Apr 26 22:14:46 2023: loop through impressions: 1000
+Wed Apr 26 22:15:00 2023: impressions 100/1000
+Wed Apr 26 22:15:12 2023: impressions 200/1000
+Wed Apr 26 22:15:22 2023: impressions 300/1000
+Wed Apr 26 22:15:31 2023: impressions 400/1000
+Wed Apr 26 22:15:40 2023: impressions 500/1000
+Wed Apr 26 22:15:49 2023: impressions 600/1000
+Wed Apr 26 22:15:58 2023: impressions 700/1000
+Wed Apr 26 22:16:05 2023: impressions 800/1000
+Wed Apr 26 22:16:13 2023: impressions 900/1000
+Wed Apr 26 22:16:20 2023: impressions 1000/1000
+Wed Apr 26 22:16:20 2023: train_ranking
+Wed Apr 26 22:16:20 2023: ranking_labels
+Wed Apr 26 22:15:00 2023: setting up ranker...
+Wed Apr 26 22:15:00 2023: ranker set up complete
+Wed Apr 26 22:15:00 2023: loop through impressions: 1000
+Wed Apr 26 22:15:11 2023: impressions 100/1000
+Wed Apr 26 22:15:20 2023: impressions 200/1000
+Wed Apr 26 22:15:29 2023: impressions 300/1000
+Wed Apr 26 22:15:37 2023: impressions 400/1000
+Wed Apr 26 22:15:45 2023: impressions 500/1000
+Wed Apr 26 22:15:53 2023: impressions 600/1000
+Wed Apr 26 22:16:03 2023: impressions 700/1000
+Wed Apr 26 22:16:11 2023: impressions 800/1000
+Wed Apr 26 22:16:19 2023: impressions 900/1000
+Wed Apr 26 22:16:26 2023: impressions 1000/1000
+Wed Apr 26 22:16:26 2023: train_ranking
+Wed Apr 26 22:16:26 2023: ranking_labels
+Wed Apr 26 22:15:10 2023: setting up ranker...
+Wed Apr 26 22:15:10 2023: ranker set up complete
+Wed Apr 26 22:15:10 2023: loop through impressions: 1000
+Wed Apr 26 22:15:21 2023: impressions 100/1000
+Wed Apr 26 22:15:30 2023: impressions 200/1000
+Wed Apr 26 22:15:37 2023: impressions 300/1000
+Wed Apr 26 22:15:46 2023: impressions 400/1000
+Wed Apr 26 22:15:55 2023: impressions 500/1000
+Wed Apr 26 22:16:04 2023: impressions 600/1000
+Wed Apr 26 22:16:12 2023: impressions 700/1000
+Wed Apr 26 22:16:20 2023: impressions 800/1000
+Wed Apr 26 22:16:27 2023: impressions 900/1000
+Wed Apr 26 22:16:35 2023: impressions 1000/1000
+Wed Apr 26 22:16:35 2023: train_ranking
+Wed Apr 26 22:16:35 2023: ranking_labels
+Wed Apr 26 22:15:17 2023: setting up ranker...
+Wed Apr 26 22:15:17 2023: ranker set up complete
+Wed Apr 26 22:15:17 2023: loop through impressions: 1000
+Wed Apr 26 22:15:28 2023: impressions 100/1000
+Wed Apr 26 22:15:35 2023: impressions 200/1000
+Wed Apr 26 22:15:44 2023: impressions 300/1000
+Wed Apr 26 22:15:52 2023: impressions 400/1000
+Wed Apr 26 22:16:01 2023: impressions 500/1000
+Wed Apr 26 22:16:09 2023: impressions 600/1000
+Wed Apr 26 22:16:15 2023: impressions 700/1000
+Wed Apr 26 22:16:22 2023: impressions 800/1000
+Wed Apr 26 22:16:31 2023: impressions 900/1000
+Wed Apr 26 22:16:38 2023: impressions 1000/1000
+Wed Apr 26 22:16:38 2023: train_ranking
+Wed Apr 26 22:16:38 2023: ranking_labels
+Wed Apr 26 22:16:22 2023: Read   2: Fold 3 of dataset MQ2008.
+Wed Apr 26 22:16:29 2023: No group information is provided.
+Wed Apr 26 22:16:29 2023: Output 25: algo/PDBTR/info/1000/10/0.1-0.99999977-1 on dataset MQ2008. (26/125)
+Wed Apr 26 22:16:30 2023: Output 26: algo/PDBTR/info/1000/10/0.1-0.99999977-1 on dataset MQ2008. (27/125)
+Wed Apr 26 22:16:31 2023: Output 27: algo/PDBTR/info/1000/10/0.1-0.99999977-1 on dataset MQ2008. (28/125)
+Wed Apr 26 22:16:32 2023: Output 28: algo/PDBTR/info/1000/10/0.1-0.99999977-1 on dataset MQ2008. (29/125)
+Wed Apr 26 22:16:33 2023: Output 29: algo/PDBTR/info/1000/10/0.1-0.99999977-1 on dataset MQ2008. (30/125)
+Wed Apr 26 22:16:34 2023: Output 30: algo/PDBTR/info/1000/10/0.1-0.99999977-1 on dataset MQ2008. (31/125)
+Wed Apr 26 22:16:35 2023: Output 31: algo/PDBTR/info/1000/10/0.1-0.99999977-1 on dataset MQ2008. (32/125)
+Wed Apr 26 22:16:36 2023: Output 32: algo/PDBTR/info/1000/10/0.1-0.99999977-1 on dataset MQ2008. (33/125)
+Wed Apr 26 22:16:37 2023: Output 33: algo/PDBTR/info/1000/10/0.1-0.99999977-1 on dataset MQ2008. (34/125)
+Wed Apr 26 22:16:38 2023: Output 34: algo/PDBTR/info/1000/10/0.1-0.99999977-1 on dataset MQ2008. (35/125)
+Wed Apr 26 22:16:39 2023: Output 35: algo/PDBTR/info/1000/10/0.1-0.99999977-1 on dataset MQ2008. (36/125)
+Wed Apr 26 22:16:40 2023: Output 36: algo/PDBTR/info/1000/10/0.1-0.99999977-1 on dataset MQ2008. (37/125)
+Wed Apr 26 22:16:40 2023: Output 37: algo/PDBTR/info/1000/10/0.1-0.99999977-1 on dataset MQ2008. (38/125)
+Wed Apr 26 22:16:41 2023: Output 38: algo/PDBTR/info/1000/10/0.1-0.99999977-1 on dataset MQ2008. (39/125)
+Wed Apr 26 22:16:42 2023: Output 39: algo/PDBTR/info/1000/10/0.1-0.99999977-1 on dataset MQ2008. (40/125)
+Wed Apr 26 22:16:43 2023: Launch 50: algo/PDBTR/info/1000/10/0.1-0.99999977-1 0 with click model informational on fold 3 from dataset MQ2008.
+Wed Apr 26 22:16:44 2023: Launch 51: algo/PDBTR/info/1000/10/0.1-0.99999977-1 1 with click model informational on fold 3 from dataset MQ2008.
+Wed Apr 26 22:16:45 2023: Launch 52: algo/PDBTR/info/1000/10/0.1-0.99999977-1 2 with click model informational on fold 3 from dataset MQ2008.
+Wed Apr 26 22:16:46 2023: Launch 53: algo/PDBTR/info/1000/10/0.1-0.99999977-1 3 with click model informational on fold 3 from dataset MQ2008.
+Wed Apr 26 22:16:47 2023: Launch 54: algo/PDBTR/info/1000/10/0.1-0.99999977-1 4 with click model informational on fold 3 from dataset MQ2008.
+Wed Apr 26 22:16:49 2023: Launch 55: algo/PDBTR/info/1000/10/0.1-0.99999977-1 5 with click model informational on fold 3 from dataset MQ2008.
+Wed Apr 26 22:16:51 2023: Launch 56: algo/PDBTR/info/1000/10/0.1-0.99999977-1 6 with click model informational on fold 3 from dataset MQ2008.
+Wed Apr 26 22:16:52 2023: Launch 57: algo/PDBTR/info/1000/10/0.1-0.99999977-1 7 with click model informational on fold 3 from dataset MQ2008.
+Wed Apr 26 22:16:54 2023: Launch 58: algo/PDBTR/info/1000/10/0.1-0.99999977-1 8 with click model informational on fold 3 from dataset MQ2008.
+Wed Apr 26 22:16:56 2023: Launch 59: algo/PDBTR/info/1000/10/0.1-0.99999977-1 9 with click model informational on fold 3 from dataset MQ2008.
+Wed Apr 26 22:16:58 2023: Launch 60: algo/PDBTR/info/1000/10/0.1-0.99999977-1 10 with click model informational on fold 3 from dataset MQ2008.
+Wed Apr 26 22:16:59 2023: Launch 61: algo/PDBTR/info/1000/10/0.1-0.99999977-1 11 with click model informational on fold 3 from dataset MQ2008.
+Wed Apr 26 22:17:02 2023: Launch 62: algo/PDBTR/info/1000/10/0.1-0.99999977-1 12 with click model informational on fold 3 from dataset MQ2008.
+Wed Apr 26 22:17:04 2023: Launch 63: algo/PDBTR/info/1000/10/0.1-0.99999977-1 13 with click model informational on fold 3 from dataset MQ2008.
+Wed Apr 26 22:17:06 2023: Launch 64: algo/PDBTR/info/1000/10/0.1-0.99999977-1 14 with click model informational on fold 3 from dataset MQ2008.
+Wed Apr 26 22:17:08 2023: Launch 65: algo/PDBTR/info/1000/10/0.1-0.99999977-1 15 with click model informational on fold 3 from dataset MQ2008.
+Wed Apr 26 22:17:10 2023: Launch 66: algo/PDBTR/info/1000/10/0.1-0.99999977-1 16 with click model informational on fold 3 from dataset MQ2008.
+Wed Apr 26 22:17:12 2023: Launch 67: algo/PDBTR/info/1000/10/0.1-0.99999977-1 17 with click model informational on fold 3 from dataset MQ2008.
+Wed Apr 26 22:17:14 2023: Launch 68: algo/PDBTR/info/1000/10/0.1-0.99999977-1 18 with click model informational on fold 3 from dataset MQ2008.
+Wed Apr 26 22:17:17 2023: Launch 69: algo/PDBTR/info/1000/10/0.1-0.99999977-1 19 with click model informational on fold 3 from dataset MQ2008.
+Wed Apr 26 22:17:21 2023: Launch 70: algo/PDBTR/info/1000/10/0.1-0.99999977-1 20 with click model informational on fold 3 from dataset MQ2008.
+Wed Apr 26 22:17:23 2023: Launch 71: algo/PDBTR/info/1000/10/0.1-0.99999977-1 21 with click model informational on fold 3 from dataset MQ2008.
+Wed Apr 26 22:17:26 2023: Launch 72: algo/PDBTR/info/1000/10/0.1-0.99999977-1 22 with click model informational on fold 3 from dataset MQ2008.
+Wed Apr 26 22:17:28 2023: Launch 73: algo/PDBTR/info/1000/10/0.1-0.99999977-1 23 with click model informational on fold 3 from dataset MQ2008.
+Wed Apr 26 22:17:32 2023: Launch 74: algo/PDBTR/info/1000/10/0.1-0.99999977-1 24 with click model informational on fold 3 from dataset MQ2008.
+Wed Apr 26 22:15:56 2023: setting up ranker...
+Wed Apr 26 22:15:56 2023: ranker set up complete
+Wed Apr 26 22:15:56 2023: loop through impressions: 1000
+Wed Apr 26 22:16:04 2023: impressions 100/1000
+Wed Apr 26 22:16:12 2023: impressions 200/1000
+Wed Apr 26 22:16:19 2023: impressions 300/1000
+Wed Apr 26 22:16:27 2023: impressions 400/1000
+Wed Apr 26 22:16:34 2023: impressions 500/1000
+Wed Apr 26 22:16:41 2023: impressions 600/1000
+Wed Apr 26 22:16:47 2023: impressions 700/1000
+Wed Apr 26 22:16:57 2023: impressions 800/1000
+Wed Apr 26 22:17:07 2023: impressions 900/1000
+Wed Apr 26 22:17:21 2023: impressions 1000/1000
+Wed Apr 26 22:17:21 2023: train_ranking
+Wed Apr 26 22:17:21 2023: ranking_labels
+Wed Apr 26 22:16:01 2023: setting up ranker...
+Wed Apr 26 22:16:01 2023: ranker set up complete
+Wed Apr 26 22:16:01 2023: loop through impressions: 1000
+Wed Apr 26 22:16:08 2023: impressions 100/1000
+Wed Apr 26 22:16:15 2023: impressions 200/1000
+Wed Apr 26 22:16:23 2023: impressions 300/1000
+Wed Apr 26 22:16:30 2023: impressions 400/1000
+Wed Apr 26 22:16:36 2023: impressions 500/1000
+Wed Apr 26 22:16:42 2023: impressions 600/1000
+Wed Apr 26 22:16:50 2023: impressions 700/1000
+Wed Apr 26 22:17:01 2023: impressions 800/1000
+Wed Apr 26 22:17:14 2023: impressions 900/1000
+Wed Apr 26 22:17:29 2023: impressions 1000/1000
+Wed Apr 26 22:17:29 2023: train_ranking
+Wed Apr 26 22:17:29 2023: ranking_labels
+Wed Apr 26 22:15:59 2023: setting up ranker...
+Wed Apr 26 22:15:59 2023: ranker set up complete
+Wed Apr 26 22:15:59 2023: loop through impressions: 1000
+Wed Apr 26 22:16:07 2023: impressions 100/1000
+Wed Apr 26 22:16:14 2023: impressions 200/1000
+Wed Apr 26 22:16:22 2023: impressions 300/1000
+Wed Apr 26 22:16:28 2023: impressions 400/1000
+Wed Apr 26 22:16:35 2023: impressions 500/1000
+Wed Apr 26 22:16:43 2023: impressions 600/1000
+Wed Apr 26 22:16:49 2023: impressions 700/1000
+Wed Apr 26 22:17:01 2023: impressions 800/1000
+Wed Apr 26 22:17:14 2023: impressions 900/1000
+Wed Apr 26 22:17:30 2023: impressions 1000/1000
+Wed Apr 26 22:17:30 2023: train_ranking
+Wed Apr 26 22:17:30 2023: ranking_labels
+Wed Apr 26 22:16:03 2023: setting up ranker...
+Wed Apr 26 22:16:03 2023: ranker set up complete
+Wed Apr 26 22:16:03 2023: loop through impressions: 1000
+Wed Apr 26 22:16:12 2023: impressions 100/1000
+Wed Apr 26 22:16:20 2023: impressions 200/1000
+Wed Apr 26 22:16:27 2023: impressions 300/1000
+Wed Apr 26 22:16:35 2023: impressions 400/1000
+Wed Apr 26 22:16:43 2023: impressions 500/1000
+Wed Apr 26 22:16:51 2023: impressions 600/1000
+Wed Apr 26 22:17:02 2023: impressions 700/1000
+Wed Apr 26 22:17:14 2023: impressions 800/1000
+Wed Apr 26 22:17:27 2023: impressions 900/1000
+Wed Apr 26 22:17:42 2023: impressions 1000/1000
+Wed Apr 26 22:17:42 2023: train_ranking
+Wed Apr 26 22:17:42 2023: ranking_labels
+Wed Apr 26 22:16:06 2023: setting up ranker...
+Wed Apr 26 22:16:06 2023: ranker set up complete
+Wed Apr 26 22:16:06 2023: loop through impressions: 1000
+Wed Apr 26 22:16:14 2023: impressions 100/1000
+Wed Apr 26 22:16:21 2023: impressions 200/1000
+Wed Apr 26 22:16:28 2023: impressions 300/1000
+Wed Apr 26 22:16:35 2023: impressions 400/1000
+Wed Apr 26 22:16:42 2023: impressions 500/1000
+Wed Apr 26 22:16:50 2023: impressions 600/1000
+Wed Apr 26 22:17:00 2023: impressions 700/1000
+Wed Apr 26 22:17:14 2023: impressions 800/1000
+Wed Apr 26 22:17:27 2023: impressions 900/1000
+Wed Apr 26 22:17:43 2023: impressions 1000/1000
+Wed Apr 26 22:17:43 2023: train_ranking
+Wed Apr 26 22:17:43 2023: ranking_labels
+Wed Apr 26 22:16:11 2023: setting up ranker...
+Wed Apr 26 22:16:11 2023: ranker set up complete
+Wed Apr 26 22:16:11 2023: loop through impressions: 1000
+Wed Apr 26 22:16:18 2023: impressions 100/1000
+Wed Apr 26 22:16:25 2023: impressions 200/1000
+Wed Apr 26 22:16:32 2023: impressions 300/1000
+Wed Apr 26 22:16:40 2023: impressions 400/1000
+Wed Apr 26 22:16:46 2023: impressions 500/1000
+Wed Apr 26 22:16:54 2023: impressions 600/1000
+Wed Apr 26 22:17:05 2023: impressions 700/1000
+Wed Apr 26 22:17:20 2023: impressions 800/1000
+Wed Apr 26 22:17:35 2023: impressions 900/1000
+Wed Apr 26 22:17:49 2023: impressions 1000/1000
+Wed Apr 26 22:17:49 2023: train_ranking
+Wed Apr 26 22:17:49 2023: ranking_labels
+Wed Apr 26 22:16:09 2023: setting up ranker...
+Wed Apr 26 22:16:09 2023: ranker set up complete
+Wed Apr 26 22:16:09 2023: loop through impressions: 1000
+Wed Apr 26 22:16:17 2023: impressions 100/1000
+Wed Apr 26 22:16:24 2023: impressions 200/1000
+Wed Apr 26 22:16:32 2023: impressions 300/1000
+Wed Apr 26 22:16:40 2023: impressions 400/1000
+Wed Apr 26 22:16:47 2023: impressions 500/1000
+Wed Apr 26 22:16:56 2023: impressions 600/1000
+Wed Apr 26 22:17:07 2023: impressions 700/1000
+Wed Apr 26 22:17:19 2023: impressions 800/1000
+Wed Apr 26 22:17:33 2023: impressions 900/1000
+Wed Apr 26 22:17:49 2023: impressions 1000/1000
+Wed Apr 26 22:17:49 2023: train_ranking
+Wed Apr 26 22:17:49 2023: ranking_labels
+Wed Apr 26 22:16:16 2023: setting up ranker...
+Wed Apr 26 22:16:16 2023: ranker set up complete
+Wed Apr 26 22:16:16 2023: loop through impressions: 1000
+Wed Apr 26 22:16:24 2023: impressions 100/1000
+Wed Apr 26 22:16:30 2023: impressions 200/1000
+Wed Apr 26 22:16:37 2023: impressions 300/1000
+Wed Apr 26 22:16:44 2023: impressions 400/1000
+Wed Apr 26 22:16:53 2023: impressions 500/1000
+Wed Apr 26 22:17:03 2023: impressions 600/1000
+Wed Apr 26 22:17:16 2023: impressions 700/1000
+Wed Apr 26 22:17:31 2023: impressions 800/1000
+Wed Apr 26 22:17:46 2023: impressions 900/1000
+Wed Apr 26 22:17:57 2023: impressions 1000/1000
+Wed Apr 26 22:17:57 2023: train_ranking
+Wed Apr 26 22:17:57 2023: ranking_labels
+Wed Apr 26 22:16:14 2023: setting up ranker...
+Wed Apr 26 22:16:14 2023: ranker set up complete
+Wed Apr 26 22:16:14 2023: loop through impressions: 1000
+Wed Apr 26 22:16:21 2023: impressions 100/1000
+Wed Apr 26 22:16:30 2023: impressions 200/1000
+Wed Apr 26 22:16:36 2023: impressions 300/1000
+Wed Apr 26 22:16:43 2023: impressions 400/1000
+Wed Apr 26 22:16:52 2023: impressions 500/1000
+Wed Apr 26 22:17:03 2023: impressions 600/1000
+Wed Apr 26 22:17:15 2023: impressions 700/1000
+Wed Apr 26 22:17:31 2023: impressions 800/1000
+Wed Apr 26 22:17:46 2023: impressions 900/1000
+Wed Apr 26 22:17:58 2023: impressions 1000/1000
+Wed Apr 26 22:17:58 2023: train_ranking
+Wed Apr 26 22:17:58 2023: ranking_labels
+Wed Apr 26 22:17:34 2023: Read   3: Fold 4 of dataset MQ2008.
+Wed Apr 26 22:17:48 2023: No group information is provided.
+Wed Apr 26 22:17:49 2023: Output 40: algo/PDBTR/info/1000/10/0.1-0.99999977-1 on dataset MQ2008. (41/125)
+Wed Apr 26 22:17:51 2023: Output 41: algo/PDBTR/info/1000/10/0.1-0.99999977-1 on dataset MQ2008. (42/125)
+Wed Apr 26 22:17:53 2023: Output 42: algo/PDBTR/info/1000/10/0.1-0.99999977-1 on dataset MQ2008. (43/125)
+Wed Apr 26 22:17:54 2023: Output 43: algo/PDBTR/info/1000/10/0.1-0.99999977-1 on dataset MQ2008. (44/125)
+Wed Apr 26 22:17:56 2023: Output 44: algo/PDBTR/info/1000/10/0.1-0.99999977-1 on dataset MQ2008. (45/125)
+Wed Apr 26 22:17:58 2023: Output 45: algo/PDBTR/info/1000/10/0.1-0.99999977-1 on dataset MQ2008. (46/125)
+Wed Apr 26 22:17:59 2023: Output 46: algo/PDBTR/info/1000/10/0.1-0.99999977-1 on dataset MQ2008. (47/125)
+Wed Apr 26 22:18:01 2023: Output 47: algo/PDBTR/info/1000/10/0.1-0.99999977-1 on dataset MQ2008. (48/125)
+Wed Apr 26 22:18:02 2023: Output 48: algo/PDBTR/info/1000/10/0.1-0.99999977-1 on dataset MQ2008. (49/125)
+Wed Apr 26 22:18:07 2023: Launch 75: algo/PDBTR/info/1000/10/0.1-0.99999977-1 0 with click model informational on fold 4 from dataset MQ2008.
+Wed Apr 26 22:18:09 2023: Launch 76: algo/PDBTR/info/1000/10/0.1-0.99999977-1 1 with click model informational on fold 4 from dataset MQ2008.
+Wed Apr 26 22:18:12 2023: Launch 77: algo/PDBTR/info/1000/10/0.1-0.99999977-1 2 with click model informational on fold 4 from dataset MQ2008.
+Wed Apr 26 22:18:14 2023: Launch 78: algo/PDBTR/info/1000/10/0.1-0.99999977-1 3 with click model informational on fold 4 from dataset MQ2008.
+Wed Apr 26 22:18:16 2023: Launch 79: algo/PDBTR/info/1000/10/0.1-0.99999977-1 4 with click model informational on fold 4 from dataset MQ2008.
+Wed Apr 26 22:18:18 2023: Launch 80: algo/PDBTR/info/1000/10/0.1-0.99999977-1 5 with click model informational on fold 4 from dataset MQ2008.
+Wed Apr 26 22:18:23 2023: Launch 81: algo/PDBTR/info/1000/10/0.1-0.99999977-1 6 with click model informational on fold 4 from dataset MQ2008.
+Wed Apr 26 22:18:26 2023: Launch 82: algo/PDBTR/info/1000/10/0.1-0.99999977-1 7 with click model informational on fold 4 from dataset MQ2008.
+Wed Apr 26 22:18:31 2023: Launch 83: algo/PDBTR/info/1000/10/0.1-0.99999977-1 8 with click model informational on fold 4 from dataset MQ2008.
+Wed Apr 26 22:18:36 2023: Launch 84: algo/PDBTR/info/1000/10/0.1-0.99999977-1 9 with click model informational on fold 4 from dataset MQ2008.
+Wed Apr 26 22:18:39 2023: Launch 85: algo/PDBTR/info/1000/10/0.1-0.99999977-1 10 with click model informational on fold 4 from dataset MQ2008.
+Wed Apr 26 22:18:43 2023: Launch 86: algo/PDBTR/info/1000/10/0.1-0.99999977-1 11 with click model informational on fold 4 from dataset MQ2008.
+Wed Apr 26 22:18:46 2023: Launch 87: algo/PDBTR/info/1000/10/0.1-0.99999977-1 12 with click model informational on fold 4 from dataset MQ2008.
+Wed Apr 26 22:18:49 2023: Launch 88: algo/PDBTR/info/1000/10/0.1-0.99999977-1 13 with click model informational on fold 4 from dataset MQ2008.
+Wed Apr 26 22:16:21 2023: setting up ranker...
+Wed Apr 26 22:16:21 2023: ranker set up complete
+Wed Apr 26 22:16:21 2023: loop through impressions: 1000
+Wed Apr 26 22:16:30 2023: impressions 100/1000
+Wed Apr 26 22:16:37 2023: impressions 200/1000
+Wed Apr 26 22:16:43 2023: impressions 300/1000
+Wed Apr 26 22:16:52 2023: impressions 400/1000
+Wed Apr 26 22:17:02 2023: impressions 500/1000
+Wed Apr 26 22:17:15 2023: impressions 600/1000
+Wed Apr 26 22:17:30 2023: impressions 700/1000
+Wed Apr 26 22:17:47 2023: impressions 800/1000
+Wed Apr 26 22:18:00 2023: impressions 900/1000
+Wed Apr 26 22:18:13 2023: impressions 1000/1000
+Wed Apr 26 22:18:13 2023: train_ranking
+Wed Apr 26 22:18:13 2023: ranking_labels
+Wed Apr 26 22:16:43 2023: setting up ranker...
+Wed Apr 26 22:16:43 2023: ranker set up complete
+Wed Apr 26 22:16:43 2023: loop through impressions: 1000
+Wed Apr 26 22:16:52 2023: impressions 100/1000
+Wed Apr 26 22:17:03 2023: impressions 200/1000
+Wed Apr 26 22:17:15 2023: impressions 300/1000
+Wed Apr 26 22:17:29 2023: impressions 400/1000
+Wed Apr 26 22:17:43 2023: impressions 500/1000
+Wed Apr 26 22:17:56 2023: impressions 600/1000
+Wed Apr 26 22:18:09 2023: impressions 700/1000
+Wed Apr 26 22:18:22 2023: impressions 800/1000
+Wed Apr 26 22:18:38 2023: impressions 900/1000
+Wed Apr 26 22:18:56 2023: impressions 1000/1000
+Wed Apr 26 22:18:56 2023: train_ranking
+Wed Apr 26 22:18:56 2023: ranking_labels
+Wed Apr 26 22:16:45 2023: setting up ranker...
+Wed Apr 26 22:16:45 2023: ranker set up complete
+Wed Apr 26 22:16:45 2023: loop through impressions: 1000
+Wed Apr 26 22:16:56 2023: impressions 100/1000
+Wed Apr 26 22:17:07 2023: impressions 200/1000
+Wed Apr 26 22:17:22 2023: impressions 300/1000
+Wed Apr 26 22:17:35 2023: impressions 400/1000
+Wed Apr 26 22:17:49 2023: impressions 500/1000
+Wed Apr 26 22:18:00 2023: impressions 600/1000
+Wed Apr 26 22:18:13 2023: impressions 700/1000
+Wed Apr 26 22:18:27 2023: impressions 800/1000
+Wed Apr 26 22:18:44 2023: impressions 900/1000
+Wed Apr 26 22:19:00 2023: impressions 1000/1000
+Wed Apr 26 22:19:00 2023: train_ranking
+Wed Apr 26 22:19:01 2023: ranking_labels
+Wed Apr 26 22:16:44 2023: setting up ranker...
+Wed Apr 26 22:16:44 2023: ranker set up complete
+Wed Apr 26 22:16:44 2023: loop through impressions: 1000
+Wed Apr 26 22:16:53 2023: impressions 100/1000
+Wed Apr 26 22:17:03 2023: impressions 200/1000
+Wed Apr 26 22:17:17 2023: impressions 300/1000
+Wed Apr 26 22:17:32 2023: impressions 400/1000
+Wed Apr 26 22:17:47 2023: impressions 500/1000
+Wed Apr 26 22:18:00 2023: impressions 600/1000
+Wed Apr 26 22:18:13 2023: impressions 700/1000
+Wed Apr 26 22:18:29 2023: impressions 800/1000
+Wed Apr 26 22:18:45 2023: impressions 900/1000
+Wed Apr 26 22:19:01 2023: impressions 1000/1000
+Wed Apr 26 22:19:01 2023: train_ranking
+Wed Apr 26 22:19:01 2023: ranking_labels
+Wed Apr 26 22:16:48 2023: setting up ranker...
+Wed Apr 26 22:16:48 2023: ranker set up complete
+Wed Apr 26 22:16:48 2023: loop through impressions: 1000
+Wed Apr 26 22:16:57 2023: impressions 100/1000
+Wed Apr 26 22:17:07 2023: impressions 200/1000
+Wed Apr 26 22:17:20 2023: impressions 300/1000
+Wed Apr 26 22:17:34 2023: impressions 400/1000
+Wed Apr 26 22:17:50 2023: impressions 500/1000
+Wed Apr 26 22:18:02 2023: impressions 600/1000
+Wed Apr 26 22:18:14 2023: impressions 700/1000
+Wed Apr 26 22:18:29 2023: impressions 800/1000
+Wed Apr 26 22:18:44 2023: impressions 900/1000
+Wed Apr 26 22:19:01 2023: impressions 1000/1000
+Wed Apr 26 22:19:01 2023: train_ranking
+Wed Apr 26 22:19:01 2023: ranking_labels
+Wed Apr 26 22:16:47 2023: setting up ranker...
+Wed Apr 26 22:16:47 2023: ranker set up complete
+Wed Apr 26 22:16:47 2023: loop through impressions: 1000
+Wed Apr 26 22:16:56 2023: impressions 100/1000
+Wed Apr 26 22:17:09 2023: impressions 200/1000
+Wed Apr 26 22:17:22 2023: impressions 300/1000
+Wed Apr 26 22:17:37 2023: impressions 400/1000
+Wed Apr 26 22:17:50 2023: impressions 500/1000
+Wed Apr 26 22:18:02 2023: impressions 600/1000
+Wed Apr 26 22:18:14 2023: impressions 700/1000
+Wed Apr 26 22:18:29 2023: impressions 800/1000
+Wed Apr 26 22:18:45 2023: impressions 900/1000
+Wed Apr 26 22:19:01 2023: impressions 1000/1000
+Wed Apr 26 22:19:01 2023: train_ranking
+Wed Apr 26 22:19:02 2023: ranking_labels
+Wed Apr 26 22:16:49 2023: setting up ranker...
+Wed Apr 26 22:16:49 2023: ranker set up complete
+Wed Apr 26 22:16:49 2023: loop through impressions: 1000
+Wed Apr 26 22:16:59 2023: impressions 100/1000
+Wed Apr 26 22:17:12 2023: impressions 200/1000
+Wed Apr 26 22:17:25 2023: impressions 300/1000
+Wed Apr 26 22:17:41 2023: impressions 400/1000
+Wed Apr 26 22:17:54 2023: impressions 500/1000
+Wed Apr 26 22:18:05 2023: impressions 600/1000
+Wed Apr 26 22:18:18 2023: impressions 700/1000
+Wed Apr 26 22:18:32 2023: impressions 800/1000
+Wed Apr 26 22:18:47 2023: impressions 900/1000
+Wed Apr 26 22:19:03 2023: impressions 1000/1000
+Wed Apr 26 22:19:03 2023: train_ranking
+Wed Apr 26 22:19:03 2023: ranking_labels
+Wed Apr 26 22:16:53 2023: setting up ranker...
+Wed Apr 26 22:16:53 2023: ranker set up complete
+Wed Apr 26 22:16:53 2023: loop through impressions: 1000
+Wed Apr 26 22:17:03 2023: impressions 100/1000
+Wed Apr 26 22:17:16 2023: impressions 200/1000
+Wed Apr 26 22:17:32 2023: impressions 300/1000
+Wed Apr 26 22:17:45 2023: impressions 400/1000
+Wed Apr 26 22:17:56 2023: impressions 500/1000
+Wed Apr 26 22:18:07 2023: impressions 600/1000
+Wed Apr 26 22:18:20 2023: impressions 700/1000
+Wed Apr 26 22:18:34 2023: impressions 800/1000
+Wed Apr 26 22:18:51 2023: impressions 900/1000
+Wed Apr 26 22:19:08 2023: impressions 1000/1000
+Wed Apr 26 22:19:08 2023: train_ranking
+Wed Apr 26 22:19:08 2023: ranking_labels
+Wed Apr 26 22:16:54 2023: setting up ranker...
+Wed Apr 26 22:16:54 2023: ranker set up complete
+Wed Apr 26 22:16:54 2023: loop through impressions: 1000
+Wed Apr 26 22:17:05 2023: impressions 100/1000
+Wed Apr 26 22:17:18 2023: impressions 200/1000
+Wed Apr 26 22:17:31 2023: impressions 300/1000
+Wed Apr 26 22:17:46 2023: impressions 400/1000
+Wed Apr 26 22:18:00 2023: impressions 500/1000
+Wed Apr 26 22:18:12 2023: impressions 600/1000
+Wed Apr 26 22:18:26 2023: impressions 700/1000
+Wed Apr 26 22:18:41 2023: impressions 800/1000
+Wed Apr 26 22:18:59 2023: impressions 900/1000
+Wed Apr 26 22:19:14 2023: impressions 1000/1000
+Wed Apr 26 22:19:14 2023: train_ranking
+Wed Apr 26 22:19:14 2023: ranking_labels
+Wed Apr 26 22:16:51 2023: setting up ranker...
+Wed Apr 26 22:16:51 2023: ranker set up complete
+Wed Apr 26 22:16:51 2023: loop through impressions: 1000
+Wed Apr 26 22:17:01 2023: impressions 100/1000
+Wed Apr 26 22:17:14 2023: impressions 200/1000
+Wed Apr 26 22:17:27 2023: impressions 300/1000
+Wed Apr 26 22:17:44 2023: impressions 400/1000
+Wed Apr 26 22:17:56 2023: impressions 500/1000
+Wed Apr 26 22:18:09 2023: impressions 600/1000
+Wed Apr 26 22:18:24 2023: impressions 700/1000
+Wed Apr 26 22:18:42 2023: impressions 800/1000
+Wed Apr 26 22:18:58 2023: impressions 900/1000
+Wed Apr 26 22:19:15 2023: impressions 1000/1000
+Wed Apr 26 22:19:15 2023: train_ranking
+Wed Apr 26 22:19:15 2023: ranking_labels
+Wed Apr 26 22:17:00 2023: setting up ranker...
+Wed Apr 26 22:17:00 2023: ranker set up complete
+Wed Apr 26 22:17:00 2023: loop through impressions: 1000
+Wed Apr 26 22:17:13 2023: impressions 100/1000
+Wed Apr 26 22:17:26 2023: impressions 200/1000
+Wed Apr 26 22:17:39 2023: impressions 300/1000
+Wed Apr 26 22:17:51 2023: impressions 400/1000
+Wed Apr 26 22:18:03 2023: impressions 500/1000
+Wed Apr 26 22:18:16 2023: impressions 600/1000
+Wed Apr 26 22:18:31 2023: impressions 700/1000
+Wed Apr 26 22:18:47 2023: impressions 800/1000
+Wed Apr 26 22:19:04 2023: impressions 900/1000
+Wed Apr 26 22:19:19 2023: impressions 1000/1000
+Wed Apr 26 22:19:19 2023: train_ranking
+Wed Apr 26 22:19:19 2023: ranking_labels
+Wed Apr 26 22:16:58 2023: setting up ranker...
+Wed Apr 26 22:16:58 2023: ranker set up complete
+Wed Apr 26 22:16:58 2023: loop through impressions: 1000
+Wed Apr 26 22:17:09 2023: impressions 100/1000
+Wed Apr 26 22:17:22 2023: impressions 200/1000
+Wed Apr 26 22:17:38 2023: impressions 300/1000
+Wed Apr 26 22:17:54 2023: impressions 400/1000
+Wed Apr 26 22:18:06 2023: impressions 500/1000
+Wed Apr 26 22:18:19 2023: impressions 600/1000
+Wed Apr 26 22:18:33 2023: impressions 700/1000
+Wed Apr 26 22:18:47 2023: impressions 800/1000
+Wed Apr 26 22:19:03 2023: impressions 900/1000
+Wed Apr 26 22:19:20 2023: impressions 1000/1000
+Wed Apr 26 22:19:20 2023: train_ranking
+Wed Apr 26 22:19:20 2023: ranking_labels
+Wed Apr 26 22:16:56 2023: setting up ranker...
+Wed Apr 26 22:16:56 2023: ranker set up complete
+Wed Apr 26 22:16:56 2023: loop through impressions: 1000
+Wed Apr 26 22:17:07 2023: impressions 100/1000
+Wed Apr 26 22:17:21 2023: impressions 200/1000
+Wed Apr 26 22:17:34 2023: impressions 300/1000
+Wed Apr 26 22:17:52 2023: impressions 400/1000
+Wed Apr 26 22:18:04 2023: impressions 500/1000
+Wed Apr 26 22:18:17 2023: impressions 600/1000
+Wed Apr 26 22:18:33 2023: impressions 700/1000
+Wed Apr 26 22:18:47 2023: impressions 800/1000
+Wed Apr 26 22:19:05 2023: impressions 900/1000
+Wed Apr 26 22:19:20 2023: impressions 1000/1000
+Wed Apr 26 22:19:20 2023: train_ranking
+Wed Apr 26 22:19:20 2023: ranking_labels
+Wed Apr 26 22:17:04 2023: setting up ranker...
+Wed Apr 26 22:17:04 2023: ranker set up complete
+Wed Apr 26 22:17:04 2023: loop through impressions: 1000
+Wed Apr 26 22:17:14 2023: impressions 100/1000
+Wed Apr 26 22:17:27 2023: impressions 200/1000
+Wed Apr 26 22:17:42 2023: impressions 300/1000
+Wed Apr 26 22:17:55 2023: impressions 400/1000
+Wed Apr 26 22:18:08 2023: impressions 500/1000
+Wed Apr 26 22:18:23 2023: impressions 600/1000
+Wed Apr 26 22:18:37 2023: impressions 700/1000
+Wed Apr 26 22:18:54 2023: impressions 800/1000
+Wed Apr 26 22:19:10 2023: impressions 900/1000
+Wed Apr 26 22:19:25 2023: impressions 1000/1000
+Wed Apr 26 22:19:25 2023: train_ranking
+Wed Apr 26 22:19:25 2023: ranking_labels
+Wed Apr 26 22:17:06 2023: setting up ranker...
+Wed Apr 26 22:17:06 2023: ranker set up complete
+Wed Apr 26 22:17:06 2023: loop through impressions: 1000
+Wed Apr 26 22:17:19 2023: impressions 100/1000
+Wed Apr 26 22:17:33 2023: impressions 200/1000
+Wed Apr 26 22:17:48 2023: impressions 300/1000
+Wed Apr 26 22:18:02 2023: impressions 400/1000
+Wed Apr 26 22:18:13 2023: impressions 500/1000
+Wed Apr 26 22:18:26 2023: impressions 600/1000
+Wed Apr 26 22:18:42 2023: impressions 700/1000
+Wed Apr 26 22:18:57 2023: impressions 800/1000
+Wed Apr 26 22:19:13 2023: impressions 900/1000
+Wed Apr 26 22:19:26 2023: impressions 1000/1000
+Wed Apr 26 22:19:26 2023: train_ranking
+Wed Apr 26 22:19:26 2023: ranking_labels
+Wed Apr 26 22:17:10 2023: setting up ranker...
+Wed Apr 26 22:17:10 2023: ranker set up complete
+Wed Apr 26 22:17:10 2023: loop through impressions: 1000
+Wed Apr 26 22:17:25 2023: impressions 100/1000
+Wed Apr 26 22:17:39 2023: impressions 200/1000
+Wed Apr 26 22:17:52 2023: impressions 300/1000
+Wed Apr 26 22:18:02 2023: impressions 400/1000
+Wed Apr 26 22:18:15 2023: impressions 500/1000
+Wed Apr 26 22:18:28 2023: impressions 600/1000
+Wed Apr 26 22:18:45 2023: impressions 700/1000
+Wed Apr 26 22:19:00 2023: impressions 800/1000
+Wed Apr 26 22:19:15 2023: impressions 900/1000
+Wed Apr 26 22:19:27 2023: impressions 1000/1000
+Wed Apr 26 22:19:27 2023: train_ranking
+Wed Apr 26 22:19:27 2023: ranking_labels
+Wed Apr 26 22:17:02 2023: setting up ranker...
+Wed Apr 26 22:17:02 2023: ranker set up complete
+Wed Apr 26 22:17:02 2023: loop through impressions: 1000
+Wed Apr 26 22:17:13 2023: impressions 100/1000
+Wed Apr 26 22:17:26 2023: impressions 200/1000
+Wed Apr 26 22:17:41 2023: impressions 300/1000
+Wed Apr 26 22:17:55 2023: impressions 400/1000
+Wed Apr 26 22:18:08 2023: impressions 500/1000
+Wed Apr 26 22:18:24 2023: impressions 600/1000
+Wed Apr 26 22:18:40 2023: impressions 700/1000
+Wed Apr 26 22:18:58 2023: impressions 800/1000
+Wed Apr 26 22:19:14 2023: impressions 900/1000
+Wed Apr 26 22:19:28 2023: impressions 1000/1000
+Wed Apr 26 22:19:28 2023: train_ranking
+Wed Apr 26 22:19:28 2023: ranking_labels
+Wed Apr 26 22:17:08 2023: setting up ranker...
+Wed Apr 26 22:17:08 2023: ranker set up complete
+Wed Apr 26 22:17:08 2023: loop through impressions: 1000
+Wed Apr 26 22:17:23 2023: impressions 100/1000
+Wed Apr 26 22:17:35 2023: impressions 200/1000
+Wed Apr 26 22:17:51 2023: impressions 300/1000
+Wed Apr 26 22:18:02 2023: impressions 400/1000
+Wed Apr 26 22:18:14 2023: impressions 500/1000
+Wed Apr 26 22:18:29 2023: impressions 600/1000
+Wed Apr 26 22:18:44 2023: impressions 700/1000
+Wed Apr 26 22:19:03 2023: impressions 800/1000
+Wed Apr 26 22:19:20 2023: impressions 900/1000
+Wed Apr 26 22:19:33 2023: impressions 1000/1000
+Wed Apr 26 22:19:33 2023: train_ranking
+Wed Apr 26 22:19:33 2023: ranking_labels
+Wed Apr 26 22:19:05 2023: Output 49: algo/PDBTR/info/1000/10/0.1-0.99999977-1 on dataset MQ2008. (50/125)
+Wed Apr 26 22:19:07 2023: Output 50: algo/PDBTR/info/1000/10/0.1-0.99999977-1 on dataset MQ2008. (51/125)
+Wed Apr 26 22:19:10 2023: Output 51: algo/PDBTR/info/1000/10/0.1-0.99999977-1 on dataset MQ2008. (52/125)
+Wed Apr 26 22:19:12 2023: Output 52: algo/PDBTR/info/1000/10/0.1-0.99999977-1 on dataset MQ2008. (53/125)
+Wed Apr 26 22:19:14 2023: Output 53: algo/PDBTR/info/1000/10/0.1-0.99999977-1 on dataset MQ2008. (54/125)
+Wed Apr 26 22:19:15 2023: Output 54: algo/PDBTR/info/1000/10/0.1-0.99999977-1 on dataset MQ2008. (55/125)
+Wed Apr 26 22:19:17 2023: Output 55: algo/PDBTR/info/1000/10/0.1-0.99999977-1 on dataset MQ2008. (56/125)
+Wed Apr 26 22:19:19 2023: Output 56: algo/PDBTR/info/1000/10/0.1-0.99999977-1 on dataset MQ2008. (57/125)
+Wed Apr 26 22:19:21 2023: Output 57: algo/PDBTR/info/1000/10/0.1-0.99999977-1 on dataset MQ2008. (58/125)
+Wed Apr 26 22:19:23 2023: Output 58: algo/PDBTR/info/1000/10/0.1-0.99999977-1 on dataset MQ2008. (59/125)
+Wed Apr 26 22:19:24 2023: Output 59: algo/PDBTR/info/1000/10/0.1-0.99999977-1 on dataset MQ2008. (60/125)
+Wed Apr 26 22:19:26 2023: Output 60: algo/PDBTR/info/1000/10/0.1-0.99999977-1 on dataset MQ2008. (61/125)
+Wed Apr 26 22:19:27 2023: Output 61: algo/PDBTR/info/1000/10/0.1-0.99999977-1 on dataset MQ2008. (62/125)
+Wed Apr 26 22:19:29 2023: Output 62: algo/PDBTR/info/1000/10/0.1-0.99999977-1 on dataset MQ2008. (63/125)
+Wed Apr 26 22:19:30 2023: Output 63: algo/PDBTR/info/1000/10/0.1-0.99999977-1 on dataset MQ2008. (64/125)
+Wed Apr 26 22:19:32 2023: Output 64: algo/PDBTR/info/1000/10/0.1-0.99999977-1 on dataset MQ2008. (65/125)
+Wed Apr 26 22:19:33 2023: Output 65: algo/PDBTR/info/1000/10/0.1-0.99999977-1 on dataset MQ2008. (66/125)
+Wed Apr 26 22:19:35 2023: Output 66: algo/PDBTR/info/1000/10/0.1-0.99999977-1 on dataset MQ2008. (67/125)
+Wed Apr 26 22:19:36 2023: Clean  1: Fold 2 of dataset MQ2008.
+Wed Apr 26 22:19:39 2023: Launch 89: algo/PDBTR/info/1000/10/0.1-0.99999977-1 14 with click model informational on fold 4 from dataset MQ2008.
+Wed Apr 26 22:19:44 2023: Launch 90: algo/PDBTR/info/1000/10/0.1-0.99999977-1 15 with click model informational on fold 4 from dataset MQ2008.
+Wed Apr 26 22:19:47 2023: Launch 91: algo/PDBTR/info/1000/10/0.1-0.99999977-1 16 with click model informational on fold 4 from dataset MQ2008.
+Wed Apr 26 22:19:51 2023: Launch 92: algo/PDBTR/info/1000/10/0.1-0.99999977-1 17 with click model informational on fold 4 from dataset MQ2008.
+Wed Apr 26 22:19:54 2023: Launch 93: algo/PDBTR/info/1000/10/0.1-0.99999977-1 18 with click model informational on fold 4 from dataset MQ2008.
+Wed Apr 26 22:19:57 2023: Launch 94: algo/PDBTR/info/1000/10/0.1-0.99999977-1 19 with click model informational on fold 4 from dataset MQ2008.
+Wed Apr 26 22:20:00 2023: Launch 95: algo/PDBTR/info/1000/10/0.1-0.99999977-1 20 with click model informational on fold 4 from dataset MQ2008.
+Wed Apr 26 22:20:04 2023: Launch 96: algo/PDBTR/info/1000/10/0.1-0.99999977-1 21 with click model informational on fold 4 from dataset MQ2008.
+Wed Apr 26 22:20:07 2023: Launch 97: algo/PDBTR/info/1000/10/0.1-0.99999977-1 22 with click model informational on fold 4 from dataset MQ2008.
+Wed Apr 26 22:20:11 2023: Launch 98: algo/PDBTR/info/1000/10/0.1-0.99999977-1 23 with click model informational on fold 4 from dataset MQ2008.
+Wed Apr 26 22:20:14 2023: Launch 99: algo/PDBTR/info/1000/10/0.1-0.99999977-1 24 with click model informational on fold 4 from dataset MQ2008.
+Wed Apr 26 22:17:12 2023: setting up ranker...
+Wed Apr 26 22:17:12 2023: ranker set up complete
+Wed Apr 26 22:17:12 2023: loop through impressions: 1000
+Wed Apr 26 22:17:27 2023: impressions 100/1000
+Wed Apr 26 22:17:43 2023: impressions 200/1000
+Wed Apr 26 22:17:55 2023: impressions 300/1000
+Wed Apr 26 22:18:07 2023: impressions 400/1000
+Wed Apr 26 22:18:22 2023: impressions 500/1000
+Wed Apr 26 22:18:37 2023: impressions 600/1000
+Wed Apr 26 22:18:53 2023: impressions 700/1000
+Wed Apr 26 22:19:09 2023: impressions 800/1000
+Wed Apr 26 22:19:24 2023: impressions 900/1000
+Wed Apr 26 22:19:36 2023: impressions 1000/1000
+Wed Apr 26 22:19:36 2023: train_ranking
+Wed Apr 26 22:19:36 2023: ranking_labels
+Wed Apr 26 22:17:17 2023: setting up ranker...
+Wed Apr 26 22:17:17 2023: ranker set up complete
+Wed Apr 26 22:17:17 2023: loop through impressions: 1000
+Wed Apr 26 22:17:32 2023: impressions 100/1000
+Wed Apr 26 22:17:45 2023: impressions 200/1000
+Wed Apr 26 22:17:57 2023: impressions 300/1000
+Wed Apr 26 22:18:10 2023: impressions 400/1000
+Wed Apr 26 22:18:23 2023: impressions 500/1000
+Wed Apr 26 22:18:37 2023: impressions 600/1000
+Wed Apr 26 22:18:55 2023: impressions 700/1000
+Wed Apr 26 22:19:10 2023: impressions 800/1000
+Wed Apr 26 22:19:24 2023: impressions 900/1000
+Wed Apr 26 22:19:36 2023: impressions 1000/1000
+Wed Apr 26 22:19:36 2023: train_ranking
+Wed Apr 26 22:19:36 2023: ranking_labels
+Wed Apr 26 22:17:21 2023: setting up ranker...
+Wed Apr 26 22:17:21 2023: ranker set up complete
+Wed Apr 26 22:17:21 2023: loop through impressions: 1000
+Wed Apr 26 22:17:36 2023: impressions 100/1000
+Wed Apr 26 22:17:50 2023: impressions 200/1000
+Wed Apr 26 22:18:03 2023: impressions 300/1000
+Wed Apr 26 22:18:15 2023: impressions 400/1000
+Wed Apr 26 22:18:29 2023: impressions 500/1000
+Wed Apr 26 22:18:42 2023: impressions 600/1000
+Wed Apr 26 22:18:57 2023: impressions 700/1000
+Wed Apr 26 22:19:14 2023: impressions 800/1000
+Wed Apr 26 22:19:27 2023: impressions 900/1000
+Wed Apr 26 22:19:37 2023: impressions 1000/1000
+Wed Apr 26 22:19:37 2023: train_ranking
+Wed Apr 26 22:19:37 2023: ranking_labels
+Wed Apr 26 22:17:15 2023: setting up ranker...
+Wed Apr 26 22:17:15 2023: ranker set up complete
+Wed Apr 26 22:17:15 2023: loop through impressions: 1000
+Wed Apr 26 22:17:30 2023: impressions 100/1000
+Wed Apr 26 22:17:44 2023: impressions 200/1000
+Wed Apr 26 22:17:58 2023: impressions 300/1000
+Wed Apr 26 22:18:11 2023: impressions 400/1000
+Wed Apr 26 22:18:24 2023: impressions 500/1000
+Wed Apr 26 22:18:39 2023: impressions 600/1000
+Wed Apr 26 22:18:54 2023: impressions 700/1000
+Wed Apr 26 22:19:11 2023: impressions 800/1000
+Wed Apr 26 22:19:26 2023: impressions 900/1000
+Wed Apr 26 22:19:38 2023: impressions 1000/1000
+Wed Apr 26 22:19:38 2023: train_ranking
+Wed Apr 26 22:19:38 2023: ranking_labels
+Wed Apr 26 22:17:24 2023: setting up ranker...
+Wed Apr 26 22:17:24 2023: ranker set up complete
+Wed Apr 26 22:17:24 2023: loop through impressions: 1000
+Wed Apr 26 22:17:37 2023: impressions 100/1000
+Wed Apr 26 22:17:51 2023: impressions 200/1000
+Wed Apr 26 22:18:05 2023: impressions 300/1000
+Wed Apr 26 22:18:19 2023: impressions 400/1000
+Wed Apr 26 22:18:34 2023: impressions 500/1000
+Wed Apr 26 22:18:48 2023: impressions 600/1000
+Wed Apr 26 22:19:05 2023: impressions 700/1000
+Wed Apr 26 22:19:18 2023: impressions 800/1000
+Wed Apr 26 22:19:31 2023: impressions 900/1000
+Wed Apr 26 22:19:42 2023: impressions 1000/1000
+Wed Apr 26 22:19:42 2023: train_ranking
+Wed Apr 26 22:19:42 2023: ranking_labels
+Wed Apr 26 22:17:26 2023: setting up ranker...
+Wed Apr 26 22:17:26 2023: ranker set up complete
+Wed Apr 26 22:17:26 2023: loop through impressions: 1000
+Wed Apr 26 22:17:42 2023: impressions 100/1000
+Wed Apr 26 22:17:54 2023: impressions 200/1000
+Wed Apr 26 22:18:06 2023: impressions 300/1000
+Wed Apr 26 22:18:19 2023: impressions 400/1000
+Wed Apr 26 22:18:34 2023: impressions 500/1000
+Wed Apr 26 22:18:48 2023: impressions 600/1000
+Wed Apr 26 22:19:06 2023: impressions 700/1000
+Wed Apr 26 22:19:21 2023: impressions 800/1000
+Wed Apr 26 22:19:34 2023: impressions 900/1000
+Wed Apr 26 22:19:43 2023: impressions 1000/1000
+Wed Apr 26 22:19:43 2023: train_ranking
+Wed Apr 26 22:19:43 2023: ranking_labels
+Wed Apr 26 22:17:29 2023: setting up ranker...
+Wed Apr 26 22:17:29 2023: ranker set up complete
+Wed Apr 26 22:17:29 2023: loop through impressions: 1000
+Wed Apr 26 22:17:45 2023: impressions 100/1000
+Wed Apr 26 22:17:59 2023: impressions 200/1000
+Wed Apr 26 22:18:10 2023: impressions 300/1000
+Wed Apr 26 22:18:24 2023: impressions 400/1000
+Wed Apr 26 22:18:39 2023: impressions 500/1000
+Wed Apr 26 22:18:54 2023: impressions 600/1000
+Wed Apr 26 22:19:09 2023: impressions 700/1000
+Wed Apr 26 22:19:21 2023: impressions 800/1000
+Wed Apr 26 22:19:32 2023: impressions 900/1000
+Wed Apr 26 22:19:44 2023: impressions 1000/1000
+Wed Apr 26 22:19:44 2023: train_ranking
+Wed Apr 26 22:19:44 2023: ranking_labels
+Wed Apr 26 22:17:32 2023: setting up ranker...
+Wed Apr 26 22:17:32 2023: ranker set up complete
+Wed Apr 26 22:17:32 2023: loop through impressions: 1000
+Wed Apr 26 22:17:46 2023: impressions 100/1000
+Wed Apr 26 22:17:59 2023: impressions 200/1000
+Wed Apr 26 22:18:11 2023: impressions 300/1000
+Wed Apr 26 22:18:25 2023: impressions 400/1000
+Wed Apr 26 22:18:40 2023: impressions 500/1000
+Wed Apr 26 22:18:55 2023: impressions 600/1000
+Wed Apr 26 22:19:12 2023: impressions 700/1000
+Wed Apr 26 22:19:27 2023: impressions 800/1000
+Wed Apr 26 22:19:37 2023: impressions 900/1000
+Wed Apr 26 22:19:47 2023: impressions 1000/1000
+Wed Apr 26 22:19:47 2023: train_ranking
+Wed Apr 26 22:19:47 2023: ranking_labels
+Wed Apr 26 22:18:07 2023: setting up ranker...
+Wed Apr 26 22:18:07 2023: ranker set up complete
+Wed Apr 26 22:18:07 2023: loop through impressions: 1000
+Wed Apr 26 22:18:22 2023: impressions 100/1000
+Wed Apr 26 22:18:37 2023: impressions 200/1000
+Wed Apr 26 22:18:53 2023: impressions 300/1000
+Wed Apr 26 22:19:08 2023: impressions 400/1000
+Wed Apr 26 22:19:23 2023: impressions 500/1000
+Wed Apr 26 22:19:34 2023: impressions 600/1000
+Wed Apr 26 22:19:44 2023: impressions 700/1000
+Wed Apr 26 22:19:53 2023: impressions 800/1000
+Wed Apr 26 22:20:03 2023: impressions 900/1000
+Wed Apr 26 22:20:13 2023: impressions 1000/1000
+Wed Apr 26 22:20:13 2023: train_ranking
+Wed Apr 26 22:20:13 2023: ranking_labels
+Wed Apr 26 22:18:09 2023: setting up ranker...
+Wed Apr 26 22:18:09 2023: ranker set up complete
+Wed Apr 26 22:18:09 2023: loop through impressions: 1000
+Wed Apr 26 22:18:23 2023: impressions 100/1000
+Wed Apr 26 22:18:38 2023: impressions 200/1000
+Wed Apr 26 22:18:55 2023: impressions 300/1000
+Wed Apr 26 22:19:09 2023: impressions 400/1000
+Wed Apr 26 22:19:26 2023: impressions 500/1000
+Wed Apr 26 22:19:38 2023: impressions 600/1000
+Wed Apr 26 22:19:47 2023: impressions 700/1000
+Wed Apr 26 22:19:57 2023: impressions 800/1000
+Wed Apr 26 22:20:05 2023: impressions 900/1000
+Wed Apr 26 22:20:16 2023: impressions 1000/1000
+Wed Apr 26 22:20:16 2023: train_ranking
+Wed Apr 26 22:20:16 2023: ranking_labels
+Wed Apr 26 22:18:12 2023: setting up ranker...
+Wed Apr 26 22:18:12 2023: ranker set up complete
+Wed Apr 26 22:18:12 2023: loop through impressions: 1000
+Wed Apr 26 22:18:27 2023: impressions 100/1000
+Wed Apr 26 22:18:42 2023: impressions 200/1000
+Wed Apr 26 22:18:58 2023: impressions 300/1000
+Wed Apr 26 22:19:14 2023: impressions 400/1000
+Wed Apr 26 22:19:27 2023: impressions 500/1000
+Wed Apr 26 22:19:39 2023: impressions 600/1000
+Wed Apr 26 22:19:47 2023: impressions 700/1000
+Wed Apr 26 22:19:56 2023: impressions 800/1000
+Wed Apr 26 22:20:06 2023: impressions 900/1000
+Wed Apr 26 22:20:17 2023: impressions 1000/1000
+Wed Apr 26 22:20:17 2023: train_ranking
+Wed Apr 26 22:20:17 2023: ranking_labels
+Wed Apr 26 22:18:16 2023: setting up ranker...
+Wed Apr 26 22:18:16 2023: ranker set up complete
+Wed Apr 26 22:18:16 2023: loop through impressions: 1000
+Wed Apr 26 22:18:31 2023: impressions 100/1000
+Wed Apr 26 22:18:48 2023: impressions 200/1000
+Wed Apr 26 22:19:04 2023: impressions 300/1000
+Wed Apr 26 22:19:17 2023: impressions 400/1000
+Wed Apr 26 22:19:30 2023: impressions 500/1000
+Wed Apr 26 22:19:40 2023: impressions 600/1000
+Wed Apr 26 22:19:49 2023: impressions 700/1000
+Wed Apr 26 22:19:58 2023: impressions 800/1000
+Wed Apr 26 22:20:08 2023: impressions 900/1000
+Wed Apr 26 22:20:20 2023: impressions 1000/1000
+Wed Apr 26 22:20:20 2023: train_ranking
+Wed Apr 26 22:20:20 2023: ranking_labels
+Wed Apr 26 22:18:14 2023: setting up ranker...
+Wed Apr 26 22:18:14 2023: ranker set up complete
+Wed Apr 26 22:18:14 2023: loop through impressions: 1000
+Wed Apr 26 22:18:27 2023: impressions 100/1000
+Wed Apr 26 22:18:43 2023: impressions 200/1000
+Wed Apr 26 22:18:58 2023: impressions 300/1000
+Wed Apr 26 22:19:13 2023: impressions 400/1000
+Wed Apr 26 22:19:27 2023: impressions 500/1000
+Wed Apr 26 22:19:38 2023: impressions 600/1000
+Wed Apr 26 22:19:48 2023: impressions 700/1000
+Wed Apr 26 22:19:57 2023: impressions 800/1000
+Wed Apr 26 22:20:08 2023: impressions 900/1000
+Wed Apr 26 22:20:20 2023: impressions 1000/1000
+Wed Apr 26 22:20:20 2023: train_ranking
+Wed Apr 26 22:20:20 2023: ranking_labels
+Wed Apr 26 22:18:19 2023: setting up ranker...
+Wed Apr 26 22:18:19 2023: ranker set up complete
+Wed Apr 26 22:18:19 2023: loop through impressions: 1000
+Wed Apr 26 22:18:34 2023: impressions 100/1000
+Wed Apr 26 22:18:48 2023: impressions 200/1000
+Wed Apr 26 22:19:05 2023: impressions 300/1000
+Wed Apr 26 22:19:21 2023: impressions 400/1000
+Wed Apr 26 22:19:34 2023: impressions 500/1000
+Wed Apr 26 22:19:44 2023: impressions 600/1000
+Wed Apr 26 22:19:54 2023: impressions 700/1000
+Wed Apr 26 22:20:05 2023: impressions 800/1000
+Wed Apr 26 22:20:16 2023: impressions 900/1000
+Wed Apr 26 22:20:28 2023: impressions 1000/1000
+Wed Apr 26 22:20:28 2023: train_ranking
+Wed Apr 26 22:20:28 2023: ranking_labels
+Wed Apr 26 22:18:23 2023: setting up ranker...
+Wed Apr 26 22:18:23 2023: ranker set up complete
+Wed Apr 26 22:18:23 2023: loop through impressions: 1000
+Wed Apr 26 22:18:40 2023: impressions 100/1000
+Wed Apr 26 22:18:57 2023: impressions 200/1000
+Wed Apr 26 22:19:14 2023: impressions 300/1000
+Wed Apr 26 22:19:28 2023: impressions 400/1000
+Wed Apr 26 22:19:38 2023: impressions 500/1000
+Wed Apr 26 22:19:47 2023: impressions 600/1000
+Wed Apr 26 22:19:56 2023: impressions 700/1000
+Wed Apr 26 22:20:07 2023: impressions 800/1000
+Wed Apr 26 22:20:19 2023: impressions 900/1000
+Wed Apr 26 22:20:29 2023: impressions 1000/1000
+Wed Apr 26 22:20:29 2023: train_ranking
+Wed Apr 26 22:20:29 2023: ranking_labels
+Wed Apr 26 22:18:27 2023: setting up ranker...
+Wed Apr 26 22:18:27 2023: ranker set up complete
+Wed Apr 26 22:18:27 2023: loop through impressions: 1000
+Wed Apr 26 22:18:42 2023: impressions 100/1000
+Wed Apr 26 22:18:59 2023: impressions 200/1000
+Wed Apr 26 22:19:16 2023: impressions 300/1000
+Wed Apr 26 22:19:29 2023: impressions 400/1000
+Wed Apr 26 22:19:39 2023: impressions 500/1000
+Wed Apr 26 22:19:48 2023: impressions 600/1000
+Wed Apr 26 22:19:56 2023: impressions 700/1000
+Wed Apr 26 22:20:07 2023: impressions 800/1000
+Wed Apr 26 22:20:18 2023: impressions 900/1000
+Wed Apr 26 22:20:30 2023: impressions 1000/1000
+Wed Apr 26 22:20:30 2023: train_ranking
+Wed Apr 26 22:20:30 2023: ranking_labels
+Wed Apr 26 22:18:31 2023: setting up ranker...
+Wed Apr 26 22:18:31 2023: ranker set up complete
+Wed Apr 26 22:18:31 2023: loop through impressions: 1000
+Wed Apr 26 22:18:48 2023: impressions 100/1000
+Wed Apr 26 22:19:06 2023: impressions 200/1000
+Wed Apr 26 22:19:21 2023: impressions 300/1000
+Wed Apr 26 22:19:35 2023: impressions 400/1000
+Wed Apr 26 22:19:45 2023: impressions 500/1000
+Wed Apr 26 22:19:54 2023: impressions 600/1000
+Wed Apr 26 22:20:05 2023: impressions 700/1000
+Wed Apr 26 22:20:16 2023: impressions 800/1000
+Wed Apr 26 22:20:26 2023: impressions 900/1000
+Wed Apr 26 22:20:34 2023: impressions 1000/1000
+Wed Apr 26 22:20:34 2023: train_ranking
+Wed Apr 26 22:20:34 2023: ranking_labels
+Wed Apr 26 22:18:36 2023: setting up ranker...
+Wed Apr 26 22:18:36 2023: ranker set up complete
+Wed Apr 26 22:18:36 2023: loop through impressions: 1000
+Wed Apr 26 22:18:53 2023: impressions 100/1000
+Wed Apr 26 22:19:08 2023: impressions 200/1000
+Wed Apr 26 22:19:22 2023: impressions 300/1000
+Wed Apr 26 22:19:34 2023: impressions 400/1000
+Wed Apr 26 22:19:44 2023: impressions 500/1000
+Wed Apr 26 22:19:52 2023: impressions 600/1000
+Wed Apr 26 22:20:02 2023: impressions 700/1000
+Wed Apr 26 22:20:13 2023: impressions 800/1000
+Wed Apr 26 22:20:25 2023: impressions 900/1000
+Wed Apr 26 22:20:35 2023: impressions 1000/1000
+Wed Apr 26 22:20:35 2023: train_ranking
+Wed Apr 26 22:20:35 2023: ranking_labels
+Wed Apr 26 22:18:39 2023: setting up ranker...
+Wed Apr 26 22:18:39 2023: ranker set up complete
+Wed Apr 26 22:18:39 2023: loop through impressions: 1000
+Wed Apr 26 22:18:56 2023: impressions 100/1000
+Wed Apr 26 22:19:12 2023: impressions 200/1000
+Wed Apr 26 22:19:26 2023: impressions 300/1000
+Wed Apr 26 22:19:38 2023: impressions 400/1000
+Wed Apr 26 22:19:47 2023: impressions 500/1000
+Wed Apr 26 22:19:55 2023: impressions 600/1000
+Wed Apr 26 22:20:05 2023: impressions 700/1000
+Wed Apr 26 22:20:16 2023: impressions 800/1000
+Wed Apr 26 22:20:27 2023: impressions 900/1000
+Wed Apr 26 22:20:36 2023: impressions 1000/1000
+Wed Apr 26 22:20:36 2023: train_ranking
+Wed Apr 26 22:20:36 2023: ranking_labels
+Wed Apr 26 22:18:43 2023: setting up ranker...
+Wed Apr 26 22:18:43 2023: ranker set up complete
+Wed Apr 26 22:18:43 2023: loop through impressions: 1000
+Wed Apr 26 22:18:58 2023: impressions 100/1000
+Wed Apr 26 22:19:13 2023: impressions 200/1000
+Wed Apr 26 22:19:27 2023: impressions 300/1000
+Wed Apr 26 22:19:38 2023: impressions 400/1000
+Wed Apr 26 22:19:48 2023: impressions 500/1000
+Wed Apr 26 22:19:58 2023: impressions 600/1000
+Wed Apr 26 22:20:09 2023: impressions 700/1000
+Wed Apr 26 22:20:21 2023: impressions 800/1000
+Wed Apr 26 22:20:32 2023: impressions 900/1000
+Wed Apr 26 22:20:40 2023: impressions 1000/1000
+Wed Apr 26 22:20:40 2023: train_ranking
+Wed Apr 26 22:20:40 2023: ranking_labels
+Wed Apr 26 22:18:49 2023: setting up ranker...
+Wed Apr 26 22:18:49 2023: ranker set up complete
+Wed Apr 26 22:18:49 2023: loop through impressions: 1000
+Wed Apr 26 22:19:07 2023: impressions 100/1000
+Wed Apr 26 22:19:22 2023: impressions 200/1000
+Wed Apr 26 22:19:33 2023: impressions 300/1000
+Wed Apr 26 22:19:43 2023: impressions 400/1000
+Wed Apr 26 22:19:52 2023: impressions 500/1000
+Wed Apr 26 22:20:01 2023: impressions 600/1000
+Wed Apr 26 22:20:12 2023: impressions 700/1000
+Wed Apr 26 22:20:22 2023: impressions 800/1000
+Wed Apr 26 22:20:31 2023: impressions 900/1000
+Wed Apr 26 22:20:40 2023: impressions 1000/1000
+Wed Apr 26 22:20:40 2023: train_ranking
+Wed Apr 26 22:20:40 2023: ranking_labels
+Wed Apr 26 22:18:46 2023: setting up ranker...
+Wed Apr 26 22:18:46 2023: ranker set up complete
+Wed Apr 26 22:18:46 2023: loop through impressions: 1000
+Wed Apr 26 22:19:03 2023: impressions 100/1000
+Wed Apr 26 22:19:19 2023: impressions 200/1000
+Wed Apr 26 22:19:33 2023: impressions 300/1000
+Wed Apr 26 22:19:44 2023: impressions 400/1000
+Wed Apr 26 22:19:54 2023: impressions 500/1000
+Wed Apr 26 22:20:04 2023: impressions 600/1000
+Wed Apr 26 22:20:16 2023: impressions 700/1000
+Wed Apr 26 22:20:27 2023: impressions 800/1000
+Wed Apr 26 22:20:36 2023: impressions 900/1000
+Wed Apr 26 22:20:44 2023: impressions 1000/1000
+Wed Apr 26 22:20:44 2023: train_ranking
+Wed Apr 26 22:20:44 2023: ranking_labels
+Wed Apr 26 22:20:18 2023: Read   4: Fold 5 of dataset MQ2008.
+Wed Apr 26 22:20:34 2023: No group information is provided.
+Wed Apr 26 22:20:34 2023: Output 67: algo/PDBTR/info/1000/10/0.1-0.99999977-1 on dataset MQ2008. (68/125)
+Wed Apr 26 22:20:35 2023: Output 68: algo/PDBTR/info/1000/10/0.1-0.99999977-1 on dataset MQ2008. (69/125)
+Wed Apr 26 22:20:36 2023: Output 69: algo/PDBTR/info/1000/10/0.1-0.99999977-1 on dataset MQ2008. (70/125)
+Wed Apr 26 22:20:37 2023: Output 70: algo/PDBTR/info/1000/10/0.1-0.99999977-1 on dataset MQ2008. (71/125)
+Wed Apr 26 22:20:38 2023: Output 71: algo/PDBTR/info/1000/10/0.1-0.99999977-1 on dataset MQ2008. (72/125)
+Wed Apr 26 22:20:39 2023: Output 72: algo/PDBTR/info/1000/10/0.1-0.99999977-1 on dataset MQ2008. (73/125)
+Wed Apr 26 22:20:40 2023: Output 73: algo/PDBTR/info/1000/10/0.1-0.99999977-1 on dataset MQ2008. (74/125)
+Wed Apr 26 22:20:41 2023: Output 74: algo/PDBTR/info/1000/10/0.1-0.99999977-1 on dataset MQ2008. (75/125)
+Wed Apr 26 22:20:42 2023: Output 75: algo/PDBTR/info/1000/10/0.1-0.99999977-1 on dataset MQ2008. (76/125)
+Wed Apr 26 22:20:43 2023: Output 76: algo/PDBTR/info/1000/10/0.1-0.99999977-1 on dataset MQ2008. (77/125)
+Wed Apr 26 22:20:45 2023: Output 77: algo/PDBTR/info/1000/10/0.1-0.99999977-1 on dataset MQ2008. (78/125)
+Wed Apr 26 22:20:45 2023: Output 78: algo/PDBTR/info/1000/10/0.1-0.99999977-1 on dataset MQ2008. (79/125)
+Wed Apr 26 22:20:46 2023: Output 79: algo/PDBTR/info/1000/10/0.1-0.99999977-1 on dataset MQ2008. (80/125)
+Wed Apr 26 22:20:47 2023: Output 80: algo/PDBTR/info/1000/10/0.1-0.99999977-1 on dataset MQ2008. (81/125)
+Wed Apr 26 22:20:48 2023: Output 81: algo/PDBTR/info/1000/10/0.1-0.99999977-1 on dataset MQ2008. (82/125)
+Wed Apr 26 22:20:49 2023: Output 82: algo/PDBTR/info/1000/10/0.1-0.99999977-1 on dataset MQ2008. (83/125)
+Wed Apr 26 22:20:49 2023: Output 83: algo/PDBTR/info/1000/10/0.1-0.99999977-1 on dataset MQ2008. (84/125)
+Wed Apr 26 22:20:50 2023: Output 84: algo/PDBTR/info/1000/10/0.1-0.99999977-1 on dataset MQ2008. (85/125)
+Wed Apr 26 22:20:52 2023: Output 85: algo/PDBTR/info/1000/10/0.1-0.99999977-1 on dataset MQ2008. (86/125)
+Wed Apr 26 22:20:53 2023: Output 86: algo/PDBTR/info/1000/10/0.1-0.99999977-1 on dataset MQ2008. (87/125)
+Wed Apr 26 22:20:54 2023: Output 87: algo/PDBTR/info/1000/10/0.1-0.99999977-1 on dataset MQ2008. (88/125)
+Wed Apr 26 22:20:55 2023: Output 88: algo/PDBTR/info/1000/10/0.1-0.99999977-1 on dataset MQ2008. (89/125)
+Wed Apr 26 22:20:55 2023: Clean  2: Fold 3 of dataset MQ2008.
+Wed Apr 26 22:20:57 2023: Launch 100: algo/PDBTR/info/1000/10/0.1-0.99999977-1 0 with click model informational on fold 5 from dataset MQ2008.
+Wed Apr 26 22:20:58 2023: Launch 101: algo/PDBTR/info/1000/10/0.1-0.99999977-1 1 with click model informational on fold 5 from dataset MQ2008.
+Wed Apr 26 22:21:00 2023: Launch 102: algo/PDBTR/info/1000/10/0.1-0.99999977-1 2 with click model informational on fold 5 from dataset MQ2008.
+Wed Apr 26 22:21:02 2023: Launch 103: algo/PDBTR/info/1000/10/0.1-0.99999977-1 3 with click model informational on fold 5 from dataset MQ2008.
+Wed Apr 26 22:21:04 2023: Launch 104: algo/PDBTR/info/1000/10/0.1-0.99999977-1 4 with click model informational on fold 5 from dataset MQ2008.
+Wed Apr 26 22:21:05 2023: Launch 105: algo/PDBTR/info/1000/10/0.1-0.99999977-1 5 with click model informational on fold 5 from dataset MQ2008.
+Wed Apr 26 22:21:07 2023: Launch 106: algo/PDBTR/info/1000/10/0.1-0.99999977-1 6 with click model informational on fold 5 from dataset MQ2008.
+Wed Apr 26 22:21:09 2023: Launch 107: algo/PDBTR/info/1000/10/0.1-0.99999977-1 7 with click model informational on fold 5 from dataset MQ2008.
+Wed Apr 26 22:21:11 2023: Launch 108: algo/PDBTR/info/1000/10/0.1-0.99999977-1 8 with click model informational on fold 5 from dataset MQ2008.
+Wed Apr 26 22:21:14 2023: Launch 109: algo/PDBTR/info/1000/10/0.1-0.99999977-1 9 with click model informational on fold 5 from dataset MQ2008.
+Wed Apr 26 22:21:16 2023: Launch 110: algo/PDBTR/info/1000/10/0.1-0.99999977-1 10 with click model informational on fold 5 from dataset MQ2008.
+Wed Apr 26 22:21:18 2023: Launch 111: algo/PDBTR/info/1000/10/0.1-0.99999977-1 11 with click model informational on fold 5 from dataset MQ2008.
+Wed Apr 26 22:21:20 2023: Launch 112: algo/PDBTR/info/1000/10/0.1-0.99999977-1 12 with click model informational on fold 5 from dataset MQ2008.
+Wed Apr 26 22:21:23 2023: Launch 113: algo/PDBTR/info/1000/10/0.1-0.99999977-1 13 with click model informational on fold 5 from dataset MQ2008.
+Wed Apr 26 22:21:26 2023: Launch 114: algo/PDBTR/info/1000/10/0.1-0.99999977-1 14 with click model informational on fold 5 from dataset MQ2008.
+Wed Apr 26 22:21:28 2023: Launch 115: algo/PDBTR/info/1000/10/0.1-0.99999977-1 15 with click model informational on fold 5 from dataset MQ2008.
+Wed Apr 26 22:21:30 2023: Launch 116: algo/PDBTR/info/1000/10/0.1-0.99999977-1 16 with click model informational on fold 5 from dataset MQ2008.
+Wed Apr 26 22:21:34 2023: Launch 117: algo/PDBTR/info/1000/10/0.1-0.99999977-1 17 with click model informational on fold 5 from dataset MQ2008.
+Wed Apr 26 22:21:41 2023: Launch 118: algo/PDBTR/info/1000/10/0.1-0.99999977-1 18 with click model informational on fold 5 from dataset MQ2008.
+Wed Apr 26 22:21:48 2023: Launch 119: algo/PDBTR/info/1000/10/0.1-0.99999977-1 19 with click model informational on fold 5 from dataset MQ2008.
+Wed Apr 26 22:21:50 2023: Launch 120: algo/PDBTR/info/1000/10/0.1-0.99999977-1 20 with click model informational on fold 5 from dataset MQ2008.
+Wed Apr 26 22:21:53 2023: Launch 121: algo/PDBTR/info/1000/10/0.1-0.99999977-1 21 with click model informational on fold 5 from dataset MQ2008.
+Wed Apr 26 22:21:56 2023: Launch 122: algo/PDBTR/info/1000/10/0.1-0.99999977-1 22 with click model informational on fold 5 from dataset MQ2008.
+Wed Apr 26 22:21:58 2023: Launch 123: algo/PDBTR/info/1000/10/0.1-0.99999977-1 23 with click model informational on fold 5 from dataset MQ2008.
+Wed Apr 26 22:22:00 2023: Launch 124: algo/PDBTR/info/1000/10/0.1-0.99999977-1 24 with click model informational on fold 5 from dataset MQ2008.
+Wed Apr 26 22:19:44 2023: setting up ranker...
+Wed Apr 26 22:19:44 2023: ranker set up complete
+Wed Apr 26 22:19:44 2023: loop through impressions: 1000
+Wed Apr 26 22:19:54 2023: impressions 100/1000
+Wed Apr 26 22:20:04 2023: impressions 200/1000
+Wed Apr 26 22:20:14 2023: impressions 300/1000
+Wed Apr 26 22:20:25 2023: impressions 400/1000
+Wed Apr 26 22:20:34 2023: impressions 500/1000
+Wed Apr 26 22:20:41 2023: impressions 600/1000
+Wed Apr 26 22:20:48 2023: impressions 700/1000
+Wed Apr 26 22:20:56 2023: impressions 800/1000
+Wed Apr 26 22:21:03 2023: impressions 900/1000
+Wed Apr 26 22:21:12 2023: impressions 1000/1000
+Wed Apr 26 22:21:12 2023: train_ranking
+Wed Apr 26 22:21:12 2023: ranking_labels
+Wed Apr 26 22:19:39 2023: setting up ranker...
+Wed Apr 26 22:19:39 2023: ranker set up complete
+Wed Apr 26 22:19:39 2023: loop through impressions: 1000
+Wed Apr 26 22:19:48 2023: impressions 100/1000
+Wed Apr 26 22:19:58 2023: impressions 200/1000
+Wed Apr 26 22:20:10 2023: impressions 300/1000
+Wed Apr 26 22:20:20 2023: impressions 400/1000
+Wed Apr 26 22:20:30 2023: impressions 500/1000
+Wed Apr 26 22:20:39 2023: impressions 600/1000
+Wed Apr 26 22:20:47 2023: impressions 700/1000
+Wed Apr 26 22:20:56 2023: impressions 800/1000
+Wed Apr 26 22:21:06 2023: impressions 900/1000
+Wed Apr 26 22:21:17 2023: impressions 1000/1000
+Wed Apr 26 22:21:17 2023: train_ranking
+Wed Apr 26 22:21:17 2023: ranking_labels
+Wed Apr 26 22:19:47 2023: setting up ranker...
+Wed Apr 26 22:19:47 2023: ranker set up complete
+Wed Apr 26 22:19:47 2023: loop through impressions: 1000
+Wed Apr 26 22:19:57 2023: impressions 100/1000
+Wed Apr 26 22:20:09 2023: impressions 200/1000
+Wed Apr 26 22:20:21 2023: impressions 300/1000
+Wed Apr 26 22:20:30 2023: impressions 400/1000
+Wed Apr 26 22:20:38 2023: impressions 500/1000
+Wed Apr 26 22:20:46 2023: impressions 600/1000
+Wed Apr 26 22:20:55 2023: impressions 700/1000
+Wed Apr 26 22:21:02 2023: impressions 800/1000
+Wed Apr 26 22:21:13 2023: impressions 900/1000
+Wed Apr 26 22:21:24 2023: impressions 1000/1000
+Wed Apr 26 22:21:24 2023: train_ranking
+Wed Apr 26 22:21:24 2023: ranking_labels
+Wed Apr 26 22:19:51 2023: setting up ranker...
+Wed Apr 26 22:19:51 2023: ranker set up complete
+Wed Apr 26 22:19:51 2023: loop through impressions: 1000
+Wed Apr 26 22:20:01 2023: impressions 100/1000
+Wed Apr 26 22:20:13 2023: impressions 200/1000
+Wed Apr 26 22:20:23 2023: impressions 300/1000
+Wed Apr 26 22:20:32 2023: impressions 400/1000
+Wed Apr 26 22:20:41 2023: impressions 500/1000
+Wed Apr 26 22:20:48 2023: impressions 600/1000
+Wed Apr 26 22:20:57 2023: impressions 700/1000
+Wed Apr 26 22:21:05 2023: impressions 800/1000
+Wed Apr 26 22:21:16 2023: impressions 900/1000
+Wed Apr 26 22:21:27 2023: impressions 1000/1000
+Wed Apr 26 22:21:27 2023: train_ranking
+Wed Apr 26 22:21:27 2023: ranking_labels
+Wed Apr 26 22:19:54 2023: setting up ranker...
+Wed Apr 26 22:19:54 2023: ranker set up complete
+Wed Apr 26 22:19:54 2023: loop through impressions: 1000
+Wed Apr 26 22:20:04 2023: impressions 100/1000
+Wed Apr 26 22:20:14 2023: impressions 200/1000
+Wed Apr 26 22:20:25 2023: impressions 300/1000
+Wed Apr 26 22:20:35 2023: impressions 400/1000
+Wed Apr 26 22:20:42 2023: impressions 500/1000
+Wed Apr 26 22:20:49 2023: impressions 600/1000
+Wed Apr 26 22:20:59 2023: impressions 700/1000
+Wed Apr 26 22:21:09 2023: impressions 800/1000
+Wed Apr 26 22:21:20 2023: impressions 900/1000
+Wed Apr 26 22:21:34 2023: impressions 1000/1000
+Wed Apr 26 22:21:34 2023: train_ranking
+Wed Apr 26 22:21:35 2023: ranking_labels
+Wed Apr 26 22:20:00 2023: setting up ranker...
+Wed Apr 26 22:20:00 2023: ranker set up complete
+Wed Apr 26 22:20:00 2023: loop through impressions: 1000
+Wed Apr 26 22:20:11 2023: impressions 100/1000
+Wed Apr 26 22:20:22 2023: impressions 200/1000
+Wed Apr 26 22:20:33 2023: impressions 300/1000
+Wed Apr 26 22:20:41 2023: impressions 400/1000
+Wed Apr 26 22:20:48 2023: impressions 500/1000
+Wed Apr 26 22:20:55 2023: impressions 600/1000
+Wed Apr 26 22:21:04 2023: impressions 700/1000
+Wed Apr 26 22:21:14 2023: impressions 800/1000
+Wed Apr 26 22:21:25 2023: impressions 900/1000
+Wed Apr 26 22:21:38 2023: impressions 1000/1000
+Wed Apr 26 22:21:38 2023: train_ranking
+Wed Apr 26 22:21:38 2023: ranking_labels
+Wed Apr 26 22:19:57 2023: setting up ranker...
+Wed Apr 26 22:19:57 2023: ranker set up complete
+Wed Apr 26 22:19:57 2023: loop through impressions: 1000
+Wed Apr 26 22:20:08 2023: impressions 100/1000
+Wed Apr 26 22:20:20 2023: impressions 200/1000
+Wed Apr 26 22:20:31 2023: impressions 300/1000
+Wed Apr 26 22:20:40 2023: impressions 400/1000
+Wed Apr 26 22:20:48 2023: impressions 500/1000
+Wed Apr 26 22:20:57 2023: impressions 600/1000
+Wed Apr 26 22:21:06 2023: impressions 700/1000
+Wed Apr 26 22:21:19 2023: impressions 800/1000
+Wed Apr 26 22:21:30 2023: impressions 900/1000
+Wed Apr 26 22:21:45 2023: impressions 1000/1000
+Wed Apr 26 22:21:45 2023: train_ranking
+Wed Apr 26 22:21:45 2023: ranking_labels
+Wed Apr 26 22:20:04 2023: setting up ranker...
+Wed Apr 26 22:20:04 2023: ranker set up complete
+Wed Apr 26 22:20:04 2023: loop through impressions: 1000
+Wed Apr 26 22:20:16 2023: impressions 100/1000
+Wed Apr 26 22:20:27 2023: impressions 200/1000
+Wed Apr 26 22:20:35 2023: impressions 300/1000
+Wed Apr 26 22:20:43 2023: impressions 400/1000
+Wed Apr 26 22:20:48 2023: impressions 500/1000
+Wed Apr 26 22:20:59 2023: impressions 600/1000
+Wed Apr 26 22:21:09 2023: impressions 700/1000
+Wed Apr 26 22:21:20 2023: impressions 800/1000
+Wed Apr 26 22:21:33 2023: impressions 900/1000
+Wed Apr 26 22:21:49 2023: impressions 1000/1000
+Wed Apr 26 22:21:49 2023: train_ranking
+Wed Apr 26 22:21:49 2023: ranking_labels
+Wed Apr 26 22:20:07 2023: setting up ranker...
+Wed Apr 26 22:20:07 2023: ranker set up complete
+Wed Apr 26 22:20:07 2023: loop through impressions: 1000
+Wed Apr 26 22:20:20 2023: impressions 100/1000
+Wed Apr 26 22:20:30 2023: impressions 200/1000
+Wed Apr 26 22:20:39 2023: impressions 300/1000
+Wed Apr 26 22:20:46 2023: impressions 400/1000
+Wed Apr 26 22:20:54 2023: impressions 500/1000
+Wed Apr 26 22:21:02 2023: impressions 600/1000
+Wed Apr 26 22:21:14 2023: impressions 700/1000
+Wed Apr 26 22:21:25 2023: impressions 800/1000
+Wed Apr 26 22:21:39 2023: impressions 900/1000
+Wed Apr 26 22:21:53 2023: impressions 1000/1000
+Wed Apr 26 22:21:53 2023: train_ranking
+Wed Apr 26 22:21:53 2023: ranking_labels
+Wed Apr 26 22:20:15 2023: setting up ranker...
+Wed Apr 26 22:20:15 2023: ranker set up complete
+Wed Apr 26 22:20:15 2023: loop through impressions: 1000
+Wed Apr 26 22:20:27 2023: impressions 100/1000
+Wed Apr 26 22:20:37 2023: impressions 200/1000
+Wed Apr 26 22:20:44 2023: impressions 300/1000
+Wed Apr 26 22:20:50 2023: impressions 400/1000
+Wed Apr 26 22:20:57 2023: impressions 500/1000
+Wed Apr 26 22:21:07 2023: impressions 600/1000
+Wed Apr 26 22:21:18 2023: impressions 700/1000
+Wed Apr 26 22:21:29 2023: impressions 800/1000
+Wed Apr 26 22:21:43 2023: impressions 900/1000
+Wed Apr 26 22:21:58 2023: impressions 1000/1000
+Wed Apr 26 22:21:58 2023: train_ranking
+Wed Apr 26 22:21:58 2023: ranking_labels
+Wed Apr 26 22:20:11 2023: setting up ranker...
+Wed Apr 26 22:20:11 2023: ranker set up complete
+Wed Apr 26 22:20:11 2023: loop through impressions: 1000
+Wed Apr 26 22:20:25 2023: impressions 100/1000
+Wed Apr 26 22:20:35 2023: impressions 200/1000
+Wed Apr 26 22:20:43 2023: impressions 300/1000
+Wed Apr 26 22:20:49 2023: impressions 400/1000
+Wed Apr 26 22:20:59 2023: impressions 500/1000
+Wed Apr 26 22:21:10 2023: impressions 600/1000
+Wed Apr 26 22:21:21 2023: impressions 700/1000
+Wed Apr 26 22:21:33 2023: impressions 800/1000
+Wed Apr 26 22:21:48 2023: impressions 900/1000
+Wed Apr 26 22:22:01 2023: impressions 1000/1000
+Wed Apr 26 22:22:01 2023: train_ranking
+Wed Apr 26 22:22:01 2023: ranking_labels
+Wed Apr 26 22:20:57 2023: setting up ranker...
+Wed Apr 26 22:20:57 2023: ranker set up complete
+Wed Apr 26 22:20:57 2023: loop through impressions: 1000
+Wed Apr 26 22:21:06 2023: impressions 100/1000
+Wed Apr 26 22:21:18 2023: impressions 200/1000
+Wed Apr 26 22:21:31 2023: impressions 300/1000
+Wed Apr 26 22:21:44 2023: impressions 400/1000
+Wed Apr 26 22:21:57 2023: impressions 500/1000
+Wed Apr 26 22:22:07 2023: impressions 600/1000
+Wed Apr 26 22:22:16 2023: impressions 700/1000
+Wed Apr 26 22:22:27 2023: impressions 800/1000
+Wed Apr 26 22:22:39 2023: impressions 900/1000
+Wed Apr 26 22:22:48 2023: impressions 1000/1000
+Wed Apr 26 22:22:48 2023: train_ranking
+Wed Apr 26 22:22:48 2023: ranking_labels
+Wed Apr 26 22:20:58 2023: setting up ranker...
+Wed Apr 26 22:20:58 2023: ranker set up complete
+Wed Apr 26 22:20:58 2023: loop through impressions: 1000
+Wed Apr 26 22:21:08 2023: impressions 100/1000
+Wed Apr 26 22:21:20 2023: impressions 200/1000
+Wed Apr 26 22:21:33 2023: impressions 300/1000
+Wed Apr 26 22:21:49 2023: impressions 400/1000
+Wed Apr 26 22:22:02 2023: impressions 500/1000
+Wed Apr 26 22:22:11 2023: impressions 600/1000
+Wed Apr 26 22:22:20 2023: impressions 700/1000
+Wed Apr 26 22:22:33 2023: impressions 800/1000
+Wed Apr 26 22:22:42 2023: impressions 900/1000
+Wed Apr 26 22:22:52 2023: impressions 1000/1000
+Wed Apr 26 22:22:52 2023: train_ranking
+Wed Apr 26 22:22:52 2023: ranking_labels
+Wed Apr 26 22:21:00 2023: setting up ranker...
+Wed Apr 26 22:21:00 2023: ranker set up complete
+Wed Apr 26 22:21:00 2023: loop through impressions: 1000
+Wed Apr 26 22:21:13 2023: impressions 100/1000
+Wed Apr 26 22:21:26 2023: impressions 200/1000
+Wed Apr 26 22:21:39 2023: impressions 300/1000
+Wed Apr 26 22:21:56 2023: impressions 400/1000
+Wed Apr 26 22:22:06 2023: impressions 500/1000
+Wed Apr 26 22:22:16 2023: impressions 600/1000
+Wed Apr 26 22:22:25 2023: impressions 700/1000
+Wed Apr 26 22:22:37 2023: impressions 800/1000
+Wed Apr 26 22:22:47 2023: impressions 900/1000
+Wed Apr 26 22:22:56 2023: impressions 1000/1000
+Wed Apr 26 22:22:56 2023: train_ranking
+Wed Apr 26 22:22:56 2023: ranking_labels
+Wed Apr 26 22:21:02 2023: setting up ranker...
+Wed Apr 26 22:21:02 2023: ranker set up complete
+Wed Apr 26 22:21:02 2023: loop through impressions: 1000
+Wed Apr 26 22:21:14 2023: impressions 100/1000
+Wed Apr 26 22:21:25 2023: impressions 200/1000
+Wed Apr 26 22:21:39 2023: impressions 300/1000
+Wed Apr 26 22:21:56 2023: impressions 400/1000
+Wed Apr 26 22:22:07 2023: impressions 500/1000
+Wed Apr 26 22:22:16 2023: impressions 600/1000
+Wed Apr 26 22:22:27 2023: impressions 700/1000
+Wed Apr 26 22:22:38 2023: impressions 800/1000
+Wed Apr 26 22:22:48 2023: impressions 900/1000
+Wed Apr 26 22:22:56 2023: impressions 1000/1000
+Wed Apr 26 22:22:56 2023: train_ranking
+Wed Apr 26 22:22:56 2023: ranking_labels
+Wed Apr 26 22:21:04 2023: setting up ranker...
+Wed Apr 26 22:21:04 2023: ranker set up complete
+Wed Apr 26 22:21:04 2023: loop through impressions: 1000
+Wed Apr 26 22:21:16 2023: impressions 100/1000
+Wed Apr 26 22:21:29 2023: impressions 200/1000
+Wed Apr 26 22:21:42 2023: impressions 300/1000
+Wed Apr 26 22:21:56 2023: impressions 400/1000
+Wed Apr 26 22:22:05 2023: impressions 500/1000
+Wed Apr 26 22:22:14 2023: impressions 600/1000
+Wed Apr 26 22:22:25 2023: impressions 700/1000
+Wed Apr 26 22:22:37 2023: impressions 800/1000
+Wed Apr 26 22:22:47 2023: impressions 900/1000
+Wed Apr 26 22:22:57 2023: impressions 1000/1000
+Wed Apr 26 22:22:57 2023: train_ranking
+Wed Apr 26 22:22:57 2023: ranking_labels
+Wed Apr 26 22:21:06 2023: setting up ranker...
+Wed Apr 26 22:21:06 2023: ranker set up complete
+Wed Apr 26 22:21:06 2023: loop through impressions: 1000
+Wed Apr 26 22:21:17 2023: impressions 100/1000
+Wed Apr 26 22:21:30 2023: impressions 200/1000
+Wed Apr 26 22:21:47 2023: impressions 300/1000
+Wed Apr 26 22:22:00 2023: impressions 400/1000
+Wed Apr 26 22:22:10 2023: impressions 500/1000
+Wed Apr 26 22:22:20 2023: impressions 600/1000
+Wed Apr 26 22:22:31 2023: impressions 700/1000
+Wed Apr 26 22:22:42 2023: impressions 800/1000
+Wed Apr 26 22:22:51 2023: impressions 900/1000
+Wed Apr 26 22:22:59 2023: impressions 1000/1000
+Wed Apr 26 22:22:59 2023: train_ranking
+Wed Apr 26 22:22:59 2023: ranking_labels
+Wed Apr 26 22:21:07 2023: setting up ranker...
+Wed Apr 26 22:21:07 2023: ranker set up complete
+Wed Apr 26 22:21:07 2023: loop through impressions: 1000
+Wed Apr 26 22:21:19 2023: impressions 100/1000
+Wed Apr 26 22:21:30 2023: impressions 200/1000
+Wed Apr 26 22:21:46 2023: impressions 300/1000
+Wed Apr 26 22:21:59 2023: impressions 400/1000
+Wed Apr 26 22:22:09 2023: impressions 500/1000
+Wed Apr 26 22:22:18 2023: impressions 600/1000
+Wed Apr 26 22:22:30 2023: impressions 700/1000
+Wed Apr 26 22:22:41 2023: impressions 800/1000
+Wed Apr 26 22:22:51 2023: impressions 900/1000
+Wed Apr 26 22:23:00 2023: impressions 1000/1000
+Wed Apr 26 22:23:00 2023: train_ranking
+Wed Apr 26 22:23:00 2023: ranking_labels
+Wed Apr 26 22:21:09 2023: setting up ranker...
+Wed Apr 26 22:21:09 2023: ranker set up complete
+Wed Apr 26 22:21:09 2023: loop through impressions: 1000
+Wed Apr 26 22:21:22 2023: impressions 100/1000
+Wed Apr 26 22:21:36 2023: impressions 200/1000
+Wed Apr 26 22:21:47 2023: impressions 300/1000
+Wed Apr 26 22:21:59 2023: impressions 400/1000
+Wed Apr 26 22:22:09 2023: impressions 500/1000
+Wed Apr 26 22:22:19 2023: impressions 600/1000
+Wed Apr 26 22:22:31 2023: impressions 700/1000
+Wed Apr 26 22:22:42 2023: impressions 800/1000
+Wed Apr 26 22:22:51 2023: impressions 900/1000
+Wed Apr 26 22:23:00 2023: impressions 1000/1000
+Wed Apr 26 22:23:00 2023: train_ranking
+Wed Apr 26 22:23:00 2023: ranking_labels
+Wed Apr 26 22:21:14 2023: setting up ranker...
+Wed Apr 26 22:21:14 2023: ranker set up complete
+Wed Apr 26 22:21:14 2023: loop through impressions: 1000
+Wed Apr 26 22:21:25 2023: impressions 100/1000
+Wed Apr 26 22:21:40 2023: impressions 200/1000
+Wed Apr 26 22:21:55 2023: impressions 300/1000
+Wed Apr 26 22:22:04 2023: impressions 400/1000
+Wed Apr 26 22:22:13 2023: impressions 500/1000
+Wed Apr 26 22:22:22 2023: impressions 600/1000
+Wed Apr 26 22:22:33 2023: impressions 700/1000
+Wed Apr 26 22:22:42 2023: impressions 800/1000
+Wed Apr 26 22:22:52 2023: impressions 900/1000
+Wed Apr 26 22:23:00 2023: impressions 1000/1000
+Wed Apr 26 22:23:00 2023: train_ranking
+Wed Apr 26 22:23:00 2023: ranking_labels
+Wed Apr 26 22:21:12 2023: setting up ranker...
+Wed Apr 26 22:21:12 2023: ranker set up complete
+Wed Apr 26 22:21:12 2023: loop through impressions: 1000
+Wed Apr 26 22:21:23 2023: impressions 100/1000
+Wed Apr 26 22:21:38 2023: impressions 200/1000
+Wed Apr 26 22:21:53 2023: impressions 300/1000
+Wed Apr 26 22:22:05 2023: impressions 400/1000
+Wed Apr 26 22:22:14 2023: impressions 500/1000
+Wed Apr 26 22:22:23 2023: impressions 600/1000
+Wed Apr 26 22:22:35 2023: impressions 700/1000
+Wed Apr 26 22:22:44 2023: impressions 800/1000
+Wed Apr 26 22:22:54 2023: impressions 900/1000
+Wed Apr 26 22:23:01 2023: impressions 1000/1000
+Wed Apr 26 22:23:01 2023: train_ranking
+Wed Apr 26 22:23:01 2023: ranking_labels
+Wed Apr 26 22:21:20 2023: setting up ranker...
+Wed Apr 26 22:21:20 2023: ranker set up complete
+Wed Apr 26 22:21:20 2023: loop through impressions: 1000
+Wed Apr 26 22:21:33 2023: impressions 100/1000
+Wed Apr 26 22:21:45 2023: impressions 200/1000
+Wed Apr 26 22:21:57 2023: impressions 300/1000
+Wed Apr 26 22:22:07 2023: impressions 400/1000
+Wed Apr 26 22:22:16 2023: impressions 500/1000
+Wed Apr 26 22:22:25 2023: impressions 600/1000
+Wed Apr 26 22:22:36 2023: impressions 700/1000
+Wed Apr 26 22:22:46 2023: impressions 800/1000
+Wed Apr 26 22:22:55 2023: impressions 900/1000
+Wed Apr 26 22:23:02 2023: impressions 1000/1000
+Wed Apr 26 22:23:02 2023: train_ranking
+Wed Apr 26 22:23:02 2023: ranking_labels
+Wed Apr 26 22:21:26 2023: setting up ranker...
+Wed Apr 26 22:21:26 2023: ranker set up complete
+Wed Apr 26 22:21:26 2023: loop through impressions: 1000
+Wed Apr 26 22:21:39 2023: impressions 100/1000
+Wed Apr 26 22:21:50 2023: impressions 200/1000
+Wed Apr 26 22:22:03 2023: impressions 300/1000
+Wed Apr 26 22:22:13 2023: impressions 400/1000
+Wed Apr 26 22:22:21 2023: impressions 500/1000
+Wed Apr 26 22:22:31 2023: impressions 600/1000
+Wed Apr 26 22:22:41 2023: impressions 700/1000
+Wed Apr 26 22:22:50 2023: impressions 800/1000
+Wed Apr 26 22:22:58 2023: impressions 900/1000
+Wed Apr 26 22:23:05 2023: impressions 1000/1000
+Wed Apr 26 22:23:05 2023: train_ranking
+Wed Apr 26 22:23:05 2023: ranking_labels
+Wed Apr 26 22:21:16 2023: setting up ranker...
+Wed Apr 26 22:21:16 2023: ranker set up complete
+Wed Apr 26 22:21:16 2023: loop through impressions: 1000
+Wed Apr 26 22:21:27 2023: impressions 100/1000
+Wed Apr 26 22:21:44 2023: impressions 200/1000
+Wed Apr 26 22:21:57 2023: impressions 300/1000
+Wed Apr 26 22:22:08 2023: impressions 400/1000
+Wed Apr 26 22:22:17 2023: impressions 500/1000
+Wed Apr 26 22:22:29 2023: impressions 600/1000
+Wed Apr 26 22:22:40 2023: impressions 700/1000
+Wed Apr 26 22:22:50 2023: impressions 800/1000
+Wed Apr 26 22:22:58 2023: impressions 900/1000
+Wed Apr 26 22:23:05 2023: impressions 1000/1000
+Wed Apr 26 22:23:05 2023: train_ranking
+Wed Apr 26 22:23:05 2023: ranking_labels
+Wed Apr 26 22:21:18 2023: setting up ranker...
+Wed Apr 26 22:21:18 2023: ranker set up complete
+Wed Apr 26 22:21:18 2023: loop through impressions: 1000
+Wed Apr 26 22:21:31 2023: impressions 100/1000
+Wed Apr 26 22:21:49 2023: impressions 200/1000
+Wed Apr 26 22:22:02 2023: impressions 300/1000
+Wed Apr 26 22:22:11 2023: impressions 400/1000
+Wed Apr 26 22:22:20 2023: impressions 500/1000
+Wed Apr 26 22:22:31 2023: impressions 600/1000
+Wed Apr 26 22:22:41 2023: impressions 700/1000
+Wed Apr 26 22:22:52 2023: impressions 800/1000
+Wed Apr 26 22:23:00 2023: impressions 900/1000
+Wed Apr 26 22:23:06 2023: impressions 1000/1000
+Wed Apr 26 22:23:06 2023: train_ranking
+Wed Apr 26 22:23:06 2023: ranking_labels
+Wed Apr 26 22:21:28 2023: setting up ranker...
+Wed Apr 26 22:21:28 2023: ranker set up complete
+Wed Apr 26 22:21:28 2023: loop through impressions: 1000
+Wed Apr 26 22:21:43 2023: impressions 100/1000
+Wed Apr 26 22:21:56 2023: impressions 200/1000
+Wed Apr 26 22:22:06 2023: impressions 300/1000
+Wed Apr 26 22:22:15 2023: impressions 400/1000
+Wed Apr 26 22:22:24 2023: impressions 500/1000
+Wed Apr 26 22:22:35 2023: impressions 600/1000
+Wed Apr 26 22:22:44 2023: impressions 700/1000
+Wed Apr 26 22:22:53 2023: impressions 800/1000
+Wed Apr 26 22:23:01 2023: impressions 900/1000
+Wed Apr 26 22:23:06 2023: impressions 1000/1000
+Wed Apr 26 22:23:06 2023: train_ranking
+Wed Apr 26 22:23:06 2023: ranking_labels
+Wed Apr 26 22:21:31 2023: setting up ranker...
+Wed Apr 26 22:21:31 2023: ranker set up complete
+Wed Apr 26 22:21:31 2023: loop through impressions: 1000
+Wed Apr 26 22:21:43 2023: impressions 100/1000
+Wed Apr 26 22:21:57 2023: impressions 200/1000
+Wed Apr 26 22:22:08 2023: impressions 300/1000
+Wed Apr 26 22:22:17 2023: impressions 400/1000
+Wed Apr 26 22:22:26 2023: impressions 500/1000
+Wed Apr 26 22:22:37 2023: impressions 600/1000
+Wed Apr 26 22:22:47 2023: impressions 700/1000
+Wed Apr 26 22:22:55 2023: impressions 800/1000
+Wed Apr 26 22:23:02 2023: impressions 900/1000
+Wed Apr 26 22:23:08 2023: impressions 1000/1000
+Wed Apr 26 22:23:08 2023: train_ranking
+Wed Apr 26 22:23:08 2023: ranking_labels
+Wed Apr 26 22:21:24 2023: setting up ranker...
+Wed Apr 26 22:21:24 2023: ranker set up complete
+Wed Apr 26 22:21:24 2023: loop through impressions: 1000
+Wed Apr 26 22:21:38 2023: impressions 100/1000
+Wed Apr 26 22:21:51 2023: impressions 200/1000
+Wed Apr 26 22:22:03 2023: impressions 300/1000
+Wed Apr 26 22:22:12 2023: impressions 400/1000
+Wed Apr 26 22:22:23 2023: impressions 500/1000
+Wed Apr 26 22:22:36 2023: impressions 600/1000
+Wed Apr 26 22:22:46 2023: impressions 700/1000
+Wed Apr 26 22:22:55 2023: impressions 800/1000
+Wed Apr 26 22:23:03 2023: impressions 900/1000
+Wed Apr 26 22:23:08 2023: impressions 1000/1000
+Wed Apr 26 22:23:08 2023: train_ranking
+Wed Apr 26 22:23:08 2023: ranking_labels
+Wed Apr 26 22:21:35 2023: setting up ranker...
+Wed Apr 26 22:21:35 2023: ranker set up complete
+Wed Apr 26 22:21:35 2023: loop through impressions: 1000
+Wed Apr 26 22:21:50 2023: impressions 100/1000
+Wed Apr 26 22:22:02 2023: impressions 200/1000
+Wed Apr 26 22:22:12 2023: impressions 300/1000
+Wed Apr 26 22:22:22 2023: impressions 400/1000
+Wed Apr 26 22:22:32 2023: impressions 500/1000
+Wed Apr 26 22:22:42 2023: impressions 600/1000
+Wed Apr 26 22:22:51 2023: impressions 700/1000
+Wed Apr 26 22:23:00 2023: impressions 800/1000
+Wed Apr 26 22:23:07 2023: impressions 900/1000
+Wed Apr 26 22:23:11 2023: impressions 1000/1000
+Wed Apr 26 22:23:11 2023: train_ranking
+Wed Apr 26 22:23:11 2023: ranking_labels
+Wed Apr 26 22:21:42 2023: setting up ranker...
+Wed Apr 26 22:21:42 2023: ranker set up complete
+Wed Apr 26 22:21:42 2023: loop through impressions: 1000
+Wed Apr 26 22:21:52 2023: impressions 100/1000
+Wed Apr 26 22:22:03 2023: impressions 200/1000
+Wed Apr 26 22:22:13 2023: impressions 300/1000
+Wed Apr 26 22:22:24 2023: impressions 400/1000
+Wed Apr 26 22:22:36 2023: impressions 500/1000
+Wed Apr 26 22:22:44 2023: impressions 600/1000
+Wed Apr 26 22:22:53 2023: impressions 700/1000
+Wed Apr 26 22:23:01 2023: impressions 800/1000
+Wed Apr 26 22:23:07 2023: impressions 900/1000
+Wed Apr 26 22:23:11 2023: impressions 1000/1000
+Wed Apr 26 22:23:11 2023: train_ranking
+Wed Apr 26 22:23:11 2023: ranking_labels
+Wed Apr 26 22:21:50 2023: setting up ranker...
+Wed Apr 26 22:21:50 2023: ranker set up complete
+Wed Apr 26 22:21:50 2023: loop through impressions: 1000
+Wed Apr 26 22:22:03 2023: impressions 100/1000
+Wed Apr 26 22:22:11 2023: impressions 200/1000
+Wed Apr 26 22:22:20 2023: impressions 300/1000
+Wed Apr 26 22:22:31 2023: impressions 400/1000
+Wed Apr 26 22:22:43 2023: impressions 500/1000
+Wed Apr 26 22:22:53 2023: impressions 600/1000
+Wed Apr 26 22:23:00 2023: impressions 700/1000
+Wed Apr 26 22:23:06 2023: impressions 800/1000
+Wed Apr 26 22:23:09 2023: impressions 900/1000
+Wed Apr 26 22:23:13 2023: impressions 1000/1000
+Wed Apr 26 22:23:13 2023: train_ranking
+Wed Apr 26 22:23:13 2023: ranking_labels
+Wed Apr 26 22:21:48 2023: setting up ranker...
+Wed Apr 26 22:21:48 2023: ranker set up complete
+Wed Apr 26 22:21:48 2023: loop through impressions: 1000
+Wed Apr 26 22:22:01 2023: impressions 100/1000
+Wed Apr 26 22:22:10 2023: impressions 200/1000
+Wed Apr 26 22:22:20 2023: impressions 300/1000
+Wed Apr 26 22:22:31 2023: impressions 400/1000
+Wed Apr 26 22:22:41 2023: impressions 500/1000
+Wed Apr 26 22:22:51 2023: impressions 600/1000
+Wed Apr 26 22:22:59 2023: impressions 700/1000
+Wed Apr 26 22:23:05 2023: impressions 800/1000
+Wed Apr 26 22:23:09 2023: impressions 900/1000
+Wed Apr 26 22:23:13 2023: impressions 1000/1000
+Wed Apr 26 22:23:13 2023: train_ranking
+Wed Apr 26 22:23:13 2023: ranking_labels
+Wed Apr 26 22:21:56 2023: setting up ranker...
+Wed Apr 26 22:21:56 2023: ranker set up complete
+Wed Apr 26 22:21:56 2023: loop through impressions: 1000
+Wed Apr 26 22:22:06 2023: impressions 100/1000
+Wed Apr 26 22:22:16 2023: impressions 200/1000
+Wed Apr 26 22:22:27 2023: impressions 300/1000
+Wed Apr 26 22:22:38 2023: impressions 400/1000
+Wed Apr 26 22:22:49 2023: impressions 500/1000
+Wed Apr 26 22:22:56 2023: impressions 600/1000
+Wed Apr 26 22:23:03 2023: impressions 700/1000
+Wed Apr 26 22:23:08 2023: impressions 800/1000
+Wed Apr 26 22:23:11 2023: impressions 900/1000
+Wed Apr 26 22:23:14 2023: impressions 1000/1000
+Wed Apr 26 22:23:14 2023: train_ranking
+Wed Apr 26 22:23:14 2023: ranking_labels
+Wed Apr 26 22:21:53 2023: setting up ranker...
+Wed Apr 26 22:21:53 2023: ranker set up complete
+Wed Apr 26 22:21:53 2023: loop through impressions: 1000
+Wed Apr 26 22:22:05 2023: impressions 100/1000
+Wed Apr 26 22:22:14 2023: impressions 200/1000
+Wed Apr 26 22:22:24 2023: impressions 300/1000
+Wed Apr 26 22:22:36 2023: impressions 400/1000
+Wed Apr 26 22:22:46 2023: impressions 500/1000
+Wed Apr 26 22:22:56 2023: impressions 600/1000
+Wed Apr 26 22:23:03 2023: impressions 700/1000
+Wed Apr 26 22:23:09 2023: impressions 800/1000
+Wed Apr 26 22:23:12 2023: impressions 900/1000
+Wed Apr 26 22:23:15 2023: impressions 1000/1000
+Wed Apr 26 22:23:15 2023: train_ranking
+Wed Apr 26 22:23:15 2023: ranking_labels
+Wed Apr 26 22:21:58 2023: setting up ranker...
+Wed Apr 26 22:21:58 2023: ranker set up complete
+Wed Apr 26 22:21:58 2023: loop through impressions: 1000
+Wed Apr 26 22:22:09 2023: impressions 100/1000
+Wed Apr 26 22:22:18 2023: impressions 200/1000
+Wed Apr 26 22:22:30 2023: impressions 300/1000
+Wed Apr 26 22:22:42 2023: impressions 400/1000
+Wed Apr 26 22:22:52 2023: impressions 500/1000
+Wed Apr 26 22:23:01 2023: impressions 600/1000
+Wed Apr 26 22:23:07 2023: impressions 700/1000
+Wed Apr 26 22:23:11 2023: impressions 800/1000
+Wed Apr 26 22:23:14 2023: impressions 900/1000
+Wed Apr 26 22:23:16 2023: impressions 1000/1000
+Wed Apr 26 22:23:16 2023: train_ranking
+Wed Apr 26 22:23:16 2023: ranking_labels
+Wed Apr 26 22:22:00 2023: setting up ranker...
+Wed Apr 26 22:22:00 2023: ranker set up complete
+Wed Apr 26 22:22:00 2023: loop through impressions: 1000
+Wed Apr 26 22:22:10 2023: impressions 100/1000
+Wed Apr 26 22:22:20 2023: impressions 200/1000
+Wed Apr 26 22:22:32 2023: impressions 300/1000
+Wed Apr 26 22:22:43 2023: impressions 400/1000
+Wed Apr 26 22:22:53 2023: impressions 500/1000
+Wed Apr 26 22:23:01 2023: impressions 600/1000
+Wed Apr 26 22:23:07 2023: impressions 700/1000
+Wed Apr 26 22:23:12 2023: impressions 800/1000
+Wed Apr 26 22:23:14 2023: impressions 900/1000
+Wed Apr 26 22:23:16 2023: impressions 1000/1000
+Wed Apr 26 22:23:16 2023: train_ranking
+Wed Apr 26 22:23:16 2023: ranking_labels
+Wed Apr 26 22:22:02 2023: Output 89: algo/PDBTR/info/1000/10/0.1-0.99999977-1 on dataset MQ2008. (90/125)
+Wed Apr 26 22:22:04 2023: Output 90: algo/PDBTR/info/1000/10/0.1-0.99999977-1 on dataset MQ2008. (91/125)
+Wed Apr 26 22:22:05 2023: Output 91: algo/PDBTR/info/1000/10/0.1-0.99999977-1 on dataset MQ2008. (92/125)
+Wed Apr 26 22:22:07 2023: Output 92: algo/PDBTR/info/1000/10/0.1-0.99999977-1 on dataset MQ2008. (93/125)
+Wed Apr 26 22:22:08 2023: Output 93: algo/PDBTR/info/1000/10/0.1-0.99999977-1 on dataset MQ2008. (94/125)
+Wed Apr 26 22:22:10 2023: Output 94: algo/PDBTR/info/1000/10/0.1-0.99999977-1 on dataset MQ2008. (95/125)
+Wed Apr 26 22:22:11 2023: Output 95: algo/PDBTR/info/1000/10/0.1-0.99999977-1 on dataset MQ2008. (96/125)
+Wed Apr 26 22:22:12 2023: Output 96: algo/PDBTR/info/1000/10/0.1-0.99999977-1 on dataset MQ2008. (97/125)
+Wed Apr 26 22:22:14 2023: Output 97: algo/PDBTR/info/1000/10/0.1-0.99999977-1 on dataset MQ2008. (98/125)
+Wed Apr 26 22:22:15 2023: Output 98: algo/PDBTR/info/1000/10/0.1-0.99999977-1 on dataset MQ2008. (99/125)
+Wed Apr 26 22:22:16 2023: Output 99: algo/PDBTR/info/1000/10/0.1-0.99999977-1 on dataset MQ2008. (100/125)
+Wed Apr 26 22:22:18 2023: Clean  3: Fold 4 of dataset MQ2008.
+Wed Apr 26 22:22:49 2023: Output 100: algo/PDBTR/info/1000/10/0.1-0.99999977-1 on dataset MQ2008. (101/125)
+Wed Apr 26 22:22:53 2023: Output 101: algo/PDBTR/info/1000/10/0.1-0.99999977-1 on dataset MQ2008. (102/125)
+Wed Apr 26 22:22:56 2023: Output 102: algo/PDBTR/info/1000/10/0.1-0.99999977-1 on dataset MQ2008. (103/125)
+Wed Apr 26 22:22:58 2023: Output 103: algo/PDBTR/info/1000/10/0.1-0.99999977-1 on dataset MQ2008. (104/125)
+Wed Apr 26 22:22:59 2023: Output 104: algo/PDBTR/info/1000/10/0.1-0.99999977-1 on dataset MQ2008. (105/125)
+Wed Apr 26 22:23:00 2023: Output 105: algo/PDBTR/info/1000/10/0.1-0.99999977-1 on dataset MQ2008. (106/125)
+Wed Apr 26 22:23:01 2023: Output 106: algo/PDBTR/info/1000/10/0.1-0.99999977-1 on dataset MQ2008. (107/125)
+Wed Apr 26 22:23:02 2023: Output 107: algo/PDBTR/info/1000/10/0.1-0.99999977-1 on dataset MQ2008. (108/125)
+Wed Apr 26 22:23:03 2023: Output 108: algo/PDBTR/info/1000/10/0.1-0.99999977-1 on dataset MQ2008. (109/125)
+Wed Apr 26 22:23:04 2023: Output 109: algo/PDBTR/info/1000/10/0.1-0.99999977-1 on dataset MQ2008. (110/125)
+Wed Apr 26 22:23:05 2023: Output 110: algo/PDBTR/info/1000/10/0.1-0.99999977-1 on dataset MQ2008. (111/125)
+Wed Apr 26 22:23:05 2023: Output 111: algo/PDBTR/info/1000/10/0.1-0.99999977-1 on dataset MQ2008. (112/125)
+Wed Apr 26 22:23:06 2023: Output 112: algo/PDBTR/info/1000/10/0.1-0.99999977-1 on dataset MQ2008. (113/125)
+Wed Apr 26 22:23:07 2023: Output 113: algo/PDBTR/info/1000/10/0.1-0.99999977-1 on dataset MQ2008. (114/125)
+Wed Apr 26 22:23:08 2023: Output 114: algo/PDBTR/info/1000/10/0.1-0.99999977-1 on dataset MQ2008. (115/125)
+Wed Apr 26 22:23:08 2023: Output 115: algo/PDBTR/info/1000/10/0.1-0.99999977-1 on dataset MQ2008. (116/125)
+Wed Apr 26 22:23:09 2023: Output 116: algo/PDBTR/info/1000/10/0.1-0.99999977-1 on dataset MQ2008. (117/125)
+Wed Apr 26 22:23:11 2023: Output 117: algo/PDBTR/info/1000/10/0.1-0.99999977-1 on dataset MQ2008. (118/125)
+Wed Apr 26 22:23:12 2023: Output 118: algo/PDBTR/info/1000/10/0.1-0.99999977-1 on dataset MQ2008. (119/125)
+Wed Apr 26 22:23:13 2023: Output 119: algo/PDBTR/info/1000/10/0.1-0.99999977-1 on dataset MQ2008. (120/125)
+Wed Apr 26 22:23:13 2023: Output 120: algo/PDBTR/info/1000/10/0.1-0.99999977-1 on dataset MQ2008. (121/125)
+Wed Apr 26 22:23:14 2023: Output 121: algo/PDBTR/info/1000/10/0.1-0.99999977-1 on dataset MQ2008. (122/125)
+Wed Apr 26 22:23:15 2023: Output 122: algo/PDBTR/info/1000/10/0.1-0.99999977-1 on dataset MQ2008. (123/125)
+Wed Apr 26 22:23:16 2023: Output 123: algo/PDBTR/info/1000/10/0.1-0.99999977-1 on dataset MQ2008. (124/125)
+Wed Apr 26 22:23:16 2023: Output 124: algo/PDBTR/info/1000/10/0.1-0.99999977-1 on dataset MQ2008. (125/125)
+Wed Apr 26 22:23:16 2023: opening ./output/MQ2008/algo/PDBTR/info/1000/10/0.1-0.99999977-1.out
+Wed Apr 26 22:23:17 2023: Closed 0: algo/PDBTR/info/1000/10/0.1-0.99999977-1 on MQ2008 was averaged and stored.
+Wed Apr 26 22:23:17 2023: Clean  4: Fold 5 of dataset MQ2008.
+Wed Apr 26 22:23:18 2023: Time taken: 0:10:37.179132 (637 seconds)

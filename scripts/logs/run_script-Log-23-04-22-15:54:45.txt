@@ -1,0 +1,212 @@
+Sat Apr 22 15:54:45 2023: Starting simulation at run_script-Log-23-04-22-15:54:45.Log is also stored in output file at ./logs/run_script-Log-23-04-22-15:54:45.txtMQ2008
+Sat Apr 22 15:54:45 2023: Read   0: Fold 1 of dataset MQ2008.
+Sat Apr 22 15:54:45 2023: No group information is provided.
+Sat Apr 22 15:54:45 2023: Launch 0: algo/PAIRRANK/info/1000/10/0.1-0.99999977-gd-0.1-0.1-False-random-False-1 0 with click model informational on fold 1 from dataset MQ2008.
+Sat Apr 22 15:54:45 2023: setting up ranker...
+Sat Apr 22 15:54:45 2023: ranker set up complete
+Sat Apr 22 15:54:45 2023: loop through impressions: 1000
+Sat Apr 22 15:55:23 2023: impressions 10/1000
+Sat Apr 22 15:56:03 2023: impressions 20/1000
+Sat Apr 22 15:56:45 2023: impressions 30/1000
+Sat Apr 22 15:57:32 2023: impressions 40/1000
+Sat Apr 22 15:58:18 2023: impressions 50/1000
+Sat Apr 22 15:58:58 2023: impressions 60/1000
+Sat Apr 22 15:59:40 2023: impressions 70/1000
+Sat Apr 22 16:00:26 2023: impressions 80/1000
+Sat Apr 22 16:01:13 2023: impressions 90/1000
+Sat Apr 22 16:01:59 2023: impressions 100/1000
+Sat Apr 22 16:02:42 2023: impressions 110/1000
+Sat Apr 22 16:03:24 2023: impressions 120/1000
+Sat Apr 22 16:04:05 2023: impressions 130/1000
+Sat Apr 22 16:04:45 2023: impressions 140/1000
+Sat Apr 22 16:05:26 2023: impressions 150/1000
+Sat Apr 22 16:06:05 2023: impressions 160/1000
+Sat Apr 22 16:06:48 2023: impressions 170/1000
+Sat Apr 22 16:07:29 2023: impressions 180/1000
+Sat Apr 22 16:08:07 2023: impressions 190/1000
+Sat Apr 22 16:08:45 2023: impressions 200/1000
+Sat Apr 22 16:09:25 2023: impressions 210/1000
+Sat Apr 22 16:10:07 2023: impressions 220/1000
+Sat Apr 22 16:10:48 2023: impressions 230/1000
+Sat Apr 22 16:11:29 2023: impressions 240/1000
+Sat Apr 22 16:12:11 2023: impressions 250/1000
+Sat Apr 22 16:12:52 2023: impressions 260/1000
+Sat Apr 22 16:13:30 2023: impressions 270/1000
+Sat Apr 22 16:14:11 2023: impressions 280/1000
+Sat Apr 22 16:14:52 2023: impressions 290/1000
+Sat Apr 22 16:15:33 2023: impressions 300/1000
+Sat Apr 22 16:16:18 2023: impressions 310/1000
+Sat Apr 22 16:17:04 2023: impressions 320/1000
+Sat Apr 22 16:17:49 2023: impressions 330/1000
+Sat Apr 22 16:18:30 2023: impressions 340/1000
+Sat Apr 22 16:19:06 2023: impressions 350/1000
+Sat Apr 22 16:19:46 2023: impressions 360/1000
+Sat Apr 22 16:20:27 2023: impressions 370/1000
+Sat Apr 22 16:21:11 2023: impressions 380/1000
+Sat Apr 22 16:21:57 2023: impressions 390/1000
+Sat Apr 22 16:22:37 2023: impressions 400/1000
+Sat Apr 22 16:23:17 2023: impressions 410/1000
+Sat Apr 22 16:23:58 2023: impressions 420/1000
+Sat Apr 22 16:24:39 2023: impressions 430/1000
+Sat Apr 22 16:25:20 2023: impressions 440/1000
+Sat Apr 22 16:26:01 2023: impressions 450/1000
+Sat Apr 22 16:26:38 2023: impressions 460/1000
+Sat Apr 22 16:27:19 2023: impressions 470/1000
+Sat Apr 22 16:28:00 2023: impressions 480/1000
+Sat Apr 22 16:28:40 2023: impressions 490/1000
+Sat Apr 22 16:29:26 2023: impressions 500/1000
+Sat Apr 22 16:30:07 2023: impressions 510/1000
+Sat Apr 22 16:30:49 2023: impressions 520/1000
+Sat Apr 22 16:31:35 2023: impressions 530/1000
+Sat Apr 22 16:32:20 2023: impressions 540/1000
+Sat Apr 22 16:32:55 2023: impressions 550/1000
+Sat Apr 22 16:33:37 2023: impressions 560/1000
+Sat Apr 22 16:34:21 2023: impressions 570/1000
+Sat Apr 22 16:35:02 2023: impressions 580/1000
+Sat Apr 22 16:35:48 2023: impressions 590/1000
+Sat Apr 22 16:36:34 2023: impressions 600/1000
+Sat Apr 22 16:37:17 2023: impressions 610/1000
+Sat Apr 22 16:38:00 2023: impressions 620/1000
+Sat Apr 22 16:38:44 2023: impressions 630/1000
+Sat Apr 22 16:39:30 2023: impressions 640/1000
+Sat Apr 22 16:40:15 2023: impressions 650/1000
+Sat Apr 22 16:40:58 2023: impressions 660/1000
+Sat Apr 22 16:41:45 2023: impressions 670/1000
+Sat Apr 22 16:42:32 2023: impressions 680/1000
+Sat Apr 22 16:43:23 2023: impressions 690/1000
+Sat Apr 22 16:44:08 2023: impressions 700/1000
+Sat Apr 22 16:44:52 2023: impressions 710/1000
+Sat Apr 22 16:48:40 2023: impressions 720/1000
+Sat Apr 22 16:49:40 2023: impressions 730/1000
+Sat Apr 22 16:50:28 2023: impressions 740/1000
+Sat Apr 22 16:51:21 2023: impressions 750/1000
+Sat Apr 22 16:52:08 2023: impressions 760/1000
+Sat Apr 22 16:52:54 2023: impressions 770/1000
+Sat Apr 22 16:53:53 2023: impressions 780/1000
+Sat Apr 22 16:54:40 2023: impressions 790/1000
+Sat Apr 22 16:55:27 2023: impressions 800/1000
+Sat Apr 22 16:56:15 2023: impressions 810/1000
+Sat Apr 22 16:56:56 2023: impressions 820/1000
+Sat Apr 22 16:57:43 2023: impressions 830/1000
+Sat Apr 22 16:58:29 2023: impressions 840/1000
+Sat Apr 22 16:59:15 2023: impressions 850/1000
+Sat Apr 22 17:00:01 2023: impressions 860/1000
+Sat Apr 22 17:00:46 2023: impressions 870/1000
+Sat Apr 22 17:01:32 2023: impressions 880/1000
+Sat Apr 22 17:02:13 2023: impressions 890/1000
+Sat Apr 22 17:02:58 2023: impressions 900/1000
+Sat Apr 22 17:03:43 2023: impressions 910/1000
+Sat Apr 22 17:04:29 2023: impressions 920/1000
+Sat Apr 22 17:05:15 2023: impressions 930/1000
+Sat Apr 22 17:06:01 2023: impressions 940/1000
+Sat Apr 22 17:06:48 2023: impressions 950/1000
+Sat Apr 22 17:07:31 2023: impressions 960/1000
+Sat Apr 22 17:08:17 2023: impressions 970/1000
+Sat Apr 22 17:09:05 2023: impressions 980/1000
+Sat Apr 22 17:09:53 2023: impressions 990/1000
+Sat Apr 22 17:10:41 2023: impressions 1000/1000
+Sat Apr 22 17:10:41 2023: train_ranking
+Sat Apr 22 17:10:46 2023: ranking_labels
+Sat Apr 22 17:10:46 2023: Output 0: algo/PAIRRANK/info/1000/10/0.1-0.99999977-gd-0.1-0.1-False-random-False-1 on dataset MQ2008. (1/125)
+Sat Apr 22 17:10:46 2023: Launch 1: algo/PAIRRANK/info/1000/10/0.1-0.99999977-gd-0.1-0.1-False-random-False-1 1 with click model informational on fold 1 from dataset MQ2008.
+Sat Apr 22 17:10:46 2023: setting up ranker...
+Sat Apr 22 17:10:46 2023: ranker set up complete
+Sat Apr 22 17:10:46 2023: loop through impressions: 1000
+Sat Apr 22 17:11:29 2023: impressions 10/1000
+Sat Apr 22 17:12:13 2023: impressions 20/1000
+Sat Apr 22 17:12:58 2023: impressions 30/1000
+Sat Apr 22 17:13:45 2023: impressions 40/1000
+Sat Apr 22 18:07:06 2023: impressions 50/1000
+Sat Apr 22 18:07:54 2023: impressions 60/1000
+Sat Apr 22 18:08:43 2023: impressions 70/1000
+Sat Apr 22 18:09:31 2023: impressions 80/1000
+Sat Apr 22 18:10:19 2023: impressions 90/1000
+Sat Apr 22 18:11:03 2023: impressions 100/1000
+Sat Apr 22 18:11:50 2023: impressions 110/1000
+Sat Apr 22 18:12:33 2023: impressions 120/1000
+Sat Apr 22 18:13:18 2023: impressions 130/1000
+Sat Apr 22 18:13:57 2023: impressions 140/1000
+Sat Apr 22 18:14:41 2023: impressions 150/1000
+Sat Apr 22 18:15:26 2023: impressions 160/1000
+Sat Apr 22 18:16:12 2023: impressions 170/1000
+Sat Apr 22 18:16:55 2023: impressions 180/1000
+Sat Apr 22 18:17:41 2023: impressions 190/1000
+Sat Apr 22 18:18:25 2023: impressions 200/1000
+Sat Apr 22 18:19:05 2023: impressions 210/1000
+Sat Apr 22 18:19:45 2023: impressions 220/1000
+Sat Apr 22 18:20:19 2023: impressions 230/1000
+Sat Apr 22 18:21:17 2023: impressions 240/1000
+Sat Apr 22 18:22:11 2023: impressions 250/1000
+Sat Apr 22 18:23:05 2023: impressions 260/1000
+Sat Apr 22 18:23:54 2023: impressions 270/1000
+Sat Apr 22 18:24:37 2023: impressions 280/1000
+Sat Apr 22 18:25:19 2023: impressions 290/1000
+Sat Apr 22 18:26:05 2023: impressions 300/1000
+Sat Apr 22 18:26:50 2023: impressions 310/1000
+Sat Apr 22 18:27:37 2023: impressions 320/1000
+Sat Apr 22 18:28:19 2023: impressions 330/1000
+Sat Apr 22 18:29:10 2023: impressions 340/1000
+Sat Apr 22 18:29:56 2023: impressions 350/1000
+Sat Apr 22 18:30:45 2023: impressions 360/1000
+Sat Apr 22 18:31:33 2023: impressions 370/1000
+Sat Apr 22 18:32:24 2023: impressions 380/1000
+Sat Apr 22 18:33:13 2023: impressions 390/1000
+Sat Apr 22 18:33:59 2023: impressions 400/1000
+Sat Apr 22 18:34:43 2023: impressions 410/1000
+Sat Apr 22 18:35:30 2023: impressions 420/1000
+Sat Apr 22 18:36:19 2023: impressions 430/1000
+Sat Apr 22 18:37:07 2023: impressions 440/1000
+Sat Apr 22 18:37:52 2023: impressions 450/1000
+Sat Apr 22 18:38:42 2023: impressions 460/1000
+Sat Apr 22 18:39:26 2023: impressions 470/1000
+Sat Apr 22 18:40:09 2023: impressions 480/1000
+Sat Apr 22 18:40:53 2023: impressions 490/1000
+Sat Apr 22 18:41:39 2023: impressions 500/1000
+Sat Apr 22 18:42:33 2023: impressions 510/1000
+Sat Apr 22 18:43:22 2023: impressions 520/1000
+Sat Apr 22 18:44:05 2023: impressions 530/1000
+Sat Apr 22 18:44:49 2023: impressions 540/1000
+Sat Apr 22 18:45:41 2023: impressions 550/1000
+Sat Apr 22 18:46:12 2023: Process Process-2:
+Sat Apr 22 18:46:12 2023: Traceback (most recent call last):
+Sat Apr 22 18:46:12 2023:   File "/usr/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+Sat Apr 22 18:46:12 2023:     self.run()
+Sat Apr 22 18:46:12 2023:   File "/usr/lib/python3.7/multiprocessing/process.py", line 99, in run
+Sat Apr 22 18:46:12 2023:     self._target(*self._args, **self._kwargs)
+Sat Apr 22 18:46:12 2023:   File "../utils/datasimulation.py", line 124, in start_run
+Sat Apr 22 18:46:12 2023:     simulation.run(ranker, output_key=output_key)
+Sat Apr 22 18:46:12 2023:   File "../utils/singlesimulation.py", line 116, in run
+Sat Apr 22 18:46:12 2023:     ranking_i, train_ranking = self.sample_and_rank(ranker)
+Sat Apr 22 18:46:12 2023:   File "../utils/singlesimulation.py", line 97, in sample_and_rank
+Sat Apr 22 18:46:12 2023:     train_ranking = ranker.get_train_query_ranking(ranking_i)
+Sat Apr 22 18:46:12 2023:   File "../algorithms/basiconlineranker.py", line 98, in get_train_query_ranking
+Sat Apr 22 18:46:12 2023:     self._last_ranking = self._create_train_ranking(query_id, query_feat, inverted)[:self.n_results]
+Sat Apr 22 18:46:12 2023:   File "../algorithms/PairRank/PairRank.py", line 210, in _create_train_ranking
+Sat Apr 22 18:46:12 2023:     lcb_matrix = self.get_lcb(query_feat)
+Sat Apr 22 18:46:12 2023:   File "../algorithms/PairRank/PairRank.py", line 70, in get_lcb
+Sat Apr 22 18:46:12 2023:     pairwise_feat = (query_feat[:, np.newaxis] - query_feat).reshape(-1, self.n_features)
+Sat Apr 22 18:46:12 2023: KeyboardInterrupt
+Sat Apr 22 18:46:12 2023: Traceback (most recent call last):
+Sat Apr 22 18:46:12 2023:   File "run_script.py", line 118, in <module>
+Sat Apr 22 18:46:12 2023:     set_sim_and_run(input_args)
+Sat Apr 22 18:46:12 2023:   File "run_script.py", line 110, in set_sim_and_run
+Sat Apr 22 18:46:12 2023:     return switcher.get(algo, lambda: "ERROR: algorithm type not valid")()
+Sat Apr 22 18:46:12 2023:   File "run_script.py", line 105, in <lambda>
+Sat Apr 22 18:46:12 2023:     switcher = {"PAIRRANK":         lambda: func_pairrank(args, dir_name),
+Sat Apr 22 18:46:12 2023:   File "run_script.py", line 27, in func_pairrank
+Sat Apr 22 18:46:12 2023:     sim.run(ranker)
+Sat Apr 22 18:46:12 2023:   File "../utils/datasimulation.py", line 62, in run
+Sat Apr 22 18:46:12 2023:     self.wait_for_output()
+Sat Apr 22 18:46:12 2023:   File "../utils/datasimulation.py", line 164, in wait_for_output
+Sat Apr 22 18:46:12 2023:     output_key, run_output = self.output_queue.get(block=not found, timeout=timeout)
+Sat Apr 22 18:46:12 2023:   File "/usr/lib/python3.7/multiprocessing/queues.py", line 104, in get
+Sat Apr 22 18:46:12 2023:     if not self._poll(timeout):
+Sat Apr 22 18:46:12 2023:   File "/usr/lib/python3.7/multiprocessing/connection.py", line 257, in poll
+Sat Apr 22 18:46:12 2023:     return self._poll(timeout)
+Sat Apr 22 18:46:12 2023:   File "/usr/lib/python3.7/multiprocessing/connection.py", line 414, in _poll
+Sat Apr 22 18:46:12 2023:     r = wait([self], timeout)
+Sat Apr 22 18:46:12 2023:   File "/usr/lib/python3.7/multiprocessing/connection.py", line 921, in wait
+Sat Apr 22 18:46:12 2023:     ready = selector.select(timeout)
+Sat Apr 22 18:46:12 2023:   File "/usr/lib/python3.7/selectors.py", line 415, in select
+Sat Apr 22 18:46:12 2023:     fd_event_list = self._selector.poll(timeout)
+Sat Apr 22 18:46:12 2023: KeyboardInterrupt

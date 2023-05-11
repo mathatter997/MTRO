@@ -1,0 +1,274 @@
+Fri Apr 28 18:50:56 2023: Starting simulation at run_script-Log-23-04-28-18:50:56.Log is also stored in output file at ./logs/run_script-Log-23-04-28-18:50:56.txtMQ2008
+Fri Apr 28 18:50:56 2023: Read   0: Fold 1 of dataset MQ2008.
+Fri Apr 28 18:50:57 2023: No group information is provided.
+Fri Apr 28 18:50:57 2023: Launch 0: algo/PDBGD/info/1000/10/0.1-0.99999977-1 0 with click model informational on fold 1 from dataset MQ2008.
+Fri Apr 28 18:50:57 2023: Launch 1: algo/PDBGD/info/1000/10/0.1-0.99999977-1 1 with click model informational on fold 1 from dataset MQ2008.
+Fri Apr 28 18:50:57 2023: Launch 2: algo/PDBGD/info/1000/10/0.1-0.99999977-1 2 with click model informational on fold 1 from dataset MQ2008.
+Fri Apr 28 18:50:57 2023: setting up ranker...
+Fri Apr 28 18:50:57 2023: ranker set up complete
+Fri Apr 28 18:50:57 2023: loop through impressions: 1000
+Fri Apr 28 18:50:58 2023: impressions 100/1000
+Fri Apr 28 18:51:00 2023: impressions 200/1000
+Fri Apr 28 18:51:01 2023: impressions 300/1000
+Fri Apr 28 18:51:03 2023: impressions 400/1000
+Fri Apr 28 18:51:04 2023: impressions 500/1000
+Fri Apr 28 18:51:05 2023: impressions 600/1000
+Fri Apr 28 18:51:07 2023: impressions 700/1000
+Fri Apr 28 18:51:08 2023: impressions 800/1000
+Fri Apr 28 18:51:10 2023: impressions 900/1000
+Fri Apr 28 18:51:11 2023: impressions 1000/1000
+Fri Apr 28 18:51:11 2023: train_ranking
+Fri Apr 28 18:51:11 2023: ranking_labels
+Fri Apr 28 18:50:58 2023: Read   1: Fold 2 of dataset MQ2008.
+Fri Apr 28 18:50:59 2023: No group information is provided.
+Fri Apr 28 18:51:11 2023: Output 0: algo/PDBGD/info/1000/10/0.1-0.99999977-1 on dataset MQ2008. (1/15)
+Fri Apr 28 18:51:12 2023: Launch 3: algo/PDBGD/info/1000/10/0.1-0.99999977-1 0 with click model informational on fold 2 from dataset MQ2008.
+Fri Apr 28 18:51:12 2023: Launch 4: algo/PDBGD/info/1000/10/0.1-0.99999977-1 1 with click model informational on fold 2 from dataset MQ2008.
+Fri Apr 28 18:51:12 2023: Launch 5: algo/PDBGD/info/1000/10/0.1-0.99999977-1 2 with click model informational on fold 2 from dataset MQ2008.
+Fri Apr 28 18:50:57 2023: setting up ranker...
+Fri Apr 28 18:50:57 2023: ranker set up complete
+Fri Apr 28 18:50:57 2023: loop through impressions: 1000
+Fri Apr 28 18:50:59 2023: impressions 100/1000
+Fri Apr 28 18:51:00 2023: impressions 200/1000
+Fri Apr 28 18:51:02 2023: impressions 300/1000
+Fri Apr 28 18:51:03 2023: impressions 400/1000
+Fri Apr 28 18:51:04 2023: impressions 500/1000
+Fri Apr 28 18:51:06 2023: impressions 600/1000
+Fri Apr 28 18:51:07 2023: impressions 700/1000
+Fri Apr 28 18:51:09 2023: impressions 800/1000
+Fri Apr 28 18:51:10 2023: impressions 900/1000
+Fri Apr 28 18:51:12 2023: impressions 1000/1000
+Fri Apr 28 18:51:12 2023: train_ranking
+Fri Apr 28 18:51:12 2023: ranking_labels
+Fri Apr 28 18:50:57 2023: setting up ranker...
+Fri Apr 28 18:50:58 2023: ranker set up complete
+Fri Apr 28 18:50:58 2023: loop through impressions: 1000
+Fri Apr 28 18:51:00 2023: impressions 100/1000
+Fri Apr 28 18:51:01 2023: impressions 200/1000
+Fri Apr 28 18:51:02 2023: impressions 300/1000
+Fri Apr 28 18:51:04 2023: impressions 400/1000
+Fri Apr 28 18:51:05 2023: impressions 500/1000
+Fri Apr 28 18:51:06 2023: impressions 600/1000
+Fri Apr 28 18:51:08 2023: impressions 700/1000
+Fri Apr 28 18:51:09 2023: impressions 800/1000
+Fri Apr 28 18:51:11 2023: impressions 900/1000
+Fri Apr 28 18:51:12 2023: impressions 1000/1000
+Fri Apr 28 18:51:12 2023: train_ranking
+Fri Apr 28 18:51:12 2023: ranking_labels
+Fri Apr 28 18:51:13 2023: Read   2: Fold 3 of dataset MQ2008.
+Fri Apr 28 18:51:14 2023: No group information is provided.
+Fri Apr 28 18:51:14 2023: Output 1: algo/PDBGD/info/1000/10/0.1-0.99999977-1 on dataset MQ2008. (2/15)
+Fri Apr 28 18:51:14 2023: Output 2: algo/PDBGD/info/1000/10/0.1-0.99999977-1 on dataset MQ2008. (3/15)
+Fri Apr 28 18:51:14 2023: Clean  0: Fold 1 of dataset MQ2008.
+Fri Apr 28 18:51:15 2023: Launch 6: algo/PDBGD/info/1000/10/0.1-0.99999977-1 0 with click model informational on fold 3 from dataset MQ2008.
+Fri Apr 28 18:51:15 2023: Launch 7: algo/PDBGD/info/1000/10/0.1-0.99999977-1 1 with click model informational on fold 3 from dataset MQ2008.
+Fri Apr 28 18:51:16 2023: Launch 8: algo/PDBGD/info/1000/10/0.1-0.99999977-1 2 with click model informational on fold 3 from dataset MQ2008.
+Fri Apr 28 18:51:12 2023: setting up ranker...
+Fri Apr 28 18:51:12 2023: ranker set up complete
+Fri Apr 28 18:51:12 2023: loop through impressions: 1000
+Fri Apr 28 18:51:13 2023: impressions 100/1000
+Fri Apr 28 18:51:15 2023: impressions 200/1000
+Fri Apr 28 18:51:17 2023: impressions 300/1000
+Fri Apr 28 18:51:20 2023: impressions 400/1000
+Fri Apr 28 18:51:23 2023: impressions 500/1000
+Fri Apr 28 18:51:25 2023: impressions 600/1000
+Fri Apr 28 18:51:27 2023: impressions 700/1000
+Fri Apr 28 18:51:30 2023: impressions 800/1000
+Fri Apr 28 18:51:33 2023: impressions 900/1000
+Fri Apr 28 18:51:36 2023: impressions 1000/1000
+Fri Apr 28 18:51:36 2023: train_ranking
+Fri Apr 28 18:51:36 2023: ranking_labels
+Fri Apr 28 18:51:12 2023: setting up ranker...
+Fri Apr 28 18:51:12 2023: ranker set up complete
+Fri Apr 28 18:51:12 2023: loop through impressions: 1000
+Fri Apr 28 18:51:14 2023: impressions 100/1000
+Fri Apr 28 18:51:16 2023: impressions 200/1000
+Fri Apr 28 18:51:18 2023: impressions 300/1000
+Fri Apr 28 18:51:21 2023: impressions 400/1000
+Fri Apr 28 18:51:24 2023: impressions 500/1000
+Fri Apr 28 18:51:26 2023: impressions 600/1000
+Fri Apr 28 18:51:29 2023: impressions 700/1000
+Fri Apr 28 18:51:31 2023: impressions 800/1000
+Fri Apr 28 18:51:34 2023: impressions 900/1000
+Fri Apr 28 18:51:36 2023: impressions 1000/1000
+Fri Apr 28 18:51:36 2023: train_ranking
+Fri Apr 28 18:51:36 2023: ranking_labels
+Fri Apr 28 18:51:17 2023: Read   3: Fold 4 of dataset MQ2008.
+Fri Apr 28 18:51:18 2023: No group information is provided.
+Fri Apr 28 18:51:36 2023: Output 3: algo/PDBGD/info/1000/10/0.1-0.99999977-1 on dataset MQ2008. (4/15)
+Fri Apr 28 18:51:36 2023: Output 4: algo/PDBGD/info/1000/10/0.1-0.99999977-1 on dataset MQ2008. (5/15)
+Fri Apr 28 18:51:37 2023: Launch 9: algo/PDBGD/info/1000/10/0.1-0.99999977-1 0 with click model informational on fold 4 from dataset MQ2008.
+Fri Apr 28 18:51:37 2023: Launch 10: algo/PDBGD/info/1000/10/0.1-0.99999977-1 1 with click model informational on fold 4 from dataset MQ2008.
+Fri Apr 28 18:51:38 2023: Launch 11: algo/PDBGD/info/1000/10/0.1-0.99999977-1 2 with click model informational on fold 4 from dataset MQ2008.
+Fri Apr 28 18:51:12 2023: setting up ranker...
+Fri Apr 28 18:51:12 2023: ranker set up complete
+Fri Apr 28 18:51:12 2023: loop through impressions: 1000
+Fri Apr 28 18:51:14 2023: impressions 100/1000
+Fri Apr 28 18:51:16 2023: impressions 200/1000
+Fri Apr 28 18:51:19 2023: impressions 300/1000
+Fri Apr 28 18:51:21 2023: impressions 400/1000
+Fri Apr 28 18:51:24 2023: impressions 500/1000
+Fri Apr 28 18:51:27 2023: impressions 600/1000
+Fri Apr 28 18:51:29 2023: impressions 700/1000
+Fri Apr 28 18:51:32 2023: impressions 800/1000
+Fri Apr 28 18:51:35 2023: impressions 900/1000
+Fri Apr 28 18:51:37 2023: impressions 1000/1000
+Fri Apr 28 18:51:37 2023: train_ranking
+Fri Apr 28 18:51:37 2023: ranking_labels
+Fri Apr 28 18:51:39 2023: Read   4: Fold 5 of dataset MQ2008.
+Fri Apr 28 18:51:40 2023: No group information is provided.
+Fri Apr 28 18:51:40 2023: Output 5: algo/PDBGD/info/1000/10/0.1-0.99999977-1 on dataset MQ2008. (6/15)
+Fri Apr 28 18:51:41 2023: Clean  1: Fold 2 of dataset MQ2008.
+Fri Apr 28 18:51:42 2023: Launch 12: algo/PDBGD/info/1000/10/0.1-0.99999977-1 0 with click model informational on fold 5 from dataset MQ2008.
+Fri Apr 28 18:51:42 2023: Launch 13: algo/PDBGD/info/1000/10/0.1-0.99999977-1 1 with click model informational on fold 5 from dataset MQ2008.
+Fri Apr 28 18:51:43 2023: Launch 14: algo/PDBGD/info/1000/10/0.1-0.99999977-1 2 with click model informational on fold 5 from dataset MQ2008.
+Fri Apr 28 18:51:15 2023: setting up ranker...
+Fri Apr 28 18:51:15 2023: ranker set up complete
+Fri Apr 28 18:51:15 2023: loop through impressions: 1000
+Fri Apr 28 18:51:18 2023: impressions 100/1000
+Fri Apr 28 18:51:21 2023: impressions 200/1000
+Fri Apr 28 18:51:24 2023: impressions 300/1000
+Fri Apr 28 18:51:26 2023: impressions 400/1000
+Fri Apr 28 18:51:29 2023: impressions 500/1000
+Fri Apr 28 18:51:31 2023: impressions 600/1000
+Fri Apr 28 18:51:34 2023: impressions 700/1000
+Fri Apr 28 18:51:36 2023: impressions 800/1000
+Fri Apr 28 18:51:38 2023: impressions 900/1000
+Fri Apr 28 18:51:41 2023: impressions 1000/1000
+Fri Apr 28 18:51:41 2023: train_ranking
+Fri Apr 28 18:51:41 2023: ranking_labels
+Fri Apr 28 18:51:16 2023: setting up ranker...
+Fri Apr 28 18:51:16 2023: ranker set up complete
+Fri Apr 28 18:51:16 2023: loop through impressions: 1000
+Fri Apr 28 18:51:19 2023: impressions 100/1000
+Fri Apr 28 18:51:22 2023: impressions 200/1000
+Fri Apr 28 18:51:24 2023: impressions 300/1000
+Fri Apr 28 18:51:27 2023: impressions 400/1000
+Fri Apr 28 18:51:29 2023: impressions 500/1000
+Fri Apr 28 18:51:32 2023: impressions 600/1000
+Fri Apr 28 18:51:34 2023: impressions 700/1000
+Fri Apr 28 18:51:37 2023: impressions 800/1000
+Fri Apr 28 18:51:39 2023: impressions 900/1000
+Fri Apr 28 18:51:42 2023: impressions 1000/1000
+Fri Apr 28 18:51:42 2023: train_ranking
+Fri Apr 28 18:51:42 2023: ranking_labels
+Fri Apr 28 18:51:16 2023: setting up ranker...
+Fri Apr 28 18:51:16 2023: ranker set up complete
+Fri Apr 28 18:51:16 2023: loop through impressions: 1000
+Fri Apr 28 18:51:19 2023: impressions 100/1000
+Fri Apr 28 18:51:22 2023: impressions 200/1000
+Fri Apr 28 18:51:24 2023: impressions 300/1000
+Fri Apr 28 18:51:27 2023: impressions 400/1000
+Fri Apr 28 18:51:30 2023: impressions 500/1000
+Fri Apr 28 18:51:33 2023: impressions 600/1000
+Fri Apr 28 18:51:35 2023: impressions 700/1000
+Fri Apr 28 18:51:37 2023: impressions 800/1000
+Fri Apr 28 18:51:40 2023: impressions 900/1000
+Fri Apr 28 18:51:43 2023: impressions 1000/1000
+Fri Apr 28 18:51:43 2023: train_ranking
+Fri Apr 28 18:51:43 2023: ranking_labels
+Fri Apr 28 18:51:38 2023: setting up ranker...
+Fri Apr 28 18:51:38 2023: ranker set up complete
+Fri Apr 28 18:51:38 2023: loop through impressions: 1000
+Fri Apr 28 18:51:41 2023: impressions 100/1000
+Fri Apr 28 18:51:43 2023: impressions 200/1000
+Fri Apr 28 18:51:46 2023: impressions 300/1000
+Fri Apr 28 18:51:48 2023: impressions 400/1000
+Fri Apr 28 18:51:50 2023: impressions 500/1000
+Fri Apr 28 18:51:53 2023: impressions 600/1000
+Fri Apr 28 18:51:56 2023: impressions 700/1000
+Fri Apr 28 18:51:58 2023: impressions 800/1000
+Fri Apr 28 18:52:01 2023: impressions 900/1000
+Fri Apr 28 18:52:04 2023: impressions 1000/1000
+Fri Apr 28 18:52:04 2023: train_ranking
+Fri Apr 28 18:52:04 2023: ranking_labels
+Fri Apr 28 18:51:38 2023: setting up ranker...
+Fri Apr 28 18:51:38 2023: ranker set up complete
+Fri Apr 28 18:51:38 2023: loop through impressions: 1000
+Fri Apr 28 18:51:41 2023: impressions 100/1000
+Fri Apr 28 18:51:43 2023: impressions 200/1000
+Fri Apr 28 18:51:46 2023: impressions 300/1000
+Fri Apr 28 18:51:49 2023: impressions 400/1000
+Fri Apr 28 18:51:52 2023: impressions 500/1000
+Fri Apr 28 18:51:55 2023: impressions 600/1000
+Fri Apr 28 18:51:57 2023: impressions 700/1000
+Fri Apr 28 18:52:01 2023: impressions 800/1000
+Fri Apr 28 18:52:03 2023: impressions 900/1000
+Fri Apr 28 18:52:06 2023: impressions 1000/1000
+Fri Apr 28 18:52:06 2023: train_ranking
+Fri Apr 28 18:52:06 2023: ranking_labels
+Fri Apr 28 18:51:37 2023: setting up ranker...
+Fri Apr 28 18:51:37 2023: ranker set up complete
+Fri Apr 28 18:51:37 2023: loop through impressions: 1000
+Fri Apr 28 18:51:40 2023: impressions 100/1000
+Fri Apr 28 18:51:43 2023: impressions 200/1000
+Fri Apr 28 18:51:46 2023: impressions 300/1000
+Fri Apr 28 18:51:49 2023: impressions 400/1000
+Fri Apr 28 18:51:52 2023: impressions 500/1000
+Fri Apr 28 18:51:54 2023: impressions 600/1000
+Fri Apr 28 18:51:57 2023: impressions 700/1000
+Fri Apr 28 18:52:01 2023: impressions 800/1000
+Fri Apr 28 18:52:04 2023: impressions 900/1000
+Fri Apr 28 18:52:06 2023: impressions 1000/1000
+Fri Apr 28 18:52:06 2023: train_ranking
+Fri Apr 28 18:52:06 2023: ranking_labels
+Fri Apr 28 18:51:42 2023: setting up ranker...
+Fri Apr 28 18:51:42 2023: ranker set up complete
+Fri Apr 28 18:51:42 2023: loop through impressions: 1000
+Fri Apr 28 18:51:44 2023: impressions 100/1000
+Fri Apr 28 18:51:47 2023: impressions 200/1000
+Fri Apr 28 18:51:49 2023: impressions 300/1000
+Fri Apr 28 18:51:52 2023: impressions 400/1000
+Fri Apr 28 18:51:55 2023: impressions 500/1000
+Fri Apr 28 18:51:58 2023: impressions 600/1000
+Fri Apr 28 18:52:00 2023: impressions 700/1000
+Fri Apr 28 18:52:03 2023: impressions 800/1000
+Fri Apr 28 18:52:06 2023: impressions 900/1000
+Fri Apr 28 18:52:08 2023: impressions 1000/1000
+Fri Apr 28 18:52:08 2023: train_ranking
+Fri Apr 28 18:52:08 2023: ranking_labels
+Fri Apr 28 18:51:42 2023: setting up ranker...
+Fri Apr 28 18:51:42 2023: ranker set up complete
+Fri Apr 28 18:51:42 2023: loop through impressions: 1000
+Fri Apr 28 18:51:45 2023: impressions 100/1000
+Fri Apr 28 18:51:48 2023: impressions 200/1000
+Fri Apr 28 18:51:51 2023: impressions 300/1000
+Fri Apr 28 18:51:54 2023: impressions 400/1000
+Fri Apr 28 18:51:57 2023: impressions 500/1000
+Fri Apr 28 18:52:00 2023: impressions 600/1000
+Fri Apr 28 18:52:02 2023: impressions 700/1000
+Fri Apr 28 18:52:05 2023: impressions 800/1000
+Fri Apr 28 18:52:07 2023: impressions 900/1000
+Fri Apr 28 18:52:10 2023: impressions 1000/1000
+Fri Apr 28 18:52:10 2023: train_ranking
+Fri Apr 28 18:52:10 2023: ranking_labels
+Fri Apr 28 18:51:43 2023: setting up ranker...
+Fri Apr 28 18:51:43 2023: ranker set up complete
+Fri Apr 28 18:51:43 2023: loop through impressions: 1000
+Fri Apr 28 18:51:46 2023: impressions 100/1000
+Fri Apr 28 18:51:49 2023: impressions 200/1000
+Fri Apr 28 18:51:51 2023: impressions 300/1000
+Fri Apr 28 18:51:54 2023: impressions 400/1000
+Fri Apr 28 18:51:57 2023: impressions 500/1000
+Fri Apr 28 18:51:59 2023: impressions 600/1000
+Fri Apr 28 18:52:02 2023: impressions 700/1000
+Fri Apr 28 18:52:05 2023: impressions 800/1000
+Fri Apr 28 18:52:08 2023: impressions 900/1000
+Fri Apr 28 18:52:10 2023: impressions 1000/1000
+Fri Apr 28 18:52:10 2023: train_ranking
+Fri Apr 28 18:52:10 2023: ranking_labels
+Fri Apr 28 18:51:44 2023: Output 6: algo/PDBGD/info/1000/10/0.1-0.99999977-1 on dataset MQ2008. (7/15)
+Fri Apr 28 18:51:44 2023: Output 7: algo/PDBGD/info/1000/10/0.1-0.99999977-1 on dataset MQ2008. (8/15)
+Fri Apr 28 18:51:45 2023: Output 8: algo/PDBGD/info/1000/10/0.1-0.99999977-1 on dataset MQ2008. (9/15)
+Fri Apr 28 18:51:45 2023: Clean  2: Fold 3 of dataset MQ2008.
+Fri Apr 28 18:52:04 2023: Output 9: algo/PDBGD/info/1000/10/0.1-0.99999977-1 on dataset MQ2008. (10/15)
+Fri Apr 28 18:52:06 2023: Output 10: algo/PDBGD/info/1000/10/0.1-0.99999977-1 on dataset MQ2008. (11/15)
+Fri Apr 28 18:52:06 2023: Output 11: algo/PDBGD/info/1000/10/0.1-0.99999977-1 on dataset MQ2008. (12/15)
+Fri Apr 28 18:52:07 2023: Clean  3: Fold 4 of dataset MQ2008.
+Fri Apr 28 18:52:08 2023: Output 12: algo/PDBGD/info/1000/10/0.1-0.99999977-1 on dataset MQ2008. (13/15)
+Fri Apr 28 18:52:10 2023: Output 13: algo/PDBGD/info/1000/10/0.1-0.99999977-1 on dataset MQ2008. (14/15)
+Fri Apr 28 18:52:10 2023: Output 14: algo/PDBGD/info/1000/10/0.1-0.99999977-1 on dataset MQ2008. (15/15)
+Fri Apr 28 18:52:10 2023: opening ./output/MQ2008/algo/PDBGD/info/1000/10/0.1-0.99999977-1.out
+Fri Apr 28 18:52:10 2023: Closed 0: algo/PDBGD/info/1000/10/0.1-0.99999977-1 on MQ2008 was averaged and stored.
+Fri Apr 28 18:52:10 2023: Clean  4: Fold 5 of dataset MQ2008.
+Fri Apr 28 18:52:10 2023: Time taken: 0:01:13.880427 (73 seconds)

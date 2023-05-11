@@ -10,7 +10,11 @@ from algorithms.PairRank.olLambdaRank import olLambdaRank
 from algorithms.PairRank.FairExpPairRank import FairExpPairRank
 from algorithms.PDGD.pdgd import PDGD
 from algorithms.DBGD.tddbgd import TD_DBGD
+from algorithms.DBGD.pdbgd import P_DBGD
 from algorithms.DBGD.tdmgd import TD_MGD
+from algorithms.MTRO.pmtro import P_MTRO
+from algorithms.DBGD.tdNSGD import TD_NSGD 
+
 
 
 def func_pairrank(args, dir_name):
@@ -95,6 +99,41 @@ def func_dbgd(args, dir_name):
     sim = DataSimulation(sim_args)
     sim.run(ranker)
 
+def func_pdbgd(args, dir_name):
+    ranker_params = {"learning_rate": args.lr, "learning_rate_decay": args.lr_decay}
+    sim_args, other_args = parser.parse_all_args(ranker_params)
+    ranker_name = "{}-{}-{}".format(args.lr, args.lr_decay, args.seed)
+    run_name = dir_name + ranker_name
+    ranker = [(run_name, P_DBGD, other_args)]
+    sim = DataSimulation(sim_args)
+    sim.run(ranker)
+
+def func_pmtro(args, dir_name):
+    ranker_params = {"learning_rate": args.lr, "learning_rate_decay": args.lr_decay}
+    sim_args, other_args = parser.parse_all_args(ranker_params)
+    ranker_name = "{}-{}-{}".format(args.lr, args.lr_decay, args.seed)
+    run_name = dir_name + ranker_name
+    ranker = [(run_name, P_MTRO, other_args)]
+    sim = DataSimulation(sim_args)
+    sim.run(ranker)
+
+def func_tdnsgd(args, dir_name):
+    ranker_params = {"learning_rate": args.lr, "learning_rate_decay": args.lr_decay}
+    sim_args, other_args = parser.parse_all_args(ranker_params)
+    ranker_name = "{}-{}-{}".format(args.lr, args.lr_decay, args.seed)
+    run_name = dir_name + ranker_name
+    ranker = [(run_name, TD_NSGD, other_args)]
+    sim = DataSimulation(sim_args)
+    sim.run(ranker)
+
+def func_tdmgd(args, dir_name):
+    ranker_params = {"learning_rate": args.lr, "learning_rate_decay": args.lr_decay}
+    sim_args, other_args = parser.parse_all_args(ranker_params)
+    ranker_name = "{}-{}-{}".format(args.lr, args.lr_decay, args.seed)
+    run_name = dir_name + ranker_name
+    ranker = [(run_name, TD_MGD, other_args)]
+    sim = DataSimulation(sim_args)
+    sim.run(ranker)
 
 def set_sim_and_run(args):
     cm = args.click_models[0]
@@ -102,13 +141,16 @@ def set_sim_and_run(args):
     n_results = args.n_results
     algo = args.algo.upper()
     dir_name = "algo/{}/{}/{}/{}/".format(algo, cm, n_impr, n_results)
-
     switcher = {"PAIRRANK":         lambda: func_pairrank(args, dir_name),
                 "OLRANKNET":        lambda: func_olranknet(args, dir_name),
                 "OLLAMBDARANK":     lambda: func_ollambdarank(args, dir_name),
                 'FAIREXP_PAIRRANK': lambda: func_fairexppairrank(args, dir_name),
-                'PDGD':             lambda: func_pdgd(args, dir_name), 'DBGD': lambda: func_dbgd(args, dir_name), }
-
+                'PDGD':             lambda: func_pdgd(args, dir_name), 
+                'DBGD': lambda: func_dbgd(args, dir_name), 
+                'PDBGD': lambda: func_pdbgd(args, dir_name), 
+                'PMTRO': lambda: func_pmtro(args, dir_name),
+                'TDNSGD': lambda: func_tdnsgd(args, dir_name), 
+                'TDMGD': lambda: func_tdmgd(args, dir_name),
     return switcher.get(algo, lambda: "ERROR: algorithm type not valid")()
 
 

@@ -1,0 +1,39 @@
+Fri Apr 28 19:10:47 2023: Starting simulation at run_script-Log-23-04-28-19:10:47.Log is also stored in output file at ./logs/run_script-Log-23-04-28-19:10:47.txtMQ2008
+Fri Apr 28 19:10:47 2023: Read   0: Fold 1 of dataset MQ2008.
+Fri Apr 28 19:10:47 2023: No group information is provided.
+Fri Apr 28 19:10:47 2023: log_scale False
+Fri Apr 28 19:10:47 2023: Launch 0: algo/DBGD/info/1000/10/0.1-0.99999977-1 0 with click model informational on fold 1 from dataset MQ2008.
+Fri Apr 28 19:10:47 2023: setting up ranker...
+Fri Apr 28 19:10:47 2023: ranker set up complete
+Fri Apr 28 19:10:47 2023: loop through impressions: 1000
+Fri Apr 28 19:10:47 2023: Process Process-1:
+Fri Apr 28 19:10:47 2023: Traceback (most recent call last):
+Fri Apr 28 19:10:47 2023:   File "/usr/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+Fri Apr 28 19:10:47 2023:     self.run()
+Fri Apr 28 19:10:47 2023:   File "/usr/lib/python3.7/multiprocessing/process.py", line 99, in run
+Fri Apr 28 19:10:47 2023:     self._target(*self._args, **self._kwargs)
+Fri Apr 28 19:10:47 2023:   File "../utils/datasimulation.py", line 124, in start_run
+Fri Apr 28 19:10:47 2023:     simulation.run(ranker, output_key=output_key)
+Fri Apr 28 19:10:47 2023:   File "../utils/singlesimulation.py", line 122, in run
+Fri Apr 28 19:10:47 2023:     ranker.process_clicks(clicks)
+Fri Apr 28 19:10:47 2023:   File "../algorithms/basiconlineranker.py", line 106, in process_clicks
+Fri Apr 28 19:10:47 2023:     self.update_to_interaction(clicks)
+Fri Apr 28 19:10:47 2023:   File "../algorithms/DBGD/tddbgd.py", line 54, in update_to_interaction
+Fri Apr 28 19:10:47 2023:     winners = self.multileaving.winning_rankers(clicks)
+Fri Apr 28 19:10:47 2023:   File "../multileaving/TeamDraftMultileave.py", line 70, in winning_rankers
+Fri Apr 28 19:10:47 2023:     ranker_clicks = np.sum(match_matrix.astype(np.int32), axis=1)
+Fri Apr 28 19:10:47 2023: KeyboardInterrupt
+Fri Apr 28 19:10:47 2023: Traceback (most recent call last):
+Fri Apr 28 19:10:47 2023:   File "run_script.py", line 141, in <module>
+Fri Apr 28 19:10:47 2023:     set_sim_and_run(input_args)
+Fri Apr 28 19:10:47 2023:   File "run_script.py", line 133, in set_sim_and_run
+Fri Apr 28 19:10:47 2023:     return switcher.get(algo, lambda: "ERROR: algorithm type not valid")()
+Fri Apr 28 19:10:47 2023:   File "run_script.py", line 130, in <lambda>
+Fri Apr 28 19:10:47 2023:     'DBGD': lambda: func_dbgd(args, dir_name), 
+Fri Apr 28 19:10:47 2023:   File "run_script.py", line 98, in func_dbgd
+Fri Apr 28 19:10:47 2023:     sim.run(ranker)
+Fri Apr 28 19:10:47 2023:   File "../utils/datasimulation.py", line 61, in run
+Fri Apr 28 19:10:47 2023:     while self.update_active() >= self.num_proc:
+Fri Apr 28 19:10:47 2023:   File "../utils/datasimulation.py", line 152, in update_active
+Fri Apr 28 19:10:47 2023:     gc.collect()
+Fri Apr 28 19:10:47 2023: KeyboardInterrupt

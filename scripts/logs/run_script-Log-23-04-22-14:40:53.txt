@@ -1,0 +1,15 @@
+Sat Apr 22 14:40:53 2023: Starting simulation at run_script-Log-23-04-22-14:40:53.Log is also stored in output file at ./logs/run_script-Log-23-04-22-14:40:53.txtMQ2008
+Sat Apr 22 14:40:53 2023: Traceback (most recent call last):
+Sat Apr 22 14:40:53 2023:   File "run_script.py", line 118, in <module>
+Sat Apr 22 14:40:53 2023:     set_sim_and_run(input_args)
+Sat Apr 22 14:40:53 2023:   File "run_script.py", line 110, in set_sim_and_run
+Sat Apr 22 14:40:53 2023:     return switcher.get(algo, lambda: "ERROR: algorithm type not valid")()
+Sat Apr 22 14:40:53 2023:   File "run_script.py", line 105, in <lambda>
+Sat Apr 22 14:40:53 2023:     switcher = {"PAIRRANK":         lambda: func_pairrank(args, dir_name),
+Sat Apr 22 14:40:53 2023:   File "run_script.py", line 27, in func_pairrank
+Sat Apr 22 14:40:53 2023:     sim.run(ranker)
+Sat Apr 22 14:40:53 2023:   File "../utils/datasimulation.py", line 55, in run
+Sat Apr 22 14:40:53 2023:     missing_models = get_click_models(self.sim_args.click_models + [dataset.click_model_type])
+Sat Apr 22 14:40:53 2023:   File "../utils/clicks.py", line 145, in get_click_models
+Sat Apr 22 14:40:53 2023:     assert keyword in synonyms
+Sat Apr 22 14:40:53 2023: AssertionError

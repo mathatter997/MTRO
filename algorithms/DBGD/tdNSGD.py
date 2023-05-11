@@ -6,7 +6,7 @@ sys.path.append(os.path.join(os.path.dirname(__file__), '../..'))
 from models.linearmodel import LinearModel
 from algorithms.DBGD.tddbgd import TD_DBGD
 import numpy as np
-from sys import maxint
+from sys import maxsize
 import copy
 from scipy.spatial.distance import cosine
 import utils.rankings as rnk
@@ -39,6 +39,8 @@ class TD_NSGD(TD_DBGD):
         parent_parameters = TD_DBGD.default_parameters()
         parent_parameters.update({
           'n_candidates': 9,
+          'GRAD_SIZE': 10,
+           'EXP_SIZE': 5
           })
         return parent_parameters
 
@@ -72,7 +74,7 @@ class TD_NSGD(TD_DBGD):
         nums = []
         dif = self.GRAD_SIZE - self.EXP_SIZE
         for i in range(0, dif):
-            max = -maxint-1
+            max = -maxsize-1
             n = 0
             # Choose
             for j in range(0, self.GRAD_SIZE):

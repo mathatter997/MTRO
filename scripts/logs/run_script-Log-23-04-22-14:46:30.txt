@@ -1,0 +1,37 @@
+Sat Apr 22 14:46:30 2023: Starting simulation at run_script-Log-23-04-22-14:46:30.Log is also stored in output file at ./logs/run_script-Log-23-04-22-14:46:30.txtMQ2008
+Sat Apr 22 14:46:30 2023: [<utils.dataset.DataSet object at 0x7faea90aaf90>] [('algo/PAIRRANK/info/1000/10/0.1-0.99999977-gd-0.1-0.1-False-random-False-1', <class 'algorithms.PairRank.PairRank.PairRank'>, {'learning_rate': 0.1, 'learning_rate_decay': 0.99999977, 'update': 'gd', '_lambda': 0.1, 'alpha': 0.1, 'refine': False, 'rank': 'random', 'ind': False})]
+Sat Apr 22 14:46:30 2023: Read   0: Fold 1 of dataset MQ2008.
+Sat Apr 22 14:46:30 2023: No group information is provided.
+Sat Apr 22 14:46:30 2023: expected runs 125
+Sat Apr 22 14:46:30 2023: FILEOUT /zfs/ilps-plex1/slurm/datastore/hooster2/new-output/fullruns//MQ2008/algo/PAIRRANK/info/1000/10/0.1-0.99999977-gd-0.1-0.1-False-random-False-1.out
+Sat Apr 22 14:46:30 2023: Traceback (most recent call last):
+Sat Apr 22 14:46:30 2023:   File "run_script.py", line 118, in <module>
+Sat Apr 22 14:46:30 2023:     set_sim_and_run(input_args)
+Sat Apr 22 14:46:30 2023:   File "run_script.py", line 110, in set_sim_and_run
+Sat Apr 22 14:46:30 2023:     return switcher.get(algo, lambda: "ERROR: algorithm type not valid")()
+Sat Apr 22 14:46:30 2023:   File "run_script.py", line 105, in <lambda>
+Sat Apr 22 14:46:30 2023:     switcher = {"PAIRRANK":         lambda: func_pairrank(args, dir_name),
+Sat Apr 22 14:46:30 2023:   File "run_script.py", line 27, in func_pairrank
+Sat Apr 22 14:46:30 2023:     sim.run(ranker)
+Sat Apr 22 14:46:30 2023:   File "../utils/datasimulation.py", line 59, in run
+Sat Apr 22 14:46:30 2023:     for process in self.load_processes(datasets, ranker_tuples):
+Sat Apr 22 14:46:30 2023:   File "../utils/datasimulation.py", line 78, in load_processes
+Sat Apr 22 14:46:30 2023:     for proc in self.load_datafold_processes(datafold, ranker_tuples):
+Sat Apr 22 14:46:30 2023:   File "../utils/datasimulation.py", line 100, in load_datafold_processes
+Sat Apr 22 14:46:30 2023:     r_args, self.output_averager)
+Sat Apr 22 14:46:30 2023:   File "../utils/simulationoutput.py", line 148, in __init__
+Sat Apr 22 14:46:30 2023:     write_date=False)
+Sat Apr 22 14:46:30 2023:   File "../utils/simulationoutput.py", line 22, in __init__
+Sat Apr 22 14:46:30 2023:     create_folders(self._output_file_path)
+Sat Apr 22 14:46:30 2023:   File "../utils/simulationoutput.py", line 11, in create_folders
+Sat Apr 22 14:46:30 2023:     os.makedirs(os.path.dirname(filename))
+Sat Apr 22 14:46:30 2023:   File "/usr/lib/python3.7/os.py", line 213, in makedirs
+Sat Apr 22 14:46:30 2023:     makedirs(head, exist_ok=exist_ok)
+Sat Apr 22 14:46:30 2023:   File "/usr/lib/python3.7/os.py", line 213, in makedirs
+Sat Apr 22 14:46:30 2023:     makedirs(head, exist_ok=exist_ok)
+Sat Apr 22 14:46:30 2023:   File "/usr/lib/python3.7/os.py", line 213, in makedirs
+Sat Apr 22 14:46:30 2023:     makedirs(head, exist_ok=exist_ok)
+Sat Apr 22 14:46:30 2023:   [Previous line repeated 9 more times]
+Sat Apr 22 14:46:30 2023:   File "/usr/lib/python3.7/os.py", line 223, in makedirs
+Sat Apr 22 14:46:30 2023:     mkdir(name, mode)
+Sat Apr 22 14:46:30 2023: PermissionError: [Errno 13] Permission denied: '/zfs'

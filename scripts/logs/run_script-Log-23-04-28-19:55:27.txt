@@ -1,0 +1,202 @@
+Fri Apr 28 19:55:27 2023: Starting simulation at run_script-Log-23-04-28-19:55:27.Log is also stored in output file at ./logs/run_script-Log-23-04-28-19:55:27.txtMQ2008
+Fri Apr 28 19:55:27 2023: Read   0: Fold 1 of dataset MQ2008.
+Fri Apr 28 19:55:27 2023: No group information is provided.
+Fri Apr 28 19:55:27 2023: log_scale False
+Fri Apr 28 19:55:27 2023: Launch 0: algo/PDBTR/perfect/1000/10/0.1-0.99999977-1 0 with click model perfect on fold 1 from dataset MQ2008.
+Fri Apr 28 19:55:28 2023: Launch 1: algo/PDBTR/perfect/1000/10/0.1-0.99999977-1 1 with click model perfect on fold 1 from dataset MQ2008.
+Fri Apr 28 19:55:28 2023: Launch 2: algo/PDBTR/perfect/1000/10/0.1-0.99999977-1 2 with click model perfect on fold 1 from dataset MQ2008.
+Fri Apr 28 19:55:28 2023: Read   1: Fold 2 of dataset MQ2008.
+Fri Apr 28 19:55:29 2023: No group information is provided.
+Fri Apr 28 19:56:21 2023: log_scale False
+Fri Apr 28 19:56:21 2023: Launch 3: algo/PDBTR/perfect/1000/10/0.1-0.99999977-1 0 with click model perfect on fold 2 from dataset MQ2008.
+Fri Apr 28 19:56:21 2023: Launch 4: algo/PDBTR/perfect/1000/10/0.1-0.99999977-1 1 with click model perfect on fold 2 from dataset MQ2008.
+Fri Apr 28 19:56:22 2023: Launch 5: algo/PDBTR/perfect/1000/10/0.1-0.99999977-1 2 with click model perfect on fold 2 from dataset MQ2008.
+Fri Apr 28 19:56:22 2023: Read   2: Fold 3 of dataset MQ2008.
+Fri Apr 28 19:56:23 2023: No group information is provided.
+Fri Apr 28 19:56:22 2023: setting up ranker...
+Fri Apr 28 19:56:22 2023: ranker set up complete
+Fri Apr 28 19:56:22 2023: loop through impressions: 1000
+Fri Apr 28 19:56:23 2023: 0.1 False 0
+Fri Apr 28 19:56:31 2023: Process Process-6:
+Fri Apr 28 19:56:31 2023: Traceback (most recent call last):
+Fri Apr 28 19:56:31 2023:   File "/usr/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+Fri Apr 28 19:56:31 2023:     self.run()
+Fri Apr 28 19:56:31 2023:   File "/usr/lib/python3.7/multiprocessing/process.py", line 99, in run
+Fri Apr 28 19:56:31 2023:     self._target(*self._args, **self._kwargs)
+Fri Apr 28 19:56:31 2023:   File "../utils/datasimulation.py", line 124, in start_run
+Fri Apr 28 19:56:31 2023:     simulation.run(ranker, output_key=output_key)
+Fri Apr 28 19:56:31 2023:   File "../utils/singlesimulation.py", line 122, in run
+Fri Apr 28 19:56:31 2023:     ranker.process_clicks(clicks)
+Fri Apr 28 19:56:31 2023:   File "../algorithms/basiconlineranker.py", line 106, in process_clicks
+Fri Apr 28 19:56:31 2023:     self.update_to_interaction(clicks)
+Fri Apr 28 19:56:31 2023:   File "../algorithms/DBTR/pdbtr.py", line 111, in update_to_interaction
+Fri Apr 28 19:56:31 2023:     self.local_estimator.fit(X, y)
+Fri Apr 28 19:56:31 2023:   File "/home/matthew/DBDG/OnlineLearningToRank/env/lib/python3.7/site-packages/sklearn/pipeline.py", line 394, in fit
+Fri Apr 28 19:56:31 2023:     self._final_estimator.fit(Xt, y, **fit_params_last_step)
+Fri Apr 28 19:56:31 2023:   File "/home/matthew/DBDG/OnlineLearningToRank/env/lib/python3.7/site-packages/sklearn/linear_model/_base.py", line 718, in fit
+Fri Apr 28 19:56:31 2023:     self.coef_, self._residues, self.rank_, self.singular_ = linalg.lstsq(X, y)
+Fri Apr 28 19:56:31 2023:   File "/home/matthew/DBDG/OnlineLearningToRank/env/lib/python3.7/site-packages/scipy/linalg/basic.py", line 1205, in lstsq
+Fri Apr 28 19:56:31 2023:     iwork, cond, False, False)
+Fri Apr 28 19:56:31 2023: KeyboardInterrupt
+Fri Apr 28 19:56:21 2023: setting up ranker...
+Fri Apr 28 19:56:21 2023: ranker set up complete
+Fri Apr 28 19:56:21 2023: loop through impressions: 1000
+Fri Apr 28 19:56:23 2023: 0.1 False 0
+Fri Apr 28 19:56:31 2023: Process Process-4:
+Fri Apr 28 19:56:31 2023: Traceback (most recent call last):
+Fri Apr 28 19:56:31 2023:   File "/usr/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+Fri Apr 28 19:56:31 2023:     self.run()
+Fri Apr 28 19:56:31 2023:   File "/usr/lib/python3.7/multiprocessing/process.py", line 99, in run
+Fri Apr 28 19:56:31 2023:     self._target(*self._args, **self._kwargs)
+Fri Apr 28 19:56:31 2023:   File "../utils/datasimulation.py", line 124, in start_run
+Fri Apr 28 19:56:31 2023:     simulation.run(ranker, output_key=output_key)
+Fri Apr 28 19:56:31 2023:   File "../utils/singlesimulation.py", line 122, in run
+Fri Apr 28 19:56:31 2023:     ranker.process_clicks(clicks)
+Fri Apr 28 19:56:31 2023:   File "../algorithms/basiconlineranker.py", line 106, in process_clicks
+Fri Apr 28 19:56:31 2023:     self.update_to_interaction(clicks)
+Fri Apr 28 19:56:31 2023:   File "../algorithms/DBTR/pdbtr.py", line 111, in update_to_interaction
+Fri Apr 28 19:56:31 2023:     self.local_estimator.fit(X, y)
+Fri Apr 28 19:56:31 2023:   File "/home/matthew/DBDG/OnlineLearningToRank/env/lib/python3.7/site-packages/sklearn/pipeline.py", line 394, in fit
+Fri Apr 28 19:56:31 2023:     self._final_estimator.fit(Xt, y, **fit_params_last_step)
+Fri Apr 28 19:56:31 2023:   File "/home/matthew/DBDG/OnlineLearningToRank/env/lib/python3.7/site-packages/sklearn/linear_model/_base.py", line 718, in fit
+Fri Apr 28 19:56:31 2023:     self.coef_, self._residues, self.rank_, self.singular_ = linalg.lstsq(X, y)
+Fri Apr 28 19:56:31 2023:   File "/home/matthew/DBDG/OnlineLearningToRank/env/lib/python3.7/site-packages/scipy/linalg/basic.py", line 1205, in lstsq
+Fri Apr 28 19:56:31 2023:     iwork, cond, False, False)
+Fri Apr 28 19:56:31 2023: KeyboardInterrupt
+Fri Apr 28 19:56:21 2023: setting up ranker...
+Fri Apr 28 19:56:21 2023: ranker set up complete
+Fri Apr 28 19:56:21 2023: loop through impressions: 1000
+Fri Apr 28 19:56:23 2023: 0.1 False 0
+Fri Apr 28 19:56:31 2023: Process Process-5:
+Fri Apr 28 19:56:31 2023: Traceback (most recent call last):
+Fri Apr 28 19:56:31 2023:   File "/usr/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+Fri Apr 28 19:56:31 2023:     self.run()
+Fri Apr 28 19:56:31 2023:   File "/usr/lib/python3.7/multiprocessing/process.py", line 99, in run
+Fri Apr 28 19:56:31 2023:     self._target(*self._args, **self._kwargs)
+Fri Apr 28 19:56:31 2023:   File "../utils/datasimulation.py", line 124, in start_run
+Fri Apr 28 19:56:31 2023:     simulation.run(ranker, output_key=output_key)
+Fri Apr 28 19:56:31 2023:   File "../utils/singlesimulation.py", line 122, in run
+Fri Apr 28 19:56:31 2023:     ranker.process_clicks(clicks)
+Fri Apr 28 19:56:31 2023:   File "../algorithms/basiconlineranker.py", line 106, in process_clicks
+Fri Apr 28 19:56:31 2023:     self.update_to_interaction(clicks)
+Fri Apr 28 19:56:31 2023:   File "../algorithms/DBTR/pdbtr.py", line 111, in update_to_interaction
+Fri Apr 28 19:56:31 2023:     self.local_estimator.fit(X, y)
+Fri Apr 28 19:56:31 2023:   File "/home/matthew/DBDG/OnlineLearningToRank/env/lib/python3.7/site-packages/sklearn/pipeline.py", line 394, in fit
+Fri Apr 28 19:56:31 2023:     self._final_estimator.fit(Xt, y, **fit_params_last_step)
+Fri Apr 28 19:56:31 2023:   File "/home/matthew/DBDG/OnlineLearningToRank/env/lib/python3.7/site-packages/sklearn/linear_model/_base.py", line 718, in fit
+Fri Apr 28 19:56:31 2023:     self.coef_, self._residues, self.rank_, self.singular_ = linalg.lstsq(X, y)
+Fri Apr 28 19:56:31 2023:   File "/home/matthew/DBDG/OnlineLearningToRank/env/lib/python3.7/site-packages/scipy/linalg/basic.py", line 1205, in lstsq
+Fri Apr 28 19:56:31 2023:     iwork, cond, False, False)
+Fri Apr 28 19:56:31 2023: KeyboardInterrupt
+Fri Apr 28 19:55:28 2023: setting up ranker...
+Fri Apr 28 19:55:28 2023: ranker set up complete
+Fri Apr 28 19:55:28 2023: loop through impressions: 1000
+Fri Apr 28 19:55:28 2023: 0.1 False 0
+Fri Apr 28 19:55:41 2023: 0.0999 False 0
+Fri Apr 28 19:55:44 2023: 0.0998001 False 0
+Fri Apr 28 19:55:46 2023: 0.0997002999 False 0
+Fri Apr 28 19:55:56 2023: 0.0996005996001 False 0
+Fri Apr 28 19:56:01 2023: 0.0995009990004999 False 0
+Fri Apr 28 19:56:04 2023: 0.0994014980014994 False 0
+Fri Apr 28 19:56:07 2023: 0.0993020965034979 False 0
+Fri Apr 28 19:56:10 2023: 0.09920279440699441 False 0
+Fri Apr 28 19:56:12 2023: 0.09910359161258742 False 0
+Fri Apr 28 19:56:15 2023: 0.09900448802097483 False 0
+Fri Apr 28 19:56:17 2023: 0.09890548353295386 False 0
+Fri Apr 28 19:56:20 2023: 0.0988065780494209 False 0
+Fri Apr 28 19:56:23 2023: 0.09870777147137148 False 0
+Fri Apr 28 19:56:31 2023: Process Process-3:
+Fri Apr 28 19:56:31 2023: Traceback (most recent call last):
+Fri Apr 28 19:56:31 2023:   File "/usr/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+Fri Apr 28 19:56:31 2023:     self.run()
+Fri Apr 28 19:56:31 2023:   File "/usr/lib/python3.7/multiprocessing/process.py", line 99, in run
+Fri Apr 28 19:56:31 2023:     self._target(*self._args, **self._kwargs)
+Fri Apr 28 19:56:31 2023:   File "../utils/datasimulation.py", line 124, in start_run
+Fri Apr 28 19:56:31 2023:     simulation.run(ranker, output_key=output_key)
+Fri Apr 28 19:56:31 2023:   File "../utils/singlesimulation.py", line 122, in run
+Fri Apr 28 19:56:31 2023:     ranker.process_clicks(clicks)
+Fri Apr 28 19:56:31 2023:   File "../algorithms/basiconlineranker.py", line 106, in process_clicks
+Fri Apr 28 19:56:31 2023:     self.update_to_interaction(clicks)
+Fri Apr 28 19:56:31 2023:   File "../algorithms/DBTR/pdbtr.py", line 111, in update_to_interaction
+Fri Apr 28 19:56:31 2023:     self.local_estimator.fit(X, y)
+Fri Apr 28 19:56:31 2023:   File "/home/matthew/DBDG/OnlineLearningToRank/env/lib/python3.7/site-packages/sklearn/pipeline.py", line 394, in fit
+Fri Apr 28 19:56:31 2023:     self._final_estimator.fit(Xt, y, **fit_params_last_step)
+Fri Apr 28 19:56:31 2023:   File "/home/matthew/DBDG/OnlineLearningToRank/env/lib/python3.7/site-packages/sklearn/linear_model/_base.py", line 718, in fit
+Fri Apr 28 19:56:31 2023:     self.coef_, self._residues, self.rank_, self.singular_ = linalg.lstsq(X, y)
+Fri Apr 28 19:56:31 2023:   File "/home/matthew/DBDG/OnlineLearningToRank/env/lib/python3.7/site-packages/scipy/linalg/basic.py", line 1205, in lstsq
+Fri Apr 28 19:56:31 2023:     iwork, cond, False, False)
+Fri Apr 28 19:56:31 2023: KeyboardInterrupt
+Fri Apr 28 19:55:27 2023: setting up ranker...
+Fri Apr 28 19:55:27 2023: ranker set up complete
+Fri Apr 28 19:55:27 2023: loop through impressions: 1000
+Fri Apr 28 19:55:28 2023: 0.1 False 0
+Fri Apr 28 19:55:32 2023: 0.0999 False 0
+Fri Apr 28 19:55:37 2023: 0.0998001 False 0
+Fri Apr 28 19:55:38 2023: 0.0997002999 False 0
+Fri Apr 28 19:55:39 2023: 0.0996005996001 False 0
+Fri Apr 28 19:55:41 2023: 0.0995009990004999 False 0
+Fri Apr 28 19:55:44 2023: 0.0994014980014994 False 0
+Fri Apr 28 19:55:46 2023: 0.0993020965034979 False 0
+Fri Apr 28 19:55:50 2023: 0.09920279440699441 False 0
+Fri Apr 28 19:55:54 2023: 0.09910359161258742 False 0
+Fri Apr 28 19:55:56 2023: 0.09900448802097483 False 0
+Fri Apr 28 19:55:57 2023: 0.09890548353295386 False 0
+Fri Apr 28 19:56:00 2023: 0.0988065780494209 False 0
+Fri Apr 28 19:56:02 2023: 0.09870777147137148 False 0
+Fri Apr 28 19:56:04 2023: 0.0986090636999001 False 0
+Fri Apr 28 19:56:07 2023: 0.0985104546362002 False 0
+Fri Apr 28 19:56:10 2023: 0.098411944181564 False 0
+Fri Apr 28 19:56:12 2023: 0.09831353223738244 False 0
+Fri Apr 28 19:56:14 2023: 0.09821521870514506 False 0
+Fri Apr 28 19:56:17 2023: 0.09811700348643991 False 0
+Fri Apr 28 19:56:20 2023: 0.09801888648295347 False 0
+Fri Apr 28 19:56:25 2023: 0.09792086759647052 False 0
+Fri Apr 28 19:56:31 2023: Process Process-1:
+Fri Apr 28 19:56:31 2023: Traceback (most recent call last):
+Fri Apr 28 19:56:31 2023:   File "/usr/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+Fri Apr 28 19:56:31 2023:     self.run()
+Fri Apr 28 19:56:31 2023:   File "/usr/lib/python3.7/multiprocessing/process.py", line 99, in run
+Fri Apr 28 19:56:31 2023:     self._target(*self._args, **self._kwargs)
+Fri Apr 28 19:56:31 2023:   File "../utils/datasimulation.py", line 124, in start_run
+Fri Apr 28 19:56:31 2023:     simulation.run(ranker, output_key=output_key)
+Fri Apr 28 19:56:31 2023:   File "../utils/singlesimulation.py", line 122, in run
+Fri Apr 28 19:56:31 2023:     ranker.process_clicks(clicks)
+Fri Apr 28 19:56:31 2023:   File "../algorithms/basiconlineranker.py", line 106, in process_clicks
+Fri Apr 28 19:56:31 2023:     self.update_to_interaction(clicks)
+Fri Apr 28 19:56:31 2023:   File "../algorithms/DBTR/pdbtr.py", line 111, in update_to_interaction
+Fri Apr 28 19:56:31 2023:     self.local_estimator.fit(X, y)
+Fri Apr 28 19:56:31 2023:   File "/home/matthew/DBDG/OnlineLearningToRank/env/lib/python3.7/site-packages/sklearn/pipeline.py", line 394, in fit
+Fri Apr 28 19:56:31 2023:     self._final_estimator.fit(Xt, y, **fit_params_last_step)
+Fri Apr 28 19:56:31 2023:   File "/home/matthew/DBDG/OnlineLearningToRank/env/lib/python3.7/site-packages/sklearn/linear_model/_base.py", line 718, in fit
+Fri Apr 28 19:56:31 2023:     self.coef_, self._residues, self.rank_, self.singular_ = linalg.lstsq(X, y)
+Fri Apr 28 19:56:31 2023:   File "/home/matthew/DBDG/OnlineLearningToRank/env/lib/python3.7/site-packages/scipy/linalg/basic.py", line 1205, in lstsq
+Fri Apr 28 19:56:31 2023:     iwork, cond, False, False)
+Fri Apr 28 19:56:31 2023: KeyboardInterrupt
+Fri Apr 28 19:56:30 2023: Traceback (most recent call last):
+Fri Apr 28 19:56:30 2023:   File "run_script.py", line 141, in <module>
+Fri Apr 28 19:56:30 2023:     set_sim_and_run(input_args)
+Fri Apr 28 19:56:30 2023:   File "run_script.py", line 133, in set_sim_and_run
+Fri Apr 28 19:56:30 2023:     return switcher.get(algo, lambda: "ERROR: algorithm type not valid")()
+Fri Apr 28 19:56:30 2023:   File "run_script.py", line 132, in <lambda>
+Fri Apr 28 19:56:30 2023:     'PDBTR': lambda: func_pdbtr(args, dir_name),}
+Fri Apr 28 19:56:30 2023:   File "run_script.py", line 116, in func_pdbtr
+Fri Apr 28 19:56:30 2023:     sim.run(ranker)
+Fri Apr 28 19:56:30 2023:   File "../utils/datasimulation.py", line 58, in run
+Fri Apr 28 19:56:30 2023:     for process in self.load_processes(datasets, ranker_tuples):
+Fri Apr 28 19:56:30 2023:   File "../utils/datasimulation.py", line 77, in load_processes
+Fri Apr 28 19:56:30 2023:     for proc in self.load_datafold_processes(datafold, ranker_tuples):
+Fri Apr 28 19:56:30 2023:   File "../utils/datasimulation.py", line 90, in load_datafold_processes
+Fri Apr 28 19:56:30 2023:     self.wait_for_output()
+Fri Apr 28 19:56:30 2023:   File "../utils/datasimulation.py", line 164, in wait_for_output
+Fri Apr 28 19:56:30 2023:     output_key, run_output = self.output_queue.get(block=not found, timeout=timeout)
+Fri Apr 28 19:56:30 2023:   File "/usr/lib/python3.7/multiprocessing/queues.py", line 104, in get
+Fri Apr 28 19:56:30 2023:     if not self._poll(timeout):
+Fri Apr 28 19:56:30 2023:   File "/usr/lib/python3.7/multiprocessing/connection.py", line 257, in poll
+Fri Apr 28 19:56:30 2023:     return self._poll(timeout)
+Fri Apr 28 19:56:30 2023:   File "/usr/lib/python3.7/multiprocessing/connection.py", line 414, in _poll
+Fri Apr 28 19:56:30 2023:     r = wait([self], timeout)
+Fri Apr 28 19:56:30 2023:   File "/usr/lib/python3.7/multiprocessing/connection.py", line 921, in wait
+Fri Apr 28 19:56:30 2023:     ready = selector.select(timeout)
+Fri Apr 28 19:56:30 2023:   File "/usr/lib/python3.7/selectors.py", line 415, in select
+Fri Apr 28 19:56:30 2023:     fd_event_list = self._selector.poll(timeout)
+Fri Apr 28 19:56:30 2023: KeyboardInterrupt

@@ -1,0 +1,65 @@
+Sat Apr 29 21:02:23 2023: Starting simulation at run_script-Log-23-04-29-21:02:23.Log is also stored in output file at ./logs/run_script-Log-23-04-29-21:02:23.txtMQ2008
+Sat Apr 29 21:02:23 2023: Read   0: Fold 1 of dataset MQ2008.
+Sat Apr 29 21:02:23 2023: No group information is provided.
+Sat Apr 29 21:02:23 2023: collected!
+Sat Apr 29 21:02:23 2023: collected!
+Sat Apr 29 21:02:23 2023: Launch 0: algo/PDBTRDR/navi/200/10/0.1-0.99999977-1 0 with click model navigational on fold 1 from dataset MQ2008.
+Sat Apr 29 21:02:23 2023: setting up ranker...
+Sat Apr 29 21:02:23 2023: ranker set up complete
+Sat Apr 29 21:02:23 2023: loop through impressions: 200
+Sat Apr 29 21:02:23 2023: Process Process-1:
+Sat Apr 29 21:02:23 2023: Traceback (most recent call last):
+Sat Apr 29 21:02:23 2023:   File "/usr/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+Sat Apr 29 21:02:23 2023:     self.run()
+Sat Apr 29 21:02:23 2023:   File "/usr/lib/python3.7/multiprocessing/process.py", line 99, in run
+Sat Apr 29 21:02:23 2023:     self._target(*self._args, **self._kwargs)
+Sat Apr 29 21:02:23 2023:   File "../utils/datasimulation.py", line 124, in start_run
+Sat Apr 29 21:02:23 2023:     simulation.run(ranker, output_key=output_key)
+Sat Apr 29 21:02:23 2023:   File "../utils/singlesimulation.py", line 121, in run
+Sat Apr 29 21:02:23 2023:     ranker.process_clicks(clicks)
+Sat Apr 29 21:02:23 2023:   File "../algorithms/basiconlineranker.py", line 106, in process_clicks
+Sat Apr 29 21:02:23 2023:     self.update_to_interaction(clicks)
+Sat Apr 29 21:02:23 2023:   File "../algorithms/DBTR/pdbtr_dr.py", line 75, in update_to_interaction
+Sat Apr 29 21:02:23 2023:     self.local_estimator.fit(X, y)
+Sat Apr 29 21:02:23 2023:   File "/home/matthew/DBDG/OnlineLearningToRank/env/lib/python3.7/site-packages/sklearn/pipeline.py", line 394, in fit
+Sat Apr 29 21:02:23 2023:     self._final_estimator.fit(Xt, y, **fit_params_last_step)
+Sat Apr 29 21:02:23 2023:   File "/home/matthew/DBDG/OnlineLearningToRank/env/lib/python3.7/site-packages/sklearn/linear_model/_base.py", line 663, in fit
+Sat Apr 29 21:02:23 2023:     X, y, accept_sparse=accept_sparse, y_numeric=True, multi_output=True
+Sat Apr 29 21:02:23 2023:   File "/home/matthew/DBDG/OnlineLearningToRank/env/lib/python3.7/site-packages/sklearn/base.py", line 581, in _validate_data
+Sat Apr 29 21:02:23 2023:     X, y = check_X_y(X, y, **check_params)
+Sat Apr 29 21:02:23 2023:   File "/home/matthew/DBDG/OnlineLearningToRank/env/lib/python3.7/site-packages/sklearn/utils/validation.py", line 981, in check_X_y
+Sat Apr 29 21:02:23 2023:     check_consistent_length(X, y)
+Sat Apr 29 21:02:23 2023:   File "/home/matthew/DBDG/OnlineLearningToRank/env/lib/python3.7/site-packages/sklearn/utils/validation.py", line 334, in check_consistent_length
+Sat Apr 29 21:02:23 2023:     % [int(l) for l in lengths]
+Sat Apr 29 21:02:23 2023: ValueError: Found input variables with inconsistent numbers of samples: [93, 2]
+Sat Apr 29 21:02:23 2023: collected!
+Sat Apr 29 21:02:23 2023: Read   1: Fold 2 of dataset MQ2008.
+Sat Apr 29 21:02:23 2023: No group information is provided.
+Sat Apr 29 21:02:28 2023: Traceback (most recent call last):
+Sat Apr 29 21:02:28 2023:   File "run_script.py", line 184, in <module>
+Sat Apr 29 21:02:28 2023:     set_sim_and_run(input_args)
+Sat Apr 29 21:02:28 2023:   File "run_script.py", line 176, in set_sim_and_run
+Sat Apr 29 21:02:28 2023:     return switcher.get(algo, lambda: "ERROR: algorithm type not valid")()
+Sat Apr 29 21:02:28 2023:   File "run_script.py", line 175, in <lambda>
+Sat Apr 29 21:02:28 2023:     'PDBTRDR': lambda: func_pdbtrdr(args, dir_name)}
+Sat Apr 29 21:02:28 2023:   File "run_script.py", line 138, in func_pdbtrdr
+Sat Apr 29 21:02:28 2023:     sim.run(ranker)
+Sat Apr 29 21:02:28 2023:   File "../utils/datasimulation.py", line 58, in run
+Sat Apr 29 21:02:28 2023:     for process in self.load_processes(datasets, ranker_tuples):
+Sat Apr 29 21:02:28 2023:   File "../utils/datasimulation.py", line 77, in load_processes
+Sat Apr 29 21:02:28 2023:     for proc in self.load_datafold_processes(datafold, ranker_tuples):
+Sat Apr 29 21:02:28 2023:   File "../utils/datasimulation.py", line 90, in load_datafold_processes
+Sat Apr 29 21:02:28 2023:     self.wait_for_output()
+Sat Apr 29 21:02:28 2023:   File "../utils/datasimulation.py", line 164, in wait_for_output
+Sat Apr 29 21:02:28 2023:     output_key, run_output = self.output_queue.get(block=not found, timeout=timeout)
+Sat Apr 29 21:02:28 2023:   File "/usr/lib/python3.7/multiprocessing/queues.py", line 104, in get
+Sat Apr 29 21:02:28 2023:     if not self._poll(timeout):
+Sat Apr 29 21:02:28 2023:   File "/usr/lib/python3.7/multiprocessing/connection.py", line 257, in poll
+Sat Apr 29 21:02:28 2023:     return self._poll(timeout)
+Sat Apr 29 21:02:28 2023:   File "/usr/lib/python3.7/multiprocessing/connection.py", line 414, in _poll
+Sat Apr 29 21:02:28 2023:     r = wait([self], timeout)
+Sat Apr 29 21:02:28 2023:   File "/usr/lib/python3.7/multiprocessing/connection.py", line 921, in wait
+Sat Apr 29 21:02:28 2023:     ready = selector.select(timeout)
+Sat Apr 29 21:02:28 2023:   File "/usr/lib/python3.7/selectors.py", line 415, in select
+Sat Apr 29 21:02:28 2023:     fd_event_list = self._selector.poll(timeout)
+Sat Apr 29 21:02:28 2023: KeyboardInterrupt

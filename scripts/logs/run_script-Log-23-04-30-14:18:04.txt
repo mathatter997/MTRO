@@ -1,0 +1,71 @@
+Sun Apr 30 14:18:04 2023: Starting simulation at run_script-Log-23-04-30-14:18:04.Log is also stored in output file at ./logs/run_script-Log-23-04-30-14:18:04.txtMQ2008
+Sun Apr 30 14:18:04 2023: Read   0: Fold 1 of dataset MQ2008.
+Sun Apr 30 14:18:04 2023: No group information is provided.
+Sun Apr 30 14:18:04 2023: collected!
+Sun Apr 30 14:18:04 2023: collected!
+Sun Apr 30 14:18:04 2023: Launch 0: algo/PDBTR/perfect/200/10/0.1-0.99999977-1 0 with click model perfect on fold 1 from dataset MQ2008.
+Sun Apr 30 14:18:04 2023: setting up ranker...
+Sun Apr 30 14:18:04 2023: ranker set up complete
+Sun Apr 30 14:18:04 2023: loop through impressions: 200
+Sun Apr 30 14:18:11 2023: impressions 100/200
+Sun Apr 30 14:18:16 2023: impressions 200/200
+Sun Apr 30 14:18:04 2023: collected!
+Sun Apr 30 14:18:04 2023: Read   1: Fold 2 of dataset MQ2008.
+Sun Apr 30 14:18:05 2023: No group information is provided.
+Sun Apr 30 14:18:16 2023: Output 0: algo/PDBTR/perfect/200/10/0.1-0.99999977-1 on dataset MQ2008. (1/5)
+Sun Apr 30 14:18:16 2023: collected!
+Sun Apr 30 14:18:16 2023: Clean  0: Fold 1 of dataset MQ2008.
+Sun Apr 30 14:18:17 2023: collected!
+Sun Apr 30 14:18:17 2023: Launch 1: algo/PDBTR/perfect/200/10/0.1-0.99999977-1 0 with click model perfect on fold 2 from dataset MQ2008.
+Sun Apr 30 14:18:17 2023: setting up ranker...
+Sun Apr 30 14:18:17 2023: ranker set up complete
+Sun Apr 30 14:18:17 2023: loop through impressions: 200
+Sun Apr 30 14:18:22 2023: impressions 100/200
+Sun Apr 30 14:18:29 2023: impressions 200/200
+Sun Apr 30 14:18:17 2023: collected!
+Sun Apr 30 14:18:17 2023: Read   2: Fold 3 of dataset MQ2008.
+Sun Apr 30 14:18:18 2023: No group information is provided.
+Sun Apr 30 14:18:29 2023: Output 1: algo/PDBTR/perfect/200/10/0.1-0.99999977-1 on dataset MQ2008. (2/5)
+Sun Apr 30 14:18:29 2023: collected!
+Sun Apr 30 14:18:29 2023: Clean  1: Fold 2 of dataset MQ2008.
+Sun Apr 30 14:18:29 2023: collected!
+Sun Apr 30 14:18:29 2023: Launch 2: algo/PDBTR/perfect/200/10/0.1-0.99999977-1 0 with click model perfect on fold 3 from dataset MQ2008.
+Sun Apr 30 14:18:29 2023: setting up ranker...
+Sun Apr 30 14:18:29 2023: ranker set up complete
+Sun Apr 30 14:18:29 2023: loop through impressions: 200
+Sun Apr 30 14:18:34 2023: impressions 100/200
+Sun Apr 30 14:18:40 2023: impressions 200/200
+Sun Apr 30 14:18:29 2023: collected!
+Sun Apr 30 14:18:29 2023: Read   3: Fold 4 of dataset MQ2008.
+Sun Apr 30 14:18:30 2023: No group information is provided.
+Sun Apr 30 14:18:40 2023: Output 2: algo/PDBTR/perfect/200/10/0.1-0.99999977-1 on dataset MQ2008. (3/5)
+Sun Apr 30 14:18:40 2023: collected!
+Sun Apr 30 14:18:40 2023: Clean  2: Fold 3 of dataset MQ2008.
+Sun Apr 30 14:18:41 2023: collected!
+Sun Apr 30 14:18:41 2023: Launch 3: algo/PDBTR/perfect/200/10/0.1-0.99999977-1 0 with click model perfect on fold 4 from dataset MQ2008.
+Sun Apr 30 14:18:41 2023: setting up ranker...
+Sun Apr 30 14:18:41 2023: ranker set up complete
+Sun Apr 30 14:18:41 2023: loop through impressions: 200
+Sun Apr 30 14:18:47 2023: impressions 100/200
+Sun Apr 30 14:18:53 2023: impressions 200/200
+Sun Apr 30 14:18:41 2023: collected!
+Sun Apr 30 14:18:41 2023: Read   4: Fold 5 of dataset MQ2008.
+Sun Apr 30 14:18:42 2023: No group information is provided.
+Sun Apr 30 14:18:53 2023: Output 3: algo/PDBTR/perfect/200/10/0.1-0.99999977-1 on dataset MQ2008. (4/5)
+Sun Apr 30 14:18:53 2023: collected!
+Sun Apr 30 14:18:53 2023: Clean  3: Fold 4 of dataset MQ2008.
+Sun Apr 30 14:18:54 2023: collected!
+Sun Apr 30 14:18:54 2023: Launch 4: algo/PDBTR/perfect/200/10/0.1-0.99999977-1 0 with click model perfect on fold 5 from dataset MQ2008.
+Sun Apr 30 14:18:54 2023: setting up ranker...
+Sun Apr 30 14:18:54 2023: ranker set up complete
+Sun Apr 30 14:18:54 2023: loop through impressions: 200
+Sun Apr 30 14:19:00 2023: impressions 100/200
+Sun Apr 30 14:19:08 2023: impressions 200/200
+Sun Apr 30 14:18:54 2023: collected!
+Sun Apr 30 14:19:08 2023: Output 4: algo/PDBTR/perfect/200/10/0.1-0.99999977-1 on dataset MQ2008. (5/5)
+Sun Apr 30 14:19:08 2023: opening ./output/MQ2008/algo/PDBTR/perfect/200/10/0.1-0.99999977-1.out
+Sun Apr 30 14:19:08 2023: Closed 0: algo/PDBTR/perfect/200/10/0.1-0.99999977-1 on MQ2008 was averaged and stored.
+Sun Apr 30 14:19:08 2023: Clean  4: Fold 5 of dataset MQ2008.
+Sun Apr 30 14:19:09 2023: collected!
+Sun Apr 30 14:19:09 2023: collected!
+Sun Apr 30 14:19:09 2023: Time taken: 0:01:04.843206 (64 seconds)

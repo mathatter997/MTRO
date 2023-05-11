@@ -1,0 +1,231 @@
+Fri Apr 28 19:14:27 2023: Starting simulation at run_script-Log-23-04-28-19:14:27.Log is also stored in output file at ./logs/run_script-Log-23-04-28-19:14:27.txtMQ2008
+Fri Apr 28 19:14:27 2023: Read   0: Fold 1 of dataset MQ2008.
+Fri Apr 28 19:14:28 2023: No group information is provided.
+Fri Apr 28 19:14:28 2023: log_scale False
+Fri Apr 28 19:14:28 2023: Launch 0: algo/DBGD/info/1000/10/0.1-0.99999977-1 0 with click model informational on fold 1 from dataset MQ2008.
+Fri Apr 28 19:14:28 2023: Launch 1: algo/DBGD/info/1000/10/0.1-0.99999977-1 1 with click model informational on fold 1 from dataset MQ2008.
+Fri Apr 28 19:14:28 2023: setting up ranker...
+Fri Apr 28 19:14:28 2023: ranker set up complete
+Fri Apr 28 19:14:28 2023: loop through impressions: 1000
+Fri Apr 28 19:14:28 2023: K shape 10
+Fri Apr 28 19:14:28 2023: K shape 10
+Fri Apr 28 19:14:28 2023: K shape 10
+Fri Apr 28 19:14:28 2023: K shape 10
+Fri Apr 28 19:14:28 2023: K shape 10
+Fri Apr 28 19:14:28 2023: K shape 10
+Fri Apr 28 19:14:28 2023: K shape 10
+Fri Apr 28 19:14:28 2023: K shape 10
+Fri Apr 28 19:14:28 2023: K shape 10
+Fri Apr 28 19:14:28 2023: K shape 10
+Fri Apr 28 19:14:28 2023: K shape 10
+Fri Apr 28 19:14:28 2023: K shape 10
+Fri Apr 28 19:14:28 2023: K shape 10
+Fri Apr 28 19:14:28 2023: K shape 10
+Fri Apr 28 19:14:28 2023: K shape 10
+Fri Apr 28 19:14:28 2023: K shape 10
+Fri Apr 28 19:14:28 2023: K shape 10
+Fri Apr 28 19:14:28 2023: K shape 10
+Fri Apr 28 19:14:28 2023: K shape 10
+Fri Apr 28 19:14:28 2023: K shape 10
+Fri Apr 28 19:14:28 2023: K shape 10
+Fri Apr 28 19:14:28 2023: K shape 10
+Fri Apr 28 19:14:28 2023: K shape 10
+Fri Apr 28 19:14:28 2023: K shape 10
+Fri Apr 28 19:14:28 2023: K shape 10
+Fri Apr 28 19:14:28 2023: K shape 10
+Fri Apr 28 19:14:28 2023: K shape 10
+Fri Apr 28 19:14:28 2023: K shape 10
+Fri Apr 28 19:14:28 2023: K shape 10
+Fri Apr 28 19:14:28 2023: K shape 10
+Fri Apr 28 19:14:28 2023: K shape 10
+Fri Apr 28 19:14:28 2023: K shape 10
+Fri Apr 28 19:14:28 2023: K shape 10
+Fri Apr 28 19:14:28 2023: K shape 10
+Fri Apr 28 19:14:28 2023: K shape 10
+Fri Apr 28 19:14:28 2023: K shape 10
+Fri Apr 28 19:14:28 2023: K shape 10
+Fri Apr 28 19:14:28 2023: K shape 10
+Fri Apr 28 19:14:28 2023: K shape 10
+Fri Apr 28 19:14:28 2023: K shape 10
+Fri Apr 28 19:14:28 2023: K shape 10
+Fri Apr 28 19:14:28 2023: K shape 10
+Fri Apr 28 19:14:28 2023: K shape 10
+Fri Apr 28 19:14:28 2023: K shape 10
+Fri Apr 28 19:14:28 2023: K shape 10
+Fri Apr 28 19:14:28 2023: K shape 10
+Fri Apr 28 19:14:28 2023: K shape 10
+Fri Apr 28 19:14:28 2023: K shape 10
+Fri Apr 28 19:14:28 2023: K shape 10
+Fri Apr 28 19:14:28 2023: K shape 10
+Fri Apr 28 19:14:28 2023: K shape 10
+Fri Apr 28 19:14:28 2023: K shape 10
+Fri Apr 28 19:14:28 2023: K shape 10
+Fri Apr 28 19:14:28 2023: K shape 10
+Fri Apr 28 19:14:28 2023: K shape 10
+Fri Apr 28 19:14:28 2023: K shape 10
+Fri Apr 28 19:14:28 2023: K shape 10
+Fri Apr 28 19:14:28 2023: K shape 10
+Fri Apr 28 19:14:28 2023: K shape 10
+Fri Apr 28 19:14:28 2023: K shape 10
+Fri Apr 28 19:14:28 2023: K shape 10
+Fri Apr 28 19:14:28 2023: K shape 10
+Fri Apr 28 19:14:28 2023: K shape 10
+Fri Apr 28 19:14:28 2023: K shape 10
+Fri Apr 28 19:14:28 2023: K shape 10
+Fri Apr 28 19:14:28 2023: K shape 10
+Fri Apr 28 19:14:28 2023: K shape 10
+Fri Apr 28 19:14:28 2023: K shape 10
+Fri Apr 28 19:14:28 2023: K shape 10
+Fri Apr 28 19:14:28 2023: K shape 10
+Fri Apr 28 19:14:28 2023: K shape 10
+Fri Apr 28 19:14:28 2023: K shape 10
+Fri Apr 28 19:14:28 2023: K shape 10
+Fri Apr 28 19:14:28 2023: K shape 10
+Fri Apr 28 19:14:28 2023: K shape 10
+Fri Apr 28 19:14:28 2023: K shape 10
+Fri Apr 28 19:14:28 2023: K shape 10
+Fri Apr 28 19:14:28 2023: K shape 10
+Fri Apr 28 19:14:28 2023: K shape 10
+Fri Apr 28 19:14:28 2023: K shape 10
+Fri Apr 28 19:14:28 2023: K shape 10
+Fri Apr 28 19:14:28 2023: K shape 10
+Fri Apr 28 19:14:28 2023: K shape 10
+Fri Apr 28 19:14:28 2023: K shape 10
+Fri Apr 28 19:14:28 2023: K shape 10
+Fri Apr 28 19:14:28 2023: K shape 10
+Fri Apr 28 19:14:28 2023: K shape 10
+Fri Apr 28 19:14:28 2023: K shape 10
+Fri Apr 28 19:14:28 2023: K shape 10
+Fri Apr 28 19:14:28 2023: K shape 10
+Fri Apr 28 19:14:28 2023: K shape 10
+Fri Apr 28 19:14:28 2023: K shape 10
+Fri Apr 28 19:14:28 2023: K shape 10
+Fri Apr 28 19:14:28 2023: K shape 10
+Fri Apr 28 19:14:28 2023: K shape 10
+Fri Apr 28 19:14:28 2023: K shape 10
+Fri Apr 28 19:14:28 2023: K shape 10
+Fri Apr 28 19:14:28 2023: K shape 10
+Fri Apr 28 19:14:28 2023: K shape 10
+Fri Apr 28 19:14:28 2023: K shape 10
+Fri Apr 28 19:14:28 2023: impressions 100/1000
+Fri Apr 28 19:14:28 2023: K shape 10
+Fri Apr 28 19:14:28 2023: K shape 10
+Fri Apr 28 19:14:28 2023: K shape 10
+Fri Apr 28 19:14:28 2023: K shape 10
+Fri Apr 28 19:14:28 2023: K shape 10
+Fri Apr 28 19:14:28 2023: K shape 10
+Fri Apr 28 19:14:28 2023: K shape 10
+Fri Apr 28 19:14:28 2023: K shape 10
+Fri Apr 28 19:14:28 2023: Process Process-1:
+Fri Apr 28 19:14:28 2023: Traceback (most recent call last):
+Fri Apr 28 19:14:28 2023:   File "/usr/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+Fri Apr 28 19:14:28 2023:     self.run()
+Fri Apr 28 19:14:28 2023:   File "/usr/lib/python3.7/multiprocessing/process.py", line 99, in run
+Fri Apr 28 19:14:28 2023:     self._target(*self._args, **self._kwargs)
+Fri Apr 28 19:14:28 2023:   File "../utils/datasimulation.py", line 124, in start_run
+Fri Apr 28 19:14:28 2023:     simulation.run(ranker, output_key=output_key)
+Fri Apr 28 19:14:28 2023:   File "../utils/singlesimulation.py", line 120, in run
+Fri Apr 28 19:14:28 2023:     self.timestep_evaluate(run_results, impressions, ranker, ranking_i, train_ranking, ranking_labels)
+Fri Apr 28 19:14:28 2023:   File "../utils/singlesimulation.py", line 53, in timestep_evaluate
+Fri Apr 28 19:14:28 2023:     cur_results = self.evaluate_ranker_train_only(iteration, ranker, ranking_i, train_ranking, ranking_labels)
+Fri Apr 28 19:14:28 2023:   File "../utils/singlesimulation.py", line 91, in evaluate_ranker_train_only
+Fri Apr 28 19:14:28 2023:     for name, value in ranker.get_messages().items():
+Fri Apr 28 19:14:28 2023: KeyboardInterrupt
+Fri Apr 28 19:14:28 2023: setting up ranker...
+Fri Apr 28 19:14:28 2023: ranker set up complete
+Fri Apr 28 19:14:28 2023: loop through impressions: 1000
+Fri Apr 28 19:14:28 2023: K shape 10
+Fri Apr 28 19:14:28 2023: K shape 10
+Fri Apr 28 19:14:28 2023: K shape 10
+Fri Apr 28 19:14:28 2023: K shape 10
+Fri Apr 28 19:14:28 2023: K shape 10
+Fri Apr 28 19:14:28 2023: K shape 10
+Fri Apr 28 19:14:28 2023: K shape 10
+Fri Apr 28 19:14:28 2023: K shape 10
+Fri Apr 28 19:14:28 2023: K shape 10
+Fri Apr 28 19:14:28 2023: K shape 10
+Fri Apr 28 19:14:28 2023: K shape 10
+Fri Apr 28 19:14:28 2023: K shape 10
+Fri Apr 28 19:14:28 2023: K shape 10
+Fri Apr 28 19:14:28 2023: K shape 10
+Fri Apr 28 19:14:28 2023: K shape 10
+Fri Apr 28 19:14:28 2023: K shape 10
+Fri Apr 28 19:14:28 2023: K shape 10
+Fri Apr 28 19:14:28 2023: K shape 10
+Fri Apr 28 19:14:28 2023: K shape 10
+Fri Apr 28 19:14:28 2023: K shape 10
+Fri Apr 28 19:14:28 2023: K shape 10
+Fri Apr 28 19:14:28 2023: K shape 10
+Fri Apr 28 19:14:28 2023: K shape 10
+Fri Apr 28 19:14:28 2023: K shape 10
+Fri Apr 28 19:14:28 2023: K shape 10
+Fri Apr 28 19:14:28 2023: K shape 10
+Fri Apr 28 19:14:28 2023: K shape 10
+Fri Apr 28 19:14:28 2023: K shape 10
+Fri Apr 28 19:14:28 2023: K shape 10
+Fri Apr 28 19:14:28 2023: K shape 10
+Fri Apr 28 19:14:28 2023: K shape 10
+Fri Apr 28 19:14:28 2023: K shape 10
+Fri Apr 28 19:14:28 2023: K shape 10
+Fri Apr 28 19:14:28 2023: K shape 10
+Fri Apr 28 19:14:28 2023: K shape 10
+Fri Apr 28 19:14:28 2023: K shape 10
+Fri Apr 28 19:14:28 2023: K shape 10
+Fri Apr 28 19:14:28 2023: K shape 10
+Fri Apr 28 19:14:28 2023: K shape 10
+Fri Apr 28 19:14:28 2023: K shape 10
+Fri Apr 28 19:14:28 2023: K shape 10
+Fri Apr 28 19:14:28 2023: K shape 10
+Fri Apr 28 19:14:28 2023: K shape 10
+Fri Apr 28 19:14:28 2023: K shape 10
+Fri Apr 28 19:14:28 2023: K shape 10
+Fri Apr 28 19:14:28 2023: K shape 10
+Fri Apr 28 19:14:28 2023: K shape 10
+Fri Apr 28 19:14:28 2023: K shape 10
+Fri Apr 28 19:14:28 2023: K shape 10
+Fri Apr 28 19:14:28 2023: K shape 10
+Fri Apr 28 19:14:28 2023: K shape 10
+Fri Apr 28 19:14:28 2023: K shape 10
+Fri Apr 28 19:14:28 2023: K shape 10
+Fri Apr 28 19:14:28 2023: K shape 10
+Fri Apr 28 19:14:28 2023: K shape 10
+Fri Apr 28 19:14:28 2023: K shape 10
+Fri Apr 28 19:14:28 2023: K shape 10
+Fri Apr 28 19:14:28 2023: K shape 10
+Fri Apr 28 19:14:28 2023: K shape 10
+Fri Apr 28 19:14:28 2023: K shape 10
+Fri Apr 28 19:14:28 2023: Process Process-2:
+Fri Apr 28 19:14:28 2023: Traceback (most recent call last):
+Fri Apr 28 19:14:28 2023:   File "/usr/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+Fri Apr 28 19:14:28 2023:     self.run()
+Fri Apr 28 19:14:28 2023:   File "/usr/lib/python3.7/multiprocessing/process.py", line 99, in run
+Fri Apr 28 19:14:28 2023:     self._target(*self._args, **self._kwargs)
+Fri Apr 28 19:14:28 2023:   File "../utils/datasimulation.py", line 124, in start_run
+Fri Apr 28 19:14:28 2023:     simulation.run(ranker, output_key=output_key)
+Fri Apr 28 19:14:28 2023:   File "../utils/singlesimulation.py", line 117, in run
+Fri Apr 28 19:14:28 2023:     ranking_i, train_ranking = self.sample_and_rank(ranker)
+Fri Apr 28 19:14:28 2023:   File "../utils/singlesimulation.py", line 98, in sample_and_rank
+Fri Apr 28 19:14:28 2023:     train_ranking = ranker.get_train_query_ranking(ranking_i)
+Fri Apr 28 19:14:28 2023:   File "../algorithms/basiconlineranker.py", line 98, in get_train_query_ranking
+Fri Apr 28 19:14:28 2023:     self._last_ranking = self._create_train_ranking(query_id, query_feat, inverted)[:self.n_results]
+Fri Apr 28 19:14:28 2023:   File "../algorithms/DBGD/tddbgd.py", line 50, in _create_train_ranking
+Fri Apr 28 19:14:28 2023:     multileaved_list = self.multileaving.make_multileaving(rankings)
+Fri Apr 28 19:14:28 2023:   File "../multileaving/TeamDraftMultileave.py", line 51, in make_multileaving
+Fri Apr 28 19:14:28 2023:     indices[rank_i])
+Fri Apr 28 19:14:28 2023:   File "../multileaving/TeamDraftMultileave.py", line 21, in next_index_to_add
+Fri Apr 28 19:14:28 2023:     while index < ranking.shape[0] and np.any(ranking[index] == inter_result[:inter_n]):
+Fri Apr 28 19:14:28 2023: KeyboardInterrupt
+Fri Apr 28 19:14:28 2023: Traceback (most recent call last):
+Fri Apr 28 19:14:28 2023:   File "run_script.py", line 141, in <module>
+Fri Apr 28 19:14:28 2023:     set_sim_and_run(input_args)
+Fri Apr 28 19:14:28 2023:   File "run_script.py", line 133, in set_sim_and_run
+Fri Apr 28 19:14:28 2023:     return switcher.get(algo, lambda: "ERROR: algorithm type not valid")()
+Fri Apr 28 19:14:28 2023:   File "run_script.py", line 130, in <lambda>
+Fri Apr 28 19:14:28 2023:     'DBGD': lambda: func_dbgd(args, dir_name), 
+Fri Apr 28 19:14:28 2023:   File "run_script.py", line 98, in func_dbgd
+Fri Apr 28 19:14:28 2023:     sim.run(ranker)
+Fri Apr 28 19:14:28 2023:   File "../utils/datasimulation.py", line 61, in run
+Fri Apr 28 19:14:28 2023:     while self.update_active() >= self.num_proc:
+Fri Apr 28 19:14:28 2023:   File "../utils/datasimulation.py", line 152, in update_active
+Fri Apr 28 19:14:28 2023:     gc.collect()
+Fri Apr 28 19:14:28 2023: KeyboardInterrupt

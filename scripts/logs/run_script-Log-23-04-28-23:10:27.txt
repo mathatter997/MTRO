@@ -1,0 +1,182 @@
+Fri Apr 28 23:10:27 2023: Starting simulation at run_script-Log-23-04-28-23:10:27.Log is also stored in output file at ./logs/run_script-Log-23-04-28-23:10:27.txtMQ2008
+Fri Apr 28 23:10:27 2023: Read   0: Fold 1 of dataset MQ2008.
+Fri Apr 28 23:10:27 2023: No group information is provided.
+Fri Apr 28 23:10:27 2023: collected!
+Fri Apr 28 23:10:27 2023: collected!
+Fri Apr 28 23:10:27 2023: Launch 0: algo/TDDBTR/info/200/10/0.1-0.99999977-1 0 with click model informational on fold 1 from dataset MQ2008.
+Fri Apr 28 23:10:27 2023: collected!
+Fri Apr 28 23:10:27 2023: Launch 1: algo/TDDBTR/info/200/10/0.1-0.99999977-1 1 with click model informational on fold 1 from dataset MQ2008.
+Fri Apr 28 23:10:27 2023: collected!
+Fri Apr 28 23:10:27 2023: Launch 2: algo/TDDBTR/info/200/10/0.1-0.99999977-1 2 with click model informational on fold 1 from dataset MQ2008.
+Fri Apr 28 23:10:28 2023: collected!
+Fri Apr 28 23:10:28 2023: Read   1: Fold 2 of dataset MQ2008.
+Fri Apr 28 23:10:28 2023: No group information is provided.
+Fri Apr 28 23:10:58 2023: collected!
+Fri Apr 28 23:10:59 2023: collected!
+Fri Apr 28 23:10:59 2023: Launch 3: algo/TDDBTR/info/200/10/0.1-0.99999977-1 0 with click model informational on fold 2 from dataset MQ2008.
+Fri Apr 28 23:10:59 2023: collected!
+Fri Apr 28 23:10:59 2023: Launch 4: algo/TDDBTR/info/200/10/0.1-0.99999977-1 1 with click model informational on fold 2 from dataset MQ2008.
+Fri Apr 28 23:10:27 2023: setting up ranker...
+Fri Apr 28 23:10:27 2023: ranker set up complete
+Fri Apr 28 23:10:27 2023: loop through impressions: 200
+Fri Apr 28 23:11:05 2023: impressions 100/200
+Fri Apr 28 23:12:00 2023: impressions 200/200
+Fri Apr 28 23:10:27 2023: setting up ranker...
+Fri Apr 28 23:10:27 2023: ranker set up complete
+Fri Apr 28 23:10:27 2023: loop through impressions: 200
+Fri Apr 28 23:11:05 2023: impressions 100/200
+Fri Apr 28 23:12:00 2023: impressions 200/200
+Fri Apr 28 23:10:59 2023: collected!
+Fri Apr 28 23:11:30 2023: collected!
+Fri Apr 28 23:11:30 2023: collected!
+Fri Apr 28 23:12:00 2023: collected!
+Fri Apr 28 23:12:00 2023: collected!
+Fri Apr 28 23:12:00 2023: Output 0: algo/TDDBTR/info/200/10/0.1-0.99999977-1 on dataset MQ2008. (1/15)
+Fri Apr 28 23:12:01 2023: collected!
+Fri Apr 28 23:12:01 2023: collected!
+Fri Apr 28 23:12:01 2023: Launch 5: algo/TDDBTR/info/200/10/0.1-0.99999977-1 2 with click model informational on fold 2 from dataset MQ2008.
+Fri Apr 28 23:12:01 2023: collected!
+Fri Apr 28 23:12:01 2023: Read   2: Fold 3 of dataset MQ2008.
+Fri Apr 28 23:12:02 2023: No group information is provided.
+Fri Apr 28 23:12:02 2023: Output 1: algo/TDDBTR/info/200/10/0.1-0.99999977-1 on dataset MQ2008. (2/15)
+Fri Apr 28 23:12:02 2023: collected!
+Fri Apr 28 23:12:02 2023: collected!
+Fri Apr 28 23:12:02 2023: Launch 6: algo/TDDBTR/info/200/10/0.1-0.99999977-1 0 with click model informational on fold 3 from dataset MQ2008.
+Fri Apr 28 23:10:27 2023: setting up ranker...
+Fri Apr 28 23:10:27 2023: ranker set up complete
+Fri Apr 28 23:10:27 2023: loop through impressions: 200
+Fri Apr 28 23:11:06 2023: impressions 100/200
+Fri Apr 28 23:12:02 2023: impressions 200/200
+Fri Apr 28 23:12:02 2023: collected!
+Fri Apr 28 23:12:02 2023: Output 2: algo/TDDBTR/info/200/10/0.1-0.99999977-1 on dataset MQ2008. (3/15)
+Fri Apr 28 23:12:03 2023: Clean  0: Fold 1 of dataset MQ2008.
+Fri Apr 28 23:12:03 2023: collected!
+Fri Apr 28 23:12:03 2023: collected!
+Fri Apr 28 23:12:03 2023: Launch 7: algo/TDDBTR/info/200/10/0.1-0.99999977-1 1 with click model informational on fold 3 from dataset MQ2008.
+Fri Apr 28 23:10:59 2023: setting up ranker...
+Fri Apr 28 23:10:59 2023: ranker set up complete
+Fri Apr 28 23:10:59 2023: loop through impressions: 200
+Fri Apr 28 23:11:55 2023: impressions 100/200
+Fri Apr 28 23:12:49 2023: impressions 200/200
+Fri Apr 28 23:12:03 2023: collected!
+Fri Apr 28 23:12:34 2023: collected!
+Fri Apr 28 23:12:34 2023: collected!
+Fri Apr 28 23:12:49 2023: Output 3: algo/TDDBTR/info/200/10/0.1-0.99999977-1 on dataset MQ2008. (4/15)
+Fri Apr 28 23:12:49 2023: collected!
+Fri Apr 28 23:12:50 2023: collected!
+Fri Apr 28 23:12:50 2023: Launch 8: algo/TDDBTR/info/200/10/0.1-0.99999977-1 2 with click model informational on fold 3 from dataset MQ2008.
+Fri Apr 28 23:10:59 2023: setting up ranker...
+Fri Apr 28 23:10:59 2023: ranker set up complete
+Fri Apr 28 23:10:59 2023: loop through impressions: 200
+Fri Apr 28 23:11:57 2023: impressions 100/200
+Fri Apr 28 23:12:49 2023: impressions 200/200
+Fri Apr 28 23:12:50 2023: collected!
+Fri Apr 28 23:12:50 2023: Output 4: algo/TDDBTR/info/200/10/0.1-0.99999977-1 on dataset MQ2008. (5/15)
+Fri Apr 28 23:12:50 2023: collected!
+Fri Apr 28 23:12:50 2023: collected!
+Fri Apr 28 23:12:50 2023: Read   3: Fold 4 of dataset MQ2008.
+Fri Apr 28 23:12:51 2023: No group information is provided.
+Fri Apr 28 23:13:21 2023: collected!
+Fri Apr 28 23:13:21 2023: collected!
+Fri Apr 28 23:13:21 2023: Launch 9: algo/TDDBTR/info/200/10/0.1-0.99999977-1 0 with click model informational on fold 4 from dataset MQ2008.
+Fri Apr 28 23:12:02 2023: setting up ranker...
+Fri Apr 28 23:12:02 2023: ranker set up complete
+Fri Apr 28 23:12:02 2023: loop through impressions: 200
+Fri Apr 28 23:12:54 2023: impressions 100/200
+Fri Apr 28 23:13:42 2023: impressions 200/200
+Fri Apr 28 23:13:21 2023: collected!
+Fri Apr 28 23:13:43 2023: Output 5: algo/TDDBTR/info/200/10/0.1-0.99999977-1 on dataset MQ2008. (6/15)
+Fri Apr 28 23:13:43 2023: collected!
+Fri Apr 28 23:13:43 2023: collected!
+Fri Apr 28 23:13:43 2023: Launch 10: algo/TDDBTR/info/200/10/0.1-0.99999977-1 1 with click model informational on fold 4 from dataset MQ2008.
+Fri Apr 28 23:12:01 2023: setting up ranker...
+Fri Apr 28 23:12:01 2023: ranker set up complete
+Fri Apr 28 23:12:01 2023: loop through impressions: 200
+Fri Apr 28 23:12:54 2023: impressions 100/200
+Fri Apr 28 23:13:43 2023: impressions 200/200
+Fri Apr 28 23:13:43 2023: collected!
+Fri Apr 28 23:13:43 2023: Output 6: algo/TDDBTR/info/200/10/0.1-0.99999977-1 on dataset MQ2008. (7/15)
+Fri Apr 28 23:13:44 2023: Clean  1: Fold 2 of dataset MQ2008.
+Fri Apr 28 23:13:44 2023: collected!
+Fri Apr 28 23:13:44 2023: collected!
+Fri Apr 28 23:13:44 2023: Launch 11: algo/TDDBTR/info/200/10/0.1-0.99999977-1 2 with click model informational on fold 4 from dataset MQ2008.
+Fri Apr 28 23:12:03 2023: setting up ranker...
+Fri Apr 28 23:12:03 2023: ranker set up complete
+Fri Apr 28 23:12:03 2023: loop through impressions: 200
+Fri Apr 28 23:12:56 2023: impressions 100/200
+Fri Apr 28 23:13:47 2023: impressions 200/200
+Fri Apr 28 23:13:44 2023: collected!
+Fri Apr 28 23:13:48 2023: Output 7: algo/TDDBTR/info/200/10/0.1-0.99999977-1 on dataset MQ2008. (8/15)
+Fri Apr 28 23:13:48 2023: collected!
+Fri Apr 28 23:13:48 2023: collected!
+Fri Apr 28 23:13:48 2023: Read   4: Fold 5 of dataset MQ2008.
+Fri Apr 28 23:13:49 2023: No group information is provided.
+Fri Apr 28 23:14:19 2023: collected!
+Fri Apr 28 23:14:19 2023: collected!
+Fri Apr 28 23:14:19 2023: Launch 12: algo/TDDBTR/info/200/10/0.1-0.99999977-1 0 with click model informational on fold 5 from dataset MQ2008.
+Fri Apr 28 23:12:50 2023: setting up ranker...
+Fri Apr 28 23:12:50 2023: ranker set up complete
+Fri Apr 28 23:12:50 2023: loop through impressions: 200
+Fri Apr 28 23:13:37 2023: impressions 100/200
+Fri Apr 28 23:14:27 2023: impressions 200/200
+Fri Apr 28 23:14:20 2023: collected!
+Fri Apr 28 23:14:28 2023: Output 8: algo/TDDBTR/info/200/10/0.1-0.99999977-1 on dataset MQ2008. (9/15)
+Fri Apr 28 23:14:28 2023: Clean  2: Fold 3 of dataset MQ2008.
+Fri Apr 28 23:14:28 2023: collected!
+Fri Apr 28 23:14:29 2023: collected!
+Fri Apr 28 23:14:29 2023: Launch 13: algo/TDDBTR/info/200/10/0.1-0.99999977-1 1 with click model informational on fold 5 from dataset MQ2008.
+Fri Apr 28 23:13:21 2023: setting up ranker...
+Fri Apr 28 23:13:21 2023: ranker set up complete
+Fri Apr 28 23:13:21 2023: loop through impressions: 200
+Fri Apr 28 23:14:14 2023: impressions 100/200
+Fri Apr 28 23:15:07 2023: impressions 200/200
+Fri Apr 28 23:14:29 2023: collected!
+Fri Apr 28 23:14:59 2023: collected!
+Fri Apr 28 23:15:00 2023: collected!
+Fri Apr 28 23:15:08 2023: Output 9: algo/TDDBTR/info/200/10/0.1-0.99999977-1 on dataset MQ2008. (10/15)
+Fri Apr 28 23:15:08 2023: collected!
+Fri Apr 28 23:15:08 2023: collected!
+Fri Apr 28 23:15:08 2023: Launch 14: algo/TDDBTR/info/200/10/0.1-0.99999977-1 2 with click model informational on fold 5 from dataset MQ2008.
+Fri Apr 28 23:13:43 2023: setting up ranker...
+Fri Apr 28 23:13:43 2023: ranker set up complete
+Fri Apr 28 23:13:43 2023: loop through impressions: 200
+Fri Apr 28 23:14:35 2023: impressions 100/200
+Fri Apr 28 23:15:30 2023: impressions 200/200
+Fri Apr 28 23:13:44 2023: setting up ranker...
+Fri Apr 28 23:13:44 2023: ranker set up complete
+Fri Apr 28 23:13:44 2023: loop through impressions: 200
+Fri Apr 28 23:14:37 2023: impressions 100/200
+Fri Apr 28 23:15:33 2023: impressions 200/200
+Fri Apr 28 23:14:19 2023: setting up ranker...
+Fri Apr 28 23:14:19 2023: ranker set up complete
+Fri Apr 28 23:14:19 2023: loop through impressions: 200
+Fri Apr 28 23:15:17 2023: impressions 100/200
+Fri Apr 28 23:16:02 2023: impressions 200/200
+Fri Apr 28 23:14:29 2023: setting up ranker...
+Fri Apr 28 23:14:29 2023: ranker set up complete
+Fri Apr 28 23:14:29 2023: loop through impressions: 200
+Fri Apr 28 23:15:26 2023: impressions 100/200
+Fri Apr 28 23:16:07 2023: impressions 200/200
+Fri Apr 28 23:15:08 2023: setting up ranker...
+Fri Apr 28 23:15:08 2023: ranker set up complete
+Fri Apr 28 23:15:08 2023: loop through impressions: 200
+Fri Apr 28 23:15:54 2023: impressions 100/200
+Fri Apr 28 23:16:20 2023: impressions 200/200
+Fri Apr 28 23:15:09 2023: collected!
+Fri Apr 28 23:15:30 2023: Output 10: algo/TDDBTR/info/200/10/0.1-0.99999977-1 on dataset MQ2008. (11/15)
+Fri Apr 28 23:15:30 2023: collected!
+Fri Apr 28 23:15:31 2023: collected!
+Fri Apr 28 23:15:33 2023: Output 11: algo/TDDBTR/info/200/10/0.1-0.99999977-1 on dataset MQ2008. (12/15)
+Fri Apr 28 23:15:34 2023: collected!
+Fri Apr 28 23:16:02 2023: Output 12: algo/TDDBTR/info/200/10/0.1-0.99999977-1 on dataset MQ2008. (13/15)
+Fri Apr 28 23:16:02 2023: Clean  3: Fold 4 of dataset MQ2008.
+Fri Apr 28 23:16:03 2023: collected!
+Fri Apr 28 23:16:07 2023: Output 13: algo/TDDBTR/info/200/10/0.1-0.99999977-1 on dataset MQ2008. (14/15)
+Fri Apr 28 23:16:07 2023: collected!
+Fri Apr 28 23:16:20 2023: Output 14: algo/TDDBTR/info/200/10/0.1-0.99999977-1 on dataset MQ2008. (15/15)
+Fri Apr 28 23:16:20 2023: opening ./output/MQ2008/algo/TDDBTR/info/200/10/0.1-0.99999977-1.out
+Fri Apr 28 23:16:20 2023: Closed 0: algo/TDDBTR/info/200/10/0.1-0.99999977-1 on MQ2008 was averaged and stored.
+Fri Apr 28 23:16:20 2023: Clean  4: Fold 5 of dataset MQ2008.
+Fri Apr 28 23:16:20 2023: collected!
+Fri Apr 28 23:16:20 2023: collected!
+Fri Apr 28 23:16:20 2023: Time taken: 0:05:53.898066 (353 seconds)

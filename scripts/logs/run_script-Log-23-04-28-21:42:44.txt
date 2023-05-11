@@ -1,0 +1,144 @@
+Fri Apr 28 21:42:44 2023: Starting simulation at run_script-Log-23-04-28-21:42:44.Log is also stored in output file at ./logs/run_script-Log-23-04-28-21:42:44.txtMQ2008
+Fri Apr 28 21:42:44 2023: Read   0: Fold 1 of dataset MQ2008.
+Fri Apr 28 21:42:44 2023: No group information is provided.
+Fri Apr 28 21:42:44 2023: collected!
+Fri Apr 28 21:42:44 2023: collected!
+Fri Apr 28 21:42:44 2023: Launch 0: algo/PDBTR/perfect/200/10/0.1-0.99999977-1 0 with click model perfect on fold 1 from dataset MQ2008.
+Fri Apr 28 21:42:45 2023: collected!
+Fri Apr 28 21:42:45 2023: Launch 1: algo/PDBTR/perfect/200/10/0.1-0.99999977-1 1 with click model perfect on fold 1 from dataset MQ2008.
+Fri Apr 28 21:42:45 2023: collected!
+Fri Apr 28 21:42:45 2023: Launch 2: algo/PDBTR/perfect/200/10/0.1-0.99999977-1 2 with click model perfect on fold 1 from dataset MQ2008.
+Fri Apr 28 21:42:45 2023: collected!
+Fri Apr 28 21:42:45 2023: Read   1: Fold 2 of dataset MQ2008.
+Fri Apr 28 21:42:45 2023: No group information is provided.
+Fri Apr 28 21:43:16 2023: collected!
+Fri Apr 28 21:43:16 2023: collected!
+Fri Apr 28 21:43:16 2023: Launch 3: algo/PDBTR/perfect/200/10/0.1-0.99999977-1 0 with click model perfect on fold 2 from dataset MQ2008.
+Fri Apr 28 21:43:16 2023: collected!
+Fri Apr 28 21:43:16 2023: Launch 4: algo/PDBTR/perfect/200/10/0.1-0.99999977-1 1 with click model perfect on fold 2 from dataset MQ2008.
+Fri Apr 28 21:43:16 2023: collected!
+Fri Apr 28 21:43:16 2023: Launch 5: algo/PDBTR/perfect/200/10/0.1-0.99999977-1 2 with click model perfect on fold 2 from dataset MQ2008.
+Fri Apr 28 21:43:17 2023: collected!
+Fri Apr 28 21:43:17 2023: Read   2: Fold 3 of dataset MQ2008.
+Fri Apr 28 21:43:18 2023: No group information is provided.
+Fri Apr 28 21:43:49 2023: collected!
+Fri Apr 28 21:43:50 2023: collected!
+Fri Apr 28 21:43:50 2023: Launch 6: algo/PDBTR/perfect/200/10/0.1-0.99999977-1 0 with click model perfect on fold 3 from dataset MQ2008.
+Fri Apr 28 21:43:50 2023: collected!
+Fri Apr 28 21:43:50 2023: Launch 7: algo/PDBTR/perfect/200/10/0.1-0.99999977-1 1 with click model perfect on fold 3 from dataset MQ2008.
+Fri Apr 28 21:43:51 2023: collected!
+Fri Apr 28 21:43:51 2023: Launch 8: algo/PDBTR/perfect/200/10/0.1-0.99999977-1 2 with click model perfect on fold 3 from dataset MQ2008.
+Fri Apr 28 21:43:51 2023: collected!
+Fri Apr 28 21:43:51 2023: Read   3: Fold 4 of dataset MQ2008.
+Fri Apr 28 21:43:53 2023: No group information is provided.
+Fri Apr 28 21:44:44 2023: collected!
+Fri Apr 28 21:44:44 2023: collected!
+Fri Apr 28 21:44:44 2023: Launch 9: algo/PDBTR/perfect/200/10/0.1-0.99999977-1 0 with click model perfect on fold 4 from dataset MQ2008.
+Fri Apr 28 21:44:45 2023: collected!
+Fri Apr 28 21:44:45 2023: Launch 10: algo/PDBTR/perfect/200/10/0.1-0.99999977-1 1 with click model perfect on fold 4 from dataset MQ2008.
+Fri Apr 28 21:44:46 2023: collected!
+Fri Apr 28 21:44:46 2023: Launch 11: algo/PDBTR/perfect/200/10/0.1-0.99999977-1 2 with click model perfect on fold 4 from dataset MQ2008.
+Fri Apr 28 21:44:46 2023: collected!
+Fri Apr 28 21:44:46 2023: Read   4: Fold 5 of dataset MQ2008.
+Fri Apr 28 21:44:49 2023: No group information is provided.
+Fri Apr 28 21:45:48 2023: collected!
+Fri Apr 28 21:45:49 2023: collected!
+Fri Apr 28 21:45:50 2023: Launch 12: algo/PDBTR/perfect/200/10/0.1-0.99999977-1 0 with click model perfect on fold 5 from dataset MQ2008.
+Fri Apr 28 21:45:50 2023: collected!
+Fri Apr 28 21:45:50 2023: Launch 13: algo/PDBTR/perfect/200/10/0.1-0.99999977-1 1 with click model perfect on fold 5 from dataset MQ2008.
+Fri Apr 28 21:45:51 2023: collected!
+Fri Apr 28 21:45:51 2023: Launch 14: algo/PDBTR/perfect/200/10/0.1-0.99999977-1 2 with click model perfect on fold 5 from dataset MQ2008.
+Fri Apr 28 21:42:45 2023: setting up ranker...
+Fri Apr 28 21:42:45 2023: ranker set up complete
+Fri Apr 28 21:42:45 2023: loop through impressions: 200
+Fri Apr 28 21:45:22 2023: impressions 100/200
+Fri Apr 28 21:48:45 2023: impressions 200/200
+Fri Apr 28 21:42:45 2023: setting up ranker...
+Fri Apr 28 21:42:45 2023: ranker set up complete
+Fri Apr 28 21:42:45 2023: loop through impressions: 200
+Fri Apr 28 21:45:01 2023: impressions 100/200
+Fri Apr 28 21:48:44 2023: impressions 200/200
+Fri Apr 28 21:43:16 2023: setting up ranker...
+Fri Apr 28 21:43:16 2023: ranker set up complete
+Fri Apr 28 21:43:16 2023: loop through impressions: 200
+Fri Apr 28 21:46:41 2023: impressions 100/200
+Fri Apr 28 21:49:21 2023: impressions 200/200
+Fri Apr 28 21:43:16 2023: setting up ranker...
+Fri Apr 28 21:43:16 2023: ranker set up complete
+Fri Apr 28 21:43:16 2023: loop through impressions: 200
+Fri Apr 28 21:46:52 2023: impressions 100/200
+Fri Apr 28 21:49:34 2023: impressions 200/200
+Fri Apr 28 21:45:51 2023: setting up ranker...
+Fri Apr 28 21:45:51 2023: ranker set up complete
+Fri Apr 28 21:45:51 2023: loop through impressions: 200
+Fri Apr 28 21:49:03 2023: impressions 100/200
+Fri Apr 28 21:50:18 2023: impressions 200/200
+Fri Apr 28 21:45:50 2023: setting up ranker...
+Fri Apr 28 21:45:50 2023: ranker set up complete
+Fri Apr 28 21:45:50 2023: loop through impressions: 200
+Fri Apr 28 21:49:00 2023: impressions 100/200
+Fri Apr 28 21:50:21 2023: impressions 200/200
+Fri Apr 28 21:45:51 2023: collected!
+Fri Apr 28 21:46:22 2023: Clean  0: Fold 4 of dataset MQ2008.
+Fri Apr 28 21:46:34 2023: collected!
+Fri Apr 28 21:47:04 2023: Clean  1: Fold 3 of dataset MQ2008.
+Fri Apr 28 21:47:05 2023: collected!
+Fri Apr 28 21:47:36 2023: collected!
+Fri Apr 28 21:48:06 2023: collected!
+Fri Apr 28 21:48:43 2023: collected!
+Fri Apr 28 21:48:47 2023: Output 0: algo/PDBTR/perfect/200/10/0.1-0.99999977-1 on dataset MQ2008. (1/15)
+Fri Apr 28 21:48:47 2023: Output 1: algo/PDBTR/perfect/200/10/0.1-0.99999977-1 on dataset MQ2008. (2/15)
+Fri Apr 28 21:48:47 2023: collected!
+Fri Apr 28 21:49:17 2023: Clean  2: Fold 1 of dataset MQ2008.
+Fri Apr 28 21:49:18 2023: collected!
+Fri Apr 28 21:49:22 2023: Output 2: algo/PDBTR/perfect/200/10/0.1-0.99999977-1 on dataset MQ2008. (3/15)
+Fri Apr 28 21:49:22 2023: collected!
+Fri Apr 28 21:49:35 2023: Output 3: algo/PDBTR/perfect/200/10/0.1-0.99999977-1 on dataset MQ2008. (4/15)
+Fri Apr 28 21:49:35 2023: collected!
+Fri Apr 28 21:50:05 2023: Clean  3: Fold 2 of dataset MQ2008.
+Fri Apr 28 21:50:05 2023: collected!
+Fri Apr 28 21:50:18 2023: Output 4: algo/PDBTR/perfect/200/10/0.1-0.99999977-1 on dataset MQ2008. (5/15)
+Fri Apr 28 21:50:19 2023: collected!
+Fri Apr 28 21:50:22 2023: Output 5: algo/PDBTR/perfect/200/10/0.1-0.99999977-1 on dataset MQ2008. (6/15)
+Fri Apr 28 21:50:22 2023: collected!
+Fri Apr 28 21:50:52 2023: Clean  4: Fold 5 of dataset MQ2008.
+Fri Apr 28 21:50:52 2023: collected!
+Fri Apr 28 21:51:22 2023: collected!
+Fri Apr 28 21:51:52 2023: collected!
+Fri Apr 28 21:52:23 2023: collected!
+Fri Apr 28 21:52:53 2023: collected!
+Fri Apr 28 21:53:23 2023: collected!
+Fri Apr 28 21:53:53 2023: collected!
+Fri Apr 28 21:54:23 2023: collected!
+Fri Apr 28 21:54:53 2023: collected!
+Fri Apr 28 21:55:23 2023: collected!
+Fri Apr 28 21:55:53 2023: collected!
+Fri Apr 28 21:56:23 2023: collected!
+Fri Apr 28 21:56:53 2023: collected!
+Fri Apr 28 21:57:23 2023: collected!
+Fri Apr 28 21:57:53 2023: collected!
+Fri Apr 28 21:58:23 2023: collected!
+Fri Apr 28 21:58:53 2023: Traceback (most recent call last):
+Fri Apr 28 21:58:53 2023:   File "run_script.py", line 141, in <module>
+Fri Apr 28 21:58:53 2023:     set_sim_and_run(input_args)
+Fri Apr 28 21:58:53 2023:   File "run_script.py", line 133, in set_sim_and_run
+Fri Apr 28 21:58:53 2023:     return switcher.get(algo, lambda: "ERROR: algorithm type not valid")()
+Fri Apr 28 21:58:53 2023:   File "run_script.py", line 132, in <lambda>
+Fri Apr 28 21:58:53 2023:     'PDBTR': lambda: func_pdbtr(args, dir_name),}
+Fri Apr 28 21:58:53 2023:   File "run_script.py", line 116, in func_pdbtr
+Fri Apr 28 21:58:53 2023:     sim.run(ranker)
+Fri Apr 28 21:58:53 2023:   File "../utils/datasimulation.py", line 65, in run
+Fri Apr 28 21:58:53 2023:     self.wait_for_output()
+Fri Apr 28 21:58:53 2023:   File "../utils/datasimulation.py", line 164, in wait_for_output
+Fri Apr 28 21:58:53 2023:     output_key, run_output = self.output_queue.get(block=not found, timeout=timeout)
+Fri Apr 28 21:58:53 2023:   File "/usr/lib/python3.7/multiprocessing/queues.py", line 104, in get
+Fri Apr 28 21:58:53 2023:     if not self._poll(timeout):
+Fri Apr 28 21:58:53 2023:   File "/usr/lib/python3.7/multiprocessing/connection.py", line 257, in poll
+Fri Apr 28 21:58:53 2023:     return self._poll(timeout)
+Fri Apr 28 21:58:53 2023:   File "/usr/lib/python3.7/multiprocessing/connection.py", line 414, in _poll
+Fri Apr 28 21:58:53 2023:     r = wait([self], timeout)
+Fri Apr 28 21:58:53 2023:   File "/usr/lib/python3.7/multiprocessing/connection.py", line 921, in wait
+Fri Apr 28 21:58:53 2023:     ready = selector.select(timeout)
+Fri Apr 28 21:58:53 2023:   File "/usr/lib/python3.7/selectors.py", line 415, in select
+Fri Apr 28 21:58:53 2023:     fd_event_list = self._selector.poll(timeout)
+Fri Apr 28 21:58:53 2023: KeyboardInterrupt

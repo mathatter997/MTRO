@@ -1,0 +1,27 @@
+Sat Apr 22 14:54:30 2023: Starting simulation at run_script-Log-23-04-22-14:54:30.Log is also stored in output file at ./logs/run_script-Log-23-04-22-14:54:30.txtMQ2008
+Sat Apr 22 14:54:30 2023: [<utils.dataset.DataSet object at 0x7f7e8e2fbe10>] [('algo/PAIRRANK/info/1000/10/0.1-0.99999977-gd-0.1-0.1-False-random-False-1', <class 'algorithms.PairRank.PairRank.PairRank'>, {'learning_rate': 0.1, 'learning_rate_decay': 0.99999977, 'update': 'gd', '_lambda': 0.1, 'alpha': 0.1, 'refine': False, 'rank': 'random', 'ind': False})]
+Sat Apr 22 14:54:30 2023: Read   0: Fold 1 of dataset MQ2008.
+Sat Apr 22 14:54:30 2023: No group information is provided.
+Sat Apr 22 14:54:30 2023: FILEOUT ./output/MQ2008/algo/PAIRRANK/info/1000/10/0.1-0.99999977-gd-0.1-0.1-False-random-False-1.out
+Sat Apr 22 14:54:30 2023: Launch 0: algo/PAIRRANK/info/1000/10/0.1-0.99999977-gd-0.1-0.1-False-random-False-1 0 with click model informational on fold 1 from dataset MQ2008.
+Sat Apr 22 14:54:30 2023: Process Process-1:
+Sat Apr 22 14:54:30 2023: Traceback (most recent call last):
+Sat Apr 22 14:54:30 2023:   File "/usr/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+Sat Apr 22 14:54:30 2023:     self.run()
+Sat Apr 22 14:54:30 2023:   File "/usr/lib/python3.7/multiprocessing/process.py", line 99, in run
+Sat Apr 22 14:54:30 2023:     self._target(*self._args, **self._kwargs)
+Sat Apr 22 14:54:30 2023: TypeError: start_none() takes 1 positional argument but 2 were given
+Sat Apr 22 14:54:30 2023: Traceback (most recent call last):
+Sat Apr 22 14:54:30 2023:   File "run_script.py", line 118, in <module>
+Sat Apr 22 14:54:30 2023:     set_sim_and_run(input_args)
+Sat Apr 22 14:54:30 2023:   File "run_script.py", line 110, in set_sim_and_run
+Sat Apr 22 14:54:30 2023:     return switcher.get(algo, lambda: "ERROR: algorithm type not valid")()
+Sat Apr 22 14:54:30 2023:   File "run_script.py", line 105, in <lambda>
+Sat Apr 22 14:54:30 2023:     switcher = {"PAIRRANK":         lambda: func_pairrank(args, dir_name),
+Sat Apr 22 14:54:30 2023:   File "run_script.py", line 27, in func_pairrank
+Sat Apr 22 14:54:30 2023:     sim.run(ranker)
+Sat Apr 22 14:54:30 2023:   File "../utils/datasimulation.py", line 61, in run
+Sat Apr 22 14:54:30 2023:     process.start()
+Sat Apr 22 14:54:30 2023:   File "/usr/lib/python3.7/multiprocessing/process.py", line 106, in start
+Sat Apr 22 14:54:30 2023:     assert self._popen is None, 'cannot start a process twice'
+Sat Apr 22 14:54:30 2023: AssertionError: cannot start a process twice

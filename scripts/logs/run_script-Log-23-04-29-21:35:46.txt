@@ -1,0 +1,88 @@
+Sat Apr 29 21:35:46 2023: Starting simulation at run_script-Log-23-04-29-21:35:46.Log is also stored in output file at ./logs/run_script-Log-23-04-29-21:35:46.txtMQ2008
+Sat Apr 29 21:35:46 2023: Read   0: Fold 1 of dataset MQ2008.
+Sat Apr 29 21:35:46 2023: No group information is provided.
+Sat Apr 29 21:35:46 2023: collected!
+Sat Apr 29 21:35:46 2023: collected!
+Sat Apr 29 21:35:46 2023: Launch 0: algo/PDBTRDR/navi/400/10/0.1-0.99999977-1 0 with click model navigational on fold 1 from dataset MQ2008.
+Sat Apr 29 21:35:46 2023: collected!
+Sat Apr 29 21:35:46 2023: Read   1: Fold 2 of dataset MQ2008.
+Sat Apr 29 21:35:47 2023: No group information is provided.
+Sat Apr 29 21:35:46 2023: setting up ranker...
+Sat Apr 29 21:35:46 2023: ranker set up complete
+Sat Apr 29 21:35:46 2023: loop through impressions: 400
+Sat Apr 29 21:35:47 2023: 0.0 1.0
+Sat Apr 29 21:35:47 2023: 0.0 -0.97
+Sat Apr 29 21:35:47 2023: 0.0 -0.762
+Sat Apr 29 21:35:47 2023: 0.0 1.0
+Sat Apr 29 21:35:47 2023: 0.0 1.0
+Sat Apr 29 21:35:48 2023: 0.0 -0.92
+Sat Apr 29 21:35:48 2023: 0.0 -0.024
+Sat Apr 29 21:35:48 2023: 0.0 0.874
+Sat Apr 29 21:35:48 2023: 0.0 -0.581
+Sat Apr 29 21:35:49 2023: impressions 100/400
+Sat Apr 29 21:35:49 2023: 0.0 -1.0
+Sat Apr 29 21:35:49 2023: 0.0 0.638
+Sat Apr 29 21:35:49 2023: 0.0 -0.916
+Sat Apr 29 21:35:49 2023: 0.0 0.76
+Sat Apr 29 21:35:49 2023: 0.0 0.032
+Sat Apr 29 21:35:50 2023: 0.0 0.426
+Sat Apr 29 21:35:50 2023: 0.0 -0.996
+Sat Apr 29 21:35:50 2023: 0.0 -0.978
+Sat Apr 29 21:35:50 2023: 0.0 0.472
+Sat Apr 29 21:35:50 2023: 0.0 -0.964
+Sat Apr 29 21:35:51 2023: 0.0 -0.01
+Sat Apr 29 21:35:51 2023: 0.0 0.956
+Sat Apr 29 21:35:51 2023: impressions 200/400
+Sat Apr 29 21:35:51 2023: 0.0 -0.291
+Sat Apr 29 21:35:51 2023: 0.0 0.23
+Sat Apr 29 21:35:51 2023: 0.0 -0.438
+Sat Apr 29 21:35:51 2023: 0.0 0.934
+Sat Apr 29 21:35:52 2023: 0.0 0.028
+Sat Apr 29 21:35:52 2023: 0.0 -0.205
+Sat Apr 29 21:35:53 2023: Process Process-1:
+Sat Apr 29 21:35:53 2023: Traceback (most recent call last):
+Sat Apr 29 21:35:53 2023:   File "/usr/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+Sat Apr 29 21:35:53 2023:     self.run()
+Sat Apr 29 21:35:53 2023:   File "/usr/lib/python3.7/multiprocessing/process.py", line 99, in run
+Sat Apr 29 21:35:53 2023:     self._target(*self._args, **self._kwargs)
+Sat Apr 29 21:35:53 2023:   File "../utils/datasimulation.py", line 124, in start_run
+Sat Apr 29 21:35:53 2023:     simulation.run(ranker, output_key=output_key)
+Sat Apr 29 21:35:53 2023:   File "../utils/singlesimulation.py", line 116, in run
+Sat Apr 29 21:35:53 2023:     ranking_i, train_ranking = self.sample_and_rank(ranker)
+Sat Apr 29 21:35:53 2023:   File "../utils/singlesimulation.py", line 97, in sample_and_rank
+Sat Apr 29 21:35:53 2023:     train_ranking = ranker.get_train_query_ranking(ranking_i)
+Sat Apr 29 21:35:53 2023:   File "../algorithms/basiconlineranker.py", line 98, in get_train_query_ranking
+Sat Apr 29 21:35:53 2023:     self._last_ranking = self._create_train_ranking(query_id, query_feat, inverted)[:self.n_results]
+Sat Apr 29 21:35:53 2023:   File "../algorithms/DBTR/pdbtr_dr.py", line 69, in _create_train_ranking
+Sat Apr 29 21:35:53 2023:     multileaved_list = self.multileaving.make_multileaving(inverted_rankings)
+Sat Apr 29 21:35:53 2023:   File "../multileaving/ProbabilisticMultileave.py", line 45, in make_multileaving
+Sat Apr 29 21:35:53 2023:     denom -= unnorm_probs[:, choice]
+Sat Apr 29 21:35:53 2023: KeyboardInterrupt
+Sat Apr 29 21:35:53 2023: Traceback (most recent call last):
+Sat Apr 29 21:35:53 2023:   File "run_script.py", line 184, in <module>
+Sat Apr 29 21:35:53 2023:     set_sim_and_run(input_args)
+Sat Apr 29 21:35:53 2023:   File "run_script.py", line 176, in set_sim_and_run
+Sat Apr 29 21:35:53 2023:     return switcher.get(algo, lambda: "ERROR: algorithm type not valid")()
+Sat Apr 29 21:35:53 2023:   File "run_script.py", line 175, in <lambda>
+Sat Apr 29 21:35:53 2023:     'PDBTRDR': lambda: func_pdbtrdr(args, dir_name)}
+Sat Apr 29 21:35:53 2023:   File "run_script.py", line 138, in func_pdbtrdr
+Sat Apr 29 21:35:53 2023:     sim.run(ranker)
+Sat Apr 29 21:35:53 2023:   File "../utils/datasimulation.py", line 58, in run
+Sat Apr 29 21:35:53 2023:     for process in self.load_processes(datasets, ranker_tuples):
+Sat Apr 29 21:35:53 2023:   File "../utils/datasimulation.py", line 77, in load_processes
+Sat Apr 29 21:35:53 2023:     for proc in self.load_datafold_processes(datafold, ranker_tuples):
+Sat Apr 29 21:35:53 2023:   File "../utils/datasimulation.py", line 90, in load_datafold_processes
+Sat Apr 29 21:35:53 2023:     self.wait_for_output()
+Sat Apr 29 21:35:53 2023:   File "../utils/datasimulation.py", line 164, in wait_for_output
+Sat Apr 29 21:35:53 2023:     output_key, run_output = self.output_queue.get(block=not found, timeout=timeout)
+Sat Apr 29 21:35:53 2023:   File "/usr/lib/python3.7/multiprocessing/queues.py", line 104, in get
+Sat Apr 29 21:35:53 2023:     if not self._poll(timeout):
+Sat Apr 29 21:35:53 2023:   File "/usr/lib/python3.7/multiprocessing/connection.py", line 257, in poll
+Sat Apr 29 21:35:53 2023:     return self._poll(timeout)
+Sat Apr 29 21:35:53 2023:   File "/usr/lib/python3.7/multiprocessing/connection.py", line 414, in _poll
+Sat Apr 29 21:35:53 2023:     r = wait([self], timeout)
+Sat Apr 29 21:35:53 2023:   File "/usr/lib/python3.7/multiprocessing/connection.py", line 921, in wait
+Sat Apr 29 21:35:53 2023:     ready = selector.select(timeout)
+Sat Apr 29 21:35:53 2023:   File "/usr/lib/python3.7/selectors.py", line 415, in select
+Sat Apr 29 21:35:53 2023:     fd_event_list = self._selector.poll(timeout)
+Sat Apr 29 21:35:53 2023: KeyboardInterrupt

@@ -1,0 +1,132 @@
+Sat Apr 29 21:08:37 2023: Starting simulation at run_script-Log-23-04-29-21:08:37.Log is also stored in output file at ./logs/run_script-Log-23-04-29-21:08:37.txtMQ2008
+Sat Apr 29 21:08:37 2023: Read   0: Fold 1 of dataset MQ2008.
+Sat Apr 29 21:08:37 2023: No group information is provided.
+Sat Apr 29 21:08:37 2023: collected!
+Sat Apr 29 21:08:37 2023: collected!
+Sat Apr 29 21:08:37 2023: Launch 0: algo/PDBTRDR/navi/200/10/0.1-0.99999977-1 0 with click model navigational on fold 1 from dataset MQ2008.
+Sat Apr 29 21:08:37 2023: setting up ranker...
+Sat Apr 29 21:08:37 2023: ranker set up complete
+Sat Apr 29 21:08:37 2023: loop through impressions: 200
+Sat Apr 29 21:08:37 2023: [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+Sat Apr 29 21:08:37 2023:  0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.] [ 0.04407344 -0.01272225 -0.01988539  0.00130837  0.01652936  0.08670012
+Sat Apr 29 21:08:37 2023:  -0.00059742  0.02086528  0.00560181  0.03758504  0.00723718 -0.02132504
+Sat Apr 29 21:08:37 2023:   0.03203508 -0.02931175 -0.01853294 -0.03440149 -0.0281452  -0.0261965
+Sat Apr 29 21:08:37 2023:   0.02698744  0.01144046 -0.01456073 -0.00273708 -0.00327629  0.02187956
+Sat Apr 29 21:08:37 2023:   0.01939692  0.00588834 -0.02120361  0.04538198 -0.00208247  0.01973313
+Sat Apr 29 21:08:37 2023:   0.05057849  0.05205837 -0.04948601  0.01946633 -0.02886433  0.03752459
+Sat Apr 29 21:08:37 2023:   0.01481368  0.03017808 -0.00240423  0.0331099  -0.02769382 -0.0332643
+Sat Apr 29 21:08:37 2023:  -0.00817673 -0.00153761  0.00462052 -0.04540286] 0.0 0.0 0.0 0.0
+Sat Apr 29 21:08:37 2023: ../algorithms/DBTR/pdbtr_dr.py:83: RuntimeWarning: invalid value encountered in double_scalars
+Sat Apr 29 21:08:37 2023:   p = (y[0] - y[1]) / (self.local_estimator.predict([X[0]]) - self.local_estimator.predict([X[1]]))[0]
+Sat Apr 29 21:08:37 2023: [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+Sat Apr 29 21:08:37 2023:  0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.] [-7.75105272e-03 -1.87682534e-02 -2.78076840e-02 -1.56758062e-02
+Sat Apr 29 21:08:37 2023:  -3.85848710e-03  3.99822388e-02  2.42669787e-02  2.25526059e-02
+Sat Apr 29 21:08:37 2023:  -6.17148892e-03  1.68979437e-02  1.55972337e-02 -1.03274243e-02
+Sat Apr 29 21:08:37 2023:  -4.43128375e-02 -3.91653819e-02 -1.41927387e-02  3.94021253e-02
+Sat Apr 29 21:08:37 2023:   1.85727649e-02 -3.27781774e-02  3.26345577e-02 -2.12815048e-04
+Sat Apr 29 21:08:37 2023:  -1.14728171e-02 -4.81285201e-03  3.27990223e-02 -1.88563685e-02
+Sat Apr 29 21:08:37 2023:  -2.17477119e-02 -4.74021597e-03 -4.13298166e-02 -2.39346122e-02
+Sat Apr 29 21:08:37 2023:  -4.09654514e-02 -8.99193945e-03 -4.96115805e-02  4.03168274e-02
+Sat Apr 29 21:08:37 2023:  -1.13824638e-02  2.68099671e-02  8.81199639e-02 -4.48238405e-02
+Sat Apr 29 21:08:37 2023:  -1.10541321e-02  6.72037346e-05  2.74134201e-03 -1.89666370e-02
+Sat Apr 29 21:08:37 2023:   6.01051863e-03  3.29946805e-02  1.28533126e-02  4.20536580e-02
+Sat Apr 29 21:08:37 2023:   1.67308503e-02  1.80865272e-02] 0.0 0.0 0.0 0.0
+Sat Apr 29 21:08:37 2023: ../algorithms/DBTR/pdbtr_dr.py:83: RuntimeWarning: invalid value encountered in double_scalars
+Sat Apr 29 21:08:37 2023:   p = (y[0] - y[1]) / (self.local_estimator.predict([X[0]]) - self.local_estimator.predict([X[1]]))[0]
+Sat Apr 29 21:08:37 2023: [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+Sat Apr 29 21:08:37 2023:  0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.] [-1.10785830e-02  1.70841659e-02 -5.46588937e-02  2.00504164e-02
+Sat Apr 29 21:08:37 2023:   3.34236328e-02 -4.09472009e-05 -6.66432674e-02 -3.73446852e-02
+Sat Apr 29 21:08:37 2023:   2.25924781e-02 -3.93459871e-02 -3.33487838e-02  9.66746093e-03
+Sat Apr 29 21:08:37 2023:   1.04715954e-02 -1.10202997e-02  6.44173445e-03 -4.48481964e-02
+Sat Apr 29 21:08:37 2023:   3.92181249e-02  2.04790426e-02  6.26195544e-03  3.14273543e-02
+Sat Apr 29 21:08:37 2023:   2.18052361e-02 -4.11900552e-02 -1.78280013e-02 -1.85030905e-02
+Sat Apr 29 21:08:37 2023:  -3.77478238e-02  4.34885520e-02  3.53806810e-04  1.36355850e-02
+Sat Apr 29 21:08:37 2023:   4.12159904e-02  1.45328963e-03  2.13146031e-02 -3.06650402e-02
+Sat Apr 29 21:08:37 2023:   3.68016635e-02  6.31204012e-03  1.42757504e-02 -1.18863679e-02
+Sat Apr 29 21:08:37 2023:  -1.01537606e-02  4.29565717e-03  1.31556906e-02  8.21607838e-03
+Sat Apr 29 21:08:37 2023:  -2.22650027e-02  5.33932652e-02 -9.69827050e-03  3.12658428e-03
+Sat Apr 29 21:08:37 2023:  -6.34001910e-02 -8.85995897e-03] 0.0 0.0 0.0 0.0
+Sat Apr 29 21:08:37 2023: ../algorithms/DBTR/pdbtr_dr.py:83: RuntimeWarning: invalid value encountered in double_scalars
+Sat Apr 29 21:08:37 2023:   p = (y[0] - y[1]) / (self.local_estimator.predict([X[0]]) - self.local_estimator.predict([X[1]]))[0]
+Sat Apr 29 21:08:38 2023: [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+Sat Apr 29 21:08:38 2023:  0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.] [ 0.00156989  0.06275775  0.02485944 -0.00546223  0.00282842 -0.00038456
+Sat Apr 29 21:08:38 2023:   0.02411275 -0.03698992  0.00588752 -0.03081789 -0.01794329  0.00288776
+Sat Apr 29 21:08:38 2023:   0.01990471 -0.00794788 -0.01257654 -0.0373026   0.0001696  -0.05548075
+Sat Apr 29 21:08:38 2023:   0.02374852 -0.01415202  0.01545543 -0.06029744  0.0169802  -0.03482297
+Sat Apr 29 21:08:38 2023:  -0.00275312  0.00750996 -0.03127216  0.0319338  -0.03624326  0.0112726
+Sat Apr 29 21:08:38 2023:   0.02270332 -0.02266726 -0.00986196  0.0260232   0.03117928 -0.01888579
+Sat Apr 29 21:08:38 2023:   0.00660432 -0.00339766  0.01236455  0.00357344 -0.03902198  0.03379563
+Sat Apr 29 21:08:38 2023:   0.01698478  0.01994227  0.03518999  0.01225388] 0.0 -1.0 -5.551115123125783e-17 -1.0
+Sat Apr 29 21:08:38 2023: [ 0.00156989  0.06275775  0.02485944 -0.00546223  0.00282842 -0.00038456
+Sat Apr 29 21:08:38 2023:   0.02411275 -0.03698992  0.00588752 -0.03081789 -0.01794329  0.00288776
+Sat Apr 29 21:08:38 2023:   0.01990471 -0.00794788 -0.01257654 -0.0373026   0.0001696  -0.05548075
+Sat Apr 29 21:08:38 2023:   0.02374852 -0.01415202  0.01545543 -0.06029744  0.0169802  -0.03482297
+Sat Apr 29 21:08:38 2023:  -0.00275312  0.00750996 -0.03127216  0.0319338  -0.03624326  0.0112726
+Sat Apr 29 21:08:38 2023:   0.02270332 -0.02266726 -0.00986196  0.0260232   0.03117928 -0.01888579
+Sat Apr 29 21:08:38 2023:   0.00660432 -0.00339766  0.01236455  0.00357344 -0.03902198  0.03379563
+Sat Apr 29 21:08:38 2023:   0.01698478  0.01994227  0.03518999  0.01225388] [ 0.06777834  0.05643907  0.01075527 -0.01261125  0.03765188  0.00379225
+Sat Apr 29 21:08:38 2023:   0.01016065 -0.0294319  -0.03471797 -0.037543    0.03240132  0.04376863
+Sat Apr 29 21:08:38 2023:   0.03397448  0.00242035 -0.0269847   0.01892007  0.03913473 -0.07155015
+Sat Apr 29 21:08:38 2023:   0.0225304   0.01867666  0.00504284 -0.0487011   0.04271413 -0.03784722
+Sat Apr 29 21:08:38 2023:  -0.01330084  0.02224303 -0.07594327 -0.00379904 -0.03719238  0.06820734
+Sat Apr 29 21:08:38 2023:   0.01986879 -0.04740928  0.03268773  0.01042663  0.00214449 -0.04491237
+Sat Apr 29 21:08:38 2023:  -0.03162976 -0.03572344  0.00547978  0.03134528 -0.05007956  0.02717879
+Sat Apr 29 21:08:38 2023:   0.01882636  0.04054732  0.04861079 -0.00739763] 0.0 0.0 0.0 0.0
+Sat Apr 29 21:08:38 2023: ../algorithms/DBTR/pdbtr_dr.py:83: RuntimeWarning: invalid value encountered in double_scalars
+Sat Apr 29 21:08:38 2023:   p = (y[0] - y[1]) / (self.local_estimator.predict([X[0]]) - self.local_estimator.predict([X[1]]))[0]
+Sat Apr 29 21:08:38 2023: [ 0.00156989  0.06275775  0.02485944 -0.00546223  0.00282842 -0.00038456
+Sat Apr 29 21:08:38 2023:   0.02411275 -0.03698992  0.00588752 -0.03081789 -0.01794329  0.00288776
+Sat Apr 29 21:08:38 2023:   0.01990471 -0.00794788 -0.01257654 -0.0373026   0.0001696  -0.05548075
+Sat Apr 29 21:08:38 2023:   0.02374852 -0.01415202  0.01545543 -0.06029744  0.0169802  -0.03482297
+Sat Apr 29 21:08:38 2023:  -0.00275312  0.00750996 -0.03127216  0.0319338  -0.03624326  0.0112726
+Sat Apr 29 21:08:38 2023:   0.02270332 -0.02266726 -0.00986196  0.0260232   0.03117928 -0.01888579
+Sat Apr 29 21:08:38 2023:   0.00660432 -0.00339766  0.01236455  0.00357344 -0.03902198  0.03379563
+Sat Apr 29 21:08:38 2023:   0.01698478  0.01994227  0.03518999  0.01225388] [ 0.00987355  0.05025498  0.05140384 -0.01420104  0.00547979  0.02883662
+Sat Apr 29 21:08:38 2023:   0.02076438 -0.09935306  0.00935184 -0.03995134  0.00272506  0.01754816
+Sat Apr 29 21:08:38 2023:   0.03077818  0.02874297 -0.00947488 -0.09114809  0.04836017 -0.04781994
+Sat Apr 29 21:08:38 2023:   0.04951415 -0.00543343  0.01515582 -0.0821073   0.0191186  -0.02673431
+Sat Apr 29 21:08:38 2023:  -0.03736673  0.00572112  0.01345535  0.04052469 -0.0483403   0.03678392
+Sat Apr 29 21:08:38 2023:   0.03031972 -0.02380223  0.01981488  0.03647464 -0.01677925 -0.03794738
+Sat Apr 29 21:08:38 2023:   0.0066058   0.01073495  0.00605224  0.00330878 -0.09435972  0.00549814
+Sat Apr 29 21:08:38 2023:   0.1078928  -0.01778482  0.02853017 -0.00630368] 0.0 0.0 0.0 0.0
+Sat Apr 29 21:08:38 2023: ../algorithms/DBTR/pdbtr_dr.py:83: RuntimeWarning: invalid value encountered in double_scalars
+Sat Apr 29 21:08:38 2023:   p = (y[0] - y[1]) / (self.local_estimator.predict([X[0]]) - self.local_estimator.predict([X[1]]))[0]
+Sat Apr 29 21:08:38 2023: Process Process-1:
+Sat Apr 29 21:08:38 2023: Traceback (most recent call last):
+Sat Apr 29 21:08:38 2023:   File "/usr/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+Sat Apr 29 21:08:38 2023:     self.run()
+Sat Apr 29 21:08:38 2023:   File "/usr/lib/python3.7/multiprocessing/process.py", line 99, in run
+Sat Apr 29 21:08:38 2023:     self._target(*self._args, **self._kwargs)
+Sat Apr 29 21:08:38 2023:   File "../utils/datasimulation.py", line 124, in start_run
+Sat Apr 29 21:08:38 2023:     simulation.run(ranker, output_key=output_key)
+Sat Apr 29 21:08:38 2023:   File "../utils/singlesimulation.py", line 116, in run
+Sat Apr 29 21:08:38 2023:     ranking_i, train_ranking = self.sample_and_rank(ranker)
+Sat Apr 29 21:08:38 2023:   File "../utils/singlesimulation.py", line 97, in sample_and_rank
+Sat Apr 29 21:08:38 2023:     train_ranking = ranker.get_train_query_ranking(ranking_i)
+Sat Apr 29 21:08:38 2023:   File "../algorithms/basiconlineranker.py", line 98, in get_train_query_ranking
+Sat Apr 29 21:08:38 2023:     self._last_ranking = self._create_train_ranking(query_id, query_feat, inverted)[:self.n_results]
+Sat Apr 29 21:08:38 2023:   File "../algorithms/DBTR/pdbtr_dr.py", line 69, in _create_train_ranking
+Sat Apr 29 21:08:38 2023:     multileaved_list = self.multileaving.make_multileaving(inverted_rankings)
+Sat Apr 29 21:08:38 2023:   File "../multileaving/ProbabilisticMultileave.py", line 35, in make_multileaving
+Sat Apr 29 21:08:38 2023:     unnorm_probs = 1. / (inverted_rankings + 1) ** self._tau
+Sat Apr 29 21:08:38 2023: KeyboardInterrupt
+Sat Apr 29 21:08:37 2023: collected!
+Sat Apr 29 21:08:37 2023: Read   1: Fold 2 of dataset MQ2008.
+Sat Apr 29 21:08:38 2023: Traceback (most recent call last):
+Sat Apr 29 21:08:38 2023:   File "run_script.py", line 184, in <module>
+Sat Apr 29 21:08:38 2023:     set_sim_and_run(input_args)
+Sat Apr 29 21:08:38 2023:   File "run_script.py", line 176, in set_sim_and_run
+Sat Apr 29 21:08:38 2023:     return switcher.get(algo, lambda: "ERROR: algorithm type not valid")()
+Sat Apr 29 21:08:38 2023:   File "run_script.py", line 175, in <lambda>
+Sat Apr 29 21:08:38 2023:     'PDBTRDR': lambda: func_pdbtrdr(args, dir_name)}
+Sat Apr 29 21:08:38 2023:   File "run_script.py", line 138, in func_pdbtrdr
+Sat Apr 29 21:08:38 2023:     sim.run(ranker)
+Sat Apr 29 21:08:38 2023:   File "../utils/datasimulation.py", line 58, in run
+Sat Apr 29 21:08:38 2023:     for process in self.load_processes(datasets, ranker_tuples):
+Sat Apr 29 21:08:38 2023:   File "../utils/datasimulation.py", line 77, in load_processes
+Sat Apr 29 21:08:38 2023:     for proc in self.load_datafold_processes(datafold, ranker_tuples):
+Sat Apr 29 21:08:38 2023:   File "../utils/datasimulation.py", line 88, in load_datafold_processes
+Sat Apr 29 21:08:38 2023:     datafold.read_data()
+Sat Apr 29 21:08:38 2023:   File "../utils/dataset.py", line 323, in read_data
+Sat Apr 29 21:08:38 2023:     gc.collect()
+Sat Apr 29 21:08:38 2023: KeyboardInterrupt

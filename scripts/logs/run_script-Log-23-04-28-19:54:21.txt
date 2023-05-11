@@ -1,0 +1,91 @@
+Fri Apr 28 19:54:21 2023: Starting simulation at run_script-Log-23-04-28-19:54:21.Log is also stored in output file at ./logs/run_script-Log-23-04-28-19:54:21.txtMQ2008
+Fri Apr 28 19:54:21 2023: Read   0: Fold 1 of dataset MQ2008.
+Fri Apr 28 19:54:21 2023: No group information is provided.
+Fri Apr 28 19:54:21 2023: log_scale False
+Fri Apr 28 19:54:21 2023: Launch 0: algo/PDBTR/perfect/1000/10/0.1-0.99999977-1 0 with click model perfect on fold 1 from dataset MQ2008.
+Fri Apr 28 19:54:21 2023: setting up ranker...
+Fri Apr 28 19:54:21 2023: ranker set up complete
+Fri Apr 28 19:54:21 2023: loop through impressions: 1000
+Fri Apr 28 19:54:22 2023: Process Process-1:
+Fri Apr 28 19:54:22 2023: Traceback (most recent call last):
+Fri Apr 28 19:54:22 2023:   File "/usr/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+Fri Apr 28 19:54:22 2023:     self.run()
+Fri Apr 28 19:54:22 2023:   File "/usr/lib/python3.7/multiprocessing/process.py", line 99, in run
+Fri Apr 28 19:54:22 2023:     self._target(*self._args, **self._kwargs)
+Fri Apr 28 19:54:22 2023:   File "../utils/datasimulation.py", line 124, in start_run
+Fri Apr 28 19:54:22 2023:     simulation.run(ranker, output_key=output_key)
+Fri Apr 28 19:54:22 2023:   File "../utils/singlesimulation.py", line 117, in run
+Fri Apr 28 19:54:22 2023:     ranking_i, train_ranking = self.sample_and_rank(ranker)
+Fri Apr 28 19:54:22 2023:   File "../utils/singlesimulation.py", line 98, in sample_and_rank
+Fri Apr 28 19:54:22 2023:     train_ranking = ranker.get_train_query_ranking(ranking_i)
+Fri Apr 28 19:54:22 2023:   File "../algorithms/basiconlineranker.py", line 98, in get_train_query_ranking
+Fri Apr 28 19:54:22 2023:     self._last_ranking = self._create_train_ranking(query_id, query_feat, inverted)[:self.n_results]
+Fri Apr 28 19:54:22 2023: TypeError: 'NoneType' object is not subscriptable
+Fri Apr 28 19:54:22 2023: Launch 1: algo/PDBTR/perfect/1000/10/0.1-0.99999977-1 1 with click model perfect on fold 1 from dataset MQ2008.
+Fri Apr 28 19:54:22 2023: Launch 2: algo/PDBTR/perfect/1000/10/0.1-0.99999977-1 2 with click model perfect on fold 1 from dataset MQ2008.
+Fri Apr 28 19:54:22 2023: setting up ranker...
+Fri Apr 28 19:54:22 2023: ranker set up complete
+Fri Apr 28 19:54:22 2023: loop through impressions: 1000
+Fri Apr 28 19:54:22 2023: Process Process-2:
+Fri Apr 28 19:54:22 2023: Traceback (most recent call last):
+Fri Apr 28 19:54:22 2023:   File "/usr/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+Fri Apr 28 19:54:22 2023:     self.run()
+Fri Apr 28 19:54:22 2023:   File "/usr/lib/python3.7/multiprocessing/process.py", line 99, in run
+Fri Apr 28 19:54:22 2023:     self._target(*self._args, **self._kwargs)
+Fri Apr 28 19:54:22 2023:   File "../utils/datasimulation.py", line 124, in start_run
+Fri Apr 28 19:54:22 2023:     simulation.run(ranker, output_key=output_key)
+Fri Apr 28 19:54:22 2023:   File "../utils/singlesimulation.py", line 117, in run
+Fri Apr 28 19:54:22 2023:     ranking_i, train_ranking = self.sample_and_rank(ranker)
+Fri Apr 28 19:54:22 2023:   File "../utils/singlesimulation.py", line 98, in sample_and_rank
+Fri Apr 28 19:54:22 2023:     train_ranking = ranker.get_train_query_ranking(ranking_i)
+Fri Apr 28 19:54:22 2023:   File "../algorithms/basiconlineranker.py", line 98, in get_train_query_ranking
+Fri Apr 28 19:54:22 2023:     self._last_ranking = self._create_train_ranking(query_id, query_feat, inverted)[:self.n_results]
+Fri Apr 28 19:54:22 2023: TypeError: 'NoneType' object is not subscriptable
+Fri Apr 28 19:54:22 2023: setting up ranker...
+Fri Apr 28 19:54:22 2023: ranker set up complete
+Fri Apr 28 19:54:22 2023: loop through impressions: 1000
+Fri Apr 28 19:54:22 2023: Process Process-3:
+Fri Apr 28 19:54:22 2023: Traceback (most recent call last):
+Fri Apr 28 19:54:22 2023:   File "/usr/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+Fri Apr 28 19:54:22 2023:     self.run()
+Fri Apr 28 19:54:22 2023:   File "/usr/lib/python3.7/multiprocessing/process.py", line 99, in run
+Fri Apr 28 19:54:22 2023:     self._target(*self._args, **self._kwargs)
+Fri Apr 28 19:54:22 2023:   File "../utils/datasimulation.py", line 124, in start_run
+Fri Apr 28 19:54:22 2023:     simulation.run(ranker, output_key=output_key)
+Fri Apr 28 19:54:22 2023:   File "../utils/singlesimulation.py", line 117, in run
+Fri Apr 28 19:54:22 2023:     ranking_i, train_ranking = self.sample_and_rank(ranker)
+Fri Apr 28 19:54:22 2023:   File "../utils/singlesimulation.py", line 98, in sample_and_rank
+Fri Apr 28 19:54:22 2023:     train_ranking = ranker.get_train_query_ranking(ranking_i)
+Fri Apr 28 19:54:22 2023:   File "../algorithms/basiconlineranker.py", line 98, in get_train_query_ranking
+Fri Apr 28 19:54:22 2023:     self._last_ranking = self._create_train_ranking(query_id, query_feat, inverted)[:self.n_results]
+Fri Apr 28 19:54:22 2023: TypeError: 'NoneType' object is not subscriptable
+Fri Apr 28 19:54:22 2023: Read   1: Fold 2 of dataset MQ2008.
+Fri Apr 28 19:54:22 2023: No group information is provided.
+Fri Apr 28 19:54:23 2023: Traceback (most recent call last):
+Fri Apr 28 19:54:23 2023:   File "run_script.py", line 141, in <module>
+Fri Apr 28 19:54:23 2023:     set_sim_and_run(input_args)
+Fri Apr 28 19:54:23 2023:   File "run_script.py", line 133, in set_sim_and_run
+Fri Apr 28 19:54:23 2023:     return switcher.get(algo, lambda: "ERROR: algorithm type not valid")()
+Fri Apr 28 19:54:23 2023:   File "run_script.py", line 132, in <lambda>
+Fri Apr 28 19:54:23 2023:     'PDBTR': lambda: func_pdbtr(args, dir_name),}
+Fri Apr 28 19:54:23 2023:   File "run_script.py", line 116, in func_pdbtr
+Fri Apr 28 19:54:23 2023:     sim.run(ranker)
+Fri Apr 28 19:54:23 2023:   File "../utils/datasimulation.py", line 58, in run
+Fri Apr 28 19:54:23 2023:     for process in self.load_processes(datasets, ranker_tuples):
+Fri Apr 28 19:54:23 2023:   File "../utils/datasimulation.py", line 77, in load_processes
+Fri Apr 28 19:54:23 2023:     for proc in self.load_datafold_processes(datafold, ranker_tuples):
+Fri Apr 28 19:54:23 2023:   File "../utils/datasimulation.py", line 90, in load_datafold_processes
+Fri Apr 28 19:54:23 2023:     self.wait_for_output()
+Fri Apr 28 19:54:23 2023:   File "../utils/datasimulation.py", line 164, in wait_for_output
+Fri Apr 28 19:54:23 2023:     output_key, run_output = self.output_queue.get(block=not found, timeout=timeout)
+Fri Apr 28 19:54:23 2023:   File "/usr/lib/python3.7/multiprocessing/queues.py", line 104, in get
+Fri Apr 28 19:54:23 2023:     if not self._poll(timeout):
+Fri Apr 28 19:54:23 2023:   File "/usr/lib/python3.7/multiprocessing/connection.py", line 257, in poll
+Fri Apr 28 19:54:23 2023:     return self._poll(timeout)
+Fri Apr 28 19:54:23 2023:   File "/usr/lib/python3.7/multiprocessing/connection.py", line 414, in _poll
+Fri Apr 28 19:54:23 2023:     r = wait([self], timeout)
+Fri Apr 28 19:54:23 2023:   File "/usr/lib/python3.7/multiprocessing/connection.py", line 921, in wait
+Fri Apr 28 19:54:23 2023:     ready = selector.select(timeout)
+Fri Apr 28 19:54:23 2023:   File "/usr/lib/python3.7/selectors.py", line 415, in select
+Fri Apr 28 19:54:23 2023:     fd_event_list = self._selector.poll(timeout)
+Fri Apr 28 19:54:23 2023: KeyboardInterrupt

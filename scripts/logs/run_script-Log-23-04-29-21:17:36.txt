@@ -1,0 +1,81 @@
+Sat Apr 29 21:17:36 2023: Starting simulation at run_script-Log-23-04-29-21:17:36.Log is also stored in output file at ./logs/run_script-Log-23-04-29-21:17:36.txtMQ2008
+Sat Apr 29 21:17:36 2023: Read   0: Fold 1 of dataset MQ2008.
+Sat Apr 29 21:17:36 2023: No group information is provided.
+Sat Apr 29 21:17:36 2023: collected!
+Sat Apr 29 21:17:36 2023: collected!
+Sat Apr 29 21:17:36 2023: Launch 0: algo/PDBTRDR/navi/400/10/0.1-0.99999977-1 0 with click model navigational on fold 1 from dataset MQ2008.
+Sat Apr 29 21:17:36 2023: setting up ranker...
+Sat Apr 29 21:17:36 2023: ranker set up complete
+Sat Apr 29 21:17:36 2023: loop through impressions: 400
+Sat Apr 29 21:17:38 2023: impressions 100/400
+Sat Apr 29 21:17:41 2023: impressions 200/400
+Sat Apr 29 21:17:44 2023: impressions 300/400
+Sat Apr 29 21:17:47 2023: impressions 400/400
+Sat Apr 29 21:17:36 2023: collected!
+Sat Apr 29 21:17:36 2023: Read   1: Fold 2 of dataset MQ2008.
+Sat Apr 29 21:17:37 2023: No group information is provided.
+Sat Apr 29 21:17:47 2023: Output 0: algo/PDBTRDR/navi/400/10/0.1-0.99999977-1 on dataset MQ2008. (1/5)
+Sat Apr 29 21:17:47 2023: Clean  0: Fold 1 of dataset MQ2008.
+Sat Apr 29 21:17:47 2023: collected!
+Sat Apr 29 21:17:47 2023: collected!
+Sat Apr 29 21:17:47 2023: Launch 1: algo/PDBTRDR/navi/400/10/0.1-0.99999977-1 0 with click model navigational on fold 2 from dataset MQ2008.
+Sat Apr 29 21:17:47 2023: setting up ranker...
+Sat Apr 29 21:17:47 2023: ranker set up complete
+Sat Apr 29 21:17:47 2023: loop through impressions: 400
+Sat Apr 29 21:17:51 2023: impressions 100/400
+Sat Apr 29 21:17:54 2023: impressions 200/400
+Sat Apr 29 21:17:56 2023: impressions 300/400
+Sat Apr 29 21:17:59 2023: impressions 400/400
+Sat Apr 29 21:17:47 2023: collected!
+Sat Apr 29 21:17:47 2023: Read   2: Fold 3 of dataset MQ2008.
+Sat Apr 29 21:17:48 2023: No group information is provided.
+Sat Apr 29 21:17:59 2023: Output 1: algo/PDBTRDR/navi/400/10/0.1-0.99999977-1 on dataset MQ2008. (2/5)
+Sat Apr 29 21:18:00 2023: Clean  1: Fold 2 of dataset MQ2008.
+Sat Apr 29 21:18:00 2023: collected!
+Sat Apr 29 21:18:00 2023: collected!
+Sat Apr 29 21:18:00 2023: Launch 2: algo/PDBTRDR/navi/400/10/0.1-0.99999977-1 0 with click model navigational on fold 3 from dataset MQ2008.
+Sat Apr 29 21:18:00 2023: setting up ranker...
+Sat Apr 29 21:18:00 2023: ranker set up complete
+Sat Apr 29 21:18:00 2023: loop through impressions: 400
+Sat Apr 29 21:18:03 2023: impressions 100/400
+Sat Apr 29 21:18:06 2023: impressions 200/400
+Sat Apr 29 21:18:09 2023: impressions 300/400
+Sat Apr 29 21:18:12 2023: impressions 400/400
+Sat Apr 29 21:18:00 2023: collected!
+Sat Apr 29 21:18:00 2023: Read   3: Fold 4 of dataset MQ2008.
+Sat Apr 29 21:18:00 2023: No group information is provided.
+Sat Apr 29 21:18:12 2023: Output 2: algo/PDBTRDR/navi/400/10/0.1-0.99999977-1 on dataset MQ2008. (3/5)
+Sat Apr 29 21:18:12 2023: Clean  2: Fold 3 of dataset MQ2008.
+Sat Apr 29 21:18:12 2023: collected!
+Sat Apr 29 21:18:12 2023: collected!
+Sat Apr 29 21:18:12 2023: Launch 3: algo/PDBTRDR/navi/400/10/0.1-0.99999977-1 0 with click model navigational on fold 4 from dataset MQ2008.
+Sat Apr 29 21:18:12 2023: setting up ranker...
+Sat Apr 29 21:18:12 2023: ranker set up complete
+Sat Apr 29 21:18:12 2023: loop through impressions: 400
+Sat Apr 29 21:18:15 2023: impressions 100/400
+Sat Apr 29 21:18:18 2023: impressions 200/400
+Sat Apr 29 21:18:21 2023: impressions 300/400
+Sat Apr 29 21:18:24 2023: impressions 400/400
+Sat Apr 29 21:18:12 2023: collected!
+Sat Apr 29 21:18:12 2023: Read   4: Fold 5 of dataset MQ2008.
+Sat Apr 29 21:18:13 2023: No group information is provided.
+Sat Apr 29 21:18:24 2023: Output 3: algo/PDBTRDR/navi/400/10/0.1-0.99999977-1 on dataset MQ2008. (4/5)
+Sat Apr 29 21:18:24 2023: Clean  3: Fold 4 of dataset MQ2008.
+Sat Apr 29 21:18:24 2023: collected!
+Sat Apr 29 21:18:24 2023: collected!
+Sat Apr 29 21:18:24 2023: Launch 4: algo/PDBTRDR/navi/400/10/0.1-0.99999977-1 0 with click model navigational on fold 5 from dataset MQ2008.
+Sat Apr 29 21:18:24 2023: setting up ranker...
+Sat Apr 29 21:18:24 2023: ranker set up complete
+Sat Apr 29 21:18:24 2023: loop through impressions: 400
+Sat Apr 29 21:18:28 2023: impressions 100/400
+Sat Apr 29 21:18:31 2023: impressions 200/400
+Sat Apr 29 21:18:35 2023: impressions 300/400
+Sat Apr 29 21:18:38 2023: impressions 400/400
+Sat Apr 29 21:18:25 2023: collected!
+Sat Apr 29 21:18:38 2023: Output 4: algo/PDBTRDR/navi/400/10/0.1-0.99999977-1 on dataset MQ2008. (5/5)
+Sat Apr 29 21:18:38 2023: opening ./output/MQ2008/algo/PDBTRDR/navi/400/10/0.1-0.99999977-1.out
+Sat Apr 29 21:18:38 2023: Closed 0: algo/PDBTRDR/navi/400/10/0.1-0.99999977-1 on MQ2008 was averaged and stored.
+Sat Apr 29 21:18:38 2023: Clean  4: Fold 5 of dataset MQ2008.
+Sat Apr 29 21:18:38 2023: collected!
+Sat Apr 29 21:18:38 2023: collected!
+Sat Apr 29 21:18:38 2023: Time taken: 0:01:02.105850 (62 seconds)

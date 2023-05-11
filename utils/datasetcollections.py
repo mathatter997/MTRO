@@ -89,8 +89,8 @@ DATASET_COLLECTION['TD2004'] = DataSet('2004_td',
                                                                          [49, 50]  # HITS
                                                                          ])
 
-DATASET_COLLECTION['MQ2008'] = DataSet('MQ2008', '/zfs/ilps-plex1/slurm/datastore/hooster2/datasets/MQ2008/Fold*/',
-                                       'short', True, 40, multileave_feat=[list(range(11, 16)),  # TF-IDF
+DATASET_COLLECTION['MQ2008'] = DataSet('MQ2008', '../../TREC/TREC/TD2004/Fold*/',
+                                       'short', True, 46, multileave_feat=[list(range(11, 16)),  # TF-IDF
                                                                            list(range(21, 26)),  # BM25
                                                                            list(range(26, 41))  # LMIR #25 total
                                                                            ])

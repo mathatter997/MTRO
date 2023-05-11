@@ -1,0 +1,353 @@
+Fri Apr 28 21:31:19 2023: Starting simulation at run_script-Log-23-04-28-21:31:19.Log is also stored in output file at ./logs/run_script-Log-23-04-28-21:31:19.txtMQ2008
+Fri Apr 28 21:31:19 2023: Read   0: Fold 1 of dataset MQ2008.
+Fri Apr 28 21:31:19 2023: No group information is provided.
+Fri Apr 28 21:31:19 2023: ppeeefwefwefwfwefw
+Fri Apr 28 21:31:19 2023: collected!
+Fri Apr 28 21:31:19 2023: collected!
+Fri Apr 28 21:31:19 2023: Launch 0: algo/PDBTR/perfect/40/10/0.1-0.99999977-1 0 with click model perfect on fold 1 from dataset MQ2008.
+Fri Apr 28 21:31:19 2023: collected!
+Fri Apr 28 21:31:19 2023: Read   1: Fold 2 of dataset MQ2008.
+Fri Apr 28 21:31:20 2023: No group information is provided.
+Fri Apr 28 21:31:20 2023: ppeeefwefwefwfwefw
+Fri Apr 28 21:31:50 2023: collected!
+Fri Apr 28 21:31:51 2023: collected!
+Fri Apr 28 21:31:51 2023: Launch 1: algo/PDBTR/perfect/40/10/0.1-0.99999977-1 0 with click model perfect on fold 2 from dataset MQ2008.
+Fri Apr 28 21:31:19 2023: setting up ranker...
+Fri Apr 28 21:31:19 2023: ranker set up complete
+Fri Apr 28 21:31:19 2023: loop through impressions: 40
+Fri Apr 28 21:31:19 2023: IM STUCK RANKING
+Fri Apr 28 21:31:20 2023: IM STUCK INTERACTING
+Fri Apr 28 21:31:20 2023: 0.1 False 0
+Fri Apr 28 21:31:20 2023: IM STUCK RANKING
+Fri Apr 28 21:31:20 2023: IM STUCK INTERACTING
+Fri Apr 28 21:31:20 2023: 0.0999 False 0
+Fri Apr 28 21:31:20 2023: IM STUCK RANKING
+Fri Apr 28 21:31:20 2023: IM STUCK INTERACTING
+Fri Apr 28 21:31:20 2023: 0.0998001 False 0
+Fri Apr 28 21:31:22 2023: IM STUCK RANKING
+Fri Apr 28 21:31:22 2023: IM STUCK INTERACTING
+Fri Apr 28 21:31:22 2023: 0.0997002999 False 0
+Fri Apr 28 21:31:23 2023: IM STUCK RANKING
+Fri Apr 28 21:31:24 2023: IM STUCK INTERACTING
+Fri Apr 28 21:31:24 2023: 0.0996005996001 False 0
+Fri Apr 28 21:31:24 2023: IM STUCK RANKING
+Fri Apr 28 21:31:24 2023: IM STUCK INTERACTING
+Fri Apr 28 21:31:24 2023: 0.0995009990004999 False 0
+Fri Apr 28 21:31:24 2023: IM STUCK RANKING
+Fri Apr 28 21:31:24 2023: IM STUCK INTERACTING
+Fri Apr 28 21:31:24 2023: 0.0994014980014994 False 0
+Fri Apr 28 21:31:26 2023: IM STUCK RANKING
+Fri Apr 28 21:31:26 2023: IM STUCK INTERACTING
+Fri Apr 28 21:31:26 2023: 0.0993020965034979 False 0
+Fri Apr 28 21:31:26 2023: IM STUCK RANKING
+Fri Apr 28 21:31:26 2023: IM STUCK INTERACTING
+Fri Apr 28 21:31:26 2023: 0.09920279440699441 False 0
+Fri Apr 28 21:31:28 2023: IM STUCK RANKING
+Fri Apr 28 21:31:28 2023: IM STUCK INTERACTING
+Fri Apr 28 21:31:28 2023: 0.09910359161258742 False 0
+Fri Apr 28 21:31:29 2023: IM STUCK RANKING
+Fri Apr 28 21:31:29 2023: IM STUCK INTERACTING
+Fri Apr 28 21:31:29 2023: 0.09900448802097483 False 0
+Fri Apr 28 21:31:31 2023: IM STUCK RANKING
+Fri Apr 28 21:31:31 2023: IM STUCK INTERACTING
+Fri Apr 28 21:31:31 2023: 0.09890548353295386 False 0
+Fri Apr 28 21:31:31 2023: IM STUCK RANKING
+Fri Apr 28 21:31:31 2023: IM STUCK INTERACTING
+Fri Apr 28 21:31:31 2023: 0.0988065780494209 False 0
+Fri Apr 28 21:31:32 2023: IM STUCK RANKING
+Fri Apr 28 21:31:32 2023: IM STUCK INTERACTING
+Fri Apr 28 21:31:32 2023: 0.09870777147137148 False 0
+Fri Apr 28 21:31:33 2023: IM STUCK RANKING
+Fri Apr 28 21:31:33 2023: IM STUCK INTERACTING
+Fri Apr 28 21:31:33 2023: 0.0986090636999001 False 0
+Fri Apr 28 21:31:33 2023: IM STUCK RANKING
+Fri Apr 28 21:31:34 2023: IM STUCK INTERACTING
+Fri Apr 28 21:31:34 2023: 0.0985104546362002 False 0
+Fri Apr 28 21:31:34 2023: IM STUCK RANKING
+Fri Apr 28 21:31:34 2023: IM STUCK INTERACTING
+Fri Apr 28 21:31:34 2023: 0.098411944181564 False 0
+Fri Apr 28 21:31:34 2023: IM STUCK RANKING
+Fri Apr 28 21:31:34 2023: IM STUCK INTERACTING
+Fri Apr 28 21:31:34 2023: 0.09831353223738244 False 0
+Fri Apr 28 21:31:35 2023: IM STUCK RANKING
+Fri Apr 28 21:31:36 2023: IM STUCK INTERACTING
+Fri Apr 28 21:31:36 2023: 0.09821521870514506 False 0
+Fri Apr 28 21:31:36 2023: IM STUCK RANKING
+Fri Apr 28 21:31:36 2023: IM STUCK INTERACTING
+Fri Apr 28 21:31:36 2023: 0.09811700348643991 False 0
+Fri Apr 28 21:31:37 2023: IM STUCK RANKING
+Fri Apr 28 21:31:38 2023: IM STUCK INTERACTING
+Fri Apr 28 21:31:38 2023: 0.09801888648295347 False 0
+Fri Apr 28 21:31:39 2023: IM STUCK RANKING
+Fri Apr 28 21:31:39 2023: IM STUCK INTERACTING
+Fri Apr 28 21:31:39 2023: 0.09792086759647052 False 0
+Fri Apr 28 21:31:40 2023: IM STUCK RANKING
+Fri Apr 28 21:31:40 2023: IM STUCK INTERACTING
+Fri Apr 28 21:31:40 2023: 0.09782294672887405 False 0
+Fri Apr 28 21:31:41 2023: IM STUCK RANKING
+Fri Apr 28 21:31:41 2023: IM STUCK INTERACTING
+Fri Apr 28 21:31:41 2023: 0.09772512378214518 False 0
+Fri Apr 28 21:31:42 2023: IM STUCK RANKING
+Fri Apr 28 21:31:42 2023: IM STUCK INTERACTING
+Fri Apr 28 21:31:42 2023: 0.09762739865836303 False 0
+Fri Apr 28 21:31:43 2023: IM STUCK RANKING
+Fri Apr 28 21:31:43 2023: IM STUCK INTERACTING
+Fri Apr 28 21:31:43 2023: 0.09752977125970468 False 0
+Fri Apr 28 21:31:44 2023: IM STUCK RANKING
+Fri Apr 28 21:31:44 2023: IM STUCK INTERACTING
+Fri Apr 28 21:31:44 2023: 0.09743224148844497 False 0
+Fri Apr 28 21:31:44 2023: IM STUCK RANKING
+Fri Apr 28 21:31:44 2023: IM STUCK INTERACTING
+Fri Apr 28 21:31:44 2023: 0.09733480924695652 False 0
+Fri Apr 28 21:31:45 2023: IM STUCK RANKING
+Fri Apr 28 21:31:45 2023: IM STUCK INTERACTING
+Fri Apr 28 21:31:45 2023: 0.09723747443770957 False 0
+Fri Apr 28 21:31:46 2023: IM STUCK RANKING
+Fri Apr 28 21:31:46 2023: IM STUCK INTERACTING
+Fri Apr 28 21:31:46 2023: 0.09714023696327186 False 0
+Fri Apr 28 21:31:47 2023: IM STUCK RANKING
+Fri Apr 28 21:31:48 2023: IM STUCK INTERACTING
+Fri Apr 28 21:31:48 2023: 0.09704309672630858 False 0
+Fri Apr 28 21:31:49 2023: IM STUCK RANKING
+Fri Apr 28 21:31:49 2023: IM STUCK INTERACTING
+Fri Apr 28 21:31:49 2023: 0.09694605362958227 False 0
+Fri Apr 28 21:31:50 2023: IM STUCK RANKING
+Fri Apr 28 21:31:50 2023: IM STUCK INTERACTING
+Fri Apr 28 21:31:50 2023: 0.09684910757595268 False 0
+Fri Apr 28 21:31:51 2023: IM STUCK RANKING
+Fri Apr 28 21:31:52 2023: IM STUCK INTERACTING
+Fri Apr 28 21:31:52 2023: 0.09675225846837672 False 0
+Fri Apr 28 21:31:52 2023: IM STUCK RANKING
+Fri Apr 28 21:31:52 2023: IM STUCK INTERACTING
+Fri Apr 28 21:31:52 2023: 0.09665550620990834 False 0
+Fri Apr 28 21:31:57 2023: IM STUCK RANKING
+Fri Apr 28 21:31:58 2023: IM STUCK INTERACTING
+Fri Apr 28 21:31:58 2023: 0.09655885070369843 False 0
+Fri Apr 28 21:31:58 2023: IM STUCK RANKING
+Fri Apr 28 21:31:58 2023: IM STUCK INTERACTING
+Fri Apr 28 21:31:58 2023: 0.09646229185299474 False 0
+Fri Apr 28 21:31:59 2023: IM STUCK RANKING
+Fri Apr 28 21:32:00 2023: IM STUCK INTERACTING
+Fri Apr 28 21:32:00 2023: 0.09636582956114174 False 0
+Fri Apr 28 21:32:00 2023: IM STUCK RANKING
+Fri Apr 28 21:32:00 2023: IM STUCK INTERACTING
+Fri Apr 28 21:32:00 2023: 0.0962694637315806 False 0
+Fri Apr 28 21:32:01 2023: IM STUCK RANKING
+Fri Apr 28 21:32:02 2023: IM STUCK INTERACTING
+Fri Apr 28 21:32:02 2023: 0.09617319426784902 False 0
+Fri Apr 28 21:32:03 2023: IM STUCK RANKING
+Fri Apr 28 21:31:51 2023: collected!
+Fri Apr 28 21:31:51 2023: Read   2: Fold 3 of dataset MQ2008.
+Fri Apr 28 21:31:51 2023: No group information is provided.
+Fri Apr 28 21:31:51 2023: ppeeefwefwefwfwefw
+Fri Apr 28 21:32:04 2023: Output 0: algo/PDBTR/perfect/40/10/0.1-0.99999977-1 on dataset MQ2008. (1/5)
+Fri Apr 28 21:32:04 2023: ppeeefwefwefwfwefw
+Fri Apr 28 21:32:04 2023: Clean  0: Fold 1 of dataset MQ2008.
+Fri Apr 28 21:32:06 2023: collected!
+Fri Apr 28 21:32:06 2023: collected!
+Fri Apr 28 21:32:06 2023: Launch 2: algo/PDBTR/perfect/40/10/0.1-0.99999977-1 0 with click model perfect on fold 3 from dataset MQ2008.
+Fri Apr 28 21:32:06 2023: collected!
+Fri Apr 28 21:32:06 2023: Read   3: Fold 4 of dataset MQ2008.
+Fri Apr 28 21:32:07 2023: No group information is provided.
+Fri Apr 28 21:32:07 2023: ppeeefwefwefwfwefw
+Fri Apr 28 21:32:06 2023: setting up ranker...
+Fri Apr 28 21:32:06 2023: ranker set up complete
+Fri Apr 28 21:32:06 2023: loop through impressions: 40
+Fri Apr 28 21:32:06 2023: IM STUCK RANKING
+Fri Apr 28 21:32:07 2023: IM STUCK INTERACTING
+Fri Apr 28 21:32:07 2023: 0.1 False 0
+Fri Apr 28 21:32:07 2023: IM STUCK RANKING
+Fri Apr 28 21:32:08 2023: IM STUCK INTERACTING
+Fri Apr 28 21:32:08 2023: 0.0999 False 0
+Fri Apr 28 21:32:08 2023: IM STUCK RANKING
+Fri Apr 28 21:32:08 2023: IM STUCK INTERACTING
+Fri Apr 28 21:32:08 2023: 0.0998001 False 0
+Fri Apr 28 21:32:08 2023: IM STUCK RANKING
+Fri Apr 28 21:32:08 2023: IM STUCK INTERACTING
+Fri Apr 28 21:32:08 2023: 0.0997002999 False 0
+Fri Apr 28 21:32:08 2023: IM STUCK RANKING
+Fri Apr 28 21:32:09 2023: IM STUCK INTERACTING
+Fri Apr 28 21:32:09 2023: 0.0996005996001 False 0
+Fri Apr 28 21:32:09 2023: IM STUCK RANKING
+Fri Apr 28 21:32:09 2023: IM STUCK INTERACTING
+Fri Apr 28 21:32:09 2023: 0.0995009990004999 False 0
+Fri Apr 28 21:32:13 2023: IM STUCK RANKING
+Fri Apr 28 21:32:14 2023: IM STUCK INTERACTING
+Fri Apr 28 21:32:14 2023: 0.0994014980014994 False 0
+Fri Apr 28 21:32:14 2023: IM STUCK RANKING
+Fri Apr 28 21:32:15 2023: IM STUCK INTERACTING
+Fri Apr 28 21:32:15 2023: 0.0993020965034979 False 0
+Fri Apr 28 21:32:15 2023: IM STUCK RANKING
+Fri Apr 28 21:32:15 2023: IM STUCK INTERACTING
+Fri Apr 28 21:32:15 2023: 0.09920279440699441 False 0
+Fri Apr 28 21:32:17 2023: IM STUCK RANKING
+Fri Apr 28 21:32:17 2023: IM STUCK INTERACTING
+Fri Apr 28 21:32:17 2023: 0.09910359161258742 False 0
+Fri Apr 28 21:32:17 2023: IM STUCK RANKING
+Fri Apr 28 21:32:18 2023: IM STUCK INTERACTING
+Fri Apr 28 21:32:18 2023: 0.09900448802097483 False 0
+Fri Apr 28 21:32:18 2023: IM STUCK RANKING
+Fri Apr 28 21:32:18 2023: IM STUCK INTERACTING
+Fri Apr 28 21:32:18 2023: 0.09890548353295386 False 0
+Fri Apr 28 21:32:18 2023: IM STUCK RANKING
+Fri Apr 28 21:32:19 2023: IM STUCK INTERACTING
+Fri Apr 28 21:32:19 2023: 0.0988065780494209 False 0
+Fri Apr 28 21:32:19 2023: IM STUCK RANKING
+Fri Apr 28 21:32:19 2023: IM STUCK INTERACTING
+Fri Apr 28 21:32:19 2023: 0.09870777147137148 False 0
+Fri Apr 28 21:32:21 2023: IM STUCK RANKING
+Fri Apr 28 21:32:21 2023: IM STUCK INTERACTING
+Fri Apr 28 21:32:21 2023: 0.0986090636999001 False 0
+Fri Apr 28 21:32:23 2023: IM STUCK RANKING
+Fri Apr 28 21:32:24 2023: IM STUCK INTERACTING
+Fri Apr 28 21:32:24 2023: 0.0985104546362002 False 0
+Fri Apr 28 21:32:24 2023: IM STUCK RANKING
+Fri Apr 28 21:32:24 2023: IM STUCK INTERACTING
+Fri Apr 28 21:32:24 2023: 0.098411944181564 False 0
+Fri Apr 28 21:32:24 2023: IM STUCK RANKING
+Fri Apr 28 21:32:25 2023: IM STUCK INTERACTING
+Fri Apr 28 21:32:25 2023: 0.09831353223738244 False 0
+Fri Apr 28 21:32:26 2023: Process Process-3:
+Fri Apr 28 21:32:26 2023: Traceback (most recent call last):
+Fri Apr 28 21:32:26 2023:   File "/usr/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+Fri Apr 28 21:32:26 2023:     self.run()
+Fri Apr 28 21:32:26 2023:   File "/usr/lib/python3.7/multiprocessing/process.py", line 99, in run
+Fri Apr 28 21:32:26 2023:     self._target(*self._args, **self._kwargs)
+Fri Apr 28 21:32:26 2023:   File "../utils/datasimulation.py", line 124, in start_run
+Fri Apr 28 21:32:26 2023:     simulation.run(ranker, output_key=output_key)
+Fri Apr 28 21:32:26 2023:   File "../utils/singlesimulation.py", line 121, in run
+Fri Apr 28 21:32:26 2023:     ranker.process_clicks(clicks)
+Fri Apr 28 21:32:26 2023:   File "../algorithms/basiconlineranker.py", line 106, in process_clicks
+Fri Apr 28 21:32:26 2023:     self.update_to_interaction(clicks)
+Fri Apr 28 21:32:26 2023:   File "../algorithms/DBTR/pdbtr.py", line 112, in update_to_interaction
+Fri Apr 28 21:32:26 2023:     self.local_estimator.fit(X, y)
+Fri Apr 28 21:32:26 2023:   File "../multileaving/ProbabilisticMultileave.py", line 55, in infer_preferences
+Fri Apr 28 21:32:26 2023:     clicked_docs.astype(bool), self._tau), self._n_samples)
+Fri Apr 28 21:32:26 2023:   File "../multileaving/ProbabilisticMultileave.py", line 124, in preferences_of_list
+Fri Apr 28 21:32:26 2023:     prefs = np.sign(click_count[:, :, None] - click_count[:, None, :])
+Fri Apr 28 21:32:26 2023: KeyboardInterrupt
+Fri Apr 28 21:31:51 2023: setting up ranker...
+Fri Apr 28 21:31:51 2023: ranker set up complete
+Fri Apr 28 21:31:51 2023: loop through impressions: 40
+Fri Apr 28 21:31:51 2023: IM STUCK RANKING
+Fri Apr 28 21:31:51 2023: IM STUCK INTERACTING
+Fri Apr 28 21:31:51 2023: 0.1 False 0
+Fri Apr 28 21:31:51 2023: IM STUCK RANKING
+Fri Apr 28 21:31:52 2023: IM STUCK INTERACTING
+Fri Apr 28 21:31:52 2023: 0.0999 False 0
+Fri Apr 28 21:31:56 2023: IM STUCK RANKING
+Fri Apr 28 21:31:56 2023: IM STUCK INTERACTING
+Fri Apr 28 21:31:56 2023: 0.0998001 False 0
+Fri Apr 28 21:31:57 2023: IM STUCK RANKING
+Fri Apr 28 21:31:58 2023: IM STUCK INTERACTING
+Fri Apr 28 21:31:58 2023: 0.0997002999 False 0
+Fri Apr 28 21:31:58 2023: IM STUCK RANKING
+Fri Apr 28 21:31:58 2023: IM STUCK INTERACTING
+Fri Apr 28 21:31:58 2023: 0.0996005996001 False 0
+Fri Apr 28 21:31:58 2023: IM STUCK RANKING
+Fri Apr 28 21:31:59 2023: IM STUCK INTERACTING
+Fri Apr 28 21:31:59 2023: 0.0995009990004999 False 0
+Fri Apr 28 21:32:00 2023: IM STUCK RANKING
+Fri Apr 28 21:32:01 2023: IM STUCK INTERACTING
+Fri Apr 28 21:32:01 2023: 0.0994014980014994 False 0
+Fri Apr 28 21:32:02 2023: IM STUCK RANKING
+Fri Apr 28 21:32:03 2023: IM STUCK INTERACTING
+Fri Apr 28 21:32:03 2023: 0.0993020965034979 False 0
+Fri Apr 28 21:32:04 2023: IM STUCK RANKING
+Fri Apr 28 21:32:04 2023: IM STUCK INTERACTING
+Fri Apr 28 21:32:04 2023: 0.09920279440699441 False 0
+Fri Apr 28 21:32:05 2023: IM STUCK RANKING
+Fri Apr 28 21:32:05 2023: IM STUCK INTERACTING
+Fri Apr 28 21:32:05 2023: 0.09910359161258742 False 0
+Fri Apr 28 21:32:05 2023: IM STUCK RANKING
+Fri Apr 28 21:32:05 2023: IM STUCK INTERACTING
+Fri Apr 28 21:32:05 2023: 0.09900448802097483 False 0
+Fri Apr 28 21:32:06 2023: IM STUCK RANKING
+Fri Apr 28 21:32:07 2023: IM STUCK INTERACTING
+Fri Apr 28 21:32:07 2023: 0.09890548353295386 False 0
+Fri Apr 28 21:32:07 2023: IM STUCK RANKING
+Fri Apr 28 21:32:07 2023: IM STUCK INTERACTING
+Fri Apr 28 21:32:07 2023: 0.0988065780494209 False 0
+Fri Apr 28 21:32:07 2023: IM STUCK RANKING
+Fri Apr 28 21:32:07 2023: IM STUCK INTERACTING
+Fri Apr 28 21:32:07 2023: 0.09870777147137148 False 0
+Fri Apr 28 21:32:09 2023: IM STUCK RANKING
+Fri Apr 28 21:32:09 2023: IM STUCK INTERACTING
+Fri Apr 28 21:32:09 2023: 0.0986090636999001 False 0
+Fri Apr 28 21:32:13 2023: IM STUCK RANKING
+Fri Apr 28 21:32:14 2023: IM STUCK INTERACTING
+Fri Apr 28 21:32:14 2023: 0.0985104546362002 False 0
+Fri Apr 28 21:32:14 2023: IM STUCK RANKING
+Fri Apr 28 21:32:14 2023: IM STUCK INTERACTING
+Fri Apr 28 21:32:14 2023: 0.098411944181564 False 0
+Fri Apr 28 21:32:16 2023: IM STUCK RANKING
+Fri Apr 28 21:32:16 2023: IM STUCK INTERACTING
+Fri Apr 28 21:32:16 2023: 0.09831353223738244 False 0
+Fri Apr 28 21:32:16 2023: IM STUCK RANKING
+Fri Apr 28 21:32:16 2023: IM STUCK INTERACTING
+Fri Apr 28 21:32:16 2023: 0.09821521870514506 False 0
+Fri Apr 28 21:32:17 2023: IM STUCK RANKING
+Fri Apr 28 21:32:17 2023: IM STUCK INTERACTING
+Fri Apr 28 21:32:17 2023: 0.09811700348643991 False 0
+Fri Apr 28 21:32:19 2023: IM STUCK RANKING
+Fri Apr 28 21:32:19 2023: IM STUCK INTERACTING
+Fri Apr 28 21:32:19 2023: 0.09801888648295347 False 0
+Fri Apr 28 21:32:19 2023: IM STUCK RANKING
+Fri Apr 28 21:32:20 2023: IM STUCK INTERACTING
+Fri Apr 28 21:32:20 2023: 0.09792086759647052 False 0
+Fri Apr 28 21:32:20 2023: IM STUCK RANKING
+Fri Apr 28 21:32:20 2023: IM STUCK INTERACTING
+Fri Apr 28 21:32:20 2023: 0.09782294672887405 False 0
+Fri Apr 28 21:32:22 2023: IM STUCK RANKING
+Fri Apr 28 21:32:22 2023: IM STUCK INTERACTING
+Fri Apr 28 21:32:22 2023: 0.09772512378214518 False 0
+Fri Apr 28 21:32:24 2023: IM STUCK RANKING
+Fri Apr 28 21:32:24 2023: IM STUCK INTERACTING
+Fri Apr 28 21:32:24 2023: 0.09762739865836303 False 0
+Fri Apr 28 21:32:26 2023: Process Process-2:
+Fri Apr 28 21:32:26 2023: Traceback (most recent call last):
+Fri Apr 28 21:32:26 2023:   File "/usr/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+Fri Apr 28 21:32:26 2023:     self.run()
+Fri Apr 28 21:32:26 2023:   File "/usr/lib/python3.7/multiprocessing/process.py", line 99, in run
+Fri Apr 28 21:32:26 2023:     self._target(*self._args, **self._kwargs)
+Fri Apr 28 21:32:26 2023:   File "../utils/datasimulation.py", line 124, in start_run
+Fri Apr 28 21:32:26 2023:     simulation.run(ranker, output_key=output_key)
+Fri Apr 28 21:32:26 2023:   File "../utils/singlesimulation.py", line 121, in run
+Fri Apr 28 21:32:26 2023:     ranker.process_clicks(clicks)
+Fri Apr 28 21:32:26 2023:   File "../algorithms/basiconlineranker.py", line 106, in process_clicks
+Fri Apr 28 21:32:26 2023:     self.update_to_interaction(clicks)
+Fri Apr 28 21:32:26 2023:   File "../algorithms/DBTR/pdbtr.py", line 112, in update_to_interaction
+Fri Apr 28 21:32:26 2023:     self.local_estimator.fit(X, y)
+Fri Apr 28 21:32:26 2023:   File "../multileaving/ProbabilisticMultileave.py", line 55, in infer_preferences
+Fri Apr 28 21:32:26 2023:     clicked_docs.astype(bool), self._tau), self._n_samples)
+Fri Apr 28 21:32:26 2023:   File "../multileaving/ProbabilisticMultileave.py", line 124, in preferences_of_list
+Fri Apr 28 21:32:26 2023:     prefs = np.sign(click_count[:, :, None] - click_count[:, None, :])
+Fri Apr 28 21:32:26 2023: KeyboardInterrupt
+Fri Apr 28 21:32:25 2023: Traceback (most recent call last):
+Fri Apr 28 21:32:25 2023:   File "run_script.py", line 141, in <module>
+Fri Apr 28 21:32:25 2023:     set_sim_and_run(input_args)
+Fri Apr 28 21:32:25 2023:   File "run_script.py", line 133, in set_sim_and_run
+Fri Apr 28 21:32:25 2023:     return switcher.get(algo, lambda: "ERROR: algorithm type not valid")()
+Fri Apr 28 21:32:25 2023:   File "run_script.py", line 132, in <lambda>
+Fri Apr 28 21:32:25 2023:     'PDBTR': lambda: func_pdbtr(args, dir_name),}
+Fri Apr 28 21:32:25 2023:   File "run_script.py", line 116, in func_pdbtr
+Fri Apr 28 21:32:25 2023:     sim.run(ranker)
+Fri Apr 28 21:32:25 2023:   File "../utils/datasimulation.py", line 58, in run
+Fri Apr 28 21:32:25 2023:     for process in self.load_processes(datasets, ranker_tuples):
+Fri Apr 28 21:32:25 2023:   File "../utils/datasimulation.py", line 77, in load_processes
+Fri Apr 28 21:32:25 2023:     for proc in self.load_datafold_processes(datafold, ranker_tuples):
+Fri Apr 28 21:32:25 2023:   File "../utils/datasimulation.py", line 90, in load_datafold_processes
+Fri Apr 28 21:32:25 2023:     self.wait_for_output()
+Fri Apr 28 21:32:25 2023:   File "../utils/datasimulation.py", line 165, in wait_for_output
+Fri Apr 28 21:32:25 2023:     output_key, run_output = self.output_queue.get(block=not found, timeout=timeout)
+Fri Apr 28 21:32:25 2023:   File "/usr/lib/python3.7/multiprocessing/queues.py", line 104, in get
+Fri Apr 28 21:32:25 2023:     if not self._poll(timeout):
+Fri Apr 28 21:32:25 2023:   File "/usr/lib/python3.7/multiprocessing/connection.py", line 257, in poll
+Fri Apr 28 21:32:25 2023:     return self._poll(timeout)
+Fri Apr 28 21:32:25 2023:   File "/usr/lib/python3.7/multiprocessing/connection.py", line 414, in _poll
+Fri Apr 28 21:32:25 2023:     r = wait([self], timeout)
+Fri Apr 28 21:32:25 2023:   File "/usr/lib/python3.7/multiprocessing/connection.py", line 921, in wait
+Fri Apr 28 21:32:25 2023:     ready = selector.select(timeout)
+Fri Apr 28 21:32:25 2023:   File "/usr/lib/python3.7/selectors.py", line 415, in select
+Fri Apr 28 21:32:25 2023:     fd_event_list = self._selector.poll(timeout)
+Fri Apr 28 21:32:25 2023: KeyboardInterrupt

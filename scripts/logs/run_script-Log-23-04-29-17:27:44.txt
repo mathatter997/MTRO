@@ -1,0 +1,135 @@
+Sat Apr 29 17:27:44 2023: Starting simulation at run_script-Log-23-04-29-17:27:44.Log is also stored in output file at ./logs/run_script-Log-23-04-29-17:27:44.txtMQ2008
+Sat Apr 29 17:27:44 2023: Read   0: Fold 1 of dataset MQ2008.
+Sat Apr 29 17:27:44 2023: No group information is provided.
+Sat Apr 29 17:27:44 2023: collected!
+Sat Apr 29 17:27:44 2023: collected!
+Sat Apr 29 17:27:44 2023: Launch 0: algo/DBGD/perfect/1000/10/0.1-0.99999977-1 0 with click model perfect on fold 1 from dataset MQ2008.
+Sat Apr 29 17:27:45 2023: collected!
+Sat Apr 29 17:27:45 2023: Launch 1: algo/DBGD/perfect/1000/10/0.1-0.99999977-1 1 with click model perfect on fold 1 from dataset MQ2008.
+Sat Apr 29 17:27:45 2023: collected!
+Sat Apr 29 17:27:45 2023: Launch 2: algo/DBGD/perfect/1000/10/0.1-0.99999977-1 2 with click model perfect on fold 1 from dataset MQ2008.
+Sat Apr 29 17:27:45 2023: collected!
+Sat Apr 29 17:27:45 2023: Read   1: Fold 2 of dataset MQ2008.
+Sat Apr 29 17:27:47 2023: No group information is provided.
+Sat Apr 29 17:27:44 2023: setting up ranker...
+Sat Apr 29 17:27:44 2023: ranker set up complete
+Sat Apr 29 17:27:44 2023: loop through impressions: 1000
+Sat Apr 29 17:27:45 2023: impressions 100/1000
+Sat Apr 29 17:27:45 2023: impressions 200/1000
+Sat Apr 29 17:27:45 2023: impressions 300/1000
+Sat Apr 29 17:27:46 2023: impressions 400/1000
+Sat Apr 29 17:27:47 2023: impressions 500/1000
+Sat Apr 29 17:27:47 2023: impressions 600/1000
+Sat Apr 29 17:27:47 2023: impressions 700/1000
+Sat Apr 29 17:27:48 2023: impressions 800/1000
+Sat Apr 29 17:27:48 2023: impressions 900/1000
+Sat Apr 29 17:27:48 2023: Process Process-1:
+Sat Apr 29 17:27:48 2023: Traceback (most recent call last):
+Sat Apr 29 17:27:48 2023:   File "/usr/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+Sat Apr 29 17:27:48 2023:     self.run()
+Sat Apr 29 17:27:48 2023:   File "/usr/lib/python3.7/multiprocessing/process.py", line 99, in run
+Sat Apr 29 17:27:48 2023:     self._target(*self._args, **self._kwargs)
+Sat Apr 29 17:27:48 2023:   File "../utils/datasimulation.py", line 124, in start_run
+Sat Apr 29 17:27:48 2023:     simulation.run(ranker, output_key=output_key)
+Sat Apr 29 17:27:48 2023:   File "../utils/singlesimulation.py", line 116, in run
+Sat Apr 29 17:27:48 2023:     ranking_i, train_ranking = self.sample_and_rank(ranker)
+Sat Apr 29 17:27:48 2023:   File "../utils/singlesimulation.py", line 97, in sample_and_rank
+Sat Apr 29 17:27:48 2023:     train_ranking = ranker.get_train_query_ranking(ranking_i)
+Sat Apr 29 17:27:48 2023:   File "../algorithms/basiconlineranker.py", line 98, in get_train_query_ranking
+Sat Apr 29 17:27:48 2023:     self._last_ranking = self._create_train_ranking(query_id, query_feat, inverted)[:self.n_results]
+Sat Apr 29 17:27:48 2023:   File "../algorithms/DBGD/tddbgd.py", line 48, in _create_train_ranking
+Sat Apr 29 17:27:48 2023:     scores = self.model.candidate_score(query_feat)
+Sat Apr 29 17:27:48 2023:   File "../models/linearmodel.py", line 29, in candidate_score
+Sat Apr 29 17:27:48 2023:     return np.dot(features, self.weights).T
+Sat Apr 29 17:27:48 2023:   File "<__array_function__ internals>", line 6, in dot
+Sat Apr 29 17:27:48 2023: KeyboardInterrupt
+Sat Apr 29 17:27:45 2023: setting up ranker...
+Sat Apr 29 17:27:45 2023: ranker set up complete
+Sat Apr 29 17:27:45 2023: loop through impressions: 1000
+Sat Apr 29 17:27:46 2023: impressions 100/1000
+Sat Apr 29 17:27:46 2023: impressions 200/1000
+Sat Apr 29 17:27:47 2023: impressions 300/1000
+Sat Apr 29 17:27:47 2023: impressions 400/1000
+Sat Apr 29 17:27:48 2023: impressions 500/1000
+Sat Apr 29 17:27:48 2023: impressions 600/1000
+Sat Apr 29 17:27:48 2023: Process Process-3:
+Sat Apr 29 17:27:48 2023: Traceback (most recent call last):
+Sat Apr 29 17:27:48 2023:   File "/usr/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+Sat Apr 29 17:27:48 2023:     self.run()
+Sat Apr 29 17:27:48 2023:   File "/usr/lib/python3.7/multiprocessing/process.py", line 99, in run
+Sat Apr 29 17:27:48 2023:     self._target(*self._args, **self._kwargs)
+Sat Apr 29 17:27:48 2023:   File "../utils/datasimulation.py", line 124, in start_run
+Sat Apr 29 17:27:48 2023:     simulation.run(ranker, output_key=output_key)
+Sat Apr 29 17:27:48 2023:   File "../utils/singlesimulation.py", line 119, in run
+Sat Apr 29 17:27:48 2023:     self.timestep_evaluate(run_results, impressions, ranker, ranking_i, train_ranking, ranking_labels)
+Sat Apr 29 17:27:48 2023:   File "../utils/singlesimulation.py", line 47, in timestep_evaluate
+Sat Apr 29 17:27:48 2023:     cur_results = self.evaluate_ranker(iteration, ranker, ranking_i, train_ranking, ranking_labels)
+Sat Apr 29 17:27:48 2023:   File "../utils/singlesimulation.py", line 71, in evaluate_ranker
+Sat Apr 29 17:27:48 2023:     inverted=True)
+Sat Apr 29 17:27:48 2023:   File "../algorithms/DBGD/tddbgd.py", line 38, in get_test_rankings
+Sat Apr 29 17:27:48 2023:     scores = self.model.score(features)
+Sat Apr 29 17:27:48 2023:   File "../models/linearmodel.py", line 33, in score
+Sat Apr 29 17:27:48 2023:     return np.dot(features, self.weights[:, 0:1])[:, 0]
+Sat Apr 29 17:27:48 2023:   File "<__array_function__ internals>", line 6, in dot
+Sat Apr 29 17:27:48 2023: KeyboardInterrupt
+Sat Apr 29 17:27:45 2023: setting up ranker...
+Sat Apr 29 17:27:45 2023: ranker set up complete
+Sat Apr 29 17:27:45 2023: loop through impressions: 1000
+Sat Apr 29 17:27:45 2023: impressions 100/1000
+Sat Apr 29 17:27:46 2023: impressions 200/1000
+Sat Apr 29 17:27:46 2023: impressions 300/1000
+Sat Apr 29 17:27:47 2023: impressions 400/1000
+Sat Apr 29 17:27:47 2023: impressions 500/1000
+Sat Apr 29 17:27:48 2023: impressions 600/1000
+Sat Apr 29 17:27:48 2023: impressions 700/1000
+Sat Apr 29 17:27:48 2023: Process Process-2:
+Sat Apr 29 17:27:48 2023: Traceback (most recent call last):
+Sat Apr 29 17:27:48 2023:   File "/usr/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+Sat Apr 29 17:27:48 2023:     self.run()
+Sat Apr 29 17:27:48 2023:   File "/usr/lib/python3.7/multiprocessing/process.py", line 99, in run
+Sat Apr 29 17:27:48 2023:     self._target(*self._args, **self._kwargs)
+Sat Apr 29 17:27:48 2023:   File "../utils/datasimulation.py", line 124, in start_run
+Sat Apr 29 17:27:48 2023:     simulation.run(ranker, output_key=output_key)
+Sat Apr 29 17:27:48 2023:   File "../utils/singlesimulation.py", line 116, in run
+Sat Apr 29 17:27:48 2023:     ranking_i, train_ranking = self.sample_and_rank(ranker)
+Sat Apr 29 17:27:48 2023:   File "../utils/singlesimulation.py", line 97, in sample_and_rank
+Sat Apr 29 17:27:48 2023:     train_ranking = ranker.get_train_query_ranking(ranking_i)
+Sat Apr 29 17:27:48 2023:   File "../algorithms/basiconlineranker.py", line 98, in get_train_query_ranking
+Sat Apr 29 17:27:48 2023:     self._last_ranking = self._create_train_ranking(query_id, query_feat, inverted)[:self.n_results]
+Sat Apr 29 17:27:48 2023:   File "../algorithms/DBGD/tddbgd.py", line 49, in _create_train_ranking
+Sat Apr 29 17:27:48 2023:     rankings = rnk.rank_single_query(scores, inverted=False, n_results=self.n_results)
+Sat Apr 29 17:27:48 2023:   File "../utils/rankings.py", line 172, in rank_single_query
+Sat Apr 29 17:27:48 2023:     ranking = tiebreak_sort(predictions, n_results=n_results)
+Sat Apr 29 17:27:48 2023:   File "../utils/rankings.py", line 32, in tiebreak_sort
+Sat Apr 29 17:27:48 2023:     return _tiebreak_sort(unranked, n_results)
+Sat Apr 29 17:27:48 2023:   File "../utils/rankings.py", line 43, in _tiebreak_sort
+Sat Apr 29 17:27:48 2023:     tiebreakers = np.random.random(unranked.shape)
+Sat Apr 29 17:27:48 2023: KeyboardInterrupt
+Sat Apr 29 17:27:48 2023: Traceback (most recent call last):
+Sat Apr 29 17:27:48 2023:   File "run_script.py", line 173, in <module>
+Sat Apr 29 17:27:48 2023:     set_sim_and_run(input_args)
+Sat Apr 29 17:27:48 2023:   File "run_script.py", line 165, in set_sim_and_run
+Sat Apr 29 17:27:48 2023:     return switcher.get(algo, lambda: "ERROR: algorithm type not valid")()
+Sat Apr 29 17:27:48 2023:   File "run_script.py", line 159, in <lambda>
+Sat Apr 29 17:27:48 2023:     'DBGD': lambda: func_dbgd(args, dir_name), 
+Sat Apr 29 17:27:48 2023:   File "run_script.py", line 101, in func_dbgd
+Sat Apr 29 17:27:48 2023:     sim.run(ranker)
+Sat Apr 29 17:27:48 2023:   File "../utils/datasimulation.py", line 58, in run
+Sat Apr 29 17:27:48 2023:     for process in self.load_processes(datasets, ranker_tuples):
+Sat Apr 29 17:27:48 2023:   File "../utils/datasimulation.py", line 77, in load_processes
+Sat Apr 29 17:27:48 2023:     for proc in self.load_datafold_processes(datafold, ranker_tuples):
+Sat Apr 29 17:27:48 2023:   File "../utils/datasimulation.py", line 90, in load_datafold_processes
+Sat Apr 29 17:27:48 2023:     self.wait_for_output()
+Sat Apr 29 17:27:48 2023:   File "../utils/datasimulation.py", line 164, in wait_for_output
+Sat Apr 29 17:27:48 2023:     output_key, run_output = self.output_queue.get(block=not found, timeout=timeout)
+Sat Apr 29 17:27:48 2023:   File "/usr/lib/python3.7/multiprocessing/queues.py", line 104, in get
+Sat Apr 29 17:27:48 2023:     if not self._poll(timeout):
+Sat Apr 29 17:27:48 2023:   File "/usr/lib/python3.7/multiprocessing/connection.py", line 257, in poll
+Sat Apr 29 17:27:48 2023:     return self._poll(timeout)
+Sat Apr 29 17:27:48 2023:   File "/usr/lib/python3.7/multiprocessing/connection.py", line 414, in _poll
+Sat Apr 29 17:27:48 2023:     r = wait([self], timeout)
+Sat Apr 29 17:27:48 2023:   File "/usr/lib/python3.7/multiprocessing/connection.py", line 921, in wait
+Sat Apr 29 17:27:48 2023:     ready = selector.select(timeout)
+Sat Apr 29 17:27:48 2023:   File "/usr/lib/python3.7/selectors.py", line 415, in select
+Sat Apr 29 17:27:48 2023:     fd_event_list = self._selector.poll(timeout)
+Sat Apr 29 17:27:48 2023: KeyboardInterrupt

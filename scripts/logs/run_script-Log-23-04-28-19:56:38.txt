@@ -1,0 +1,226 @@
+Fri Apr 28 19:56:38 2023: Starting simulation at run_script-Log-23-04-28-19:56:38.Log is also stored in output file at ./logs/run_script-Log-23-04-28-19:56:38.txtMQ2008
+Fri Apr 28 19:56:38 2023: Read   0: Fold 1 of dataset MQ2008.
+Fri Apr 28 19:56:38 2023: No group information is provided.
+Fri Apr 28 19:56:38 2023: log_scale False
+Fri Apr 28 19:56:38 2023: Launch 0: algo/PDBTR/perfect/1000/10/0.1-0.99999977-1 0 with click model perfect on fold 1 from dataset MQ2008.
+Fri Apr 28 19:56:38 2023: Launch 1: algo/PDBTR/perfect/1000/10/0.1-0.99999977-1 1 with click model perfect on fold 1 from dataset MQ2008.
+Fri Apr 28 19:56:39 2023: Launch 2: algo/PDBTR/perfect/1000/10/0.1-0.99999977-1 2 with click model perfect on fold 1 from dataset MQ2008.
+Fri Apr 28 19:56:39 2023: Read   1: Fold 2 of dataset MQ2008.
+Fri Apr 28 19:56:40 2023: No group information is provided.
+Fri Apr 28 19:57:18 2023: log_scale False
+Fri Apr 28 19:57:18 2023: Launch 3: algo/PDBTR/perfect/1000/10/0.1-0.99999977-1 0 with click model perfect on fold 2 from dataset MQ2008.
+Fri Apr 28 19:57:18 2023: Launch 4: algo/PDBTR/perfect/1000/10/0.1-0.99999977-1 1 with click model perfect on fold 2 from dataset MQ2008.
+Fri Apr 28 19:57:18 2023: Launch 5: algo/PDBTR/perfect/1000/10/0.1-0.99999977-1 2 with click model perfect on fold 2 from dataset MQ2008.
+Fri Apr 28 19:57:19 2023: Read   2: Fold 3 of dataset MQ2008.
+Fri Apr 28 19:57:20 2023: No group information is provided.
+Fri Apr 28 19:57:50 2023: Clean  0: Fold 1 of dataset MQ2008.
+Fri Apr 28 19:57:57 2023: log_scale False
+Fri Apr 28 19:57:57 2023: Launch 6: algo/PDBTR/perfect/1000/10/0.1-0.99999977-1 0 with click model perfect on fold 3 from dataset MQ2008.
+Fri Apr 28 19:57:58 2023: Launch 7: algo/PDBTR/perfect/1000/10/0.1-0.99999977-1 1 with click model perfect on fold 3 from dataset MQ2008.
+Fri Apr 28 19:57:58 2023: Launch 8: algo/PDBTR/perfect/1000/10/0.1-0.99999977-1 2 with click model perfect on fold 3 from dataset MQ2008.
+Fri Apr 28 19:57:58 2023: Read   3: Fold 4 of dataset MQ2008.
+Fri Apr 28 19:57:59 2023: No group information is provided.
+Fri Apr 28 19:58:29 2023: Clean  1: Fold 2 of dataset MQ2008.
+Fri Apr 28 19:58:37 2023: log_scale False
+Fri Apr 28 19:58:37 2023: Launch 9: algo/PDBTR/perfect/1000/10/0.1-0.99999977-1 0 with click model perfect on fold 4 from dataset MQ2008.
+Fri Apr 28 19:58:37 2023: Launch 10: algo/PDBTR/perfect/1000/10/0.1-0.99999977-1 1 with click model perfect on fold 4 from dataset MQ2008.
+Fri Apr 28 19:58:37 2023: Launch 11: algo/PDBTR/perfect/1000/10/0.1-0.99999977-1 2 with click model perfect on fold 4 from dataset MQ2008.
+Fri Apr 28 19:58:37 2023: Read   4: Fold 5 of dataset MQ2008.
+Fri Apr 28 19:58:38 2023: No group information is provided.
+Fri Apr 28 19:59:08 2023: Clean  2: Fold 4 of dataset MQ2008.
+Fri Apr 28 19:59:15 2023: log_scale False
+Fri Apr 28 19:59:15 2023: Launch 12: algo/PDBTR/perfect/1000/10/0.1-0.99999977-1 0 with click model perfect on fold 5 from dataset MQ2008.
+Fri Apr 28 19:59:15 2023: Launch 13: algo/PDBTR/perfect/1000/10/0.1-0.99999977-1 1 with click model perfect on fold 5 from dataset MQ2008.
+Fri Apr 28 19:59:15 2023: Launch 14: algo/PDBTR/perfect/1000/10/0.1-0.99999977-1 2 with click model perfect on fold 5 from dataset MQ2008.
+Fri Apr 28 19:59:46 2023: Clean  3: Fold 3 of dataset MQ2008.
+Fri Apr 28 19:59:15 2023: setting up ranker...
+Fri Apr 28 19:59:15 2023: ranker set up complete
+Fri Apr 28 19:59:15 2023: loop through impressions: 1000
+Fri Apr 28 19:59:16 2023: 0.1 False 0
+Fri Apr 28 19:59:17 2023: 0.0999 False 0
+Fri Apr 28 19:59:21 2023: 0.0998001 False 0
+Fri Apr 28 19:59:22 2023: 0.0997002999 False 0
+Fri Apr 28 19:59:24 2023: 0.0996005996001 False 0
+Fri Apr 28 19:59:26 2023: 0.0995009990004999 False 0
+Fri Apr 28 19:59:27 2023: 0.0994014980014994 False 0
+Fri Apr 28 19:59:28 2023: 0.0993020965034979 False 0
+Fri Apr 28 19:59:30 2023: 0.09920279440699441 False 0
+Fri Apr 28 19:59:35 2023: 0.09910359161258742 False 0
+Fri Apr 28 19:59:36 2023: 0.09900448802097483 False 0
+Fri Apr 28 19:59:36 2023: 0.09890548353295386 False 0
+Fri Apr 28 19:59:37 2023: 0.0988065780494209 False 0
+Fri Apr 28 19:59:38 2023: 0.09870777147137148 False 0
+Fri Apr 28 19:59:39 2023: 0.0986090636999001 False 0
+Fri Apr 28 19:59:40 2023: 0.0985104546362002 False 0
+Fri Apr 28 19:59:41 2023: 0.098411944181564 False 0
+Fri Apr 28 19:59:42 2023: 0.09831353223738244 False 0
+Fri Apr 28 19:59:43 2023: 0.09821521870514506 False 0
+Fri Apr 28 19:59:44 2023: 0.09811700348643991 False 0
+Fri Apr 28 19:59:45 2023: 0.09801888648295347 False 0
+Fri Apr 28 19:59:45 2023: 0.09792086759647052 False 0
+Fri Apr 28 19:59:46 2023: 0.09782294672887405 False 0
+Fri Apr 28 19:59:47 2023: 0.09772512378214518 False 0
+Fri Apr 28 19:59:48 2023: 0.09762739865836303 False 0
+Fri Apr 28 19:59:49 2023: 0.09752977125970468 False 0
+Fri Apr 28 19:59:50 2023: 0.09743224148844497 False 0
+Fri Apr 28 19:59:51 2023: 0.09733480924695652 False 0
+Fri Apr 28 19:59:52 2023: 0.09723747443770957 False 0
+Fri Apr 28 19:59:53 2023: 0.09714023696327186 False 0
+Fri Apr 28 19:59:53 2023: 0.09704309672630858 False 0
+Fri Apr 28 19:59:54 2023: 0.09694605362958227 False 0
+Fri Apr 28 19:59:56 2023: 0.09684910757595268 False 0
+Fri Apr 28 19:59:57 2023: 0.09675225846837672 False 0
+Fri Apr 28 19:59:57 2023: 0.09665550620990834 False 0
+Fri Apr 28 19:59:58 2023: 0.09655885070369843 False 0
+Fri Apr 28 19:59:58 2023: 0.09646229185299474 False 0
+Fri Apr 28 19:59:59 2023: 0.09636582956114174 False 0
+Fri Apr 28 20:00:00 2023: 0.0962694637315806 False 0
+Fri Apr 28 20:00:00 2023: 0.09617319426784902 False 0
+Fri Apr 28 20:00:01 2023: 0.09607702107358118 False 0
+Fri Apr 28 20:00:01 2023: 0.0959809440525076 False 0
+Fri Apr 28 20:00:01 2023: 0.09588496310845508 False 0
+Fri Apr 28 20:00:03 2023: 0.09578907814534662 False 0
+Fri Apr 28 20:00:04 2023: 0.09569328906720127 False 0
+Fri Apr 28 20:00:04 2023: 0.09559759577813408 False 0
+Fri Apr 28 20:00:05 2023: 0.09550199818235594 False 0
+Fri Apr 28 20:00:06 2023: 0.09540649618417359 False 0
+Fri Apr 28 20:00:07 2023: 0.09531108968798942 False 0
+Fri Apr 28 20:00:08 2023: 0.09521577859830142 False 0
+Fri Apr 28 20:00:09 2023: 0.09512056281970312 False 0
+Fri Apr 28 20:00:09 2023: 0.09502544225688342 False 0
+Fri Apr 28 20:00:10 2023: 0.09493041681462654 False 0
+Fri Apr 28 20:00:11 2023: 0.0948354863978119 False 0
+Fri Apr 28 20:00:12 2023: 0.09474065091141409 False 0
+Fri Apr 28 20:00:14 2023: 0.09464591026050267 False 0
+Fri Apr 28 20:00:14 2023: 0.09455126435024218 False 0
+Fri Apr 28 20:00:15 2023: 0.09445671308589193 False 0
+Fri Apr 28 20:00:16 2023: 0.09436225637280604 False 0
+Fri Apr 28 20:00:16 2023: 0.09426789411643323 False 0
+Fri Apr 28 20:00:17 2023: 0.0941736262223168 False 0
+Fri Apr 28 20:00:18 2023: 0.09407945259609449 False 0
+Fri Apr 28 20:00:19 2023: 0.09398537314349839 False 0
+Fri Apr 28 20:00:20 2023: 0.0938913877703549 False 0
+Fri Apr 28 20:00:21 2023: 0.09379749638258454 False 0
+Fri Apr 28 20:00:21 2023: 0.09370369888620196 False 0
+Fri Apr 28 20:00:21 2023: 0.09360999518731576 False 0
+Fri Apr 28 20:00:21 2023: 0.09351638519212845 False 0
+Fri Apr 28 20:00:23 2023: 0.09342286880693632 False 0
+Fri Apr 28 20:00:24 2023: 0.09332944593812938 False 0
+Fri Apr 28 20:00:25 2023: 0.09323611649219125 False 0
+Fri Apr 28 20:00:25 2023: 0.09314288037569907 False 0
+Fri Apr 28 20:00:25 2023: 0.09304973749532337 False 0
+Fri Apr 28 20:00:25 2023: 0.09295668775782805 False 0
+Fri Apr 28 20:00:26 2023: 0.09286373107007022 False 0
+Fri Apr 28 20:00:27 2023: 0.09277086733900015 False 0
+Fri Apr 28 20:00:27 2023: 0.09267809647166116 False 0
+Fri Apr 28 20:00:28 2023: 0.0925854183751895 False 0
+Fri Apr 28 20:00:29 2023: 0.0924928329568143 False 0
+Fri Apr 28 20:00:30 2023: 0.09240034012385749 False 0
+Fri Apr 28 20:00:31 2023: 0.09230793978373364 False 0
+Fri Apr 28 20:00:33 2023: 0.0922156318439499 False 0
+Fri Apr 28 20:00:34 2023: 0.09212341621210596 False 0
+Fri Apr 28 20:00:35 2023: 0.09203129279589385 False 0
+Fri Apr 28 20:00:35 2023: 0.09193926150309796 False 0
+Fri Apr 28 20:00:36 2023: 0.09184732224159486 False 0
+Fri Apr 28 20:00:37 2023: 0.09175547491935326 False 0
+Fri Apr 28 20:00:38 2023: 0.09166371944443391 False 0
+Fri Apr 28 20:00:40 2023: 0.09157205572498947 False 0
+Fri Apr 28 20:00:40 2023: 0.09148048366926448 False 0
+Fri Apr 28 20:00:41 2023: 0.09138900318559522 False 0
+Fri Apr 28 20:00:42 2023: 0.09129761418240961 False 0
+Fri Apr 28 20:00:43 2023: 0.09120631656822721 False 0
+Fri Apr 28 20:00:44 2023: 0.09111511025165898 False 0
+Fri Apr 28 20:00:46 2023: 0.09102399514140733 False 0
+Fri Apr 28 20:00:47 2023: 0.09093297114626592 False 0
+Fri Apr 28 20:00:48 2023: 0.09084203817511965 False 0
+Fri Apr 28 20:00:50 2023: 0.09075119613694453 False 0
+Fri Apr 28 20:00:51 2023: 0.09066044494080759 False 0
+Fri Apr 28 20:00:51 2023: 0.09056978449586678 False 0
+Fri Apr 28 20:00:52 2023: impressions 100/1000
+Fri Apr 28 20:00:52 2023: 0.09047921471137091 False 0
+Fri Apr 28 20:00:52 2023: 0.09038873549665954 False 0
+Fri Apr 28 20:00:54 2023: 0.09029834676116288 False 0
+Fri Apr 28 20:00:54 2023: 0.09020804841440172 False 0
+Fri Apr 28 20:00:54 2023: 0.09011784036598731 False 0
+Fri Apr 28 20:00:57 2023: 0.09002772252562133 False 0
+Fri Apr 28 20:00:58 2023: 0.08993769480309571 False 0
+Fri Apr 28 20:00:59 2023: 0.08984775710829261 False 0
+Fri Apr 28 20:01:00 2023: 0.08975790935118431 False 0
+Fri Apr 28 20:01:02 2023: 0.08966815144183313 False 0
+Fri Apr 28 20:01:03 2023: 0.0895784832903913 False 0
+Fri Apr 28 20:01:05 2023: 0.08948890480710091 False 0
+Fri Apr 28 20:01:05 2023: 0.0893994159022938 False 0
+Fri Apr 28 20:01:05 2023: 0.08931001648639152 False 0
+Fri Apr 28 20:01:07 2023: 0.08922070646990513 False 0
+Fri Apr 28 20:01:07 2023: 0.08913148576343521 False 0
+Fri Apr 28 20:01:07 2023: 0.08904235427767178 False 0
+Fri Apr 28 20:01:08 2023: 0.0889533119233941 False 0
+Fri Apr 28 20:01:10 2023: 0.08886435861147071 False 0
+Fri Apr 28 20:01:11 2023: 0.08877549425285924 False 0
+Fri Apr 28 20:01:12 2023: 0.08868671875860638 False 0
+Fri Apr 28 20:01:14 2023: 0.08859803203984777 False 0
+Fri Apr 28 20:01:15 2023: 0.08850943400780792 False 0
+Fri Apr 28 20:01:16 2023: 0.08842092457380012 False 0
+Fri Apr 28 20:01:18 2023: 0.08833250364922632 False 0
+Fri Apr 28 20:01:19 2023: 0.08824417114557709 False 0
+Fri Apr 28 20:01:20 2023: 0.08815592697443152 False 0
+Fri Apr 28 20:01:21 2023: 0.08806777104745708 False 0
+Fri Apr 28 20:01:22 2023: 0.08797970327640962 False 0
+Fri Apr 28 20:01:23 2023: 0.08789172357313321 False 0
+Fri Apr 28 20:01:23 2023: 0.08780383184956007 False 0
+Fri Apr 28 20:01:25 2023: 0.08771602801771052 False 0
+Fri Apr 28 20:01:25 2023: 0.0876283119896928 False 0
+Fri Apr 28 20:01:26 2023: 0.08754068367770311 False 0
+Fri Apr 28 20:01:27 2023: 0.0874531429940254 False 0
+Fri Apr 28 20:01:27 2023: Process Process-15:
+Fri Apr 28 20:01:27 2023: Traceback (most recent call last):
+Fri Apr 28 20:01:27 2023:   File "/usr/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+Fri Apr 28 20:01:27 2023:     self.run()
+Fri Apr 28 20:01:27 2023:   File "/usr/lib/python3.7/multiprocessing/process.py", line 99, in run
+Fri Apr 28 20:01:27 2023:     self._target(*self._args, **self._kwargs)
+Fri Apr 28 20:01:27 2023:   File "../utils/datasimulation.py", line 124, in start_run
+Fri Apr 28 20:01:27 2023:     simulation.run(ranker, output_key=output_key)
+Fri Apr 28 20:01:27 2023:   File "../utils/singlesimulation.py", line 117, in run
+Fri Apr 28 20:01:27 2023:     ranking_i, train_ranking = self.sample_and_rank(ranker)
+Fri Apr 28 20:01:27 2023:   File "../utils/singlesimulation.py", line 98, in sample_and_rank
+Fri Apr 28 20:01:27 2023:     train_ranking = ranker.get_train_query_ranking(ranking_i)
+Fri Apr 28 20:01:27 2023:   File "../algorithms/basiconlineranker.py", line 98, in get_train_query_ranking
+Fri Apr 28 20:01:27 2023:     self._last_ranking = self._create_train_ranking(query_id, query_feat, inverted)[:self.n_results]
+Fri Apr 28 20:01:27 2023:   File "../algorithms/DBTR/pdbtr.py", line 84, in _create_train_ranking
+Fri Apr 28 20:01:27 2023:     n_results=None)
+Fri Apr 28 20:01:27 2023:   File "../utils/rankings.py", line 172, in rank_single_query
+Fri Apr 28 20:01:27 2023:     ranking = tiebreak_sort(predictions, n_results=n_results)
+Fri Apr 28 20:01:27 2023:   File "../utils/rankings.py", line 32, in tiebreak_sort
+Fri Apr 28 20:01:27 2023:     return _tiebreak_sort(unranked, n_results)
+Fri Apr 28 20:01:27 2023:   File "../utils/rankings.py", line 51, in _tiebreak_sort
+Fri Apr 28 20:01:27 2023:     return np.argsort(complex_predictions, axis=-1)
+Fri Apr 28 20:01:27 2023:   File "<__array_function__ internals>", line 6, in argsort
+Fri Apr 28 20:01:27 2023:   File "/home/matthew/DBDG/OnlineLearningToRank/env/lib/python3.7/site-packages/numpy/core/fromnumeric.py", line 1114, in argsort
+Fri Apr 28 20:01:27 2023:     return _wrapfunc(a, 'argsort', axis=axis, kind=kind, order=order)
+Fri Apr 28 20:01:27 2023:   File "/home/matthew/DBDG/OnlineLearningToRank/env/lib/python3.7/site-packages/numpy/core/fromnumeric.py", line 57, in _wrapfunc
+Fri Apr 28 20:01:27 2023:     return bound(*args, **kwds)
+Fri Apr 28 20:01:27 2023: KeyboardInterrupt
+Fri Apr 28 20:01:27 2023: Traceback (most recent call last):
+Fri Apr 28 20:01:27 2023:   File "run_script.py", line 141, in <module>
+Fri Apr 28 20:01:27 2023:     set_sim_and_run(input_args)
+Fri Apr 28 20:01:27 2023:   File "run_script.py", line 133, in set_sim_and_run
+Fri Apr 28 20:01:27 2023:     return switcher.get(algo, lambda: "ERROR: algorithm type not valid")()
+Fri Apr 28 20:01:27 2023:   File "run_script.py", line 132, in <lambda>
+Fri Apr 28 20:01:27 2023:     'PDBTR': lambda: func_pdbtr(args, dir_name),}
+Fri Apr 28 20:01:27 2023:   File "run_script.py", line 116, in func_pdbtr
+Fri Apr 28 20:01:27 2023:     sim.run(ranker)
+Fri Apr 28 20:01:27 2023:   File "../utils/datasimulation.py", line 65, in run
+Fri Apr 28 20:01:27 2023:     self.wait_for_output()
+Fri Apr 28 20:01:27 2023:   File "../utils/datasimulation.py", line 164, in wait_for_output
+Fri Apr 28 20:01:27 2023:     output_key, run_output = self.output_queue.get(block=not found, timeout=timeout)
+Fri Apr 28 20:01:27 2023:   File "/usr/lib/python3.7/multiprocessing/queues.py", line 104, in get
+Fri Apr 28 20:01:27 2023:     if not self._poll(timeout):
+Fri Apr 28 20:01:27 2023:   File "/usr/lib/python3.7/multiprocessing/connection.py", line 257, in poll
+Fri Apr 28 20:01:27 2023:     return self._poll(timeout)
+Fri Apr 28 20:01:27 2023:   File "/usr/lib/python3.7/multiprocessing/connection.py", line 414, in _poll
+Fri Apr 28 20:01:27 2023:     r = wait([self], timeout)
+Fri Apr 28 20:01:27 2023:   File "/usr/lib/python3.7/multiprocessing/connection.py", line 921, in wait
+Fri Apr 28 20:01:27 2023:     ready = selector.select(timeout)
+Fri Apr 28 20:01:27 2023:   File "/usr/lib/python3.7/selectors.py", line 415, in select
+Fri Apr 28 20:01:27 2023:     fd_event_list = self._selector.poll(timeout)
+Fri Apr 28 20:01:27 2023: KeyboardInterrupt

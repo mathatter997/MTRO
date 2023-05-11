@@ -1,0 +1,64 @@
+Fri Apr 28 20:30:46 2023: Starting simulation at run_script-Log-23-04-28-20:30:46.Log is also stored in output file at ./logs/run_script-Log-23-04-28-20:30:46.txtMQ2008
+Fri Apr 28 20:30:46 2023: Read   0: Fold 1 of dataset MQ2008.
+Fri Apr 28 20:30:46 2023: No group information is provided.
+Fri Apr 28 20:30:46 2023: log_scale False
+Fri Apr 28 20:30:46 2023: Launch 0: algo/PDBTR/perfect/1/10/0.1-0.99999977-1 0 with click model perfect on fold 1 from dataset MQ2008.
+Fri Apr 28 20:30:46 2023: setting up ranker...
+Fri Apr 28 20:30:46 2023: ranker set up complete
+Fri Apr 28 20:30:46 2023: loop through impressions: 1
+Fri Apr 28 20:30:46 2023: 0.1 False 0
+Fri Apr 28 20:30:46 2023: train_ranking
+Fri Apr 28 20:30:47 2023: ranking_labels
+Fri Apr 28 20:30:46 2023: Read   1: Fold 2 of dataset MQ2008.
+Fri Apr 28 20:30:47 2023: No group information is provided.
+Fri Apr 28 20:30:47 2023: Output 0: algo/PDBTR/perfect/1/10/0.1-0.99999977-1 on dataset MQ2008. (1/5)
+Fri Apr 28 20:30:47 2023: Clean  0: Fold 1 of dataset MQ2008.
+Fri Apr 28 20:30:47 2023: log_scale False
+Fri Apr 28 20:30:47 2023: Launch 1: algo/PDBTR/perfect/1/10/0.1-0.99999977-1 0 with click model perfect on fold 2 from dataset MQ2008.
+Fri Apr 28 20:30:47 2023: setting up ranker...
+Fri Apr 28 20:30:47 2023: ranker set up complete
+Fri Apr 28 20:30:47 2023: loop through impressions: 1
+Fri Apr 28 20:30:47 2023: 0.1 False 0
+Fri Apr 28 20:30:47 2023: train_ranking
+Fri Apr 28 20:30:47 2023: ranking_labels
+Fri Apr 28 20:30:47 2023: Read   2: Fold 3 of dataset MQ2008.
+Fri Apr 28 20:30:47 2023: No group information is provided.
+Fri Apr 28 20:30:47 2023: Output 1: algo/PDBTR/perfect/1/10/0.1-0.99999977-1 on dataset MQ2008. (2/5)
+Fri Apr 28 20:30:47 2023: Clean  1: Fold 2 of dataset MQ2008.
+Fri Apr 28 20:30:47 2023: log_scale False
+Fri Apr 28 20:30:47 2023: Launch 2: algo/PDBTR/perfect/1/10/0.1-0.99999977-1 0 with click model perfect on fold 3 from dataset MQ2008.
+Fri Apr 28 20:30:47 2023: setting up ranker...
+Fri Apr 28 20:30:47 2023: ranker set up complete
+Fri Apr 28 20:30:47 2023: loop through impressions: 1
+Fri Apr 28 20:30:48 2023: 0.1 False 0
+Fri Apr 28 20:30:48 2023: train_ranking
+Fri Apr 28 20:30:48 2023: ranking_labels
+Fri Apr 28 20:30:47 2023: Read   3: Fold 4 of dataset MQ2008.
+Fri Apr 28 20:30:48 2023: No group information is provided.
+Fri Apr 28 20:30:48 2023: Output 2: algo/PDBTR/perfect/1/10/0.1-0.99999977-1 on dataset MQ2008. (3/5)
+Fri Apr 28 20:30:48 2023: Clean  2: Fold 3 of dataset MQ2008.
+Fri Apr 28 20:30:48 2023: log_scale False
+Fri Apr 28 20:30:48 2023: Launch 3: algo/PDBTR/perfect/1/10/0.1-0.99999977-1 0 with click model perfect on fold 4 from dataset MQ2008.
+Fri Apr 28 20:30:48 2023: setting up ranker...
+Fri Apr 28 20:30:48 2023: ranker set up complete
+Fri Apr 28 20:30:48 2023: loop through impressions: 1
+Fri Apr 28 20:30:48 2023: 0.1 False 0
+Fri Apr 28 20:30:48 2023: train_ranking
+Fri Apr 28 20:30:49 2023: ranking_labels
+Fri Apr 28 20:30:48 2023: Read   4: Fold 5 of dataset MQ2008.
+Fri Apr 28 20:30:49 2023: No group information is provided.
+Fri Apr 28 20:30:49 2023: Output 3: algo/PDBTR/perfect/1/10/0.1-0.99999977-1 on dataset MQ2008. (4/5)
+Fri Apr 28 20:30:49 2023: Clean  3: Fold 4 of dataset MQ2008.
+Fri Apr 28 20:30:49 2023: log_scale False
+Fri Apr 28 20:30:49 2023: Launch 4: algo/PDBTR/perfect/1/10/0.1-0.99999977-1 0 with click model perfect on fold 5 from dataset MQ2008.
+Fri Apr 28 20:30:49 2023: setting up ranker...
+Fri Apr 28 20:30:49 2023: ranker set up complete
+Fri Apr 28 20:30:49 2023: loop through impressions: 1
+Fri Apr 28 20:30:49 2023: 0.1 False 0
+Fri Apr 28 20:30:52 2023: train_ranking
+Fri Apr 28 20:30:52 2023: ranking_labels
+Fri Apr 28 20:30:52 2023: Output 4: algo/PDBTR/perfect/1/10/0.1-0.99999977-1 on dataset MQ2008. (5/5)
+Fri Apr 28 20:30:52 2023: opening ./output/MQ2008/algo/PDBTR/perfect/1/10/0.1-0.99999977-1.out
+Fri Apr 28 20:30:52 2023: Closed 0: algo/PDBTR/perfect/1/10/0.1-0.99999977-1 on MQ2008 was averaged and stored.
+Fri Apr 28 20:30:52 2023: Clean  4: Fold 5 of dataset MQ2008.
+Fri Apr 28 20:30:52 2023: Time taken: 0:00:06.420001 (6 seconds)

@@ -1,0 +1,193 @@
+Sun Apr 30 14:32:28 2023: Starting simulation at run_script-Log-23-04-30-14:32:28.Log is also stored in output file at ./logs/run_script-Log-23-04-30-14:32:28.txtMQ2008
+Sun Apr 30 14:32:28 2023: Read   0: Fold 1 of dataset MQ2008.
+Sun Apr 30 14:32:28 2023: No group information is provided.
+Sun Apr 30 14:32:28 2023: collected!
+Sun Apr 30 14:32:28 2023: collected!
+Sun Apr 30 14:32:28 2023: Launch 0: algo/PDBTR/navi/400/10/0.1-0.99999977-1 0 with click model navigational on fold 1 from dataset MQ2008.
+Sun Apr 30 14:32:28 2023: setting up ranker...
+Sun Apr 30 14:32:28 2023: ranker set up complete
+Sun Apr 30 14:32:28 2023: loop through impressions: 400
+Sun Apr 30 14:32:28 2023: 0.1996002
+Sun Apr 30 14:32:28 2023: 0.1988029960029988
+Sun Apr 30 14:32:28 2023: 0.1986041930069958
+Sun Apr 30 14:32:29 2023: 0.1986041930069958
+Sun Apr 30 14:32:29 2023: 0.19800897604194967
+Sun Apr 30 14:32:29 2023: 0.19800897604194967
+Sun Apr 30 14:32:29 2023: 0.19781096706590773
+Sun Apr 30 14:32:29 2023: 0.19781096706590773
+Sun Apr 30 14:32:29 2023: 0.1972181273998002
+Sun Apr 30 14:32:29 2023: 0.196823888363128
+Sun Apr 30 14:32:30 2023: 0.19603777296590694
+Sun Apr 30 14:32:30 2023: 0.19584173519294104
+Sun Apr 30 14:32:30 2023: 0.1942804739265437
+Sun Apr 30 14:32:30 2023: 0.1942804739265437
+Sun Apr 30 14:32:31 2023: 0.19389210725916453
+Sun Apr 30 14:32:31 2023: 0.19389210725916453
+Sun Apr 30 14:32:31 2023: 0.19292458370598947
+Sun Apr 30 14:32:31 2023: 0.19234638853569805
+Sun Apr 30 14:32:31 2023: 0.19234638853569805
+Sun Apr 30 14:32:31 2023: 0.19119519155626816
+Sun Apr 30 14:32:32 2023: 0.19005088451376684
+Sun Apr 30 14:32:32 2023: 0.18891342617178386
+Sun Apr 30 14:32:32 2023: 0.18797074628699678
+Sun Apr 30 14:32:33 2023: 0.18684573761387263
+Sun Apr 30 14:32:33 2023: impressions 100/400
+Sun Apr 30 14:32:33 2023: 0.18480068024771498
+Sun Apr 30 14:32:33 2023: 0.18480068024771498
+Sun Apr 30 14:32:33 2023: 0.1844312636878998
+Sun Apr 30 14:32:34 2023: 0.18332743888886782
+Sun Apr 30 14:32:34 2023: 0.18204799028281465
+Sun Apr 30 14:32:34 2023: 0.18186594229253183
+Sun Apr 30 14:32:34 2023: 0.18150239227388906
+Sun Apr 30 14:32:34 2023: 0.18150239227388906
+Sun Apr 30 14:32:35 2023: 0.18023568073197463
+Sun Apr 30 14:32:35 2023: 0.17969551421658522
+Sun Apr 30 14:32:35 2023: 0.1787988318045876
+Sun Apr 30 14:32:36 2023: 0.17613554209491417
+Sun Apr 30 14:32:36 2023: 0.17595940655281925
+Sun Apr 30 14:32:36 2023: 0.17543205603542103
+Sun Apr 30 14:32:36 2023: 0.17368560890253826
+Sun Apr 30 14:32:36 2023: 0.17316507295897174
+Sun Apr 30 14:32:37 2023: 0.17281891597812676
+Sun Apr 30 14:32:37 2023: 0.17281891597812676
+Sun Apr 30 14:32:37 2023: 0.1721286765366073
+Sun Apr 30 14:32:37 2023: 0.17126975272026335
+Sun Apr 30 14:32:37 2023: impressions 200/400
+Sun Apr 30 14:32:38 2023: 0.16905655611470055
+Sun Apr 30 14:32:38 2023: 0.16637184363887353
+Sun Apr 30 14:32:38 2023: 0.16537610482975257
+Sun Apr 30 14:32:39 2023: 0.16521072872492282
+Sun Apr 30 14:32:39 2023: 0.1647155920057235
+Sun Apr 30 14:32:39 2023: 0.16455087641371777
+Sun Apr 30 14:32:39 2023: 0.16455087641371777
+Sun Apr 30 14:32:39 2023: 0.16422193921176675
+Sun Apr 30 14:32:39 2023: 0.16422193921176675
+Sun Apr 30 14:32:39 2023: 0.164057717272555
+Sun Apr 30 14:32:40 2023: 0.15952558089599053
+Sun Apr 30 14:32:40 2023: 0.15952558089599053
+Sun Apr 30 14:32:41 2023: 0.15904748257051965
+Sun Apr 30 14:32:41 2023: 0.15762176759678895
+Sun Apr 30 14:32:41 2023: 0.15730668168336295
+Sun Apr 30 14:32:41 2023: 0.15730668168336295
+Sun Apr 30 14:32:41 2023: impressions 300/400
+Sun Apr 30 14:32:42 2023: 0.15636519804971302
+Sun Apr 30 14:32:42 2023: 0.15574067482339807
+Sun Apr 30 14:32:42 2023: 0.15542934921442608
+Sun Apr 30 14:32:42 2023: 0.15542934921442608
+Sun Apr 30 14:32:42 2023: 0.1546537552083296
+Sun Apr 30 14:32:42 2023: 0.1541902577493165
+Sun Apr 30 14:32:43 2023: 0.15403606749156717
+Sun Apr 30 14:32:43 2023: 0.1529610443906692
+Sun Apr 30 14:32:43 2023: 0.15219776725031398
+Sun Apr 30 14:32:43 2023: 0.15204556948306366
+Sun Apr 30 14:32:43 2023: 0.1518935239135806
+Sun Apr 30 14:32:44 2023: 0.14993071246443013
+Sun Apr 30 14:32:44 2023: 0.14933188859927427
+Sun Apr 30 14:32:44 2023: 0.14814140643121998
+Sun Apr 30 14:32:45 2023: 0.14784527175976397
+Sun Apr 30 14:32:45 2023: 0.14740217933245467
+Sun Apr 30 14:32:45 2023: 0.14740217933245467
+Sun Apr 30 14:32:45 2023: 0.1466666409843008
+Sun Apr 30 14:32:46 2023: 0.1452065570040682
+Sun Apr 30 14:32:46 2023: impressions 400/400
+Sun Apr 30 14:32:28 2023: collected!
+Sun Apr 30 14:32:28 2023: Read   1: Fold 2 of dataset MQ2008.
+Sun Apr 30 14:32:28 2023: No group information is provided.
+Sun Apr 30 14:32:46 2023: Output 0: algo/PDBTR/navi/400/10/0.1-0.99999977-1 on dataset MQ2008. (1/5)
+Sun Apr 30 14:32:46 2023: Clean  0: Fold 1 of dataset MQ2008.
+Sun Apr 30 14:32:46 2023: collected!
+Sun Apr 30 14:32:46 2023: collected!
+Sun Apr 30 14:32:46 2023: Launch 1: algo/PDBTR/navi/400/10/0.1-0.99999977-1 0 with click model navigational on fold 2 from dataset MQ2008.
+Sun Apr 30 14:32:46 2023: collected!
+Sun Apr 30 14:32:46 2023: Read   2: Fold 3 of dataset MQ2008.
+Sun Apr 30 14:32:46 2023: No group information is provided.
+Sun Apr 30 14:32:46 2023: setting up ranker...
+Sun Apr 30 14:32:46 2023: ranker set up complete
+Sun Apr 30 14:32:46 2023: loop through impressions: 400
+Sun Apr 30 14:32:46 2023: 0.2
+Sun Apr 30 14:32:47 2023: 0.1986041930069958
+Sun Apr 30 14:32:47 2023: 0.1986041930069958
+Sun Apr 30 14:32:47 2023: 0.19820718322517483
+Sun Apr 30 14:32:47 2023: 0.19781096706590773
+Sun Apr 30 14:32:47 2023: 0.196823888363128
+Sun Apr 30 14:32:48 2023: 0.19525479731672607
+Sun Apr 30 14:32:48 2023: 0.19525479731672607
+Sun Apr 30 14:32:48 2023: 0.19486448297688994
+Sun Apr 30 14:32:48 2023: 0.19447494887541913
+Sun Apr 30 14:32:48 2023: 0.19389210725916453
+Sun Apr 30 14:32:48 2023: 0.19311770140739687
+Sun Apr 30 14:32:49 2023: 0.19311770140739687
+Sun Apr 30 14:32:49 2023: 0.1919618881050152
+Sun Apr 30 14:32:49 2023: 0.19157815629069325
+Sun Apr 30 14:32:49 2023: 0.19043155719660285
+Sun Apr 30 14:32:50 2023: 0.18986083362925307
+Sun Apr 30 14:32:50 2023: 0.1883472524446336
+Sun Apr 30 14:32:50 2023: 0.18684573761387263
+Sun Apr 30 14:32:51 2023: impressions 100/400
+Sun Apr 30 14:32:51 2023: 0.1844312636878998
+Sun Apr 30 14:32:51 2023: 0.18424683242421191
+Sun Apr 30 14:32:51 2023: 0.18369464448318973
+Sun Apr 30 14:32:52 2023: 0.18314411144997894
+Sun Apr 30 14:32:52 2023: 0.18314411144997894
+Sun Apr 30 14:32:52 2023: 0.1816840763502393
+Sun Apr 30 14:32:52 2023: 0.1816840763502393
+Sun Apr 30 14:32:53 2023: 0.17987538960619143
+Sun Apr 30 14:32:53 2023: 0.17987538960619143
+Sun Apr 30 14:32:53 2023: 0.17897780961420182
+Sun Apr 30 14:32:53 2023: 0.17897780961420182
+Sun Apr 30 14:32:54 2023: Process Process-2:
+Sun Apr 30 14:32:54 2023: Traceback (most recent call last):
+Sun Apr 30 14:32:54 2023:   File "/usr/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+Sun Apr 30 14:32:54 2023:     self.run()
+Sun Apr 30 14:32:54 2023:   File "/usr/lib/python3.7/multiprocessing/process.py", line 99, in run
+Sun Apr 30 14:32:54 2023:     self._target(*self._args, **self._kwargs)
+Sun Apr 30 14:32:54 2023:   File "../utils/datasimulation.py", line 124, in start_run
+Sun Apr 30 14:32:54 2023:     simulation.run(ranker, output_key=output_key)
+Sun Apr 30 14:32:54 2023:   File "../utils/singlesimulation.py", line 116, in run
+Sun Apr 30 14:32:54 2023:     ranking_i, train_ranking = self.sample_and_rank(ranker)
+Sun Apr 30 14:32:54 2023:   File "../utils/singlesimulation.py", line 97, in sample_and_rank
+Sun Apr 30 14:32:54 2023:     train_ranking = ranker.get_train_query_ranking(ranking_i)
+Sun Apr 30 14:32:54 2023:   File "../algorithms/basiconlineranker.py", line 98, in get_train_query_ranking
+Sun Apr 30 14:32:54 2023:     self._last_ranking = self._create_train_ranking(query_id, query_feat, inverted)[:self.n_results]
+Sun Apr 30 14:32:54 2023:   File "../algorithms/DBTR/pdbtr.py", line 85, in _create_train_ranking
+Sun Apr 30 14:32:54 2023:     n_results=None)
+Sun Apr 30 14:32:54 2023:   File "../utils/rankings.py", line 172, in rank_single_query
+Sun Apr 30 14:32:54 2023:     ranking = tiebreak_sort(predictions, n_results=n_results)
+Sun Apr 30 14:32:54 2023:   File "../utils/rankings.py", line 32, in tiebreak_sort
+Sun Apr 30 14:32:54 2023:     return _tiebreak_sort(unranked, n_results)
+Sun Apr 30 14:32:54 2023:   File "../utils/rankings.py", line 51, in _tiebreak_sort
+Sun Apr 30 14:32:54 2023:     return np.argsort(complex_predictions, axis=-1)
+Sun Apr 30 14:32:54 2023:   File "<__array_function__ internals>", line 6, in argsort
+Sun Apr 30 14:32:54 2023:   File "/home/matthew/DBDG/OnlineLearningToRank/env/lib/python3.7/site-packages/numpy/core/fromnumeric.py", line 1114, in argsort
+Sun Apr 30 14:32:54 2023:     return _wrapfunc(a, 'argsort', axis=axis, kind=kind, order=order)
+Sun Apr 30 14:32:54 2023:   File "/home/matthew/DBDG/OnlineLearningToRank/env/lib/python3.7/site-packages/numpy/core/fromnumeric.py", line 57, in _wrapfunc
+Sun Apr 30 14:32:54 2023:     return bound(*args, **kwds)
+Sun Apr 30 14:32:54 2023: KeyboardInterrupt
+Sun Apr 30 14:32:54 2023: Traceback (most recent call last):
+Sun Apr 30 14:32:54 2023:   File "run_script.py", line 184, in <module>
+Sun Apr 30 14:32:54 2023:     set_sim_and_run(input_args)
+Sun Apr 30 14:32:54 2023:   File "run_script.py", line 176, in set_sim_and_run
+Sun Apr 30 14:32:54 2023:     return switcher.get(algo, lambda: "ERROR: algorithm type not valid")()
+Sun Apr 30 14:32:54 2023:   File "run_script.py", line 171, in <lambda>
+Sun Apr 30 14:32:54 2023:     'PDBTR': lambda: func_pdbtr(args, dir_name),
+Sun Apr 30 14:32:54 2023:   File "run_script.py", line 120, in func_pdbtr
+Sun Apr 30 14:32:54 2023:     sim.run(ranker)
+Sun Apr 30 14:32:54 2023:   File "../utils/datasimulation.py", line 58, in run
+Sun Apr 30 14:32:54 2023:     for process in self.load_processes(datasets, ranker_tuples):
+Sun Apr 30 14:32:54 2023:   File "../utils/datasimulation.py", line 77, in load_processes
+Sun Apr 30 14:32:54 2023:     for proc in self.load_datafold_processes(datafold, ranker_tuples):
+Sun Apr 30 14:32:54 2023:   File "../utils/datasimulation.py", line 90, in load_datafold_processes
+Sun Apr 30 14:32:54 2023:     self.wait_for_output()
+Sun Apr 30 14:32:54 2023:   File "../utils/datasimulation.py", line 164, in wait_for_output
+Sun Apr 30 14:32:54 2023:     output_key, run_output = self.output_queue.get(block=not found, timeout=timeout)
+Sun Apr 30 14:32:54 2023:   File "/usr/lib/python3.7/multiprocessing/queues.py", line 104, in get
+Sun Apr 30 14:32:54 2023:     if not self._poll(timeout):
+Sun Apr 30 14:32:54 2023:   File "/usr/lib/python3.7/multiprocessing/connection.py", line 257, in poll
+Sun Apr 30 14:32:54 2023:     return self._poll(timeout)
+Sun Apr 30 14:32:54 2023:   File "/usr/lib/python3.7/multiprocessing/connection.py", line 414, in _poll
+Sun Apr 30 14:32:54 2023:     r = wait([self], timeout)
+Sun Apr 30 14:32:54 2023:   File "/usr/lib/python3.7/multiprocessing/connection.py", line 921, in wait
+Sun Apr 30 14:32:54 2023:     ready = selector.select(timeout)
+Sun Apr 30 14:32:54 2023:   File "/usr/lib/python3.7/selectors.py", line 415, in select
+Sun Apr 30 14:32:54 2023:     fd_event_list = self._selector.poll(timeout)
+Sun Apr 30 14:32:54 2023: KeyboardInterrupt

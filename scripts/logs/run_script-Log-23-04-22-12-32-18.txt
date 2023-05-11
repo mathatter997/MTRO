@@ -1,0 +1,30 @@
+Sat Apr 22 12:32:18 2023: Starting simulation at .\run_script-Log-23-04-22-12:32:18.Log is also stored in output file at logs/./run_script-Log-23-04-22-12-32-18.txtMQ2008
+Sat Apr 22 12:32:18 2023: [<utils.dataset.DataSet object at 0x000001D16958E8C8>] [('algo/PAIRRANK/nav/1000/10/0.1-0.99999977-gd-0.1-0.1-False-random-False-1', <class 'algorithms.PairRank.PairRank.PairRank'>, {'learning_rate': 0.1, 'learning_rate_decay': 0.99999977, 'update': 'gd', '_lambda': 0.1, 'alpha': 0.1, 'refine': False, 'rank': 'random', 'ind': False})]
+Sat Apr 22 12:32:18 2023: Read   0: Fold 1 of dataset MQ2008.
+Sat Apr 22 12:32:18 2023: expected runs 125
+Sat Apr 22 12:32:18 2023: Traceback (most recent call last):
+Sat Apr 22 12:32:18 2023:   File ".\run_script.py", line 118, in <module>
+Sat Apr 22 12:32:18 2023:     set_sim_and_run(input_args)
+Sat Apr 22 12:32:18 2023:   File ".\run_script.py", line 110, in set_sim_and_run
+Sat Apr 22 12:32:18 2023:     return switcher.get(algo, lambda: "ERROR: algorithm type not valid")()
+Sat Apr 22 12:32:18 2023:   File ".\run_script.py", line 105, in <lambda>
+Sat Apr 22 12:32:18 2023:     switcher = {"PAIRRANK":         lambda: func_pairrank(args, dir_name),
+Sat Apr 22 12:32:18 2023:   File ".\run_script.py", line 27, in func_pairrank
+Sat Apr 22 12:32:18 2023:     sim.run(ranker)
+Sat Apr 22 12:32:18 2023:   File ".\..\utils\datasimulation.py", line 59, in run
+Sat Apr 22 12:32:18 2023:     for process in self.load_processes(datasets, ranker_tuples):
+Sat Apr 22 12:32:18 2023:   File ".\..\utils\datasimulation.py", line 78, in load_processes
+Sat Apr 22 12:32:18 2023:     for proc in self.load_datafold_processes(datafold, ranker_tuples):
+Sat Apr 22 12:32:18 2023:   File ".\..\utils\datasimulation.py", line 109, in load_datafold_processes
+Sat Apr 22 12:32:18 2023:     new_proc.start()
+Sat Apr 22 12:32:18 2023:   File "C:\Users\mjh24\miniconda3\lib\multiprocessing\process.py", line 112, in start
+Sat Apr 22 12:32:18 2023:     self._popen = self._Popen(self)
+Sat Apr 22 12:32:18 2023:   File "C:\Users\mjh24\miniconda3\lib\multiprocessing\context.py", line 223, in _Popen
+Sat Apr 22 12:32:18 2023:     return _default_context.get_context().Process._Popen(process_obj)
+Sat Apr 22 12:32:18 2023:   File "C:\Users\mjh24\miniconda3\lib\multiprocessing\context.py", line 322, in _Popen
+Sat Apr 22 12:32:18 2023:     return Popen(process_obj)
+Sat Apr 22 12:32:18 2023:   File "C:\Users\mjh24\miniconda3\lib\multiprocessing\popen_spawn_win32.py", line 89, in __init__
+Sat Apr 22 12:32:18 2023:     reduction.dump(process_obj, to_child)
+Sat Apr 22 12:32:18 2023:   File "C:\Users\mjh24\miniconda3\lib\multiprocessing\reduction.py", line 60, in dump
+Sat Apr 22 12:32:18 2023:     ForkingPickler(file, protocol).dump(obj)
+Sat Apr 22 12:32:18 2023: TypeError: cannot serialize '_io.TextIOWrapper' object

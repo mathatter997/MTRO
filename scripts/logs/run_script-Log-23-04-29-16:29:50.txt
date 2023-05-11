@@ -1,0 +1,323 @@
+Sat Apr 29 16:29:50 2023: Starting simulation at run_script-Log-23-04-29-16:29:50.Log is also stored in output file at ./logs/run_script-Log-23-04-29-16:29:50.txtMQ2008
+Sat Apr 29 16:29:50 2023: Read   0: Fold 1 of dataset MQ2008.
+Sat Apr 29 16:29:51 2023: No group information is provided.
+Sat Apr 29 16:29:51 2023: collected!
+Sat Apr 29 16:29:51 2023: collected!
+Sat Apr 29 16:29:51 2023: Launch 0: algo/PDBTR/perfect/1000/10/0.1-0.99999977-1 0 with click model perfect on fold 1 from dataset MQ2008.
+Sat Apr 29 16:29:51 2023: collected!
+Sat Apr 29 16:29:51 2023: Launch 1: algo/PDBTR/perfect/1000/10/0.1-0.99999977-1 1 with click model perfect on fold 1 from dataset MQ2008.
+Sat Apr 29 16:29:51 2023: collected!
+Sat Apr 29 16:29:51 2023: Launch 2: algo/PDBTR/perfect/1000/10/0.1-0.99999977-1 2 with click model perfect on fold 1 from dataset MQ2008.
+Sat Apr 29 16:29:51 2023: collected!
+Sat Apr 29 16:29:51 2023: Read   1: Fold 2 of dataset MQ2008.
+Sat Apr 29 16:29:54 2023: No group information is provided.
+Sat Apr 29 16:30:24 2023: collected!
+Sat Apr 29 16:30:24 2023: collected!
+Sat Apr 29 16:30:24 2023: Launch 3: algo/PDBTR/perfect/1000/10/0.1-0.99999977-1 0 with click model perfect on fold 2 from dataset MQ2008.
+Sat Apr 29 16:30:25 2023: collected!
+Sat Apr 29 16:30:25 2023: Launch 4: algo/PDBTR/perfect/1000/10/0.1-0.99999977-1 1 with click model perfect on fold 2 from dataset MQ2008.
+Sat Apr 29 16:30:26 2023: collected!
+Sat Apr 29 16:30:26 2023: Launch 5: algo/PDBTR/perfect/1000/10/0.1-0.99999977-1 2 with click model perfect on fold 2 from dataset MQ2008.
+Sat Apr 29 16:30:27 2023: collected!
+Sat Apr 29 16:30:27 2023: Read   2: Fold 3 of dataset MQ2008.
+Sat Apr 29 16:30:33 2023: No group information is provided.
+Sat Apr 29 16:31:03 2023: collected!
+Sat Apr 29 16:31:04 2023: collected!
+Sat Apr 29 16:31:04 2023: Launch 6: algo/PDBTR/perfect/1000/10/0.1-0.99999977-1 0 with click model perfect on fold 3 from dataset MQ2008.
+Sat Apr 29 16:31:05 2023: collected!
+Sat Apr 29 16:31:05 2023: Launch 7: algo/PDBTR/perfect/1000/10/0.1-0.99999977-1 1 with click model perfect on fold 3 from dataset MQ2008.
+Sat Apr 29 16:31:06 2023: collected!
+Sat Apr 29 16:31:06 2023: Launch 8: algo/PDBTR/perfect/1000/10/0.1-0.99999977-1 2 with click model perfect on fold 3 from dataset MQ2008.
+Sat Apr 29 16:31:07 2023: collected!
+Sat Apr 29 16:31:07 2023: Read   3: Fold 4 of dataset MQ2008.
+Sat Apr 29 16:31:10 2023: No group information is provided.
+Sat Apr 29 16:31:41 2023: collected!
+Sat Apr 29 16:31:41 2023: collected!
+Sat Apr 29 16:31:42 2023: Launch 9: algo/PDBTR/perfect/1000/10/0.1-0.99999977-1 0 with click model perfect on fold 4 from dataset MQ2008.
+Sat Apr 29 16:29:51 2023: setting up ranker...
+Sat Apr 29 16:29:51 2023: ranker set up complete
+Sat Apr 29 16:29:51 2023: loop through impressions: 1000
+Sat Apr 29 16:30:17 2023: impressions 100/1000
+Sat Apr 29 16:30:59 2023: impressions 200/1000
+Sat Apr 29 16:32:04 2023: impressions 300/1000
+Sat Apr 29 16:33:00 2023: impressions 400/1000
+Sat Apr 29 16:33:56 2023: impressions 500/1000
+Sat Apr 29 16:34:55 2023: impressions 600/1000
+Sat Apr 29 16:35:49 2023: impressions 700/1000
+Sat Apr 29 16:36:49 2023: impressions 800/1000
+Sat Apr 29 16:37:50 2023: impressions 900/1000
+Sat Apr 29 16:38:49 2023: impressions 1000/1000
+Sat Apr 29 16:31:42 2023: collected!
+Sat Apr 29 16:32:13 2023: collected!
+Sat Apr 29 16:32:13 2023: collected!
+Sat Apr 29 16:32:44 2023: collected!
+Sat Apr 29 16:32:44 2023: collected!
+Sat Apr 29 16:33:15 2023: collected!
+Sat Apr 29 16:33:15 2023: collected!
+Sat Apr 29 16:33:46 2023: collected!
+Sat Apr 29 16:33:46 2023: collected!
+Sat Apr 29 16:34:17 2023: collected!
+Sat Apr 29 16:34:17 2023: collected!
+Sat Apr 29 16:34:48 2023: collected!
+Sat Apr 29 16:34:48 2023: collected!
+Sat Apr 29 16:35:19 2023: collected!
+Sat Apr 29 16:35:19 2023: collected!
+Sat Apr 29 16:35:50 2023: collected!
+Sat Apr 29 16:35:50 2023: collected!
+Sat Apr 29 16:36:21 2023: collected!
+Sat Apr 29 16:36:21 2023: collected!
+Sat Apr 29 16:36:52 2023: collected!
+Sat Apr 29 16:36:52 2023: collected!
+Sat Apr 29 16:37:23 2023: collected!
+Sat Apr 29 16:37:23 2023: collected!
+Sat Apr 29 16:37:53 2023: collected!
+Sat Apr 29 16:37:54 2023: collected!
+Sat Apr 29 16:38:25 2023: collected!
+Sat Apr 29 16:38:25 2023: collected!
+Sat Apr 29 16:38:50 2023: Output 0: algo/PDBTR/perfect/1000/10/0.1-0.99999977-1 on dataset MQ2008. (1/15)
+Sat Apr 29 16:38:51 2023: collected!
+Sat Apr 29 16:38:51 2023: collected!
+Sat Apr 29 16:38:51 2023: Launch 10: algo/PDBTR/perfect/1000/10/0.1-0.99999977-1 1 with click model perfect on fold 4 from dataset MQ2008.
+Sat Apr 29 16:29:51 2023: setting up ranker...
+Sat Apr 29 16:29:51 2023: ranker set up complete
+Sat Apr 29 16:29:51 2023: loop through impressions: 1000
+Sat Apr 29 16:30:20 2023: impressions 100/1000
+Sat Apr 29 16:31:10 2023: impressions 200/1000
+Sat Apr 29 16:32:09 2023: impressions 300/1000
+Sat Apr 29 16:33:05 2023: impressions 400/1000
+Sat Apr 29 16:34:01 2023: impressions 500/1000
+Sat Apr 29 16:35:03 2023: impressions 600/1000
+Sat Apr 29 16:35:59 2023: impressions 700/1000
+Sat Apr 29 16:37:06 2023: impressions 800/1000
+Sat Apr 29 16:38:03 2023: impressions 900/1000
+Sat Apr 29 16:39:01 2023: impressions 1000/1000
+Sat Apr 29 16:38:54 2023: collected!
+Sat Apr 29 16:39:02 2023: Output 1: algo/PDBTR/perfect/1000/10/0.1-0.99999977-1 on dataset MQ2008. (2/15)
+Sat Apr 29 16:39:02 2023: collected!
+Sat Apr 29 16:39:02 2023: collected!
+Sat Apr 29 16:39:02 2023: Launch 11: algo/PDBTR/perfect/1000/10/0.1-0.99999977-1 2 with click model perfect on fold 4 from dataset MQ2008.
+Sat Apr 29 16:29:51 2023: setting up ranker...
+Sat Apr 29 16:29:51 2023: ranker set up complete
+Sat Apr 29 16:29:51 2023: loop through impressions: 1000
+Sat Apr 29 16:30:26 2023: impressions 100/1000
+Sat Apr 29 16:31:24 2023: impressions 200/1000
+Sat Apr 29 16:32:20 2023: impressions 300/1000
+Sat Apr 29 16:33:16 2023: impressions 400/1000
+Sat Apr 29 16:34:16 2023: impressions 500/1000
+Sat Apr 29 16:35:13 2023: impressions 600/1000
+Sat Apr 29 16:36:12 2023: impressions 700/1000
+Sat Apr 29 16:37:10 2023: impressions 800/1000
+Sat Apr 29 16:38:05 2023: impressions 900/1000
+Sat Apr 29 16:39:06 2023: impressions 1000/1000
+Sat Apr 29 16:31:05 2023: setting up ranker...
+Sat Apr 29 16:31:05 2023: ranker set up complete
+Sat Apr 29 16:31:05 2023: loop through impressions: 1000
+Sat Apr 29 16:31:37 2023: impressions 100/1000
+Sat Apr 29 16:32:13 2023: impressions 200/1000
+Sat Apr 29 16:32:55 2023: impressions 300/1000
+Sat Apr 29 16:33:43 2023: impressions 400/1000
+Sat Apr 29 16:34:34 2023: impressions 500/1000
+Sat Apr 29 16:35:30 2023: impressions 600/1000
+Sat Apr 29 16:36:26 2023: impressions 700/1000
+Sat Apr 29 16:37:18 2023: impressions 800/1000
+Sat Apr 29 16:38:11 2023: impressions 900/1000
+Sat Apr 29 16:39:07 2023: impressions 1000/1000
+Sat Apr 29 16:39:05 2023: collected!
+Sat Apr 29 16:39:07 2023: Output 2: algo/PDBTR/perfect/1000/10/0.1-0.99999977-1 on dataset MQ2008. (3/15)
+Sat Apr 29 16:39:07 2023: Output 3: algo/PDBTR/perfect/1000/10/0.1-0.99999977-1 on dataset MQ2008. (4/15)
+Sat Apr 29 16:39:08 2023: Clean  0: Fold 1 of dataset MQ2008.
+Sat Apr 29 16:39:09 2023: collected!
+Sat Apr 29 16:39:09 2023: collected!
+Sat Apr 29 16:39:09 2023: Read   4: Fold 5 of dataset MQ2008.
+Sat Apr 29 16:39:12 2023: No group information is provided.
+Sat Apr 29 16:39:42 2023: collected!
+Sat Apr 29 16:39:43 2023: collected!
+Sat Apr 29 16:39:43 2023: Launch 12: algo/PDBTR/perfect/1000/10/0.1-0.99999977-1 0 with click model perfect on fold 5 from dataset MQ2008.
+Sat Apr 29 16:39:45 2023: collected!
+Sat Apr 29 16:39:45 2023: Launch 13: algo/PDBTR/perfect/1000/10/0.1-0.99999977-1 1 with click model perfect on fold 5 from dataset MQ2008.
+Sat Apr 29 16:30:27 2023: setting up ranker...
+Sat Apr 29 16:30:27 2023: ranker set up complete
+Sat Apr 29 16:30:27 2023: loop through impressions: 1000
+Sat Apr 29 16:31:17 2023: impressions 100/1000
+Sat Apr 29 16:32:08 2023: impressions 200/1000
+Sat Apr 29 16:33:02 2023: impressions 300/1000
+Sat Apr 29 16:34:00 2023: impressions 400/1000
+Sat Apr 29 16:34:55 2023: impressions 500/1000
+Sat Apr 29 16:35:53 2023: impressions 600/1000
+Sat Apr 29 16:36:56 2023: impressions 700/1000
+Sat Apr 29 16:37:52 2023: impressions 800/1000
+Sat Apr 29 16:38:50 2023: impressions 900/1000
+Sat Apr 29 16:39:42 2023: impressions 1000/1000
+Sat Apr 29 16:39:46 2023: collected!
+Sat Apr 29 16:39:46 2023: Output 4: algo/PDBTR/perfect/1000/10/0.1-0.99999977-1 on dataset MQ2008. (5/15)
+Sat Apr 29 16:39:46 2023: collected!
+Sat Apr 29 16:39:47 2023: collected!
+Sat Apr 29 16:39:47 2023: Launch 14: algo/PDBTR/perfect/1000/10/0.1-0.99999977-1 2 with click model perfect on fold 5 from dataset MQ2008.
+Sat Apr 29 16:30:24 2023: setting up ranker...
+Sat Apr 29 16:30:24 2023: ranker set up complete
+Sat Apr 29 16:30:24 2023: loop through impressions: 1000
+Sat Apr 29 16:31:16 2023: impressions 100/1000
+Sat Apr 29 16:32:12 2023: impressions 200/1000
+Sat Apr 29 16:33:08 2023: impressions 300/1000
+Sat Apr 29 16:34:05 2023: impressions 400/1000
+Sat Apr 29 16:35:02 2023: impressions 500/1000
+Sat Apr 29 16:36:04 2023: impressions 600/1000
+Sat Apr 29 16:37:06 2023: impressions 700/1000
+Sat Apr 29 16:38:00 2023: impressions 800/1000
+Sat Apr 29 16:38:59 2023: impressions 900/1000
+Sat Apr 29 16:39:51 2023: impressions 1000/1000
+Sat Apr 29 16:31:04 2023: setting up ranker...
+Sat Apr 29 16:31:04 2023: ranker set up complete
+Sat Apr 29 16:31:04 2023: loop through impressions: 1000
+Sat Apr 29 16:31:52 2023: impressions 100/1000
+Sat Apr 29 16:32:47 2023: impressions 200/1000
+Sat Apr 29 16:33:40 2023: impressions 300/1000
+Sat Apr 29 16:34:32 2023: impressions 400/1000
+Sat Apr 29 16:35:25 2023: impressions 500/1000
+Sat Apr 29 16:36:23 2023: impressions 600/1000
+Sat Apr 29 16:37:14 2023: impressions 700/1000
+Sat Apr 29 16:38:07 2023: impressions 800/1000
+Sat Apr 29 16:38:59 2023: impressions 900/1000
+Sat Apr 29 16:39:52 2023: impressions 1000/1000
+Sat Apr 29 16:30:25 2023: setting up ranker...
+Sat Apr 29 16:30:25 2023: ranker set up complete
+Sat Apr 29 16:30:25 2023: loop through impressions: 1000
+Sat Apr 29 16:31:20 2023: impressions 100/1000
+Sat Apr 29 16:32:14 2023: impressions 200/1000
+Sat Apr 29 16:33:14 2023: impressions 300/1000
+Sat Apr 29 16:34:11 2023: impressions 400/1000
+Sat Apr 29 16:35:10 2023: impressions 500/1000
+Sat Apr 29 16:36:09 2023: impressions 600/1000
+Sat Apr 29 16:37:14 2023: impressions 700/1000
+Sat Apr 29 16:38:10 2023: impressions 800/1000
+Sat Apr 29 16:39:08 2023: impressions 900/1000
+Sat Apr 29 16:39:59 2023: impressions 1000/1000
+Sat Apr 29 16:31:06 2023: setting up ranker...
+Sat Apr 29 16:31:06 2023: ranker set up complete
+Sat Apr 29 16:31:06 2023: loop through impressions: 1000
+Sat Apr 29 16:31:52 2023: impressions 100/1000
+Sat Apr 29 16:32:42 2023: impressions 200/1000
+Sat Apr 29 16:33:34 2023: impressions 300/1000
+Sat Apr 29 16:34:28 2023: impressions 400/1000
+Sat Apr 29 16:35:18 2023: impressions 500/1000
+Sat Apr 29 16:36:19 2023: impressions 600/1000
+Sat Apr 29 16:37:18 2023: impressions 700/1000
+Sat Apr 29 16:38:12 2023: impressions 800/1000
+Sat Apr 29 16:39:14 2023: impressions 900/1000
+Sat Apr 29 16:40:06 2023: impressions 1000/1000
+Sat Apr 29 16:31:42 2023: setting up ranker...
+Sat Apr 29 16:31:42 2023: ranker set up complete
+Sat Apr 29 16:31:42 2023: loop through impressions: 1000
+Sat Apr 29 16:32:41 2023: impressions 100/1000
+Sat Apr 29 16:33:37 2023: impressions 200/1000
+Sat Apr 29 16:34:31 2023: impressions 300/1000
+Sat Apr 29 16:35:27 2023: impressions 400/1000
+Sat Apr 29 16:36:28 2023: impressions 500/1000
+Sat Apr 29 16:37:25 2023: impressions 600/1000
+Sat Apr 29 16:38:22 2023: impressions 700/1000
+Sat Apr 29 16:39:18 2023: impressions 800/1000
+Sat Apr 29 16:40:08 2023: impressions 900/1000
+Sat Apr 29 16:40:45 2023: impressions 1000/1000
+Sat Apr 29 16:38:52 2023: setting up ranker...
+Sat Apr 29 16:38:52 2023: ranker set up complete
+Sat Apr 29 16:38:52 2023: loop through impressions: 1000
+Sat Apr 29 16:39:36 2023: impressions 100/1000
+Sat Apr 29 16:40:20 2023: impressions 200/1000
+Sat Apr 29 16:40:54 2023: impressions 300/1000
+Sat Apr 29 16:41:24 2023: impressions 400/1000
+Sat Apr 29 16:41:56 2023: impressions 500/1000
+Sat Apr 29 16:42:26 2023: impressions 600/1000
+Sat Apr 29 16:42:55 2023: impressions 700/1000
+Sat Apr 29 16:43:25 2023: impressions 800/1000
+Sat Apr 29 16:43:57 2023: impressions 900/1000
+Sat Apr 29 16:44:27 2023: impressions 1000/1000
+Sat Apr 29 16:39:03 2023: setting up ranker...
+Sat Apr 29 16:39:03 2023: ranker set up complete
+Sat Apr 29 16:39:03 2023: loop through impressions: 1000
+Sat Apr 29 16:39:43 2023: impressions 100/1000
+Sat Apr 29 16:40:22 2023: impressions 200/1000
+Sat Apr 29 16:40:56 2023: impressions 300/1000
+Sat Apr 29 16:41:24 2023: impressions 400/1000
+Sat Apr 29 16:41:55 2023: impressions 500/1000
+Sat Apr 29 16:42:26 2023: impressions 600/1000
+Sat Apr 29 16:42:55 2023: impressions 700/1000
+Sat Apr 29 16:43:27 2023: impressions 800/1000
+Sat Apr 29 16:43:57 2023: impressions 900/1000
+Sat Apr 29 16:44:30 2023: impressions 1000/1000
+Sat Apr 29 16:39:45 2023: setting up ranker...
+Sat Apr 29 16:39:45 2023: ranker set up complete
+Sat Apr 29 16:39:45 2023: loop through impressions: 1000
+Sat Apr 29 16:40:26 2023: impressions 100/1000
+Sat Apr 29 16:41:02 2023: impressions 200/1000
+Sat Apr 29 16:41:34 2023: impressions 300/1000
+Sat Apr 29 16:42:05 2023: impressions 400/1000
+Sat Apr 29 16:42:41 2023: impressions 500/1000
+Sat Apr 29 16:43:10 2023: impressions 600/1000
+Sat Apr 29 16:43:42 2023: impressions 700/1000
+Sat Apr 29 16:44:10 2023: impressions 800/1000
+Sat Apr 29 16:44:37 2023: impressions 900/1000
+Sat Apr 29 16:44:57 2023: impressions 1000/1000
+Sat Apr 29 16:39:43 2023: setting up ranker...
+Sat Apr 29 16:39:43 2023: ranker set up complete
+Sat Apr 29 16:39:43 2023: loop through impressions: 1000
+Sat Apr 29 16:40:25 2023: impressions 100/1000
+Sat Apr 29 16:41:01 2023: impressions 200/1000
+Sat Apr 29 16:41:32 2023: impressions 300/1000
+Sat Apr 29 16:42:03 2023: impressions 400/1000
+Sat Apr 29 16:42:33 2023: impressions 500/1000
+Sat Apr 29 16:43:08 2023: impressions 600/1000
+Sat Apr 29 16:43:41 2023: impressions 700/1000
+Sat Apr 29 16:44:11 2023: impressions 800/1000
+Sat Apr 29 16:44:39 2023: impressions 900/1000
+Sat Apr 29 16:44:59 2023: impressions 1000/1000
+Sat Apr 29 16:39:47 2023: setting up ranker...
+Sat Apr 29 16:39:47 2023: ranker set up complete
+Sat Apr 29 16:39:47 2023: loop through impressions: 1000
+Sat Apr 29 16:40:27 2023: impressions 100/1000
+Sat Apr 29 16:41:01 2023: impressions 200/1000
+Sat Apr 29 16:41:32 2023: impressions 300/1000
+Sat Apr 29 16:42:04 2023: impressions 400/1000
+Sat Apr 29 16:42:37 2023: impressions 500/1000
+Sat Apr 29 16:43:11 2023: impressions 600/1000
+Sat Apr 29 16:43:43 2023: impressions 700/1000
+Sat Apr 29 16:44:15 2023: impressions 800/1000
+Sat Apr 29 16:44:43 2023: impressions 900/1000
+Sat Apr 29 16:45:01 2023: impressions 1000/1000
+Sat Apr 29 16:39:48 2023: collected!
+Sat Apr 29 16:39:51 2023: Output 5: algo/PDBTR/perfect/1000/10/0.1-0.99999977-1 on dataset MQ2008. (6/15)
+Sat Apr 29 16:39:52 2023: collected!
+Sat Apr 29 16:39:52 2023: collected!
+Sat Apr 29 16:39:52 2023: Output 6: algo/PDBTR/perfect/1000/10/0.1-0.99999977-1 on dataset MQ2008. (7/15)
+Sat Apr 29 16:39:53 2023: collected!
+Sat Apr 29 16:40:00 2023: Output 7: algo/PDBTR/perfect/1000/10/0.1-0.99999977-1 on dataset MQ2008. (8/15)
+Sat Apr 29 16:40:00 2023: Clean  1: Fold 2 of dataset MQ2008.
+Sat Apr 29 16:40:01 2023: collected!
+Sat Apr 29 16:40:07 2023: Output 8: algo/PDBTR/perfect/1000/10/0.1-0.99999977-1 on dataset MQ2008. (9/15)
+Sat Apr 29 16:40:07 2023: Clean  2: Fold 3 of dataset MQ2008.
+Sat Apr 29 16:40:07 2023: collected!
+Sat Apr 29 16:40:38 2023: collected!
+Sat Apr 29 16:40:45 2023: Output 9: algo/PDBTR/perfect/1000/10/0.1-0.99999977-1 on dataset MQ2008. (10/15)
+Sat Apr 29 16:40:45 2023: collected!
+Sat Apr 29 16:41:16 2023: collected!
+Sat Apr 29 16:41:46 2023: collected!
+Sat Apr 29 16:42:16 2023: collected!
+Sat Apr 29 16:42:47 2023: collected!
+Sat Apr 29 16:43:17 2023: collected!
+Sat Apr 29 16:43:47 2023: collected!
+Sat Apr 29 16:44:18 2023: collected!
+Sat Apr 29 16:44:27 2023: Output 10: algo/PDBTR/perfect/1000/10/0.1-0.99999977-1 on dataset MQ2008. (11/15)
+Sat Apr 29 16:44:28 2023: collected!
+Sat Apr 29 16:44:31 2023: Output 11: algo/PDBTR/perfect/1000/10/0.1-0.99999977-1 on dataset MQ2008. (12/15)
+Sat Apr 29 16:44:31 2023: Clean  3: Fold 4 of dataset MQ2008.
+Sat Apr 29 16:44:31 2023: collected!
+Sat Apr 29 16:44:57 2023: Output 12: algo/PDBTR/perfect/1000/10/0.1-0.99999977-1 on dataset MQ2008. (13/15)
+Sat Apr 29 16:44:58 2023: collected!
+Sat Apr 29 16:44:59 2023: Output 13: algo/PDBTR/perfect/1000/10/0.1-0.99999977-1 on dataset MQ2008. (14/15)
+Sat Apr 29 16:44:59 2023: collected!
+Sat Apr 29 16:45:01 2023: Output 14: algo/PDBTR/perfect/1000/10/0.1-0.99999977-1 on dataset MQ2008. (15/15)
+Sat Apr 29 16:45:01 2023: opening ./output/MQ2008/algo/PDBTR/perfect/1000/10/0.1-0.99999977-1.out
+Sat Apr 29 16:45:01 2023: Closed 0: algo/PDBTR/perfect/1000/10/0.1-0.99999977-1 on MQ2008 was averaged and stored.
+Sat Apr 29 16:45:01 2023: Clean  4: Fold 5 of dataset MQ2008.
+Sat Apr 29 16:45:01 2023: collected!
+Sat Apr 29 16:45:01 2023: collected!
+Sat Apr 29 16:45:01 2023: Time taken: 0:15:11.245531 (911 seconds)

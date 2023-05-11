@@ -1,0 +1,183 @@
+Thu Apr 27 19:20:42 2023: Starting simulation at run_script-Log-23-04-27-19:20:42.Log is also stored in output file at ./logs/run_script-Log-23-04-27-19:20:42.txtMQ2008
+Thu Apr 27 19:20:42 2023: Read   0: Fold 1 of dataset MQ2008.
+Thu Apr 27 19:20:42 2023: No group information is provided.
+Thu Apr 27 19:20:42 2023: Launch 0: algo/PDBTR/info/1000/10/0.1-0.99999977-1 0 with click model informational on fold 1 from dataset MQ2008.
+Thu Apr 27 19:20:43 2023: Launch 1: algo/PDBTR/info/1000/10/0.1-0.99999977-1 1 with click model informational on fold 1 from dataset MQ2008.
+Thu Apr 27 19:20:43 2023: Launch 2: algo/PDBTR/info/1000/10/0.1-0.99999977-1 2 with click model informational on fold 1 from dataset MQ2008.
+Thu Apr 27 19:20:43 2023: Launch 3: algo/PDBTR/info/1000/10/0.1-0.99999977-1 3 with click model informational on fold 1 from dataset MQ2008.
+Thu Apr 27 19:20:44 2023: Launch 4: algo/PDBTR/info/1000/10/0.1-0.99999977-1 4 with click model informational on fold 1 from dataset MQ2008.
+Thu Apr 27 19:20:44 2023: Launch 5: algo/PDBTR/info/1000/10/0.1-0.99999977-1 5 with click model informational on fold 1 from dataset MQ2008.
+Thu Apr 27 19:20:42 2023: setting up ranker...
+Thu Apr 27 19:20:42 2023: ranker set up complete
+Thu Apr 27 19:20:42 2023: loop through impressions: 1000
+Thu Apr 27 19:20:44 2023: impressions 100/1000
+Thu Apr 27 19:20:45 2023: Process Process-1:
+Thu Apr 27 19:20:45 2023: Traceback (most recent call last):
+Thu Apr 27 19:20:45 2023:   File "/usr/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+Thu Apr 27 19:20:45 2023:     self.run()
+Thu Apr 27 19:20:45 2023:   File "/usr/lib/python3.7/multiprocessing/process.py", line 99, in run
+Thu Apr 27 19:20:45 2023:     self._target(*self._args, **self._kwargs)
+Thu Apr 27 19:20:45 2023:   File "../utils/datasimulation.py", line 124, in start_run
+Thu Apr 27 19:20:45 2023:     simulation.run(ranker, output_key=output_key)
+Thu Apr 27 19:20:45 2023:   File "../utils/singlesimulation.py", line 121, in run
+Thu Apr 27 19:20:45 2023:     ranker.process_clicks(clicks)
+Thu Apr 27 19:20:45 2023:   File "../algorithms/basiconlineranker.py", line 106, in process_clicks
+Thu Apr 27 19:20:45 2023:     self.update_to_interaction(clicks)
+Thu Apr 27 19:20:45 2023:   File "../algorithms/DBGD/tddbgd.py", line 54, in update_to_interaction
+Thu Apr 27 19:20:45 2023:     winners = self.multileaving.winning_rankers(clicks)
+Thu Apr 27 19:20:45 2023:   File "../multileaving/ProbabilisticMultileave.py", line 60, in winning_rankers
+Thu Apr 27 19:20:45 2023:     match = self.infer_preferences(clicked_docs)
+Thu Apr 27 19:20:45 2023:   File "../multileaving/ProbabilisticMultileave.py", line 55, in infer_preferences
+Thu Apr 27 19:20:45 2023:     clicked_docs.astype(bool), self._tau), self._n_samples)
+Thu Apr 27 19:20:45 2023:   File "../multileaving/ProbabilisticMultileave.py", line 120, in preferences_of_list
+Thu Apr 27 19:20:45 2023:     log_assign = np.logical_and(comps > lower[:, None, :], comps <= upper[:, None, :])
+Thu Apr 27 19:20:45 2023: KeyboardInterrupt
+Thu Apr 27 19:20:43 2023: setting up ranker...
+Thu Apr 27 19:20:43 2023: ranker set up complete
+Thu Apr 27 19:20:43 2023: loop through impressions: 1000
+Thu Apr 27 19:20:45 2023: Process Process-2:
+Thu Apr 27 19:20:45 2023: Traceback (most recent call last):
+Thu Apr 27 19:20:45 2023:   File "/usr/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+Thu Apr 27 19:20:45 2023:     self.run()
+Thu Apr 27 19:20:45 2023:   File "/usr/lib/python3.7/multiprocessing/process.py", line 99, in run
+Thu Apr 27 19:20:45 2023:     self._target(*self._args, **self._kwargs)
+Thu Apr 27 19:20:45 2023:   File "../utils/datasimulation.py", line 124, in start_run
+Thu Apr 27 19:20:45 2023:     simulation.run(ranker, output_key=output_key)
+Thu Apr 27 19:20:45 2023:   File "../utils/singlesimulation.py", line 121, in run
+Thu Apr 27 19:20:45 2023:     ranker.process_clicks(clicks)
+Thu Apr 27 19:20:45 2023:   File "../algorithms/basiconlineranker.py", line 106, in process_clicks
+Thu Apr 27 19:20:45 2023:     self.update_to_interaction(clicks)
+Thu Apr 27 19:20:45 2023:   File "../algorithms/DBGD/tddbgd.py", line 54, in update_to_interaction
+Thu Apr 27 19:20:45 2023:     winners = self.multileaving.winning_rankers(clicks)
+Thu Apr 27 19:20:45 2023:   File "../multileaving/ProbabilisticMultileave.py", line 60, in winning_rankers
+Thu Apr 27 19:20:45 2023:     match = self.infer_preferences(clicked_docs)
+Thu Apr 27 19:20:45 2023:   File "../multileaving/ProbabilisticMultileave.py", line 55, in infer_preferences
+Thu Apr 27 19:20:45 2023:     clicked_docs.astype(bool), self._tau), self._n_samples)
+Thu Apr 27 19:20:45 2023:   File "../multileaving/ProbabilisticMultileave.py", line 120, in preferences_of_list
+Thu Apr 27 19:20:45 2023:     log_assign = np.logical_and(comps > lower[:, None, :], comps <= upper[:, None, :])
+Thu Apr 27 19:20:45 2023: KeyboardInterrupt
+Thu Apr 27 19:20:44 2023: setting up ranker...
+Thu Apr 27 19:20:44 2023: ranker set up complete
+Thu Apr 27 19:20:44 2023: loop through impressions: 1000
+Thu Apr 27 19:20:45 2023: Process Process-6:
+Thu Apr 27 19:20:45 2023: Traceback (most recent call last):
+Thu Apr 27 19:20:45 2023:   File "/usr/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+Thu Apr 27 19:20:45 2023:     self.run()
+Thu Apr 27 19:20:45 2023:   File "/usr/lib/python3.7/multiprocessing/process.py", line 99, in run
+Thu Apr 27 19:20:45 2023:     self._target(*self._args, **self._kwargs)
+Thu Apr 27 19:20:45 2023:   File "../utils/datasimulation.py", line 124, in start_run
+Thu Apr 27 19:20:45 2023:     simulation.run(ranker, output_key=output_key)
+Thu Apr 27 19:20:45 2023:   File "../utils/singlesimulation.py", line 116, in run
+Thu Apr 27 19:20:45 2023:     ranking_i, train_ranking = self.sample_and_rank(ranker)
+Thu Apr 27 19:20:45 2023:   File "../utils/singlesimulation.py", line 97, in sample_and_rank
+Thu Apr 27 19:20:45 2023:     train_ranking = ranker.get_train_query_ranking(ranking_i)
+Thu Apr 27 19:20:45 2023:   File "../algorithms/basiconlineranker.py", line 98, in get_train_query_ranking
+Thu Apr 27 19:20:45 2023:     self._last_ranking = self._create_train_ranking(query_id, query_feat, inverted)[:self.n_results]
+Thu Apr 27 19:20:45 2023:   File "../algorithms/DBGD/pdbgd.py", line 34, in _create_train_ranking
+Thu Apr 27 19:20:45 2023:     scores = self.model.candidate_score(query_feat)
+Thu Apr 27 19:20:45 2023:   File "../models/linearmodel.py", line 29, in candidate_score
+Thu Apr 27 19:20:45 2023:     return np.dot(features, self.weights).T
+Thu Apr 27 19:20:45 2023:   File "<__array_function__ internals>", line 6, in dot
+Thu Apr 27 19:20:45 2023: KeyboardInterrupt
+Thu Apr 27 19:20:43 2023: setting up ranker...
+Thu Apr 27 19:20:43 2023: ranker set up complete
+Thu Apr 27 19:20:43 2023: loop through impressions: 1000
+Thu Apr 27 19:20:45 2023: Process Process-3:
+Thu Apr 27 19:20:45 2023: Traceback (most recent call last):
+Thu Apr 27 19:20:45 2023:   File "/usr/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+Thu Apr 27 19:20:45 2023:     self.run()
+Thu Apr 27 19:20:45 2023:   File "/usr/lib/python3.7/multiprocessing/process.py", line 99, in run
+Thu Apr 27 19:20:45 2023:     self._target(*self._args, **self._kwargs)
+Thu Apr 27 19:20:45 2023:   File "../utils/datasimulation.py", line 124, in start_run
+Thu Apr 27 19:20:45 2023:     simulation.run(ranker, output_key=output_key)
+Thu Apr 27 19:20:45 2023:   File "../utils/singlesimulation.py", line 116, in run
+Thu Apr 27 19:20:45 2023:     ranking_i, train_ranking = self.sample_and_rank(ranker)
+Thu Apr 27 19:20:45 2023:   File "../utils/singlesimulation.py", line 97, in sample_and_rank
+Thu Apr 27 19:20:45 2023:     train_ranking = ranker.get_train_query_ranking(ranking_i)
+Thu Apr 27 19:20:45 2023:   File "../algorithms/basiconlineranker.py", line 98, in get_train_query_ranking
+Thu Apr 27 19:20:45 2023:     self._last_ranking = self._create_train_ranking(query_id, query_feat, inverted)[:self.n_results]
+Thu Apr 27 19:20:45 2023:   File "../algorithms/DBGD/pdbgd.py", line 38, in _create_train_ranking
+Thu Apr 27 19:20:45 2023:     multileaved_list = self.multileaving.make_multileaving(inverted_rankings)
+Thu Apr 27 19:20:45 2023:   File "../multileaving/ProbabilisticMultileave.py", line 43, in make_multileaving
+Thu Apr 27 19:20:45 2023:     choice = np.random.choice(ind, p=probs, replace=False)
+Thu Apr 27 19:20:45 2023:   File "mtrand.pyx", line 981, in numpy.random.mtrand.RandomState.choice
+Thu Apr 27 19:20:45 2023:   File "<__array_function__ internals>", line 6, in cumsum
+Thu Apr 27 19:20:45 2023:   File "/home/matthew/DBDG/OnlineLearningToRank/env/lib/python3.7/site-packages/numpy/core/fromnumeric.py", line 2532, in cumsum
+Thu Apr 27 19:20:45 2023:     return _wrapfunc(a, 'cumsum', axis=axis, dtype=dtype, out=out)
+Thu Apr 27 19:20:45 2023:   File "/home/matthew/DBDG/OnlineLearningToRank/env/lib/python3.7/site-packages/numpy/core/fromnumeric.py", line 57, in _wrapfunc
+Thu Apr 27 19:20:45 2023:     return bound(*args, **kwds)
+Thu Apr 27 19:20:45 2023: KeyboardInterrupt
+Thu Apr 27 19:20:43 2023: setting up ranker...
+Thu Apr 27 19:20:43 2023: ranker set up complete
+Thu Apr 27 19:20:43 2023: loop through impressions: 1000
+Thu Apr 27 19:20:45 2023: Process Process-4:
+Thu Apr 27 19:20:45 2023: Traceback (most recent call last):
+Thu Apr 27 19:20:45 2023:   File "/usr/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+Thu Apr 27 19:20:45 2023:     self.run()
+Thu Apr 27 19:20:45 2023:   File "/usr/lib/python3.7/multiprocessing/process.py", line 99, in run
+Thu Apr 27 19:20:45 2023:     self._target(*self._args, **self._kwargs)
+Thu Apr 27 19:20:45 2023:   File "../utils/datasimulation.py", line 124, in start_run
+Thu Apr 27 19:20:45 2023:     simulation.run(ranker, output_key=output_key)
+Thu Apr 27 19:20:45 2023:   File "../utils/singlesimulation.py", line 121, in run
+Thu Apr 27 19:20:45 2023:     ranker.process_clicks(clicks)
+Thu Apr 27 19:20:45 2023:   File "../algorithms/basiconlineranker.py", line 106, in process_clicks
+Thu Apr 27 19:20:45 2023:     self.update_to_interaction(clicks)
+Thu Apr 27 19:20:45 2023:   File "../algorithms/DBGD/tddbgd.py", line 54, in update_to_interaction
+Thu Apr 27 19:20:45 2023:     winners = self.multileaving.winning_rankers(clicks)
+Thu Apr 27 19:20:45 2023:   File "../multileaving/ProbabilisticMultileave.py", line 60, in winning_rankers
+Thu Apr 27 19:20:45 2023:     match = self.infer_preferences(clicked_docs)
+Thu Apr 27 19:20:45 2023:   File "../multileaving/ProbabilisticMultileave.py", line 55, in infer_preferences
+Thu Apr 27 19:20:45 2023:     clicked_docs.astype(bool), self._tau), self._n_samples)
+Thu Apr 27 19:20:45 2023:   File "../multileaving/ProbabilisticMultileave.py", line 122, in preferences_of_list
+Thu Apr 27 19:20:45 2023:     click_count = np.sum(log_assign, axis=0)
+Thu Apr 27 19:20:45 2023:   File "<__array_function__ internals>", line 6, in sum
+Thu Apr 27 19:20:45 2023:   File "/home/matthew/DBDG/OnlineLearningToRank/env/lib/python3.7/site-packages/numpy/core/fromnumeric.py", line 2260, in sum
+Thu Apr 27 19:20:45 2023:     initial=initial, where=where)
+Thu Apr 27 19:20:45 2023:   File "/home/matthew/DBDG/OnlineLearningToRank/env/lib/python3.7/site-packages/numpy/core/fromnumeric.py", line 86, in _wrapreduction
+Thu Apr 27 19:20:45 2023:     return ufunc.reduce(obj, axis, dtype, out, **passkwargs)
+Thu Apr 27 19:20:45 2023: KeyboardInterrupt
+Thu Apr 27 19:20:44 2023: setting up ranker...
+Thu Apr 27 19:20:44 2023: ranker set up complete
+Thu Apr 27 19:20:44 2023: loop through impressions: 1000
+Thu Apr 27 19:20:45 2023: Process Process-5:
+Thu Apr 27 19:20:45 2023: Traceback (most recent call last):
+Thu Apr 27 19:20:45 2023:   File "/usr/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+Thu Apr 27 19:20:45 2023:     self.run()
+Thu Apr 27 19:20:45 2023:   File "/usr/lib/python3.7/multiprocessing/process.py", line 99, in run
+Thu Apr 27 19:20:45 2023:     self._target(*self._args, **self._kwargs)
+Thu Apr 27 19:20:45 2023:   File "../utils/datasimulation.py", line 124, in start_run
+Thu Apr 27 19:20:45 2023:     simulation.run(ranker, output_key=output_key)
+Thu Apr 27 19:20:45 2023:   File "../utils/singlesimulation.py", line 116, in run
+Thu Apr 27 19:20:45 2023:     ranking_i, train_ranking = self.sample_and_rank(ranker)
+Thu Apr 27 19:20:45 2023:   File "../utils/singlesimulation.py", line 97, in sample_and_rank
+Thu Apr 27 19:20:45 2023:     train_ranking = ranker.get_train_query_ranking(ranking_i)
+Thu Apr 27 19:20:45 2023:   File "../algorithms/basiconlineranker.py", line 98, in get_train_query_ranking
+Thu Apr 27 19:20:45 2023:     self._last_ranking = self._create_train_ranking(query_id, query_feat, inverted)[:self.n_results]
+Thu Apr 27 19:20:45 2023:   File "../algorithms/DBGD/pdbgd.py", line 37, in _create_train_ranking
+Thu Apr 27 19:20:45 2023:     n_results=None)
+Thu Apr 27 19:20:45 2023:   File "../utils/rankings.py", line 172, in rank_single_query
+Thu Apr 27 19:20:45 2023:     ranking = tiebreak_sort(predictions, n_results=n_results)
+Thu Apr 27 19:20:45 2023:   File "../utils/rankings.py", line 32, in tiebreak_sort
+Thu Apr 27 19:20:45 2023:     return _tiebreak_sort(unranked, n_results)
+Thu Apr 27 19:20:45 2023:   File "../utils/rankings.py", line 51, in _tiebreak_sort
+Thu Apr 27 19:20:45 2023:     return np.argsort(complex_predictions, axis=-1)
+Thu Apr 27 19:20:45 2023:   File "<__array_function__ internals>", line 6, in argsort
+Thu Apr 27 19:20:45 2023:   File "/home/matthew/DBDG/OnlineLearningToRank/env/lib/python3.7/site-packages/numpy/core/fromnumeric.py", line 1114, in argsort
+Thu Apr 27 19:20:45 2023:     return _wrapfunc(a, 'argsort', axis=axis, kind=kind, order=order)
+Thu Apr 27 19:20:45 2023:   File "/home/matthew/DBDG/OnlineLearningToRank/env/lib/python3.7/site-packages/numpy/core/fromnumeric.py", line 57, in _wrapfunc
+Thu Apr 27 19:20:45 2023:     return bound(*args, **kwds)
+Thu Apr 27 19:20:45 2023: KeyboardInterrupt
+Thu Apr 27 19:20:45 2023: Traceback (most recent call last):
+Thu Apr 27 19:20:45 2023:   File "run_script.py", line 141, in <module>
+Thu Apr 27 19:20:45 2023:     set_sim_and_run(input_args)
+Thu Apr 27 19:20:45 2023:   File "run_script.py", line 133, in set_sim_and_run
+Thu Apr 27 19:20:45 2023:     return switcher.get(algo, lambda: "ERROR: algorithm type not valid")()
+Thu Apr 27 19:20:45 2023:   File "run_script.py", line 132, in <lambda>
+Thu Apr 27 19:20:45 2023:     'PDBTR': lambda: func_pdbgd(args, dir_name),}
+Thu Apr 27 19:20:45 2023:   File "run_script.py", line 107, in func_pdbgd
+Thu Apr 27 19:20:45 2023:     sim.run(ranker)
+Thu Apr 27 19:20:45 2023:   File "../utils/datasimulation.py", line 61, in run
+Thu Apr 27 19:20:45 2023:     while self.update_active() >= self.num_proc:
+Thu Apr 27 19:20:45 2023:   File "../utils/datasimulation.py", line 152, in update_active
+Thu Apr 27 19:20:45 2023:     gc.collect()
+Thu Apr 27 19:20:45 2023: KeyboardInterrupt

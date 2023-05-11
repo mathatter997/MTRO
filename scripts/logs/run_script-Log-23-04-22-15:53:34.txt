@@ -1,0 +1,42 @@
+Sat Apr 22 15:53:34 2023: Starting simulation at run_script-Log-23-04-22-15:53:34.Log is also stored in output file at ./logs/run_script-Log-23-04-22-15:53:34.txtMQ2008
+Sat Apr 22 15:53:34 2023: Read   0: Fold 1 of dataset MQ2008.
+Sat Apr 22 15:53:34 2023: No group information is provided.
+Sat Apr 22 15:53:34 2023: Launch 0: algo/PAIRRANK/info/1000/10/0.1-0.99999977-gd-0.1-0.1-False-random-False-1 0 with click model informational on fold 1 from dataset MQ2008.
+Sat Apr 22 15:53:34 2023: setting up ranker...
+Sat Apr 22 15:53:34 2023: ranker set up complete
+Sat Apr 22 15:53:34 2023: loop through impressions: 1000
+Sat Apr 22 15:53:38 2023: Process Process-1:
+Sat Apr 22 15:53:38 2023: Traceback (most recent call last):
+Sat Apr 22 15:53:38 2023:   File "/usr/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+Sat Apr 22 15:53:38 2023:     self.run()
+Sat Apr 22 15:53:38 2023:   File "/usr/lib/python3.7/multiprocessing/process.py", line 99, in run
+Sat Apr 22 15:53:38 2023:     self._target(*self._args, **self._kwargs)
+Sat Apr 22 15:53:38 2023:   File "../utils/datasimulation.py", line 124, in start_run
+Sat Apr 22 15:53:38 2023:     simulation.run(ranker, output_key=output_key)
+Sat Apr 22 15:53:38 2023:   File "../utils/singlesimulation.py", line 123, in run
+Sat Apr 22 15:53:38 2023:     print('impressions {}/{}'.format(impression + 1, self.n_impressions))
+Sat Apr 22 15:53:38 2023: NameError: name 'impression' is not defined
+Sat Apr 22 15:53:47 2023: Traceback (most recent call last):
+Sat Apr 22 15:53:47 2023:   File "run_script.py", line 118, in <module>
+Sat Apr 22 15:53:47 2023:     set_sim_and_run(input_args)
+Sat Apr 22 15:53:47 2023:   File "run_script.py", line 110, in set_sim_and_run
+Sat Apr 22 15:53:47 2023:     return switcher.get(algo, lambda: "ERROR: algorithm type not valid")()
+Sat Apr 22 15:53:47 2023:   File "run_script.py", line 105, in <lambda>
+Sat Apr 22 15:53:47 2023:     switcher = {"PAIRRANK":         lambda: func_pairrank(args, dir_name),
+Sat Apr 22 15:53:47 2023:   File "run_script.py", line 27, in func_pairrank
+Sat Apr 22 15:53:47 2023:     sim.run(ranker)
+Sat Apr 22 15:53:47 2023:   File "../utils/datasimulation.py", line 62, in run
+Sat Apr 22 15:53:47 2023:     self.wait_for_output()
+Sat Apr 22 15:53:47 2023:   File "../utils/datasimulation.py", line 164, in wait_for_output
+Sat Apr 22 15:53:47 2023:     output_key, run_output = self.output_queue.get(block=not found, timeout=timeout)
+Sat Apr 22 15:53:47 2023:   File "/usr/lib/python3.7/multiprocessing/queues.py", line 104, in get
+Sat Apr 22 15:53:47 2023:     if not self._poll(timeout):
+Sat Apr 22 15:53:47 2023:   File "/usr/lib/python3.7/multiprocessing/connection.py", line 257, in poll
+Sat Apr 22 15:53:47 2023:     return self._poll(timeout)
+Sat Apr 22 15:53:47 2023:   File "/usr/lib/python3.7/multiprocessing/connection.py", line 414, in _poll
+Sat Apr 22 15:53:47 2023:     r = wait([self], timeout)
+Sat Apr 22 15:53:47 2023:   File "/usr/lib/python3.7/multiprocessing/connection.py", line 921, in wait
+Sat Apr 22 15:53:47 2023:     ready = selector.select(timeout)
+Sat Apr 22 15:53:47 2023:   File "/usr/lib/python3.7/selectors.py", line 415, in select
+Sat Apr 22 15:53:47 2023:     fd_event_list = self._selector.poll(timeout)
+Sat Apr 22 15:53:47 2023: KeyboardInterrupt

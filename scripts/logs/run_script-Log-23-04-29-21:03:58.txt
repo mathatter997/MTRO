@@ -1,0 +1,51 @@
+Sat Apr 29 21:03:58 2023: Starting simulation at run_script-Log-23-04-29-21:03:58.Log is also stored in output file at ./logs/run_script-Log-23-04-29-21:03:58.txtMQ2008
+Sat Apr 29 21:03:58 2023: Read   0: Fold 1 of dataset MQ2008.
+Sat Apr 29 21:03:58 2023: No group information is provided.
+Sat Apr 29 21:03:58 2023: collected!
+Sat Apr 29 21:03:58 2023: collected!
+Sat Apr 29 21:03:58 2023: Launch 0: algo/PDBTRDR/navi/200/10/0.1-0.99999977-1 0 with click model navigational on fold 1 from dataset MQ2008.
+Sat Apr 29 21:03:58 2023: setting up ranker...
+Sat Apr 29 21:03:58 2023: ranker set up complete
+Sat Apr 29 21:03:58 2023: loop through impressions: 200
+Sat Apr 29 21:03:58 2023: Process Process-1:
+Sat Apr 29 21:03:58 2023: Traceback (most recent call last):
+Sat Apr 29 21:03:58 2023:   File "/usr/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+Sat Apr 29 21:03:58 2023:     self.run()
+Sat Apr 29 21:03:58 2023:   File "/usr/lib/python3.7/multiprocessing/process.py", line 99, in run
+Sat Apr 29 21:03:58 2023:     self._target(*self._args, **self._kwargs)
+Sat Apr 29 21:03:58 2023:   File "../utils/datasimulation.py", line 124, in start_run
+Sat Apr 29 21:03:58 2023:     simulation.run(ranker, output_key=output_key)
+Sat Apr 29 21:03:58 2023:   File "../utils/singlesimulation.py", line 116, in run
+Sat Apr 29 21:03:58 2023:     ranking_i, train_ranking = self.sample_and_rank(ranker)
+Sat Apr 29 21:03:58 2023:   File "../utils/singlesimulation.py", line 97, in sample_and_rank
+Sat Apr 29 21:03:58 2023:     train_ranking = ranker.get_train_query_ranking(ranking_i)
+Sat Apr 29 21:03:58 2023:   File "../algorithms/basiconlineranker.py", line 98, in get_train_query_ranking
+Sat Apr 29 21:03:58 2023:     self._last_ranking = self._create_train_ranking(query_id, query_feat, inverted)[:self.n_results]
+Sat Apr 29 21:03:58 2023:   File "../algorithms/DBTR/pdbtr_dr.py", line 68, in _create_train_ranking
+Sat Apr 29 21:03:58 2023:     n_results=None)
+Sat Apr 29 21:03:58 2023:   File "../utils/rankings.py", line 172, in rank_single_query
+Sat Apr 29 21:03:58 2023:     ranking = tiebreak_sort(predictions, n_results=n_results)
+Sat Apr 29 21:03:58 2023:   File "../utils/rankings.py", line 32, in tiebreak_sort
+Sat Apr 29 21:03:58 2023:     return _tiebreak_sort(unranked, n_results)
+Sat Apr 29 21:03:58 2023:   File "../utils/rankings.py", line 51, in _tiebreak_sort
+Sat Apr 29 21:03:58 2023:     return np.argsort(complex_predictions, axis=-1)
+Sat Apr 29 21:03:58 2023:   File "<__array_function__ internals>", line 6, in argsort
+Sat Apr 29 21:03:58 2023:   File "/home/matthew/DBDG/OnlineLearningToRank/env/lib/python3.7/site-packages/numpy/core/fromnumeric.py", line 1114, in argsort
+Sat Apr 29 21:03:58 2023:     return _wrapfunc(a, 'argsort', axis=axis, kind=kind, order=order)
+Sat Apr 29 21:03:58 2023:   File "/home/matthew/DBDG/OnlineLearningToRank/env/lib/python3.7/site-packages/numpy/core/fromnumeric.py", line 57, in _wrapfunc
+Sat Apr 29 21:03:58 2023:     return bound(*args, **kwds)
+Sat Apr 29 21:03:58 2023: KeyboardInterrupt
+Sat Apr 29 21:03:58 2023: Traceback (most recent call last):
+Sat Apr 29 21:03:58 2023:   File "run_script.py", line 184, in <module>
+Sat Apr 29 21:03:58 2023:     set_sim_and_run(input_args)
+Sat Apr 29 21:03:58 2023:   File "run_script.py", line 176, in set_sim_and_run
+Sat Apr 29 21:03:58 2023:     return switcher.get(algo, lambda: "ERROR: algorithm type not valid")()
+Sat Apr 29 21:03:58 2023:   File "run_script.py", line 175, in <lambda>
+Sat Apr 29 21:03:58 2023:     'PDBTRDR': lambda: func_pdbtrdr(args, dir_name)}
+Sat Apr 29 21:03:58 2023:   File "run_script.py", line 138, in func_pdbtrdr
+Sat Apr 29 21:03:58 2023:     sim.run(ranker)
+Sat Apr 29 21:03:58 2023:   File "../utils/datasimulation.py", line 61, in run
+Sat Apr 29 21:03:58 2023:     while self.update_active() >= self.num_proc:
+Sat Apr 29 21:03:58 2023:   File "../utils/datasimulation.py", line 152, in update_active
+Sat Apr 29 21:03:58 2023:     gc.collect()
+Sat Apr 29 21:03:58 2023: KeyboardInterrupt

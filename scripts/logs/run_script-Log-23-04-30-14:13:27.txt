@@ -1,0 +1,188 @@
+Sun Apr 30 14:13:27 2023: Starting simulation at run_script-Log-23-04-30-14:13:27.Log is also stored in output file at ./logs/run_script-Log-23-04-30-14:13:27.txtMQ2008
+Sun Apr 30 14:13:27 2023: Read   0: Fold 1 of dataset MQ2008.
+Sun Apr 30 14:13:27 2023: No group information is provided.
+Sun Apr 30 14:13:27 2023: collected!
+Sun Apr 30 14:13:27 2023: collected!
+Sun Apr 30 14:13:27 2023: Launch 0: algo/PDBTR/perfect/200/10/0.1-0.99999977-1 0 with click model perfect on fold 1 from dataset MQ2008.
+Sun Apr 30 14:13:27 2023: setting up ranker...
+Sun Apr 30 14:13:27 2023: ranker set up complete
+Sun Apr 30 14:13:27 2023: loop through impressions: 200
+Sun Apr 30 14:13:28 2023: [False False False False False False False False False False]
+Sun Apr 30 14:13:28 2023: [[ 0.          0.          0.         ...  0.          0.
+Sun Apr 30 14:13:28 2023:    0.        ]
+Sun Apr 30 14:13:28 2023:  [-0.02383255 -0.0543484   0.02471726 ...  0.04278564 -0.02871684
+Sun Apr 30 14:13:28 2023:    0.04079351]
+Sun Apr 30 14:13:28 2023:  [ 0.01977245 -0.02583423  0.02901364 ...  0.04069944  0.00175081
+Sun Apr 30 14:13:28 2023:    0.00532325]
+Sun Apr 30 14:13:28 2023:  ...
+Sun Apr 30 14:13:28 2023:  [-0.04146887  0.04183761  0.00564753 ... -0.02756166 -0.01506544
+Sun Apr 30 14:13:28 2023:   -0.01546411]
+Sun Apr 30 14:13:28 2023:  [ 0.00830159  0.00107344 -0.01606342 ...  0.01077423 -0.01665782
+Sun Apr 30 14:13:28 2023:    0.0263749 ]
+Sun Apr 30 14:13:28 2023:  [ 0.00649148 -0.03977745 -0.01194121 ... -0.02772509 -0.05818121
+Sun Apr 30 14:13:28 2023:    0.00302012]]
+Sun Apr 30 14:13:28 2023: [False False False False False False False False False False]
+Sun Apr 30 14:13:28 2023: [[ 0.          0.          0.         ...  0.          0.
+Sun Apr 30 14:13:28 2023:    0.        ]
+Sun Apr 30 14:13:28 2023:  [ 0.04223664  0.02027618  0.07127782 ...  0.00898802 -0.03377314
+Sun Apr 30 14:13:28 2023:   -0.00726364]
+Sun Apr 30 14:13:28 2023:  [ 0.02014033 -0.00507387 -0.02416446 ... -0.04347308 -0.00234845
+Sun Apr 30 14:13:28 2023:    0.00629427]
+Sun Apr 30 14:13:28 2023:  ...
+Sun Apr 30 14:13:28 2023:  [ 0.00487229 -0.0041534   0.00081194 ...  0.02253395 -0.02668231
+Sun Apr 30 14:13:28 2023:   -0.00432212]
+Sun Apr 30 14:13:28 2023:  [ 0.02648279  0.00994642 -0.04799715 ... -0.00717815 -0.009399
+Sun Apr 30 14:13:28 2023:   -0.00085291]
+Sun Apr 30 14:13:28 2023:  [-0.01413434 -0.03128496  0.07898949 ...  0.01617043  0.04281345
+Sun Apr 30 14:13:28 2023:   -0.02927587]]
+Sun Apr 30 14:13:28 2023: [False False False False False False False False False False]
+Sun Apr 30 14:13:28 2023: [[ 0.          0.          0.         ...  0.          0.
+Sun Apr 30 14:13:28 2023:    0.        ]
+Sun Apr 30 14:13:28 2023:  [ 0.04729595 -0.04152679 -0.04595274 ... -0.01055577 -0.00824048
+Sun Apr 30 14:13:28 2023:    0.00582165]
+Sun Apr 30 14:13:28 2023:  [ 0.0483908   0.01273347  0.01195898 ... -0.03802296  0.03488566
+Sun Apr 30 14:13:28 2023:   -0.04927264]
+Sun Apr 30 14:13:28 2023:  ...
+Sun Apr 30 14:13:28 2023:  [ 0.00229415 -0.03068439 -0.04025322 ...  0.00291418  0.01888476
+Sun Apr 30 14:13:28 2023:    0.00712204]
+Sun Apr 30 14:13:28 2023:  [ 0.04100137 -0.0124512   0.02347282 ...  0.00421429 -0.01235492
+Sun Apr 30 14:13:28 2023:    0.02963179]
+Sun Apr 30 14:13:28 2023:  [ 0.0070913  -0.02726052 -0.06131259 ...  0.01696716  0.01251019
+Sun Apr 30 14:13:28 2023:   -0.03062489]]
+Sun Apr 30 14:13:28 2023: [False False False False False False False False False False]
+Sun Apr 30 14:13:28 2023: [[ 0.          0.          0.         ...  0.          0.
+Sun Apr 30 14:13:28 2023:    0.        ]
+Sun Apr 30 14:13:28 2023:  [ 0.07491055  0.04783449  0.01694304 ... -0.0144621  -0.03772054
+Sun Apr 30 14:13:28 2023:   -0.02778104]
+Sun Apr 30 14:13:28 2023:  [-0.02272725  0.05653178  0.04752588 ... -0.00804998 -0.01698273
+Sun Apr 30 14:13:28 2023:    0.04355779]
+Sun Apr 30 14:13:28 2023:  ...
+Sun Apr 30 14:13:28 2023:  [ 0.02800015 -0.03116155  0.03403171 ...  0.02746813 -0.04000567
+Sun Apr 30 14:13:28 2023:    0.00443628]
+Sun Apr 30 14:13:28 2023:  [-0.02098097  0.04663284 -0.00613539 ...  0.0009995  -0.00046481
+Sun Apr 30 14:13:28 2023:   -0.00348992]
+Sun Apr 30 14:13:28 2023:  [ 0.01188716 -0.00714637 -0.01882593 ...  0.03744592  0.04579456
+Sun Apr 30 14:13:28 2023:   -0.02361293]]
+Sun Apr 30 14:13:28 2023: [False False False False False False False False False False]
+Sun Apr 30 14:13:28 2023: [[ 0.          0.          0.         ...  0.          0.
+Sun Apr 30 14:13:28 2023:    0.        ]
+Sun Apr 30 14:13:28 2023:  [ 0.01723056  0.03024566  0.00187056 ...  0.00807672  0.03213867
+Sun Apr 30 14:13:28 2023:    0.03989763]
+Sun Apr 30 14:13:28 2023:  [-0.00062165  0.03769876  0.03887193 ... -0.03131228 -0.01343306
+Sun Apr 30 14:13:28 2023:   -0.01315186]
+Sun Apr 30 14:13:28 2023:  ...
+Sun Apr 30 14:13:28 2023:  [ 0.00027266  0.01193484  0.01623406 ...  0.01072161  0.0516508
+Sun Apr 30 14:13:28 2023:    0.0445261 ]
+Sun Apr 30 14:13:28 2023:  [-0.01301968  0.01197738 -0.00599554 ... -0.01386347  0.00482117
+Sun Apr 30 14:13:28 2023:    0.01545819]
+Sun Apr 30 14:13:28 2023:  [ 0.02877881 -0.0274806   0.00965058 ... -0.02949092  0.01388412
+Sun Apr 30 14:13:28 2023:   -0.05323039]]
+Sun Apr 30 14:13:28 2023: [False False False False False False False False False False]
+Sun Apr 30 14:13:28 2023: [[ 0.          0.          0.         ...  0.          0.
+Sun Apr 30 14:13:28 2023:    0.        ]
+Sun Apr 30 14:13:28 2023:  [-0.01266438 -0.04012953 -0.03735343 ... -0.01005104 -0.02184743
+Sun Apr 30 14:13:28 2023:    0.01867784]
+Sun Apr 30 14:13:28 2023:  [ 0.00544842 -0.00108617 -0.05064799 ...  0.0226462  -0.0564103
+Sun Apr 30 14:13:28 2023:   -0.0270975 ]
+Sun Apr 30 14:13:28 2023:  ...
+Sun Apr 30 14:13:28 2023:  [ 0.04511664 -0.02733259 -0.02561058 ...  0.01102704 -0.06187637
+Sun Apr 30 14:13:28 2023:   -0.00386055]
+Sun Apr 30 14:13:28 2023:  [-0.01677115  0.01832478  0.01720943 ...  0.00018646 -0.01354761
+Sun Apr 30 14:13:28 2023:   -0.01473814]
+Sun Apr 30 14:13:28 2023:  [-0.01932644 -0.05831562  0.03307489 ... -0.00639219 -0.00066111
+Sun Apr 30 14:13:28 2023:   -0.05558367]]
+Sun Apr 30 14:13:28 2023: [False False False False False False False False False False]
+Sun Apr 30 14:13:28 2023: [[ 0.          0.          0.         ...  0.          0.
+Sun Apr 30 14:13:28 2023:    0.        ]
+Sun Apr 30 14:13:28 2023:  [ 0.00580164  0.01704549  0.02960273 ...  0.06294791 -0.01447904
+Sun Apr 30 14:13:28 2023:    0.0048896 ]
+Sun Apr 30 14:13:28 2023:  [ 0.02547941  0.07077631 -0.04946605 ...  0.00357473 -0.02521326
+Sun Apr 30 14:13:28 2023:   -0.03199943]
+Sun Apr 30 14:13:28 2023:  ...
+Sun Apr 30 14:13:28 2023:  [-0.01147536 -0.01092318  0.03606788 ...  0.01827388 -0.01505195
+Sun Apr 30 14:13:28 2023:    0.00368996]
+Sun Apr 30 14:13:28 2023:  [-0.0733917   0.02680162 -0.0060456  ... -0.01920332 -0.03929974
+Sun Apr 30 14:13:28 2023:   -0.0357302 ]
+Sun Apr 30 14:13:28 2023:  [-0.03000199 -0.01585339  0.00322379 ... -0.03157171 -0.00366769
+Sun Apr 30 14:13:28 2023:    0.06870615]]
+Sun Apr 30 14:13:28 2023: [False False False False False False False False False False]
+Sun Apr 30 14:13:28 2023: [[-0.00803369 -0.01477784  0.02134893 ... -0.01671258 -0.01321137
+Sun Apr 30 14:13:28 2023:    0.04088521]
+Sun Apr 30 14:13:28 2023:  [-0.00662002 -0.03961698 -0.00061406 ... -0.04760848 -0.0323537
+Sun Apr 30 14:13:28 2023:    0.04724275]
+Sun Apr 30 14:13:28 2023:  [-0.02445935  0.00487273 -0.03996644 ... -0.02479049 -0.02562916
+Sun Apr 30 14:13:28 2023:    0.07231371]
+Sun Apr 30 14:13:28 2023:  ...
+Sun Apr 30 14:13:28 2023:  [ 0.01898419 -0.05912238  0.0203966  ... -0.13750872 -0.04495164
+Sun Apr 30 14:13:28 2023:    0.05399449]
+Sun Apr 30 14:13:28 2023:  [-0.00281531 -0.03132273  0.02622846 ...  0.00409708 -0.01959928
+Sun Apr 30 14:13:28 2023:    0.0274913 ]
+Sun Apr 30 14:13:28 2023:  [-0.002275   -0.01380842  0.06268737 ... -0.00161186 -0.08925271
+Sun Apr 30 14:13:28 2023:    0.01157064]]
+Sun Apr 30 14:13:28 2023: [False False False False False False False False False False]
+Sun Apr 30 14:13:28 2023: [[-0.09403865  0.00122092  0.04399776 ... -0.03581889 -0.02701155
+Sun Apr 30 14:13:28 2023:    0.05054956]
+Sun Apr 30 14:13:28 2023:  [-0.06381697  0.03176537  0.03646712 ... -0.037693   -0.0457594
+Sun Apr 30 14:13:28 2023:    0.08532607]
+Sun Apr 30 14:13:28 2023:  [-0.122335   -0.02656746  0.05651105 ... -0.01710007  0.01918695
+Sun Apr 30 14:13:28 2023:    0.01479248]
+Sun Apr 30 14:13:28 2023:  ...
+Sun Apr 30 14:13:28 2023:  [-0.14609076 -0.01702089  0.03398295 ... -0.0891331  -0.01150087
+Sun Apr 30 14:13:28 2023:    0.07325303]
+Sun Apr 30 14:13:28 2023:  [-0.08810682 -0.01690161  0.0648364  ... -0.03060652 -0.02654191
+Sun Apr 30 14:13:28 2023:  Sun Apr 30 14:13:28 2023: collected!
+Sun Apr 30 14:13:28 2023: Read   1: Fold 2 of dataset MQ2008.
+Sun Apr 30 14:13:28 2023: No group information is provided.
+  0.04576807]
+Sun Apr 30 14:13:28 2023:  [-0.09569552  0.01471133  0.02178061 ... -0.03840115 -0.03225447
+Sun Apr 30 14:13:28 2023:    0.06098053]]
+Sun Apr 30 14:13:28 2023: Process Process-1:
+Sun Apr 30 14:13:28 2023: Traceback (most recent call last):
+Sun Apr 30 14:13:28 2023:   File "/usr/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+Sun Apr 30 14:13:28 2023:     self.run()
+Sun Apr 30 14:13:28 2023:   File "/usr/lib/python3.7/multiprocessing/process.py", line 99, in run
+Sun Apr 30 14:13:28 2023:     self._target(*self._args, **self._kwargs)
+Sun Apr 30 14:13:28 2023:   File "../utils/datasimulation.py", line 124, in start_run
+Sun Apr 30 14:13:28 2023:     simulation.run(ranker, output_key=output_key)
+Sun Apr 30 14:13:28 2023:   File "../utils/singlesimulation.py", line 116, in run
+Sun Apr 30 14:13:28 2023:     ranking_i, train_ranking = self.sample_and_rank(ranker)
+Sun Apr 30 14:13:28 2023:   File "../utils/singlesimulation.py", line 97, in sample_and_rank
+Sun Apr 30 14:13:28 2023:     train_ranking = ranker.get_train_query_ranking(ranking_i)
+Sun Apr 30 14:13:28 2023:   File "../algorithms/basiconlineranker.py", line 98, in get_train_query_ranking
+Sun Apr 30 14:13:28 2023:     self._last_ranking = self._create_train_ranking(query_id, query_feat, inverted)[:self.n_results]
+Sun Apr 30 14:13:28 2023:   File "../algorithms/DBTR/pdbtr.py", line 82, in _create_train_ranking
+Sun Apr 30 14:13:28 2023:     scores = self.model.candidate_score(query_feat)
+Sun Apr 30 14:13:28 2023:   File "../models/linearmodel_tr.py", line 30, in candidate_score
+Sun Apr 30 14:13:28 2023:     return np.dot(features, self.weights).T
+Sun Apr 30 14:13:28 2023:   File "<__array_function__ internals>", line 6, in dot
+Sun Apr 30 14:13:28 2023:   File "/home/matthew/DBDG/OnlineLearningToRank/env/lib/python3.7/site-packages/numpy/core/memmap.py", line 289, in __array_finalize__
+Sun Apr 30 14:13:28 2023:     if hasattr(obj, '_mmap') and np.may_share_memory(self, obj):
+Sun Apr 30 14:13:28 2023: KeyboardInterrupt
+Sun Apr 30 14:13:28 2023: Traceback (most recent call last):
+Sun Apr 30 14:13:28 2023:   File "run_script.py", line 184, in <module>
+Sun Apr 30 14:13:28 2023:     set_sim_and_run(input_args)
+Sun Apr 30 14:13:28 2023:   File "run_script.py", line 176, in set_sim_and_run
+Sun Apr 30 14:13:28 2023:     return switcher.get(algo, lambda: "ERROR: algorithm type not valid")()
+Sun Apr 30 14:13:28 2023:   File "run_script.py", line 171, in <lambda>
+Sun Apr 30 14:13:28 2023:     'PDBTR': lambda: func_pdbtr(args, dir_name),
+Sun Apr 30 14:13:28 2023:   File "run_script.py", line 120, in func_pdbtr
+Sun Apr 30 14:13:28 2023:     sim.run(ranker)
+Sun Apr 30 14:13:28 2023:   File "../utils/datasimulation.py", line 58, in run
+Sun Apr 30 14:13:28 2023:     for process in self.load_processes(datasets, ranker_tuples):
+Sun Apr 30 14:13:28 2023:   File "../utils/datasimulation.py", line 77, in load_processes
+Sun Apr 30 14:13:28 2023:     for proc in self.load_datafold_processes(datafold, ranker_tuples):
+Sun Apr 30 14:13:28 2023:   File "../utils/datasimulation.py", line 90, in load_datafold_processes
+Sun Apr 30 14:13:28 2023:     self.wait_for_output()
+Sun Apr 30 14:13:28 2023:   File "../utils/datasimulation.py", line 164, in wait_for_output
+Sun Apr 30 14:13:28 2023:     output_key, run_output = self.output_queue.get(block=not found, timeout=timeout)
+Sun Apr 30 14:13:28 2023:   File "/usr/lib/python3.7/multiprocessing/queues.py", line 104, in get
+Sun Apr 30 14:13:28 2023:     if not self._poll(timeout):
+Sun Apr 30 14:13:28 2023:   File "/usr/lib/python3.7/multiprocessing/connection.py", line 257, in poll
+Sun Apr 30 14:13:28 2023:     return self._poll(timeout)
+Sun Apr 30 14:13:28 2023:   File "/usr/lib/python3.7/multiprocessing/connection.py", line 414, in _poll
+Sun Apr 30 14:13:28 2023:     r = wait([self], timeout)
+Sun Apr 30 14:13:28 2023:   File "/usr/lib/python3.7/multiprocessing/connection.py", line 921, in wait
+Sun Apr 30 14:13:28 2023:     ready = selector.select(timeout)
+Sun Apr 30 14:13:28 2023:   File "/usr/lib/python3.7/selectors.py", line 415, in select
+Sun Apr 30 14:13:28 2023:     fd_event_list = self._selector.poll(timeout)
+Sun Apr 30 14:13:28 2023: KeyboardInterrupt

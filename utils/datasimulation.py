@@ -31,7 +31,6 @@ class DataSimulation(object):
 
         self.folds_in_mem = 0
         self.max_folds = 999
-
         self.output_averager = OutputAverager(simulation_arguments)
         self.report_output = get_simulation_report(simulation_arguments)
         sys.stdout = self.report_output
@@ -111,6 +110,7 @@ class DataSimulation(object):
                     self.run_index += 1
                     self.report_output.flush()
                     yield new_proc
+    
 
     def start_run(self, simulation, output_key, ranker_setup, seed=0):
         """
@@ -150,7 +150,7 @@ class DataSimulation(object):
         # make extra sure that the process is removed from memory
         del dead_processes
         gc.collect()
-
+        print('collected!')
         # print 'Folds %d max folds %d active %d' % (self.folds_in_mem, self.max_folds, self.active)
         return self.active
 

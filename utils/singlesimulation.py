@@ -103,14 +103,15 @@ class SingleSimulation(object):
 
     def run(self, ranker, output_key):
         starttime = time.time()
-
+        print('setting up ranker...')
         ranker.setup(train_features=self.datafold.train_feature_matrix,
                      train_query_ranges=self.datafold.train_doclist_ranges, train_groups=self.datafold.train_group,
                      test_features=self.datafold.test_feature_matrix,
                      test_query_ranges=self.datafold.test_doclist_ranges, test_groups=self.datafold.test_group)
-
+        print('ranker set up complete')
         run_results = []
         impressions = 0
+        print('loop through impressions: {}'.format(self.n_impressions))
         for impressions in range(self.n_impressions):
             ranking_i, train_ranking = self.sample_and_rank(ranker)
             ranking_labels = self.datafold.train_query_labels(ranking_i)
@@ -118,6 +119,8 @@ class SingleSimulation(object):
             self.timestep_evaluate(run_results, impressions, ranker, ranking_i, train_ranking, ranking_labels)
 
             ranker.process_clicks(clicks)
+            if (impressions + 1) % 100 == 0:
+                print('impressions {}/{}'.format(impressions + 1, self.n_impressions))
 
         # evaluate after final iteration
         ranking_i, train_ranking = self.sample_and_rank(ranker)

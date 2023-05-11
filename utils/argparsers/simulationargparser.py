@@ -13,7 +13,6 @@ class SimulationArgumentParser(argparse.ArgumentParser):
     self._initial_arguments = {}
     self._simulation_arguments = []
     self._arguments_initialized = False
-
     super(SimulationArgumentParser, self).__init__(description=description)
 
     self._sim_add_argument('--n_runs', dest='n_runs', default=125, type=int,

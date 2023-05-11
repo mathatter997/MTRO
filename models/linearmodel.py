@@ -116,6 +116,5 @@ class LinearModel(object):
     self.gs = np.array(nsVecs[:self.n_models - 1])
     self.weights[:, 1:] = self.weights[:, 0, None] + self.gs.T
 
-  # update the model with the given weights
   def update_weights(self, weights):
     self.weights[:, 0] = weights

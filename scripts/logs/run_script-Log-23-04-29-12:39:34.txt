@@ -1,0 +1,74 @@
+Sat Apr 29 12:39:34 2023: Starting simulation at run_script-Log-23-04-29-12:39:34.Log is also stored in output file at ./logs/run_script-Log-23-04-29-12:39:34.txtMQ2008
+Sat Apr 29 12:39:34 2023: Read   0: Fold 1 of dataset MQ2008.
+Sat Apr 29 12:39:34 2023: No group information is provided.
+Sat Apr 29 12:39:34 2023: collected!
+Sat Apr 29 12:39:34 2023: collected!
+Sat Apr 29 12:39:34 2023: Launch 0: algo/TDDBTR/perfect/200/10/0.1-0.99999977-1 0 with click model perfect on fold 1 from dataset MQ2008.
+Sat Apr 29 12:39:34 2023: Process Process-1:
+Sat Apr 29 12:39:34 2023: Traceback (most recent call last):
+Sat Apr 29 12:39:34 2023:   File "/usr/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+Sat Apr 29 12:39:34 2023:     self.run()
+Sat Apr 29 12:39:34 2023:   File "/usr/lib/python3.7/multiprocessing/process.py", line 99, in run
+Sat Apr 29 12:39:34 2023:     self._target(*self._args, **self._kwargs)
+Sat Apr 29 12:39:34 2023:   File "../utils/datasimulation.py", line 123, in start_run
+Sat Apr 29 12:39:34 2023:     ranker = rankerclass(**ranker_args)
+Sat Apr 29 12:39:34 2023:   File "../algorithms/DBTR/tddbtr.py", line 25, in __init__
+Sat Apr 29 12:39:34 2023:     n_candidates = n_candidates,
+Sat Apr 29 12:39:34 2023: NameError: name 'n_candidates' is not defined
+Sat Apr 29 12:39:34 2023: collected!
+Sat Apr 29 12:39:34 2023: Launch 1: algo/TDDBTR/perfect/200/10/0.1-0.99999977-1 1 with click model perfect on fold 1 from dataset MQ2008.
+Sat Apr 29 12:39:34 2023: Process Process-2:
+Sat Apr 29 12:39:34 2023: Traceback (most recent call last):
+Sat Apr 29 12:39:34 2023:   File "/usr/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+Sat Apr 29 12:39:34 2023:     self.run()
+Sat Apr 29 12:39:34 2023:   File "/usr/lib/python3.7/multiprocessing/process.py", line 99, in run
+Sat Apr 29 12:39:34 2023:     self._target(*self._args, **self._kwargs)
+Sat Apr 29 12:39:34 2023:   File "../utils/datasimulation.py", line 123, in start_run
+Sat Apr 29 12:39:34 2023:     ranker = rankerclass(**ranker_args)
+Sat Apr 29 12:39:34 2023:   File "../algorithms/DBTR/tddbtr.py", line 25, in __init__
+Sat Apr 29 12:39:34 2023:     n_candidates = n_candidates,
+Sat Apr 29 12:39:34 2023: NameError: name 'n_candidates' is not defined
+Sat Apr 29 12:39:35 2023: collected!
+Sat Apr 29 12:39:35 2023: Launch 2: algo/TDDBTR/perfect/200/10/0.1-0.99999977-1 2 with click model perfect on fold 1 from dataset MQ2008.
+Sat Apr 29 12:39:35 2023: Process Process-3:
+Sat Apr 29 12:39:35 2023: Traceback (most recent call last):
+Sat Apr 29 12:39:35 2023:   File "/usr/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+Sat Apr 29 12:39:35 2023:     self.run()
+Sat Apr 29 12:39:35 2023:   File "/usr/lib/python3.7/multiprocessing/process.py", line 99, in run
+Sat Apr 29 12:39:35 2023:     self._target(*self._args, **self._kwargs)
+Sat Apr 29 12:39:35 2023:   File "../utils/datasimulation.py", line 123, in start_run
+Sat Apr 29 12:39:35 2023:     ranker = rankerclass(**ranker_args)
+Sat Apr 29 12:39:35 2023:   File "../algorithms/DBTR/tddbtr.py", line 25, in __init__
+Sat Apr 29 12:39:35 2023:     n_candidates = n_candidates,
+Sat Apr 29 12:39:35 2023: NameError: name 'n_candidates' is not defined
+Sat Apr 29 12:39:35 2023: collected!
+Sat Apr 29 12:39:35 2023: Read   1: Fold 2 of dataset MQ2008.
+Sat Apr 29 12:39:35 2023: No group information is provided.
+Sat Apr 29 12:39:56 2023: Traceback (most recent call last):
+Sat Apr 29 12:39:56 2023:   File "run_script.py", line 173, in <module>
+Sat Apr 29 12:39:56 2023:     set_sim_and_run(input_args)
+Sat Apr 29 12:39:56 2023:   File "run_script.py", line 165, in set_sim_and_run
+Sat Apr 29 12:39:56 2023:     return switcher.get(algo, lambda: "ERROR: algorithm type not valid")()
+Sat Apr 29 12:39:56 2023:   File "run_script.py", line 162, in <lambda>
+Sat Apr 29 12:39:56 2023:     'TDDBTR': lambda: func_tddbtr(args, dir_name),
+Sat Apr 29 12:39:56 2023:   File "run_script.py", line 128, in func_tddbtr
+Sat Apr 29 12:39:56 2023:     sim.run(ranker)
+Sat Apr 29 12:39:56 2023:   File "../utils/datasimulation.py", line 58, in run
+Sat Apr 29 12:39:56 2023:     for process in self.load_processes(datasets, ranker_tuples):
+Sat Apr 29 12:39:56 2023:   File "../utils/datasimulation.py", line 77, in load_processes
+Sat Apr 29 12:39:56 2023:     for proc in self.load_datafold_processes(datafold, ranker_tuples):
+Sat Apr 29 12:39:56 2023:   File "../utils/datasimulation.py", line 90, in load_datafold_processes
+Sat Apr 29 12:39:56 2023:     self.wait_for_output()
+Sat Apr 29 12:39:56 2023:   File "../utils/datasimulation.py", line 164, in wait_for_output
+Sat Apr 29 12:39:56 2023:     output_key, run_output = self.output_queue.get(block=not found, timeout=timeout)
+Sat Apr 29 12:39:56 2023:   File "/usr/lib/python3.7/multiprocessing/queues.py", line 104, in get
+Sat Apr 29 12:39:56 2023:     if not self._poll(timeout):
+Sat Apr 29 12:39:56 2023:   File "/usr/lib/python3.7/multiprocessing/connection.py", line 257, in poll
+Sat Apr 29 12:39:56 2023:     return self._poll(timeout)
+Sat Apr 29 12:39:56 2023:   File "/usr/lib/python3.7/multiprocessing/connection.py", line 414, in _poll
+Sat Apr 29 12:39:56 2023:     r = wait([self], timeout)
+Sat Apr 29 12:39:56 2023:   File "/usr/lib/python3.7/multiprocessing/connection.py", line 921, in wait
+Sat Apr 29 12:39:56 2023:     ready = selector.select(timeout)
+Sat Apr 29 12:39:56 2023:   File "/usr/lib/python3.7/selectors.py", line 415, in select
+Sat Apr 29 12:39:56 2023:     fd_event_list = self._selector.poll(timeout)
+Sat Apr 29 12:39:56 2023: KeyboardInterrupt
